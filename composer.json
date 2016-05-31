@@ -1,6 +1,6 @@
 {
-    "name": "ou/student-theme-framework",
-    "description": "The OU ICE framework is a set of design patterns, components and templates so we can provide our students with a consistent user experience.",
+    "name": "ou/ice",
+    "description": "The OU ICE online style is a set of design patterns, components and templates so we can provide users consistent experience.",
     "license": "proprietary",
     "authors": [
         {
