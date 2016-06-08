@@ -1,0 +1,187 @@
+﻿// layout and appearance
+.boxSizing(@sizing: border-box) {
+  -moz-box-sizing: @sizing;
+  -webkit-box-sizing: @sizing;
+  box-sizing: @sizing;
+}
+.appearance(@hidden: none) {
+  -moz-appearance: @hidden;
+  -webkit-appearance: @hidden;
+  appearance: @hidden;
+}
+.visibilityHidden() {
+    visibility: hidden;
+    display: none;
+}
+.visibilityVisible() {
+    visibility: visible;
+    display: inline;
+}
+.borderRadiusNone(@border-radius: 0) {
+    -webkit-border-radius: @border-radius;
+    -moz-border-radius: @border-radius;
+    border-radius: @border-radius;
+}
+.borderRadius4(@border-radius4: 4px) {
+    -webkit-border-radius: @border-radius4;
+    -moz-border-radius: @border-radius4;
+    border-radius: @border-radius4;
+}
+.hide() {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+// Images
+
+// Buttons
+.iaNavActive() {
+    background-color:@blue;
+	color: @white;
+	text-decoration:none;
+}
+.ou-button() {
+	.borderRadius4;
+	.transitionOut;
+	font-family: @secondaryFont;
+	font-size: 1.25em;
+	background: #ffc23d;
+	color: #0b55a8;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 0.6em 0.8em;
+	display: inline-block;
+	margin: 0 0 0.875em 0;
+	line-height: 1.6rem;
+	border: 1px solid #ffc23d;
+	&:hover, &:focus {
+		background: #880088;
+		color: #ffc23d;
+		text-decoration: none;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:active {
+		background: #470d43;
+		color: #ffc23d;
+	}
+}
+.ou-international-button() {
+    padding: .3em .8em;
+    margin-bottom: 0;
+}
+.ou-search() {
+	position: relative;
+	margin: 0 0 0 2px;
+	display: inline-table;
+	border: 1px solid #ccc;
+	width: 172px;
+	form {
+		display: table;
+		width: 100%;
+	}
+	input {
+		.borderRadiusNone();
+		.boxSizing();
+		border: 1px solid #ccc;
+		padding: 6px 10px 6px 5px;
+		margin: 0 0 0 5px;
+		background: @white;
+		font-size: @baseFontSize;
+		font-family: @baseFont;
+		width: 150px;
+		color: black;
+		.appearance();
+		cursor: text;
+		&.ou-header-search {
+			.transitionOut();
+			margin: 0;
+			border: 0;
+			width: 100%;
+			&:focus {
+				outline: 1px solid #a6d0ff;
+			}
+		}
+		&:focus {
+			outline: 0;
+			background-color: @veryPaleBlue;
+			color: @darkBlue;
+		}
+		&::-webkit-input-placeholder {
+			color: @lightGray;
+		}
+		&:-moz-placeholder {
+			 color: @lightGray;
+		}
+		&::-moz-placeholder {
+			 color: @lightGray;
+		}
+		&:focus::-webkit-input-placeholder {
+			color: @darkGray;
+		}
+		&:focus:-moz-placeholder {
+			color: @darkGray;
+		}
+		&:focus::-moz-placeholder {
+			color: @darkGray;
+		}
+	}
+	.ou-button-container {
+		display: table-cell;
+		padding: 6px 7px;
+		width: 36px;
+        overflow: hidden;
+		button {
+			.borderRadiusNone();
+			.boxSizing();
+			position: absolute;
+			top: 8px;
+			right: 8px;
+			background: transparent;
+			color: @blue;
+			border: 0;
+			margin: 0;
+			width: 18px;
+			height: 18px;
+			cursor: pointer;
+			padding: 0;
+            overflow: hidden;
+
+			//OUDigital overrides
+			-moz-transition: none;
+			-webkit-transition: none;
+			transition: none;
+            img {
+                position: relative;
+                top: -147px;
+                left: -147px;
+                width: 206px;   
+            }
+            &:hover img {
+				    top: -165px;
+			}
+			// required by Firefox to ensure keyboard focus
+			&:focus::-moz-focus-inner {
+				border: 1px dotted;
+			}
+		}
+	}
+}
+//transitions
+.transitionOut(@transition: 0.2s ease-out) {
+    -webkit-transition: @transition;
+       -moz-transition: @transition;
+         -o-transition: @transition;
+            transition: @transition;
+}
+.transitionAll(@transitionAll: all 0.2s) {
+    -webkit-transition: @transitionAll;
+       -moz-transition: @transitionAll;
+         -o-transition: @transitionAll;
+            transition: @transitionAll;
+}

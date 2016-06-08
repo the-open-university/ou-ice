@@ -1,0 +1,279 @@
+﻿@import "variables.less";
+@import "mixins.less";
+@import "base.less";
+ // Global nav //
+ #ou-header {
+    .ou-ia-nav {
+        margin-top: 0;
+        font-weight: bold;
+        font-size: 1rem;
+        ul {
+            li {
+            display: inline-block;
+            top: .5em;
+                a {
+                    text-decoration: none;
+                    color: @black;
+                    padding: 4px 5px;
+                    border-radius: 3px;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+					&.ou-button {
+						.ou-button();
+					}
+                }
+            }
+            &.ou-ia-international {
+                li a.ou-button {
+                    .ou-international-button();
+                }
+            }
+        }
+        li {
+           &.ou-ia-open,
+           &.ou-ia-study {
+	            .visibilityHidden();
+            }
+        }
+		.ou-search {
+			.ou-search();
+		}
+    }
+    #ou-header-nav {
+        a.ou-ia-public {
+            .visibilityVisible();
+        }
+        #ou-service-links {
+            ul li a.ou-ia-student,
+            ul li a.ou-ia-tutor {
+                //.visibilityHidden();
+                &:extend(#ou-header .ou-ia-nav li.ou-ia-open); //chains onto
+            }
+			li {
+				&.ou-ia-open {
+					.visibilityHidden();
+				}
+				&.ou-ia-public {
+					visibility: visible;
+					display: inline-table;
+				}
+			}
+        }
+		.ou-ia-international {
+			.visibilityHidden();
+		}
+    }
+}
+
+// highlight an IA
+body.ou-ia-courses #ou-header .ou-ia-nav li.ou-ia-courses a,
+body.ou-ia-postgraduate #ou-header .ou-ia-nav li.ou-ia-postgraduate a,
+body.ou-ia-research #ou-header .ou-ia-nav li.ou-ia-research a,
+body.ou-ia-about #ou-header .ou-ia-nav li.ou-ia-about a,
+body.ou-ia-news #ou-header .ou-ia-nav li.ou-ia-news a,
+body.ou-ia-employers #ou-header .ou-ia-nav li.ou-ia-employers a,
+body.ou-ia-employers #ou-header .ou-ia-nav li.ou-ia-business a,
+body.ou-ia-business #ou-header .ou-ia-nav li.ou-ia-business a,
+body.ou-ia-studenthome #ou-header .ou-ia-nav li.ou-ia-studenthome a,
+body.ou-ia-profile #ou-header .ou-ia-nav li.ou-ia-profile a,
+body.ou-ia-dashboard #ou-header .ou-ia-nav li.ou-ia-dashboard a,
+body.ou-ia-library #ou-header .ou-ia-nav li.ou-ia-library a,
+body.ou-ia-careers #ou-header .ou-ia-nav li.ou-ia-careers a,
+body.ou-ia-community #ou-header .ou-ia-nav li.ou-ia-community a,
+body.ou-ia-helpcentre #ou-header .ou-ia-nav li.ou-ia-helpcentre a,
+body.ou-ia-open #ou-header .ou-ia-nav li.ou-ia-open a,
+body.ou-ia-study #ou-header .ou-ia-nav li.ou-ia-study a,
+body.ou-ia-dashboard #ou-header .ou-ia-nav li.ou-ia-study a {
+	.iaNavActive();
+}
+
+body {
+    // Open Learn
+    &.ou-ia-openlearn {
+        #ou-header .ou-ia-nav {
+            li.ou-ia-courses,
+            li.ou-ia-postgraduate,
+            li.ou-ia-news,
+            li.ou-ia-research,
+            li.ou-ia-about,
+            li.ou-ia-business,
+            li.ou-ia-employers {
+                //.visibilityHidden();
+                &:extend(#ou-header .ou-ia-nav li.ou-ia-open);
+            }
+            li.ou-ia-open,
+            li.ou-ia-study {
+                //.visibilityVisible();
+                &:extend(#ou-header #ou-header-nav a.ou-ia-public);
+            }
+        }
+		#ou-header #ou-header-nav #ou-service-links {
+			li {
+				&.ou-ia-open {
+					visibility: visible;
+					display: inline-table;
+				}
+				&.ou-ia-public,
+                &.ou-search.ou-ia-public {
+					.visibilityHidden();
+				}
+			}
+		}
+    }
+    &.ou-ia-nonav {
+        #ou-header {
+            #ou-ia-nav {
+                //.visibilityHidden();
+                &:extend(#ou-header .ou-ia-nav li.ou-ia-open);
+            }
+            #ou-service-links {
+                //.visibilityHidden();
+                &:extend(#ou-header .ou-ia-nav li.ou-ia-open);
+            }
+            .ou-mobile-menu-toggle {
+                display: none;
+            }
+        }
+    }
+    // Nations
+    &.ou-ia-student,
+    &.ou-ia-tutor,
+    &.wales,
+    &.roi,
+    &.nir,
+    &.scotland,
+    &.cymraeg {
+        #ou-header #ou-ia-nav {
+            //.visibilityHidden();
+            &:extend(#ou-header .ou-ia-nav li.ou-ia-open);
+        }
+    }
+    // Tutors
+    &.ou-ia-tutor {
+        #ou-header #ou-header-nav #ou-service-links ul li {
+            a.ou-ia-student,
+            a.ou-ia-public 
+            {
+                //.visibilityHidden();
+                &:extend(#ou-header .ou-ia-nav li.ou-ia-open);
+            }
+            a.ou-ia-tutor,
+            a.ou-display-public-tutor {
+                //.visibilityVisible();
+                &:extend(#ou-header #ou-header-nav a.ou-ia-public);
+            }
+        }
+        .ou-footer-nav ul li {
+            a.ou-ia-tutor {
+                visibility: visible;
+	            display: block;
+	            border-right: none;
+            }
+            a.ou-ia-student,
+            a.ou-ia-public {
+                //.visibilityHidden();
+                &:extend(#ou-header .ou-ia-nav li.ou-ia-open);
+            }
+        }
+    }
+    // Students
+    &.ou-ia-student {       
+        #ou-header {
+            #ou-ia-nav {
+                .visibilityVisible();
+
+                .ou-ia-students {
+                    .visibilityVisible();
+                }
+
+			    .ou-ia-public {
+				    .visibilityHidden();
+			    }
+            }
+            #ou-header-nav {
+                #ou-service-links ul li {
+                    a.ou-ia-student {
+                        //.visibilityVisible();
+                        &:extend(#ou-header #ou-header-nav a.ou-ia-public);
+                    }
+                    a.ou-ia-tutor,
+                    a.ou-ia-public,
+                    a.ou-display-public-tutor {
+                        //.visibilityHidden();
+                        &:extend(#ou-header .ou-ia-nav li.ou-ia-open);
+                    }
+                }
+            }
+        }
+        #ou-org-footer {
+            #ou-ia-student {
+                visibility: visible;
+                display: block;
+            }
+            #ou-ia-public {
+                //.visibilityHidden();
+                &:extend(#ou-header .ou-ia-nav li.ou-ia-open);
+            }
+        }
+    }
+    // Override the Study IA link in student site navigation to make it visible
+ #ou-header .ou-ia-nav li.ou-ia-study.student {
+        .visibilityVisible();
+    }
+	// International Student Website
+	&.ou-ia-international {
+		#ou-header {
+            #ou-service-links {
+                .visibilityHidden();
+                //&:extend(#ou-header .ou-ia-nav li.ou-ia-open);
+            }
+            .ou-mobile-menu-toggle {
+                display: none;
+            }
+			
+			#ou-header-nav {
+				#ou-ia-nav {
+					.visibilityVisible();
+					
+					.ou-ia-international {
+						.visibilityVisible();
+						display: block;
+					}
+					
+					.ou-ia-public {
+						.visibilityHidden();
+					}
+				}
+			}
+        }
+		#ou-org-footer {
+            #ou-ia-international {
+                visibility: visible;
+                display: block;
+            }
+            #ou-ia-public, 
+			#ou-ia-student {
+                //.visibilityHidden();
+                &:extend(#ou-header .ou-ia-nav li.ou-ia-open);
+            }
+        }
+		
+	}
+    // Footer
+    #ou-org-footer {
+        #ou-ia-student,
+		#ou-ia-international {
+            //.visibilityHidden();
+            &:extend(#ou-header .ou-ia-nav li.ou-ia-open);
+        }
+        #ou-ia-public {
+            visibility: visible;
+            display: block;
+        }
+    }
+    .ou-footer-nav a.ou-ia-tutor {
+        //.visibilityHidden();
+        &:extend(#ou-header .ou-ia-nav li.ou-ia-open);
+    }
+}
