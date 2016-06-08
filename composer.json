@@ -1,6 +1,6 @@
 {
-    "name": "ou/student-theme-framework",
-    "description": "The OU ICE framework is a set of design patterns, components and templates so we can provide our students with a consistent user experience.",
+    "name": "ou/ice",
+    "description": "OU ICE is a set of design patterns, components and templates to enable the Open University to deliver a consistent user interface to students, staff and members of the general public.",
     "license": "proprietary",
     "authors": [
         {

@@ -1,5 +1,5 @@
 {
-  "name": "student-theme-gulp",
+  "name": "ouice-gulp",
   "version": "1.0.0",
   "dependencies": {
     "gulp": "3.8",
