@@ -150,7 +150,7 @@ li.social-media__facebook {background: url(../gui/icon-social-facebook.png) top 
 <div id="ou-region1">
 
 <div id="ou-content" class="ou-content">
-  <h2>Events</h2>
+  
 
 <style>
 
@@ -160,7 +160,54 @@ li.social-media__facebook {background: url(../gui/icon-social-facebook.png) top 
     clear:both;
 }
 
-div.ou-events__nav {
+
+/* FILTERS */
+
+
+/* refactor later */
+
+	#ou-content div.ou-filters ul,
+	#ou-content div.ou-filters ul li {
+		margin:0;
+		padding:0;
+		line-height:normal;
+	}
+	
+	#ou-content div.ou-filters ul li:before {
+		content:"";
+	}
+
+/* end */
+
+.ou-filters {margin:0 0 10px 0;}
+
+.ou-filters ul li {display:inline-block;}
+
+.ou-filters ul li a {
+    display: inline-block;
+    padding: 6px 10px;
+    margin: 0 5px 10px 0;
+    background-color: #eee;
+    border-radius: 4px;
+    color: #039;
+    text-decoration: none;
+}
+
+.ou-filters ul li a:hover {background-color: #a6d0ff;}
+
+.ou-filters ul li a.selected {
+    background-color: #0b55a8;
+    color: #fff;
+}
+
+
+
+/* EVENTS */
+
+
+
+
+.ou-events__nav {
 	background:#eee;	
 	text-align:center;
 	margin:0 0 20px 0;
@@ -203,23 +250,23 @@ a.ou-events__next:after {
 	margin:0 0 0 4px;
 }
 
-
 a.ou-events__prev:hover,
 a.ou-events__next:hover {background:#ddd;}
 
-div.ou-events__day {
+.ou-events__day {
 	border-bottom:1px solid #eee;
 	margin:0 0 20px 0;
+	min-height:80px;
 }
 
-div.ou-events__date {
+.ou-events__date {
 	width: 55px;
     height: auto;
     float: left;
     margin: 3px 10px 0 0;
 }
 
-div.ou-events__date em {
+.ou-events__date em {
 	font-style: normal;
     font-size: .9em;
     color: #fff;
@@ -230,7 +277,7 @@ div.ou-events__date em {
     display: block;	
 }
 
-div.ou-events__date strong {
+.ou-events__date strong {
 	text-align: center;
     color: #000;
     font-size: 25px;
@@ -242,7 +289,7 @@ div.ou-events__date strong {
 	border-radius:0 0 4px 4px;
 }
 
-div.ou-events__event {margin-left:75px;	}
+.ou-events__event {margin-left:75px;	}
 
 h2.ou-events__event-title,
 h3.ou-events__event-title {
@@ -262,9 +309,233 @@ p.ou-events__event-time {
 	line-height:100%;
 }
 
+
+/* NEWS */
+
+.ou-articles__article {
+	border-bottom:1px solid #ddd;
+	padding-bottom:20px;
+	margin-bottom:20px;	
+}
+
+.ou-articles__img {
+	float: left;
+    margin: 0;
+	width:140px;
+}
+
+.ou-articles__text {margin-left: 160px;}
+
+.ou-articles__article--nopic .ou-articles__text {margin-left: 0;}
+
+.ou-articles__text h2,
+.ou-articles__text h3 {
+    font-size:1.3em;
+	margin:0 0 10px 0;
+}
+
+.ou-articles__text h2 a,
+.ou-articles__text h3 a {text-decoration:none;}
+
+.ou-articles__text p {
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.ou-articles__date {
+	color:#777;	
+	margin:0 0 0 160px;
+	line-height:100%;
+	font-size:.9em;
+}
+
+.ou-articles__article--nopic .ou-articles__date {margin-left: 0;}
+
+
+/* alt news */
+
+.ou-articles--alt .ou-articles__article {
+	border-bottom:none;
+	padding:20px;
+	margin:0;
+}
+
+.ou-articles--alt .ou-articles__article:nth-child(odd) {
+    background: #e7eff7;
+}
+
 </style>
 
+
+<h2>News</h2>
+
+<div class="ou-filters">
+
+    <ul>
+        <li><a href="#" class="selected">All</a></li>
+        <li><a href="#">Tech</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Social</a></li>
+    </ul>
+
+</div>
+
+
+<div class="ou-articles">
+
+    <div class="ou-articles__article cf">
+    
+    	<div class="ou-articles__img">
+        	<a href="#"><img src="../img/img-example9.jpg" alt=""></a>
+        </div>
+        
+    	<div class="ou-articles__text">
+        
+            <h3><a href="#">Elephants seen on campus</a></h3>
+                    
+            <p>And thus, while the one ship went cheerily before the breeze, the other stubbornly fought against it; and so the two vessels parted; the crew of the Pequod looking with grave, lingering glances towards the receding Bachelor; but the Bachelor's men never heeding their gaze for the lively revelry they were in.</p>
+            
+            <p>And as Ahab, leaning over the taffrail, eyed the homewardbound craft, he took from his pocket a small vial of sand, and then looking from the ship to the vial, seemed thereby bringing two remote associations together, for that vial was filled with Nantucket soundings.</p>
+    	
+        </div>
+        
+    	<p class="ou-articles__date">15 June, 2016</p>
+    
+    </div>
+
+
+
+    <div class="ou-articles__article ou-articles__article--nopic">
+            
+    	<div class="ou-articles__text">
+        
+            <h3><a href="#">This one has no picture</a></h3>
+                    
+            <p>And thus, while the one ship went cheerily before the breeze, the other stubbornly fought against it; and so the two vessels parted; the crew of the Pequod looking with grave, lingering glances towards the receding Bachelor; but the Bachelor's men never heeding their gaze for the lively revelry they were in.        </p>
+    	
+        </div>
+        
+    	<p class="ou-articles__date">11 June, 2016</p>
+    
+    </div>
+
+
+    
+    <div class="ou-articles__article cf">
+    
+    	<div class="ou-articles__img">
+        	<a href="#"><img src="../img/img-example6.jpg" alt=""></a>
+        </div>
+        
+    	<div class="ou-articles__text">
+        
+            <h3><a href="#">Kingfisher spotted eating fish</a></h3>
+                    
+            <p>And as Ahab, leaning over the taffrail, eyed the homewardbound craft, he took from his pocket a small vial of sand, and then looking from the ship to the vial, seemed thereby bringing two remote associations together, for that vial was filled with Nantucket soundings.</p>
+    	</div>
+        
+    	<p class="ou-articles__date">10 June, 2016</p>
+    
+    </div>
+
+</div>
+
+
+
+<h2> News alternative</h2>
+
+<div class="ou-filters">
+
+    <ul>
+        <li><a href="#" class="selected">All</a></li>
+        <li><a href="#">Tech</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Social</a></li>
+    </ul>
+
+</div>
+
+
+<div class="ou-articles ou-articles--alt">
+
+    <div class="ou-articles__article cf">
+    
+    	<div class="ou-articles__img">
+        	<a href="#"><img src="../img/img-example9.jpg" alt=""></a>
+        </div>
+        
+    	<div class="ou-articles__text">
+        
+            <h3><a href="#">Elephants seen on campus</a></h3>
+                    
+            <p>And thus, while the one ship went cheerily before the breeze, the other stubbornly fought against it; and so the two vessels parted; the crew of the Pequod looking.        </p>
+    	</div>
+        
+    	<p class="ou-articles__date">15 June, 2016</p>
+    
+    </div>
+
+
+
+    <div class="ou-articles__article cf">
+            
+        <div class="ou-articles__img">
+            <a href="#"><img src="../img/img-example2.jpg" alt=""></a>
+        </div>
+    	
+        <div class="ou-articles__text">
+
+            <h3><a href="#">A walk in the wild</a></h3>
+                    
+            <p>And as Ahab, leaning over the taffrail, eyed the homewardbound craft, he took from his pocket a small vial of sand, and then looking from the ship to the vial.</p>
+    	
+        </div>
+        
+    	<p class="ou-articles__date">11 June, 2016</p>
+    
+    </div>
+
+
+    
+    <div class="ou-articles__article cf">
+    
+    	<div class="ou-articles__img">
+        	<a href="#"><img src="../img/img-example6.jpg" alt=""></a>
+        </div>
+        
+    	<div class="ou-articles__text">
+        
+            <h3><a href="#">Kingfisher spotted eating fish</a></h3>
+                    
+            <p>And thus, while the one ship went cheerily before the breeze, the other stubbornly fought against it; and so the two vessels parted; the crew of the Pequod looking.        </p>
+    	</div>
+        
+    	<p class="ou-articles__date">10 June, 2016</p>
+    
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<h2>Events</h2>
+
 <div class="ou-events">
+
+	<div class="ou-filters">
+    
+    	<ul>
+            <li><a href="#" class="selected">All</a></li>
+            <li><a href="#">Tech</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Social</a></li>
+        </ul>
+    
+    </div>
 
 	<div class="ou-events__nav cf">
     
@@ -353,52 +624,93 @@ p.ou-events__event-time {
 
 
 <div id="ou-region2">
+
 <h2>Events</h2>
-  <div class="ou-events">
-    <div class="ou-events__nav cf"> <a class="ou-events__prev" href="#">May</a> <span class="ou-events__current">June 2016</span> <a class="ou-events__next" href="#">Jul</a> </div>
-    <div class="ou-events__day">
-      <div class="ou-events__date"> <em>Jun</em> <strong>2</strong> </div>
-      <div class="ou-events__event">
-        <h3 class="ou-events__event-title"><a href="#">Science team meet up</a></h3>
-        <p class="ou-events__event-time">16:00 - 18:00</p>
-        <p class="ou-events__event-desc">Phileas Fogg found himself twenty hours behind time.</p>
-      </div>
+
+<div class="ou-events">
+
+	<div class="ou-filters">
+    
+    	<ul>
+            <li><a href="#" class="selected">All</a></li>
+            <li><a href="#">Tech</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Social</a></li>
+        </ul>
+    
     </div>
-    <div class="ou-events__day">
-      <div class="ou-events__date"> <em>Jun</em> <strong>5</strong> </div>
-      <div class="ou-events__event">
-        <h3 class="ou-events__event-title"><a href="#">Residential school</a></h3>
-        <p class="ou-events__event-time">11:00 - 13:00</p>
-        <p class="ou-events__event-desc">And thus, while the one ship went cheerily before the breeze, the other stubbornly fought 
-          against it; and so the two vessels parted; the crew of the Pequod looking with grave, lingering glances towards the receding 
-          Bachelor; but the Bachelor's men never heeding their gaze for the lively revelry they were in.      </p>
-      </div>
-      <div class="ou-events__event">
-        <h3 class="ou-events__event-title"><a href="#">FBL Faculty Committee</a></h3>
-        <p class="ou-events__event-time">15:00 - 16:00</p>
-        <p class="ou-events__event-desc">And so I raced on toward the trees intending to pass beneath that which held the man-things and take refuge in another farther on.</p>
-      </div>
+
+	<div class="ou-events__nav cf">
+    
+    	<a class="ou-events__prev" href="#">May</a>
+        <span class="ou-events__current">June 2016</span>
+        <a class="ou-events__next" href="#">Jul</a>
+    
     </div>
-    <div class="ou-events__day">
-      <div class="ou-events__date"> <em>Jun</em> <strong>12</strong> </div>
-      <div class="ou-events__event">
-        <h3 class="ou-events__event-title"><a href="#">Workshop: A European Dimension to BREXIT</a></h3>
-        <p class="ou-events__event-time">09:00 - 12:00</p>
-        <p class="ou-events__event-desc">I was much exercised by fear that something had befallen him.</p>
-      </div>
-      <div class="ou-events__event">
-        <h3 class="ou-events__event-title"><a href="#">Business Legitimacy Webinar</a></h3>
-        <p class="ou-events__event-time">13:00 - 13:30</p>
-        <p class="ou-events__event-desc">There were very many people in the world in those days. San Francisco alone held four millions.</p>
-      </div>
+
+	<div class="ou-events__day">
+    
+        <div class="ou-events__date">
+            <em>Jun</em>
+            <strong>2</strong>
+        </div>
+
+        <div class="ou-events__event">
+            <h3 class="ou-events__event-title"><a href="#">Science team meet up</a></h3>
+            <p class="ou-events__event-time">16:00 - 18:00</p>
+            <p class="ou-events__event-desc">One line of information</p>
+        </div>
+
     </div>
-  </div>
+
+	<div class="ou-events__day">
+    
+        <div class="ou-events__date">
+            <em>Jun</em>
+            <strong>5</strong>
+        </div>
+
+        <div class="ou-events__event">
+            <h3 class="ou-events__event-title"><a href="#">Residential school</a></h3>
+            <p class="ou-events__event-time">11:00 - 13:00            </p>
+            <p class="ou-events__event-desc">One line of information</p>
+        </div>
+
+        <div class="ou-events__event">
+            <h3 class="ou-events__event-title"><a href="#">FBL Faculty Committee</a></h3>
+            <p class="ou-events__event-time">15:00 - 16:00</p>
+            <p class="ou-events__event-desc">One line of information</p>
+        </div>
+
+    </div>
+
+	<div class="ou-events__day">
+    
+        <div class="ou-events__date">
+            <em>Jun</em>
+            <strong>12</strong>
+        </div>
+
+        <div class="ou-events__event">
+            <h3 class="ou-events__event-title"><a href="#">Workshop: A European Dimension to BREXIT</a></h3>
+            <p class="ou-events__event-time">09:00 - 12:00</p>
+            <p class="ou-events__event-desc">One line of information</p>
+        </div>
+
+        <div class="ou-events__event">
+            <h3 class="ou-events__event-title"><a href="#">Business Legitimacy Webinar</a></h3>
+            <p class="ou-events__event-time">13:00 - 13:30</p>
+            <p class="ou-events__event-desc">One line of information</p>
+        </div>
+
+    </div>
+
+
+</div>
 
 
 
-
-</div> 
-<!-- end ou-region2 -->
+</div> <!-- end ou-region2 -->
 
 
 
