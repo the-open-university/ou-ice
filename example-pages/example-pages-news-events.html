@@ -310,7 +310,9 @@ p.ou-events__event-time {
 }
 
 
-/* NEWS */
+/* 	ARTICLES
+	(media queries needed)
+*/
 
 .ou-articles__article {
 	border-bottom:1px solid #ddd;
@@ -332,24 +334,24 @@ p.ou-events__event-time {
 .ou-articles__text h3 {
     font-size:1.3em;
 	margin:0 0 10px 0;
+	line-height:130%;
 }
 
 .ou-articles__text h2 a,
 .ou-articles__text h3 a {text-decoration:none;}
 
-.ou-articles__text p {
-    margin-bottom: 15px;
-    color: #222;
-}
+.ou-articles__text p {margin-bottom: 15px;}
+
+.ou-articles__text p:last-child {margin-bottom:0;}
+
+.ou-articles__more {margin-top:-5px;}
 
 .ou-articles__date {
 	color:#777;	
-	margin:0 0 0 160px;
+	margin:10px 0 0 0;
 	line-height:100%;
 	font-size:.9em;
 }
-
-.ou-articles__article--nopic .ou-articles__date {margin-left: 0;}
 
 
 /* alt news */
@@ -360,14 +362,46 @@ p.ou-events__event-time {
 	margin:0;
 }
 
-.ou-articles--alt .ou-articles__article:nth-child(odd) {
-    background: #e7eff7;
+.ou-articles--alt .ou-articles__article:nth-child(odd) {background: #e7eff7;}
+
+
+/* promoted story */
+
+.ou-articles__article--promoted {
+	border-bottom:none;
+	border-top:1px solid #0b55a8;
+	padding:20px;
+	margin:0 0 20px 0;
+	background: #e7eff7;
 }
+
+.ou-articles__article--promoted .ou-articles__img {width:200px;}
+
+.ou-articles__article--promoted .ou-articles__text {margin-left:220px;}
+
+.ou-articles__article--promoted .ou-articles__text h2,
+.ou-articles__article--promoted .ou-articles__text h3 {font-size:1.6em;}
+
+
+/* smaller news - for region2 and other areas */
+
+.ou-articles--smaller .ou-articles__img {width:100px;}
+
+.ou-articles--smaller .ou-articles__text {margin-left: 120px;}
+
+.ou-articles--smaller .ou-articles__text h2,
+.ou-articles--smaller .ou-articles__text h3 {
+	font-size:1em;
+	font-weight:bold;
+	margin-bottom:4px;
+}
+
+.ou-articles--smaller .ou-articles__article--nopic .ou-articles__text {margin-left: 0;}
 
 </style>
 
 
-<h2>News</h2>
+<h2>Articles</h2>
 
 <div class="ou-filters">
 
@@ -383,7 +417,7 @@ p.ou-events__event-time {
 
 <div class="ou-articles">
 
-    <div class="ou-articles__article cf">
+    <div class="ou-articles__article ou-articles__article--promoted cf">
     
     	<div class="ou-articles__img">
         	<a href="#"><img src="../img/img-example9.jpg" alt=""></a>
@@ -391,32 +425,36 @@ p.ou-events__event-time {
         
     	<div class="ou-articles__text">
         
-            <h3><a href="#">Elephants seen on campus</a></h3>
+            <h3><a href="#">Promoted story: Elephant runs wild</a></h3>
                     
-            <p>And thus, while the one ship went cheerily before the breeze, the other stubbornly fought against it; and so the two vessels parted; the crew of the Pequod looking with grave, lingering glances towards the receding Bachelor; but the Bachelor's men never heeding their gaze for the lively revelry they were in.</p>
+            <p>And thus, while the one ship went cheerily before the breeze, the other stubbornly fought against it; and so the two vessels parted; the crew of the Pequod looking with grave, lingering glances towards the receding Bachelor; but the Bachelor's men never heeding their gaze for the lively revelry they were in. This has a class	which promotes the story.</p>
             
-            <p>And as Ahab, leaning over the taffrail, eyed the homewardbound craft, he took from his pocket a small vial of sand, and then looking from the ship to the vial, seemed thereby bringing two remote associations together, for that vial was filled with Nantucket soundings.</p>
+            <p class="ou-articles__more"><a href="#">Read more</a></p>
     	
-        </div>
+    		<p class="ou-articles__date">15 June, 2016</p>
         
-    	<p class="ou-articles__date">15 June, 2016</p>
+        </div>
     
     </div>
 
 
 
-    <div class="ou-articles__article ou-articles__article--nopic">
+    <div class="ou-articles__article cf">
             
+    	<div class="ou-articles__img">
+        	<a href="#"><img src="../img/img-example4.jpg" alt=""></a>
+        </div>
+
     	<div class="ou-articles__text">
         
-            <h3><a href="#">This one has no picture</a></h3>
+            <h3><a href="#">A little town in the middle of nowhere</a></h3>
                     
             <p>And thus, while the one ship went cheerily before the breeze, the other stubbornly fought against it; and so the two vessels parted; the crew of the Pequod looking with grave, lingering glances towards the receding Bachelor; but the Bachelor's men never heeding their gaze for the lively revelry they were in.        </p>
     	
+    		<p class="ou-articles__date">11 June, 2016</p>
+    
         </div>
         
-    	<p class="ou-articles__date">11 June, 2016</p>
-    
     </div>
 
 
@@ -432,9 +470,10 @@ p.ou-events__event-time {
             <h3><a href="#">Kingfisher spotted eating fish</a></h3>
                     
             <p>And as Ahab, leaning over the taffrail, eyed the homewardbound craft, he took from his pocket a small vial of sand, and then looking from the ship to the vial, seemed thereby bringing two remote associations together, for that vial was filled with Nantucket soundings.</p>
+	    	<p class="ou-articles__date">10 June, 2016</p>
+    
     	</div>
         
-    	<p class="ou-articles__date">10 June, 2016</p>
     
     </div>
 
@@ -442,7 +481,7 @@ p.ou-events__event-time {
 
 
 
-<h2> News alternative</h2>
+<h2>Articles alternative</h2>
 
 <div class="ou-filters">
 
@@ -461,17 +500,19 @@ p.ou-events__event-time {
     <div class="ou-articles__article cf">
     
     	<div class="ou-articles__img">
-        	<a href="#"><img src="../img/img-example9.jpg" alt=""></a>
+        	<a href="#"><img src="../img/img-example10.jpg" alt=""></a>
         </div>
         
     	<div class="ou-articles__text">
         
-            <h3><a href="#">Elephants seen on campus</a></h3>
+            <h3><a href="#">Sushi Tuesday</a></h3>
                     
             <p>And thus, while the one ship went cheerily before the breeze, the other stubbornly fought against it; and so the two vessels parted; the crew of the Pequod looking.        </p>
-    	</div>
+    	
+        	<p class="ou-articles__date">15 June, 2016</p>
+    	
+        </div>
         
-    	<p class="ou-articles__date">15 June, 2016</p>
     
     </div>
 
@@ -489,10 +530,10 @@ p.ou-events__event-time {
                     
             <p>And as Ahab, leaning over the taffrail, eyed the homewardbound craft, he took from his pocket a small vial of sand, and then looking from the ship to the vial.</p>
     	
+    		<p class="ou-articles__date">11 June, 2016</p>
+    
         </div>
         
-    	<p class="ou-articles__date">11 June, 2016</p>
-    
     </div>
 
 
@@ -500,17 +541,19 @@ p.ou-events__event-time {
     <div class="ou-articles__article cf">
     
     	<div class="ou-articles__img">
-        	<a href="#"><img src="../img/img-example6.jpg" alt=""></a>
+        	<a href="#"><img src="../img/img-example11.jpg" alt=""></a>
         </div>
         
     	<div class="ou-articles__text">
         
-            <h3><a href="#">Kingfisher spotted eating fish</a></h3>
+            <h3><a href="#">Bridge at night time</a></h3>
                     
             <p>And thus, while the one ship went cheerily before the breeze, the other stubbornly fought against it; and so the two vessels parted; the crew of the Pequod looking.        </p>
-    	</div>
+    		
+            <p class="ou-articles__date">10 June, 2016</p>
+    	
+        </div>
         
-    	<p class="ou-articles__date">10 June, 2016</p>
     
     </div>
 
@@ -710,13 +753,161 @@ p.ou-events__event-time {
 
 
 
+<h2>Articles (smaller)</h2>
+
+<div class="ou-filters">
+
+    <ul>
+        <li><a href="#" class="selected">All</a></li>
+        <li><a href="#">Tech</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Social</a></li>
+    </ul>
+
+</div>
+
+
+<div class="ou-articles ou-articles--smaller">
+
+    <div class="ou-articles__article cf">
+    
+    	<div class="ou-articles__img">
+        	<a href="#"><img src="../img/img-example9.jpg" alt=""></a>
+        </div>
+        
+    	<div class="ou-articles__text">
+        
+            <h3><a href="#">Elephants seen on campus</a></h3>
+                    
+            <p>And thus, while the one ship went cheerily before the breeze.</p>
+    	
+    		<p class="ou-articles__date">15 June, 2016</p>
+    
+        </div>
+        
+    </div>
+
+
+
+    <div class="ou-articles__article ou-articles__article--nopic">
+            
+    	<div class="ou-articles__text">
+        
+            <h3><a href="#">This one has no picture</a></h3>
+                    
+            <p>The Bachelor's men never heeding their gaze for the lively revelry they were in.        </p>
+    	
+    		<p class="ou-articles__date">11 June, 2016</p>
+    
+        </div>
+        
+    </div>
+
+
+    
+    <div class="ou-articles__article cf">
+    
+    	<div class="ou-articles__img">
+        	<a href="#"><img src="../img/img-example6.jpg" alt=""></a>
+        </div>
+        
+    	<div class="ou-articles__text">
+        
+            <h3><a href="#">Kingfisher spotted eating fish</a></h3>
+                    
+            <p>And as Ahab, leaning over the taffrail, eyed the homewardbound craft, he took from his pocket a small vial of sand.</p>
+    		
+            <p class="ou-articles__date">10 June, 2016</p>
+    
+    	</div>
+        
+    </div>
+
+</div>
+
+
+
+<h2>Articles (alternative, smaller)</h2>
+
+<div class="ou-filters">
+
+    <ul>
+        <li><a href="#" class="selected">All</a></li>
+        <li><a href="#">Tech</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Social</a></li>
+    </ul>
+
+</div>
+
+
+<div class="ou-articles ou-articles--alt ou-articles--smaller">
+
+    <div class="ou-articles__article cf">
+    
+    	<div class="ou-articles__img">
+        	<a href="#"><img src="../img/img-example9.jpg" alt=""></a>
+        </div>
+        
+    	<div class="ou-articles__text">
+        
+            <h3><a href="#">Elephants seen on campus</a></h3>
+                    
+            <p>And thus, while the one ship went cheerily before the breeze.</p>
+    		
+            <p class="ou-articles__date">15 June, 2016</p>
+    
+    	</div>
+        
+    </div>
+
+
+    <div class="ou-articles__article ou-articles__article--nopic">
+                	
+        <div class="ou-articles__text">
+
+            <h3><a href="#">A walk in the wild</a></h3>
+                    
+            <p>And as Ahab, leaning over the taffrail, eyed the homewardbound craft.</p>
+    	
+    		<p class="ou-articles__date">11 June, 2016</p>
+    
+        </div>
+        
+    </div>
+
+
+    
+    <div class="ou-articles__article cf">
+    
+    	<div class="ou-articles__img">
+        	<a href="#"><img src="../img/img-example6.jpg" alt=""></a>
+        </div>
+        
+    	<div class="ou-articles__text">
+        
+            <h3><a href="#">Kingfisher spotted eating fish</a></h3>
+                    
+            <p>And thus, while the one ship went cheerily before the breeze.</p>
+    	
+        	<p class="ou-articles__date">10 June, 2016</p>
+    
+    	</div>
+        
+    </div>
+
+</div>
+
+
+
+
+
 </div> <!-- end ou-region2 -->
 
 
 
 
-</div> 
-<!-- end ou-page -->
+</div> <!-- end ou-page -->
 
 </div> <!-- end ou-site-body -->
 
@@ -771,8 +962,8 @@ p.ou-events__event-time {
 
 <!-- Javascripts -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/scripts.js"></script>
-<script src="js/responsive-tabs.min.js"></script>
+<script src="../js/scripts.js"></script>
+<script src="../js/responsive-tabs.min.js"></script>
 
 <script>
 $(document).ready(function() {
@@ -780,8 +971,6 @@ $(document).ready(function() {
 })
 </script>
 
-<!-- Styleguide/demo site js -->
-<script src="js/styleguide-only.js"></script>
 
 </body>
 </html>
