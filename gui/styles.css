@@ -4,13 +4,13 @@
 /*
 --------------------------------------------------------------------------------------
 
-	OU STUDENT THEME FRAMEWORK
+	OU ICE
 
 --------------------------------------------------------------------------------------
 */
 
 
-@import url('normalize.css'); /* do we want this? */
+@import url('normalize.css');
 @import url('html.css');
 @import url('layout.css');
 @import url('tables.css');
