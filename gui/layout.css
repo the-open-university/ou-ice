@@ -49,14 +49,16 @@
 
 #ou-header,
 #ou-site-body,
-#ou-site-footer {
+#ou-site-footer,
+.ou-wrapper {
 	max-width:1180px;
 	margin:0 auto;
 }
 
-#ou-site-header {text-align:center;}
-
-#ou-site-body {margin-top: 25px;}
+#ou-site-body {
+	margin-top: 25px;
+	margin-bottom:25px;
+}
 
 #ou-region1 {
 	float: left;
@@ -67,7 +69,6 @@
 	float: right;
 	width: 26%;
 }
-
 
 
 /*
@@ -86,6 +87,20 @@ body.ou-pure #ou-region2 {
 	width:100%;
 	margin:0;
 }
+
+
+/*
+-------------------------------------------
+	One column
+-------------------------------------------
+*/
+
+body.one-col #ou-region1,
+body.one-col #ou-region2 {
+	margin:0 auto;
+	float:none;	
+}
+
 
 
 /*

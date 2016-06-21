@@ -5,7 +5,7 @@
 --------------------------------------------------------------------------------------
 	
 	demo.css
-	only necessary for the demo site
+	only necessary for the demo site. styles appended with "ou-ice-"
 
 --------------------------------------------------------------------------------------
 */
@@ -20,6 +20,7 @@
 .ou-ice-header {
 	background:#002158;
 	color:#fff;
+	text-align:center;
 }
 
 .ou-ice-header h1 {
@@ -38,6 +39,36 @@
 .ou-ice-header__wrap {padding:40px 20px;}
 
 } /* end media query */
+
+
+/**/
+
+
+/*
+-------------------------------------------
+	Back link
+-------------------------------------------
+*/
+
+.ou-ice-back {
+	background:#002158;
+	padding:15px 0;
+}
+
+.ou-ice-back a {
+	color:#fff; 
+	text-decoration:none;
+	text-align:left;
+}
+
+.ou-ice-back a:before {
+	content: "\2190";
+	display:inline-block;
+	margin-right:4px;
+}
+
+.ou-ice-back a:hover {color:#a6d0ff;}
+
 
 
 /**/
