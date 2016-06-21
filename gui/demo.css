@@ -2,22 +2,45 @@
 
 
 /*
+--------------------------------------------------------------------------------------
+	
+	demo.css
+	only necessary for the demo site
+
+--------------------------------------------------------------------------------------
+*/
+
+
+/*
 -------------------------------------------
-	Style Guide / Demo Site only
+	Homepage
 -------------------------------------------
 */
 
-body.styleguide-only #ou-site-body {margin: 40px auto;}
+.ou-ice-header {
+	background:#002158;
+	color:#fff;
+}
 
-.ou-full-nav .subnav {display:none;}
+.ou-ice-header h1 {
+	color:#a6d0ff;
+	font-size:3em;
+}
 
-.ou-full-nav .subnav.active {display:block;}
+.ou-ice-header__wrap {
+	max-width:1040px;
+	margin:0 auto;
+	padding:50px 0;	
+}
 
-.ou-full-nav li.active-parent a {background-color:#e7eff7;}
+@media only screen and (max-width: 1039px), screen and (max-device-width: 1039px) {
 
-.ou-full-nav li.active-parent.top-level a {background-color:#fff;}
+.ou-ice-header__wrap {padding:40px 20px;}
+
+} /* end media query */
 
 
+/**/
 
 
 #ou-content span.code-toggle a {

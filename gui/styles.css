@@ -22,4 +22,5 @@
 @import url('forums.css');
 @import url('colours.css');
 @import url('misc.css');
-@import url('styleguide-only.css'); /* styles unique to demo site */
+@import url('legacy.css'); 	/* backwards-compatibility */
+@import url('demo.css'); 	/* demo site only */

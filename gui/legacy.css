@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+/*
+--------------------------------------------------------------------------------------
+	
+	legacy.css
+	include for sites requiring backwards-compatibility only
+	(testing this out, may fold elements back in if nothing much ends up here)
+
+--------------------------------------------------------------------------------------
+*/
+
+
+/*
+-------------------------------------------
+	Layouts
+-------------------------------------------
+*/
+
+.ou-c1of2, 
+.ou-c1of3, 
+.ou-c2of3 {float: left;}
+
+.ou-c1of2,
+.ou-c2of2 {width: 48%;}
+
+.ou-c2of2, 
+.ou-c3of3 {float: right;}
+
+.ou-c1of3, 
+.ou-c2of3, 
+.ou-c3of3 {
+	width: 30%;
+	margin: 0;
+	padding:0;
+}
+
+.ou-c2of3 {margin-left: 5%;}

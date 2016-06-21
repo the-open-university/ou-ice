@@ -61,7 +61,7 @@ note: this may not be necessary - use <hr> between items instead
 	border-top:2px solid #8A3288;
 	border-bottom:2px solid #8A3288;
 	background:transparent;
-	background-image:url(icon-activity.png);
+	background-image:url(icons/icon-activity.png);
 	background-position:15px 15px;
 	background-repeat:no-repeat;
 	padding:20px 15px 20px 75px;
@@ -220,7 +220,7 @@ note: this may not be necessary - use <hr> between items instead
 	padding: 15px 20px 15px 50px;
 	color:#000;
 	background-color:#a6d0ff;
-	background-image:url(icon-expand.png);
+	background-image:url(icons/icon-expand.png);
 	background-position:15px center;
 	background-repeat:no-repeat;
 	border-radius:4px;
@@ -240,7 +240,7 @@ note: this may not be necessary - use <hr> between items instead
 	background-color:#fff;
 	border-bottom-left-radius:0;
 	border-bottom-right-radius:0;
-	background-image:url(icon-collapse.png);
+	background-image:url(icons/icon-collapse.png);
 }
 
 .ou-accordion dd {
@@ -479,7 +479,7 @@ div.ou-action-block {
 
 
 .ou-activity {
-	background-image:url(icon-activity@2x.png);
+	background-image:url(icons/icon-activity@2x.png);
 	background-size:42px 42px;
 }
 

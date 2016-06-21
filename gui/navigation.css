@@ -561,25 +561,25 @@ a.ou-warning,
 a.ou-info,
 a.ou-forum,
 a.ou-help {
-	background-image:url(icon-pdf.png);
+	background-image:url(icons/icon-pdf.png);
 	background-position:0 3px;
 	background-repeat:no-repeat;
 	padding-left:22px;	
 }
 
-a.ou-doc {background-image:url(icon-doc.png);}
-a.ou-xls {background-image:url(icon-xls.png);}
-a.ou-download {background-image:url(icon-download.png);}
-a.ou-ppt {background-image:url(icon-ppt.png);}
-a.ou-archive {background-image:url(icon-archive.png);}
-a.ou-audio {background-image:url(icon-audio.png);}
-a.ou-video {background-image:url(icon-video.png);}
-a.ou-print {background-image:url(icon-print.png);}
-a.ou-rss {background-image:url(icon-rss.png);}
-a.ou-warning {background-image:url(icon-warning.png);}
-a.ou-info {background-image:url(icon-info.png);}
-a.ou-forum {background-image:url(icon-forum.png);}
-a.ou-help {background-image:url(icon-help.png);}
+a.ou-doc {background-image:url(icons/icon-doc.png);}
+a.ou-xls {background-image:url(icons/icon-xls.png);}
+a.ou-download {background-image:url(icons/icon-download.png);}
+a.ou-ppt {background-image:url(icons/icon-ppt.png);}
+a.ou-archive {background-image:url(icons/icon-archive.png);}
+a.ou-audio {background-image:url(icons/icon-audio.png);}
+a.ou-video {background-image:url(icons/icon-video.png);}
+a.ou-print {background-image:url(icons/icon-print.png);}
+a.ou-rss {background-image:url(icons/icon-rss.png);}
+a.ou-warning {background-image:url(icons/icon-warning.png);}
+a.ou-info {background-image:url(icons/icon-info.png);}
+a.ou-forum {background-image:url(icons/icon-forum.png);}
+a.ou-help {background-image:url(icons/icon-help.png);}
 
 a.ou-link:before {
 	font-family: 'FontAwesome';
@@ -616,20 +616,20 @@ a.ou-info,
 a.ou-forum,
 a.ou-help {background-size:16px 16px;}
 
-a.ou-pdf {background-image:url(icon-pdf@2x.png);}
-a.ou-doc {background-image:url(icon-doc@2x.png);}
-a.ou-xls {background-image:url(icon-xls@2x.png);}
-a.ou-download {background-image:url(icon-download@2x.png);}
-a.ou-ppt {background-image:url(icon-ppt@2x.png);}
-a.ou-archive {background-image:url(icon-archive@2x.png);}
-a.ou-audio {background-image:url(icon-audio@2x.png);}
-a.ou-video {background-image:url(icon-video@2x.png);}
-a.ou-print {background-image:url(icon-print@2x.png);}
-a.ou-rss {background-image:url(icon-rss@2x.png);}
-a.ou-warning {background-image:url(icon-warning@2x.png);}
-a.ou-info {background-image:url(icon-info@2x.png);}
-a.ou-forum {background-image:url(icon-forum@2x.png);}
-a.ou-help {background-image:url(icon-help@2x.png);}
+a.ou-pdf {background-image:url(icons/icon-pdf@2x.png);}
+a.ou-doc {background-image:url(icons/icon-doc@2x.png);}
+a.ou-xls {background-image:url(icons/icon-xls@2x.png);}
+a.ou-download {background-image:url(icons/icon-download@2x.png);}
+a.ou-ppt {background-image:url(icons/icon-ppt@2x.png);}
+a.ou-archive {background-image:url(icons/icon-archive@2x.png);}
+a.ou-audio {background-image:url(icons/icon-audio@2x.png);}
+a.ou-video {background-image:url(icons/icon-video@2x.png);}
+a.ou-print {background-image:url(icons/icon-print@2x.png);}
+a.ou-rss {background-image:url(icons/icon-rss@2x.png);}
+a.ou-warning {background-image:url(icons/icon-warning@2x.png);}
+a.ou-info {background-image:url(icons/icon-info@2x.png);}
+a.ou-forum {background-image:url(icons/icon-forum@2x.png);}
+a.ou-help {background-image:url(icons/icon-help@2x.png);}
 
 
 } /* end media query */
