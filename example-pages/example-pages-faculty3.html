@@ -191,9 +191,7 @@ p.ou-events__event-time {
 }
 
 
-/* 	ARTICLES
-	(media queries needed)
-*/
+/* 	ARTICLES */
 
 .ou-articles__article {
 	border-bottom:1px solid #ddd;
@@ -241,7 +239,7 @@ p.ou-events__event-time {
 }
 
 
-/* alt news */
+/* alt articles */
 
 .ou-articles--alt .ou-articles__article {
 	border-bottom:none;
@@ -250,6 +248,14 @@ p.ou-events__event-time {
 }
 
 .ou-articles--alt .ou-articles__article:nth-child(odd) {background: #e7eff7;}
+
+
+/* alt2 articles */
+
+.ou-articles--alt2 .ou-articles__img  {width:100%; float:none; margin-bottom:10px;}
+
+.ou-articles--alt2 .ou-articles__text {margin-left:0;}
+
 
 
 /* promoted story */
@@ -277,6 +283,16 @@ p.ou-events__event-time {
 
 .ou-articles--smaller .ou-articles__article--nopic .ou-articles__text {margin-left: 0;}
 
+@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+
+.ou-articles__article--promoted .ou-articles__img,
+.block .ou-articles__img {width:100%; float:none; margin-bottom:15px;}
+
+.ou-articles__article--promoted .ou-articles__text,
+.block .ou-articles__text {margin-left:0;}
+
+
+} /* end media query */
 
 </style>
 
@@ -468,6 +484,235 @@ consistency of cheese and almost tasteless, while the liquid was apparently milk
         </div>
 
 	</div>
+
+</div>
+
+
+<h2>Alt 2</h2>
+
+
+<div class="ou-articles ou-articles--alt2 blocks-three-columns">
+
+
+        <div class="block">
+    
+            <div class="ou-articles__article cf">
+                    
+                <div class="ou-articles__img">
+                    <a href="#"><img src="img/400x200/music.jpg" alt=""></a>
+                </div>
+        
+                <div class="ou-articles__text">
+                
+                    <h3><a href="#">I listen to music</a></h3>
+                            
+                    <p>And thus, while the one ship went cheerily before the breeze </p>
+                    
+                </div>
+                
+            </div>
+		
+        </div>
+
+
+        <div class="block">
+    
+            <div class="ou-articles__article cf">
+            
+                <div class="ou-articles__img">
+                    <a href="#"><img src="img/400x200/cube.jpg" alt=""></a>
+                </div>
+                
+                <div class="ou-articles__text">
+                
+                    <h3><a href="#">I play with cubes</a></h3>
+                            
+                    <p>And as Ahab, leaning over the taffrail, eyed the craft</p>
+            
+                </div>
+            
+            </div>
+		
+        </div>
+
+
+        <div class="block">
+    
+            <div class="ou-articles__article cf">
+            
+                <div class="ou-articles__img">
+                    <a href="#"><img src="img/400x200/wind.jpg" alt=""></a>
+                </div>
+                
+                <div class="ou-articles__text">
+                
+                    <h3><a href="#">I love wind</a></h3>
+                            
+                    <p>And as Ahab, leaning over the taffrail, eyed the craft</p>
+            
+                </div>
+            
+            </div>
+		
+        </div>
+
+
+
+</div>
+
+
+
+
+<h2>Alt 2 no images</h2>
+
+
+<div class="ou-articles ou-articles--alt2 blocks-three-columns">
+
+
+        <div class="block">
+    
+            <div class="ou-articles__article cf">
+                            
+                <div class="ou-articles__text">
+                
+                    <h3><a href="#">I listen to music</a></h3>
+                            
+                    <p>And thus, while the one ship went cheerily before the breeze </p>
+                    
+                </div>
+                
+            </div>
+		
+        </div>
+
+
+        <div class="block">
+    
+            <div class="ou-articles__article cf">
+                            
+                <div class="ou-articles__text">
+                
+                    <h3><a href="#">I play with cubes</a></h3>
+                            
+                    <p>And as Ahab, leaning over the taffrail, eyed the craft</p>
+            
+                </div>
+            
+            </div>
+		
+        </div>
+
+
+        <div class="block">
+    
+            <div class="ou-articles__article cf">
+                            
+                <div class="ou-articles__text">
+                
+                    <h3><a href="#">I love wind</a></h3>
+                            
+                    <p>And as Ahab, leaning over the taffrail, eyed the craft</p>
+            
+                </div>
+            
+            </div>
+		
+        </div>
+
+
+
+</div>
+
+
+
+
+<h2>Alt 2 with link list</h2>
+
+
+<div class="ou-articles ou-articles--alt2 blocks-three-columns">
+
+
+        <div class="block">
+    
+            <div class="ou-articles__article cf">
+                    
+                <div class="ou-articles__img">
+                    <a href="#"><img src="img/400x200/music.jpg" alt=""></a>
+                </div>
+        
+                <div class="ou-articles__text">
+                
+                    <h3><a href="#">I listen to music</a></h3>
+                            
+                    <p>And thus, while the one ship went cheerily before the breeze </p>
+                    
+                    <ul class="ou-link-list">
+                      <li><a href="#">Ipod touch</a></li>
+                      <li><a href="#">Ipod nano</a></li>
+                      <li><a href="#">Ipod shuffle</a></li>
+                    </ul>                    
+ 
+                </div>
+                
+            </div>
+		
+        </div>
+
+
+        <div class="block">
+    
+            <div class="ou-articles__article cf">
+            
+                <div class="ou-articles__img">
+                    <a href="#"><img src="img/400x200/cube.jpg" alt=""></a>
+                </div>
+                
+                <div class="ou-articles__text">
+                
+                    <h3><a href="#">I play with cubes</a></h3>
+                            
+                    <p>And as Ahab, leaning over the taffrail, eyed the craft</p>
+            
+                    <ul class="ou-link-list">
+                      <li><a href="#">Ipod touch</a></li>
+                      <li><a href="#">Ipod nano</a></li>
+                      <li><a href="#">Ipod shuffle</a></li>
+                    </ul>                    
+
+                </div>
+            
+            </div>
+		
+        </div>
+
+
+        <div class="block">
+    
+            <div class="ou-articles__article cf">
+            
+                <div class="ou-articles__img">
+                    <a href="#"><img src="img/400x200/wind.jpg" alt=""></a>
+                </div>
+                
+                <div class="ou-articles__text">
+                
+                    <h3><a href="#">I love wind</a></h3>
+                            
+                    <p>And as Ahab, leaning over the taffrail, eyed the craft</p>
+            
+                    <ul class="ou-link-list">
+                      <li><a href="#">Ipod touch</a></li>
+                      <li><a href="#">Ipod nano</a></li>
+                      <li><a href="#">Ipod shuffle</a></li>
+                    </ul>                    
+
+                </div>
+            
+            </div>
+		
+        </div>
+
+
 
 </div>
 
