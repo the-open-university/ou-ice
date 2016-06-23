@@ -63,15 +63,11 @@
 
 
 
-
-<pre class="prettyprint" id="quine">
+<code class="prettyprint lang-html" id="quine">
 	<div class="test">hello</div>
-</pre>
+</code>
 
-
-
-
-<div class="ou-articles">
+<div class="ou-articles code-example">
 
     <div class="ou-articles__article cf">
         <div class="ou-articles__img">
@@ -374,28 +370,22 @@
 <!-- Javascripts -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=sunburst&lang=css" defer="defer"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=sunburst" defer="defer"></script>
 
-<script>//<![CDATA[
-(function () {
-  function html(s) {
-    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  }
- 
-  var quineHtml = html(
-        '<!DOCTYPE html>\n<html>\n'
-      + document.documentElement.innerHTML 
-      + '\n<\/html>\n');
- 
-  // Highlight the operative parts:
-  quineHtml = quineHtml.replace(
-    /&lt;script src[\s\S]*?&gt;&lt;\/script&gt;|&lt;!--\?[\s\S]*?--&gt;|&lt;pre\b[\s\S]*?&lt;\/pre&gt;/g,
-    '<span class="operative">$&</span>');
- 
-  document.getElementById("quine").innerHTML = quineHtml;
-})();
-//]]>
+<script>
+    $(document).ready(function(){
+        $('.code-example').each(function(example){
+            var $example = $(this);
+            var $pre = $('<pre></pre>');
+            $pre.text($example.html())
+                .addClass('prettyprint')
+                .insertBefore($example);
+        });
+
+        $('code.lang-html').text($('code.lang-html').html());
+    });
 </script>
+
 
 </body>
 </html>
