@@ -303,6 +303,12 @@ body.ou-site-ident #ou-site-header {border-bottom:1px solid #ddd;}
 
 @media only screen and (max-width: 1180px), screen and (max-device-width: 1180px) {
 
+
+.ou-wrapper {
+	max-width:none;
+	padding:0 20px;
+}
+
 #ou-header, 
 #ou-site-body,
 #ou-site-footer {
@@ -314,6 +320,13 @@ body.ou-site-ident #ou-site-header {border-bottom:1px solid #ddd;}
 #ou-site-ident p#ou-site-description {
 	padding-left:15px;
 }
+
+
+body.one-col #ou-region1,
+body.one-col #ou-region2 {
+	width:75%;
+}
+
 
 
 } /* end media query */
@@ -330,6 +343,12 @@ body.ou-help div#ou-region2 {
 	margin:0 0 25px 0;
 	padding:0;
 }
+
+body.one-col #ou-region1,
+body.one-col #ou-region2 {
+	width:100%;
+}
+
 
 
 .tablet {margin-bottom:0;}
