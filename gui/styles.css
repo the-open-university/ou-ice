@@ -23,4 +23,4 @@
 @import url('colours.css');
 @import url('misc.css');
 @import url('legacy.css'); 	/* backwards-compatibility */
-@import url('demo.css'); 	/* demo site only */
+@import url('../demo/demo.css'); 	/* demo site only */

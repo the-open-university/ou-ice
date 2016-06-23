@@ -70,6 +70,33 @@
 .ou-ice-back a:hover {color:#a6d0ff;}
 
 
+/**/
+
+/*
+-------------------------------------------
+	Code examples
+-------------------------------------------
+*/
+
+
+pre.prettyprint {
+	padding:5px 20px 10px 20px !important;
+	border:1px solid #222 !important;
+	max-height:300px;
+	margin-bottom:20px;
+	overflow:scroll;
+}
+
+a.code-example-trigger {
+	margin-top:3px;
+	margin-left: -40px;
+	float:left;
+	text-indent:-5000em;
+	display:inline-block;
+	width:24px;
+	height:24px;
+	background:url(img/icons/icon-code.png) top left no-repeat;
+}
 
 /**/
 
