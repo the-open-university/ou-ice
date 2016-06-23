@@ -62,12 +62,8 @@
 <h2>Standard</h2>
 
 
-
-<code class="prettyprint lang-html" id="quine">
-	<div class="test">hello</div>
-</code>
-
-<div class="ou-articles code-example">
+<div class="code-example">
+<div class="ou-articles">
 
     <div class="ou-articles__article cf">
         <div class="ou-articles__img">
@@ -106,10 +102,12 @@
     </div>
 
 </div>
-
+</div> <!-- end code-example -->
 
 
 <h2>Standard, one imageless item, no date</h2>
+
+<div class="code-example">
 <div class="ou-articles">
   
   <div class="ou-articles__article cf">
@@ -142,12 +140,14 @@
     </div>
 
 </div>
+</div> <!-- end code-example -->
 
 
 <h2>Standard, promoted item</h2>
 
 <p>Make one of the articles stand out.</p>
 
+<div class="code-example">
 <div class="ou-articles">
 
     <div class="ou-articles__article ou-articles__article--promoted cf">
@@ -192,6 +192,7 @@
     
 
 </div>
+</div> <!-- end code-example -->
 
 
 
@@ -200,6 +201,7 @@
 
 <p>Could be useful in sidebar or other smaller containers.</p>
 
+<div class="code-example">
 <div class="ou-articles ou-articles--smaller">
 
     <div class="ou-articles__article cf">
@@ -257,12 +259,14 @@
     </div>
 
 </div>
+</div> <!-- end code-example -->
 
 
 <h2>Alternative</h2>
 
 <p>Odd rows now have a light background colour.</p>
 
+<div class="code-example">
 <div class="ou-articles ou-articles--alt">
 
     <div class="ou-articles__article cf">
@@ -299,6 +303,7 @@
     </div>
 
 </div>
+</div> <!-- end code-example -->
 
 
 
@@ -306,6 +311,7 @@
 
 <p>Images are placed at the top with text below. This option is best combined with OU Blocks as in the example below.</p>
 
+<div class="code-example">
 <div class="ou-articles ou-articles--alt2 ou-blocks-three-columns">
 
     <div class="ou-articles__article ou-block cf">
@@ -342,7 +348,7 @@
     </div>
 
 </div>
-
+</div> <!-- end code-example -->
 
 </div> <!-- end ou-content -->
 </div> <!-- end ou-region1 -->
@@ -370,10 +376,16 @@
 <!-- Javascripts -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=sunburst" defer="defer"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=desert" defer></script>
 
 <script>
+
     $(document).ready(function(){
+		
+		$('.code-example').each(function() {
+		  $(this).prev('h2').append('<a class="code-example-trigger" href="#">Code</a>');
+		});
+
         $('.code-example').each(function(example){
             var $example = $(this);
             var $pre = $('<pre></pre>');
@@ -383,7 +395,18 @@
         });
 
         $('code.lang-html').text($('code.lang-html').html());
-    });
+    
+        $('pre.prettyprint').hide();
+		$('.code-example-trigger').click(function () {
+		$(this).parent().next('pre.prettyprint').slideToggle('fast');
+			return false;
+		});	
+		
+
+	});
+	
+	// before <pre> output <a class="code-example-trigger" href="#">Code</a>
+	
 </script>
 
 
