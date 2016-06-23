@@ -398,7 +398,7 @@
     
         $('pre.prettyprint').hide();
 		$('.code-example-trigger').click(function () {
-		  $(this).parent().nextAll('pre.prettyprint').slideToggle('fast');
+		  $(this).parent().nextAll('pre.prettyprint').first().slideToggle('fast');
 		  return false;
 		});	
 		
