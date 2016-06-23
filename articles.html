@@ -383,7 +383,7 @@
     $(document).ready(function(){
 		
 		$('.code-example').each(function() {
-		  $(this).prev('h2').append('<a class="code-example-trigger" href="#">Code</a>');
+		  $(this).prevAll('h2').append('<a class="code-example-trigger" href="#">Code</a>');
 		});
 
         $('.code-example').each(function(example){
@@ -398,8 +398,8 @@
     
         $('pre.prettyprint').hide();
 		$('.code-example-trigger').click(function () {
-		$(this).parent().next('pre.prettyprint').slideToggle('fast');
-			return false;
+		  $(this).parent().nextAll('pre.prettyprint').slideToggle('fast');
+		  return false;
 		});	
 		
 
