@@ -7,7 +7,34 @@
 -------------------------------------------
 */
 
+pre.prettyprint {
+	padding:5px 20px 10px 20px !important;
+	border:1px solid #222 !important;
+	max-height:300px;
+	margin-bottom:20px;
+}
 
+a.code-example-trigger {
+	margin-top:3px;
+	margin-left: -40px;
+	float:left;
+	text-indent:-5000em;
+	display:inline-block;
+	width:24px;
+	height:24px;
+	background:url(icon-code.png) top left no-repeat;
+}
+
+@media only screen and (max-width: 1200px), screen and (max-device-width: 1200px) {
+
+a.code-example-trigger {
+	margin-left:10px;
+	float:none;
+}
+	
+}
+
+body.styleguide-only #ou-site-body {margin: 40px auto;}
 
 .ou-full-nav .subnav {display:none;}
 
