@@ -81,114 +81,6 @@ li.social-media__facebook {background: url(../gui/icon-social-facebook.png) top 
     clear:both;
 }
 
-
-
-/* EVENTS */
-
-
-.ou-events__nav {
-	background:#eee;	
-	text-align:center;
-	margin:0 0 20px 0;
-}
-
-span.ou-events__current {
-	display:inline-block;
-	padding:8px 0;
-	font-weight:bold;
-}
-
-a.ou-events__prev,
-a.ou-events__next {
-	display:inline-block;
-	float:left;
-	text-decoration:none;
-	padding:8px 10px;
-	border-right:1px solid #ddd;
-}
-
-a.ou-events__next {
-	float:right;
-	border-right:0;	
-	border-left:1px solid #ddd;
-}
-
-a.ou-events__prev:before,
-a.ou-events__next:after {
-	content: "\25c0";
-	color:#999;
-	font-size:8px;
-	display:block;
-	float:left;
-	margin:0 4px 0 0;
-}
-
-a.ou-events__next:after {
-	content: "\25b6 ";
-	float:right;
-	margin:0 0 0 4px;
-}
-
-a.ou-events__prev:hover,
-a.ou-events__next:hover {background:#ddd;}
-
-.ou-events__day {
-	border-bottom:1px solid #eee;
-	margin:0 0 20px 0;
-	min-height:80px;
-}
-
-.ou-events__date {
-	width: 55px;
-    height: auto;
-    float: left;
-    margin: 3px 10px 0 0;
-}
-
-.ou-events__date em {
-	font-style: normal;
-    font-size: .9em;
-    color: #fff;
-    background: #b52a1e;
-    padding: 3px;
-    text-align: center;
-    text-transform: uppercase;
-    display: block;	
-}
-
-.ou-events__date strong {
-	text-align: center;
-    color: #000;
-    font-size: 25px;
-    font-weight: normal;
-    display: block;
-    background: #f5f5f5;
-    background: linear-gradient(to bottom, #eeeeee 0%, #eeeeee 50%, #dddddd 50%, #dddddd 100%);
-    padding: 10px 0;
-	border-radius:0 0 4px 4px;
-}
-
-.ou-events__event {margin-left:75px;	}
-
-h2.ou-events__event-title,
-h3.ou-events__event-title {
-	font-size:1.2em;
-	margin:0 0 8px 0;	
-}
-
-h2.ou-events__event-title a,
-h3.ou-events__event-title a {text-decoration:none;}
-
-
-p.ou-events__event-time {
-	color:#777;	
-	font-size:.9em;
-	font-weight:bold;
-	margin:0 0 6px 0;
-	line-height:100%;
-}
-
-
 </style>
 
 </head>
@@ -286,12 +178,12 @@ p.ou-events__event-time {
 
 <div id="ou-content" class="ou-content">
 
-<h1>Welcome to the Faculty</h1>
-
-<p>While I was allowing my fancy to run riot in wild conjecture on the possible explanation of the strange anomalies 
-which I had so far met with on Mars, Sola returned bearing both food and drink. These she placed on the floor beside me, 
-and seating herself a short ways off regarded me intently. The food consisted of about a pound of some solid substance of the 
-consistency of cheese and almost tasteless, while the liquid was apparently milk from some animal. <a href="#">More</a></p>
+<p class="ou-introduction" style="color:#630031;">While I was allowing my fancy to run riot in wild conjecture on the possible explanation of the strange anomalies 
+    which I had so far met with on Mars, Sola returned bearing both food and drink. </p>
+    
+<p>These she placed on the floor beside me, 
+  and seating herself a short ways off regarded me intently. The food consisted of about a pound of some solid substance of the 
+  consistency of cheese and almost tasteless, while the liquid was apparently milk from some animal. <a href="#">More</a></p>
 
 
 
@@ -382,7 +274,7 @@ consistency of cheese and almost tasteless, while the liquid was apparently milk
 </div>
 
 
-<form action="#" method="post" class="ou-form-alt" style="background-color:#630031;">
+<form action="#" method="post" class="ou-form-alt">
   
   <h2>Find an expert</h2>
     
