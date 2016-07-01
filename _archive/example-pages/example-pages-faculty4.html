@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+
+<title>The OU Law School | OU ICE</title>
+
+<link rel="stylesheet" type="text/css" href="../gui/styles.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="../gui/help.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="../gui/drupal.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="../gui/header-footer.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="../gui/responsive-tabs.css" />
+
+<link rel="stylesheet" type="text/css" href="../gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<!-- favicons -->
+<link rel="apple-touch-icon" href="../gui/apple-touch-icon.png">
+<link rel="icon" href="../gui/favicon.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="../gui/ie10-win8-tile-icon.png">
+
+
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<style type="text/css">
+
+/* for the meantime */
+
+#ou-site-ident {margin-bottom: 15px;}
+
+#ou-site-ident p#ou-site-title a {font-size:1.2em;}
+
+nav.ou-sections {background:#fff; margin-bottom:15px;}
+
+nav.ou-sections ul li a {color:#0b55a8; border-left: 0; font-weight:normal; padding-left:0; padding-top:0; padding-right:12px;}
+
+nav.ou-sections ul li:last-child a {border-right: 0;}
+
+nav.ou-sections ul li a.ou-selected {
+    background-color: #fff;
+    border-left: 0;
+    color: #0b55a8;
+	font-weight:bold;
+}
+
+#ou-content ul.ou-list-cols2 {margin-left:0; padding-bottom:20px; border-bottom:1px solid #ddd;}
+
+ul.ou-list-cols2 li {display:inline-block;}
+
+@media only screen and (max-width: 1180px), screen and (max-device-width: 1180px) {
+nav.ou-sections ul {padding-left:15px;}
+} /* end media query */
+
+
+
+.ou-creative .hero {max-width:1180px; margin:0 auto;}
+
+#ou-content form input[type=submit] {margin-bottom:0;}
+
+li.social-media__twitter,
+li.social-media__facebook {
+	background: url(../gui/icon-social-twitter.png) top left no-repeat;
+	padding-left:60px;
+	color:#777;
+	line-height:150%;
+	margin-bottom:10px;
+	display:block;
+	min-height:40px;
+}
+
+li.social-media__facebook {background: url(../gui/icon-social-facebook.png) top left no-repeat;}
+
+.cf:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+h1.alt {
+	font-weight:bold;
+	font-size:1.4em;
+	border-bottom:0;
+	padding:0;
+	margin:10px 0 15px 0;
+}
+
+h2 {font-weight:bold; font-size:1.5em; margin-top:0;}
+
+h2.smaller {font-size:1.4em;}
+
+/*
+.ou-events__nav {
+    background: #4B5F4B;
+	color:#fff;
+}
+
+a.ou-events__prev, 
+a.ou-events__next {color:#fff;}
+
+a.ou-events__prev:hover, 
+a.ou-events__next:hover {background:#111;}*/
+
+blockquote {
+	background:#4B5F4B;
+	background-image:url(img/icons/icon-quotemark.png);
+	background-position:center 15px ;
+	background-repeat:no-repeat;
+	color:#fff;
+	margin:0 0 25px 0;	
+	padding:60px 40px 30px 40px;
+	text-align:center;
+}
+
+blockquote p {
+    font-family: arial;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+blockquote a {color:#fff;}
+
+blockquote:before,
+blockquote:after {content:"";}
+
+blockquote cite {
+	border-top: 2px solid rgb(0, 0, 0); 	
+	border-top: 2px solid rgba(0, 0, 0, 0.4); 	
+	color:#fff;
+	padding:8px 15px 0 15px;
+	font-size:.9em;	
+	display:inline-block;
+	opacity:.7;
+}
+
+#ou-region2 blockquote {
+    margin: 0 0 20px 0;
+	padding: 60px 30px 20px 30px;
+}
+
+
+</style>
+
+</head>
+
+<body class="ou-home ">
+
+<div id="ou-org">
+
+<a class="ou-skip" href="#ou-content"><i class="fa fa-arrow-circle-down"></i> Skip to content</a>
+
+<div id="ou-header">
+    
+<div id="ou-service-links" role="navigation">
+
+<ul>
+
+<li><a href="#">Sign out</a> <span>|</span></li>
+<li><a href="https://msds.open.ac.uk/students/">StudentHome</a> <span>|</span></li>
+<li><a href="http://www.open.ac.uk/about/main/management/policies-and-statements/website-accessibility-open-university">Accessibility</a> <span>|</span></li>
+
+<li><a href="http://www.open.ac.uk/contact">Contact the OU</a></li>
+
+<li class="ou-search">
+<fieldset>
+<legend class="ou-hide">Site search</legend>
+<label for="site-search" class="ou-hide">Search the OU</label>
+<input type="search" id="site-search" placeholder="">
+<button><span class="ou-hide">Submit</span></button>
+</fieldset>
+</li>
+
+</ul>
+                    
+</div> <!-- end ou-service-links -->
+
+<a class="ou-logo" href="http://www.open.ac.uk/">
+<img src="img/icons/icon-shield-green.png" alt="The Open University">
+</a>
+
+<!-- if signed in
+<div id="ou-identity">
+<p class="ou-identity-oucu">st4792</p>
+<p class="ou-identity-name">Stephen Turvey</p>
+</div>
+-->
+
+
+
+<a href="#" class="ou-mobile-menu-toggle icon-down">Toggle service links</a>
+
+</div> <!-- end ou-header -->
+
+<div id="ou-site">
+
+<div id="ou-site-header">
+
+<div id="ou-site-ident">
+    <p id="ou-site-title"><a href="index.php" style="color:#4B5F4B;">The Open University Law School</a></p>
+</div>
+
+<nav class="ou-sections">
+    <ul>
+        <li><a href="#" class="ou-selected"> Overview</a></li>
+        <li><a href="#">People</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Teaching</a></li>
+        <li><a href="#">Collaborations</a></li>
+        <li><a href="#">News and Events</a></li>
+    </ul>
+</nav>
+
+<div class="ou-creative" style="background-color:#4B5F4B;">
+
+<div class="hero ou-grid">
+    <a href="#">
+        <img src="img/hero/hero-law.jpg" alt="">
+        <p class="bg-colour7">Order now: Law Prospectus 2016</p>
+    </a>
+</div>
+
+</div>
+
+
+</div>
+
+<div id="ou-site-body">
+
+<div id="ou-page">
+
+<div id="ou-region0">
+
+</div> <!-- end ou-region0 -->
+
+<div id="ou-region1">
+
+<div id="ou-content" class="ou-content">
+
+<h1 class="alt" style="color:#4B5F4B;">Welcome to The OU Law School</h1>
+    
+<p class="ou-introduction" style="color:#4B5F4B;">The law degree offered by The Open University Law School is a major innovation in legal education. It is a Qualifying Law Degree (QLD) approved by the legal professional bodies.</p>
+<p>The Open University is a world leader in providing flexible supported open learning. Our law course materials have been prepared with great expertise to allow students to progress smoothly through difficult areas of law. Our law students can access an impressive range of law reports, articles and other legal materials online through The Open University library.</p>
+<p>A wide range of people study law with us. The wonderful richness of life in our tutor groups gives very helpful added dimension to the study of legal issues. <a href="#">Read more</a></p>
+
+
+<blockquote>
+  <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying, 
+    along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding experiences of my life. <a href="#">Read more</a></p>
+  <cite>Matt Beard, Law student</cite>
+</blockquote>
+
+
+<h2>Studying Law with the OU</h2>
+
+<div class="ou-articles ou-articles--alt2 ou-blocks-three-columns" style="margin-bottom:0;">
+
+    <div class="ou-articles__article ou-block cf">
+        <div class="ou-articles__img">
+            <a href="#"><img src="img/400x200/music.jpg" alt=""></a>
+        </div>
+        
+        <div class="ou-articles__text">
+            <h2><a href="#">Why study  with the OU?</a></h2>
+            <p>The OU Law School has over 6000 students in the UK, the Republic of Ireland, continental Europe and elsewhere in the world.</p>
+    	</div>
+    </div>
+    
+    <div class="ou-articles__article ou-block cf">
+        <div class="ou-articles__img">
+            <a href="#"><img src="img/400x200/wind.jpg" alt=""></a>
+        </div>
+        
+        <div class="ou-articles__text">
+            <h2><a href="#">Career choices in Law</a></h2>
+            <p>Studying law is stimulating in its own right, but it's also a smart career move. Find out why.</p>
+    	</div>
+    </div>
+    
+    <div class="ou-articles__article ou-block cf">
+        <div class="ou-articles__img">
+            <a href="#"><img src="img/400x200/cube.jpg" alt=""></a>
+        </div>
+        
+        <div class="ou-articles__text">
+            <h2><a href="#">Ways to study</a></h2>
+            <p>There are a variety of ways to study Law at The Open University. Read our <a href="#">ways to study</a> and find out more.</p>
+    	</div>
+    </div>
+
+</div>
+
+
+<h2>Pro bono</h2>
+
+<div class="ou-articles ou-articles--alt">
+
+    <div class="ou-articles__article cf">
+        <div class="ou-articles__img">
+            <a href="#"><img src="img/400x200/navy.jpg" alt=""></a>
+        </div>
+        
+        <div class="ou-articles__text">
+            <h2><a href="#">Student Volunteering</a></h2>
+            <p>During or after your studies with The Law School at The Open University, you may like to consider volunteering for charitable legal work.</p>
+    	</div>
+    </div>
+    
+    <div class="ou-articles__article cf">
+        <div class="ou-articles__img">
+            <a href="#"><img src="img/400x200/lakes.jpg" alt=""></a>
+        </div>
+        
+        <div class="ou-articles__text">
+            <h2><a href="#">Citizens Advice</a></h2>
+            <p>Did you know that by becoming a volunteer legal advisor at your local Citizens Advice Bureau you can earn up to six months reduction in your training contract to become a solicitor?</p>
+    	</div>
+    </div>
+    
+</div>
+
+
+<!--<form action="#" method="post" class="ou-form-alt" style="background:#4B5F4B;">
+  
+  <h2>Find an expert</h2>
+    
+    <input id="name" name="name" type="text" placeholder="Joe Bloggs" style="width:85%;"> 
+    
+    <input name="Submit" type="submit" value="Search">
+
+</form>-->
+
+
+<hr>
+
+<ul class="ou-icon-links">
+
+
+<li><a href="#"><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x colour12"></i>
+  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+</span> RSS feed</a></li>
+
+<li class="ou-icon-links-facebook"><a href="#"><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+</span> Facebook</a></li>
+
+<li class="ou-icon-links-twitter"><a href="#"><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+</span> Twitter</a></li>
+
+</ul>
+
+
+
+</div> <!-- end ou-content -->
+
+</div> <!-- end ou-region1 -->
+
+<div id="ou-region2">
+
+<h2 class="smaller">Latest News</h2>
+
+<div class="ou-articles ou-articles--smaller">
+
+    <div class="ou-articles__article cf">
+    
+    	<div class="ou-articles__img">
+        	<a href="#"><img src="img/400x200/navy.jpg" alt=""></a>
+        </div>
+        
+    	<div class="ou-articles__text">
+        
+            <h3><a href="#">Gender, Peace and Security post-2015: challenge and opportunity</a></h3>
+    
+        </div>
+        
+    </div>
+
+
+
+    <div class="ou-articles__article cf">
+            
+    	<div class="ou-articles__img">
+        	<a href="#"><img src="img/400x200/group.jpg" alt=""></a>
+        </div>
+
+    	<div class="ou-articles__text">
+        
+            <h3><a href="#">Integration and international dispute resolution in Small States</a></h3>
+    
+        </div>
+        
+    </div>
+
+
+    
+    <div class="ou-articles__article cf">
+    
+    	<div class="ou-articles__img">
+        	<a href="#"><img src="img/400x200/lakes.jpg" alt=""></a>
+        </div>
+        
+    	<div class="ou-articles__text">
+        
+            <h3><a href="#">Open University Tom Bingham Memorial Essay Prize 2016</a></h3>
+                        		    
+    	</div>
+        
+    </div>
+
+</div>
+
+
+<h2 class="smaller">Upcoming Events</h2>
+
+<div class="ou-events">
+
+	<div class="ou-events__nav cf">
+    
+    	<a class="ou-events__prev" href="#">Jun</a>
+        <span class="ou-events__current">July 2016</span>
+        <a class="ou-events__next" href="#">Aug</a>
+    
+    </div>
+
+	<div class="ou-events__day">
+    
+        <div class="ou-events__date">
+            <em>Jul</em>
+            <strong>2</strong>
+        </div>
+
+        <div class="ou-events__event">
+            <h3 class="ou-events__event-title"><a href="#">Science team meet up</a></h3>
+            <p class="ou-events__event-time">16:00 - 18:00</p>
+            <p class="ou-events__event-desc">One line of information</p>
+        </div>
+
+    </div>
+
+	<div class="ou-events__day">
+    
+        <div class="ou-events__date">
+            <em>Jul</em>
+            <strong>12</strong>
+        </div>
+
+        <div class="ou-events__event">
+            <h3 class="ou-events__event-title"><a href="#">Workshop: A European Dimension to BREXIT</a></h3>
+            <p class="ou-events__event-time">09:00 - 12:00</p>
+            <p class="ou-events__event-desc">One line of information</p>
+        </div>
+
+    </div>
+
+
+</div>
+
+<blockquote style="background-color:#003366;">
+  <p>I've got lots of examples of how law works in practice and how it can really change lives. <a href="#">Read more</a></p>
+  <cite>Rosemarie McIlwhan, Law student</cite>
+</blockquote>
+
+
+<h2 class="smaller">Social media</h2>
+
+<ul class="social-media">
+
+	<li class="social-media__twitter">Are you watching our co production with <a href="#">@HairyBikers</a> on <a href="#">@BBCTwo</a>? Hurry! It's just started!</li>
+	<li class="social-media__facebook">Passion for the Arts? The next Student Hub Live event on the 10 and 11 June is an Arts Hub event.</li>
+
+</ul>
+
+
+</div> <!-- end ou-region2 -->
+
+</div> <!-- end ou-page -->
+
+</div> <!-- end ou-site-body -->
+
+<div id="ou-site-footer">
+
+<a class="ou-to-top" href="#ou-content"><i class="fa fa-arrow-circle-up"></i> Back to top</a>
+</div> <!-- end ou-site-footer -->
+
+</div> <!-- end ou-site -->
+
+<div class="ou-footer" role="contentinfo">
+    
+<div class="ou-footer-container">
+
+<div class="ou-footer-top ou-grid">
+
+<div class="ou-footer-crest">
+<img src="../img/ou-crest.png" alt="The Open University Crest">
+</div> <!-- end ou-footer-crest -->
+
+<div class="ou-footer-contact">
+<h3>The Open University</h3>
+</div> <!-- end ou-footer-contact -->
+
+</div> <!-- end ou-footer-top -->
+
+<div class="ou-footer-links ou-grid">
+<ul>
+<li><a href="http://www.open.ac.uk/contact">Contact the OU</a></li>
+<li><a href="http://www3.open.ac.uk/employment/">Jobs</a></li>
+<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-accessibility-the-open-university">Accessibility</a></li>
+<li><a href="http://www3.open.ac.uk/near-you/wales/p6.asp">Cymraeg</a></li>
+<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/conditions-use-open-university-websites">Conditions of use</a></li>
+<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-privacy-the-ou">Privacy and cookies</a></li>
+<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/copyright-ou-websites">Copyright</a></li>
+</ul>
+</div> <!-- end ou-footer-links -->
+
+<div class="ou-footer-small-print ou-grid">
+<p class="copyright"><small>© 2014. All rights reserved. The Open University is incorporated by Royal Charter (RC 000391), an exempt charity in England &amp; Wales and a charity registered in Scotland (SC 038302). The Open University is authorised and regulated by the Financial Conduct Authority. Open University Student Budget Accounts Limited (OUSBA) is a wholly owned subsidiary of The Open University, Companies House number 303735 and until 31 March 2014 was licensed by the Office of Fair Trading (OFT) under licence number 573250 and from 1 April 2014 is authorised and regulated by the Financial Conduct Authority (FCA) under interim permission number 573250.</small></p>
+</div> <!-- end ou-footer-small-print -->
+
+</div> <!-- end ou-footer-container -->
+
+</div> <!-- end ou-footer -->
+
+
+
+</div> <!-- end ou-org -->
+
+
+
+<!-- Javascripts -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../js/scripts.js"></script>
+<script src="../js/responsive-tabs.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    RESPONSIVEUI.responsiveTabs();
+})
+</script>
+
+
+</body>
+</html>

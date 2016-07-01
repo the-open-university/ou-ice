@@ -297,73 +297,6 @@ body.ou-site-ident #ou-site-header {border-bottom:1px solid #ddd;}
 
 
 
-/*
--------------------------------------------
-	OU Blocks
-	new code to replace above
-	remove #ou-content when possible
--------------------------------------------
-*/
-
-.ou-blocks-two-columns,
-.ou-blocks-three-columns,
-.ou-blocks-four-columns,
-.ou-blocks-five-columns {
-	zoom:1;
-}
-
-.ou-blocks-two-columns:before, .ou-blocks-two-columns:after,
-.ou-blocks-three-columns:before, .ou-blocks-three-columns:after,
-.ou-blocks-four-columns:before, .ou-blocks-four-columns:after,
-.ou-blocks-five-columns:before, .ou-blocks-five-columns:after {
-	content: "";
-	display: table;
-}
-
-.ou-blocks-two-columns:after,
-.ou-blocks-three-columns:after,
-.ou-blocks-four-columns:after,
-.ou-blocks-five-columns:after {
-	clear:both;
-}
-
-.ou-block,
-#ou-content .ou-blocks-two-columns ul.ou-blocks li,
-#ou-content .ou-blocks-three-columns ul.ou-blocks li,
-#ou-content .ou-blocks-four-columns ul.ou-blocks li,
-#ou-content .ou-blocks-five-columns ul.ou-blocks li {
-	height: auto;
-	float: left;
-	margin-right: 4%;
-	margin-bottom: 15px;
-	margin-left:0;
-	padding:0;
-}
-
-#ou-content .ou-blocks-two-columns ul.ou-blocks,
-#ou-content .ou-blocks-three-columns ul.ou-blocks,
-#ou-content .ou-blocks-four-columns ul.ou-blocks,
-#ou-content .ou-blocks-five-columns ul.ou-blocks {margin:0;}
-
-#ou-content .ou-blocks-two-columns ul.ou-blocks li:before,
-#ou-content .ou-blocks-three-columns ul.ou-blocks li:before,
-#ou-content .ou-blocks-four-columns ul.ou-blocks li:before,
-#ou-content .ou-blocks-five-columns ul.ou-blocks li:before {content:"";}
-
-.ou-blocks-two-columns .ou-block, #ou-content .ou-blocks-two-columns ul.ou-blocks li {width: 48%;}
-.ou-blocks-three-columns .ou-block, #ou-content .ou-blocks-three-columns ul.ou-blocks li {width: 30.5%;}
-.ou-blocks-four-columns .ou-block, #ou-content .ou-blocks-four-columns ul.ou-blocks li {width: 22%;}
-.ou-blocks-five-columns .ou-block, #ou-content .ou-blocks-five-columns ul.ou-blocks li {width: 17.5%; margin-right:3%;}
-
-.ou-blocks-two-columns .ou-block:nth-child(2n+1), #ou-content .ou-blocks-two-columns ul.ou-blocks li:nth-child(2n+1),
-.ou-blocks-three-columns .ou-block:nth-child(3n+1), #ou-content .ou-blocks-three-columns ul.ou-blocks li:nth-child(3n+1),
-.ou-blocks-four-columns .ou-block:nth-child(4n+1), #ou-content .ou-blocks-four-columns ul.ou-blocks li:nth-child(4n+1),
-.ou-blocks-five-columns .ou-block:nth-child(5n+1) #ou-content .ou-blocks-five-columns ul.ou-blocks li:nth-child(5n+1) {clear: left;}
-
-.ou-blocks-two-columns .ou-block:nth-child(2n), #ou-content .ou-blocks-two-columns ul.ou-blocks li:nth-child(2n),
-.ou-blocks-three-columns .ou-block:nth-child(3n), #ou-content .ou-blocks-three-columns ul.ou-blocks li:nth-child(3n),
-.ou-blocks-four-columns .ou-block:nth-child(4n), #ou-content .ou-blocks-four-columns ul.ou-blocks li:nth-child(4n),
-.ou-blocks-five-columns .ou-block:nth-child(5n), #ou-content .ou-blocks-five-columns ul.ou-blocks li:nth-child(5n) {margin-right:0;}
 
 
 
@@ -485,46 +418,6 @@ body.one-col #ou-region2 {
 
 
 
-<<<<<<< HEAD
-/* ou blocks new code to replace above */
-
-.ou-blocks-three-columns .ou-block:nth-child(3n), #ou-content .ou-blocks-three-columns ul.ou-blocks li:nth-child(3n),
-.ou-blocks-four-columns .ou-block:nth-child(4n), #ou-content .ou-blocks-four-columns ul.ou-blocks li:nth-child(4n) {
-	margin-right: 4%;
-}
-
-.ou-blocks-five-columns .ou-block:nth-child(5n), #ou-content .ou-blocks-five-columns ul.ou-blocks li:nth-child(5n) {
-	margin-right: 3%;
-}
-
-.ou-blocks-three-columns .ou-block:nth-child(3n+1), #ou-content .ou-blocks-three-columns ul.ou-blocks li:nth-child(3n+1),
-.ou-blocks-four-columns .ou-block:nth-child(4n+1), #ou-content .ou-blocks-four-columns ul.ou-blocks li:nth-child(4n+1),
-.ou-blocks-five-columns .ou-block:nth-child(5n+1), #ou-content .ou-blocks-five-columns ul.ou-blocks li:nth-child(5n+1) {
-	clear: none;
-}
-
-.ou-blocks-three-columns .ou-block:nth-child(2n), #ou-content .ou-blocks-three-columns ul.ou-blocks li:nth-child(2n),
-.ou-blocks-four-columns .ou-block:nth-child(2n), #ou-content .ou-blocks-four-columns ul.ou-blocks li:nth-child(2n),
-.ou-blocks-five-columns .ou-block:nth-child(2n), #ou-content .ou-blocks-five-columns ul.ou-blocks li:nth-child(2n) {
-	margin-right: 0;
-}
-
-.ou-blocks-three-columns .ou-block:nth-child(2n+1),  #ou-content .ou-blocks-three-columns ul.ou-blocks li:nth-child(2n+1),
-.ou-blocks-four-columns .ou-block:nth-child(2n+1), #ou-content .ou-blocks-four-columns ul.ou-blocks li:nth-child(2n+1),
-.ou-blocks-five-columns .ou-block:nth-child(2n+1), #ou-content .ou-blocks-five-columns ul.ou-blocks li:nth-child(2n+1) {
-	clear: left;
-}
-
-.ou-blocks-three-columns .ou-block, #ou-content .ou-blocks-three-columns ul.ou-blocks li,
-.ou-blocks-four-columns .ou-block,  #ou-content .ou-blocks-four-columns ul.ou-blocks li,
-.ou-blocks-five-columns .ou-block,  #ou-content .ou-blocks-five-columns ul.ou-blocks li {
-	width: 48%;
-}
-
-
-
-=======
->>>>>>> turvey
 
 } /* end media query */
 
@@ -605,13 +498,6 @@ div.ou-c3of3,
 	margin-right:0;
 }
 
-/* blocks new code to replace above */
-
-.mobile-one-column .ou-block, 
-#ou-content .mobile-one-column ul.ou-blocks li {
-	width: 100%;
-	margin-right:0;
-}
 
 
 } /* end media query */

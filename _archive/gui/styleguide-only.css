@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+
+/*
+-------------------------------------------
+	Style Guide / Demo Site only
+-------------------------------------------
+*/
+
+pre.prettyprint {
+	padding:5px 20px 10px 20px !important;
+	border:1px solid #222 !important;
+	max-height:300px;
+	margin-bottom:20px;
+}
+
+a.code-example-trigger {
+	margin-top:3px;
+	margin-left: -40px;
+	float:left;
+	text-indent:-5000em;
+	display:inline-block;
+	width:24px;
+	height:24px;
+	background:url(icon-code.png) top left no-repeat;
+}
+
+@media only screen and (max-width: 1200px), screen and (max-device-width: 1200px) {
+
+a.code-example-trigger {
+	margin-left:10px;
+	float:none;
+}
+	
+}
+
+body.styleguide-only #ou-site-body {margin: 40px auto;}
+
+.ou-full-nav .subnav {display:none;}
+
+.ou-full-nav .subnav.active {display:block;}
+
+.ou-full-nav li.active-parent a {background-color:#e7eff7;}
+
+.ou-full-nav li.active-parent.top-level a {background-color:#fff;}
+
+
+
+
+#ou-content span.code-toggle a {
+	float:right;
+	display:inline-block;
+	background-color:#fff;
+	color:#000;
+	border-radius:4px;
+	padding:2px 6px;
+	margin-top:3px;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	line-height:normal;
+}
+
+#ou-content span.code-toggle a i {
+	font-weight:bold;
+}
+
+#ou-content span.code-toggle a:hover {
+	background-color:#222;
+	color:#ffc23d;
+}
+
+#ou-content ul.colours,
+#ou-content ul.colours li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#ou-content ul.colours li:before {
+	content:"";
+}
+
+#ou-content ul.colours li {
+	display:inline-block;
+	width:110px;
+	margin-right:10px;
+	margin-bottom:10px;
+	zoom: 1;
+    *display: inline;
+}
+
+span.colours-title {
+	font-weight:bold;
+	display:block;
+}
+
+span.colours-hex {
+	display:block;
+	color:#555;
+	font-size:13px;
+}
+
+span.colours-swatch {
+	width:110px; 
+	height:110px;
+	display:block;
+	margin-top:5px;
+	border-radius:2px;
+}
+
+.styleguide .ou-cols,
+.styleguide .ou-row div {background:#ddd; text-align:center; padding:4px 0;}
+
+.styleguide .ou-grid {margin:0 0 25px 0;}
+
+.styleguide h2 {margin:0 0 25px 0;}
+
+.styleguide .box h2 {margin:0 0 10px 0;}
+
+.styleguide .block, 
+.styleguide .blocks-three-columns ul li {background-color: #eee;}
+
+.styleguide .block p, 
+.styleguide .blocks-three-columns ul li p {text-align:center; margin-bottom:0;}
+

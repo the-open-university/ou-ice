@@ -1,0 +1,45 @@
+/*
+-------------------------------------------
+    Colour Palette
+-------------------------------------------
+
+    Green               #539d3c
+    Red                 #b52a1e
+    Gold                #ffc23d
+    Dark Purple         #470d43
+    Mid Blue            #0b55a8
+    Light Blue          #a6d0ff
+    Dark Blue           #002158
+    Dark Grey           #312b39
+    Purple              #880088
+    Mid Grey Blue       #929fb0
+    Light Grey Blue     #e7eff7
+    Orange              #CF6041
+
+*/
+
+.colour1 {color:#539d3c !important;} /* green */
+.colour2 {color:#b52a1e !important;} /* red */
+.colour3 {color:#ffc23d !important;} /* gold */
+.colour4 {color:#470d43 !important;} /* dark purple */
+.colour5 {color:#0b55a8 !important;} /* mid blue */
+.colour6 {color:#a6d0ff !important;} /* light blue */
+.colour7 {color:#002158 !important;} /* dark blue */
+.colour8 {color:#312b39 !important;} /* dark grey */
+.colour9 {color:#880088 !important;} /* purple */
+.colour10 {color:#929fb0 !important;} /* mid grey blue */
+.colour11 {color:#e7eff7 !important;} /* light grey blue */
+.colour12 {color:#cf6041 !important;} /* orange */
+
+.bg-colour1 {background-color:#539d3c !important;} /* green */
+.bg-colour2 {background-color:#b52a1e !important;} /* red */
+.bg-colour3 {background-color:#ffc23d !important;} /* gold */
+.bg-colour4 {background-color:#470d43 !important;} /* dark purple */
+.bg-colour5 {background-color:#0b55a8 !important;} /* mid blue */
+.bg-colour6 {background-color:#a6d0ff !important;} /* light blue */
+.bg-colour7 {background-color:#002158 !important;} /* dark blue */
+.bg-colour8 {background-color:#312b39 !important;} /* dark grey */
+.bg-colour9 {background-color:#880088 !important;} /* purple */
+.bg-colour10 {background-color:#929fb0 !important;} /* mid grey blue */
+.bg-colour11 {background-color:#e7eff7 !important;} /* light grey blue */
+.bg-colour12 {background-color:#cf6041 !important;} /* orange */

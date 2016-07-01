@@ -223,11 +223,7 @@ hr {
 }
 
 
-<<<<<<< HEAD
-
-=======
 /*
->>>>>>> turvey
 pre {
 	overflow: auto;
 	background-color:#333;
@@ -237,15 +233,9 @@ pre {
 	margin: 0 0 20px 0;
 	white-space: pre-wrap;       
 	white-space: -moz-pre-wrap;  
-<<<<<<< HEAD
-	white-space: -pre-wrap;      
-	white-space: -o-pre-wrap;    
-	word-wrap: break-word;       
-=======
 	white-space: -pre-wrap;     
 	white-space: -o-pre-wrap;    
 	word-wrap: break-word;      
->>>>>>> turvey
 	word-break: keep-all;
 }
 
@@ -269,6 +259,7 @@ pre code::-moz-selection {
 	background:#ffc23d;
 }
 */
+
 
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
