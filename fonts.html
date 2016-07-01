@@ -1,32 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
 
-<title>Fonts | OU ICE</title>
-
-<link rel="stylesheet" type="text/css" href="gui/styles.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="gui/header-footer.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="gui/responsive-tabs.css" />
-
-<link rel="stylesheet" type="text/css" href="gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" />
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-<!-- favicons -->
-<link rel="apple-touch-icon" href="gui/apple-touch-icon.png">
-<link rel="icon" href="gui/favicon.png">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="gui/ie10-win8-tile-icon.png">
-
-
-<meta name="keywords" content="" />
-<meta name="description" content="" />
+    <meta charset="utf-8" />
+    
+    <title>Fonts - OU ICE</title>
+    
+    <link rel="stylesheet" type="text/css" href="gui/header-footer.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="gui/styles.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <link rel="apple-touch-icon" href="gui/icons/apple-touch-icon.png">
+    <link rel="icon" href="gui/icons/favicon.png">
 
 </head>
 
-<body class="styleguide-only">
+<body class="one-col">
 
 <div id="ou-org">
 
@@ -37,6 +28,13 @@
 <div id="ou-site">
 
 <div id="ou-site-header">
+
+	<div class="ou-ice-back">
+    	<div class="ou-wrapper">
+            <a href="index.html">OU ICE</a>
+        </div>
+    </div>
+
 </div> <!-- end ou-site-header -->
 
 <div id="ou-site-body">
@@ -44,12 +42,6 @@
 <div id="ou-page">
 
 <div id="ou-region0">
-
-<ol class="ou-ancestors">
-    <li><a href="index.html">Home</a></li>
-    <li>Fonts</li>
-</ol>
-
 </div> <!-- end ou-region0 -->
 
 <div id="ou-region1">
@@ -59,7 +51,10 @@
 <div id="ou-content" class="ou-content">
 
 <h1>Fonts</h1>
-<p>The font stacks for standard text and headings. The reason that Arial and Helvetica are stacked differently for body text and headlines is that Helvetica is clearer at larger sizes and Arial (slightly) clearer at smaller sizes. <a href="#fonta">FontAwesome details</a> at the bottom.</p>
+
+<p>The font stacks for standard text and headings. The reason that Arial and Helvetica are stacked differently for body text and headlines is that Helvetica is clearer at larger sizes and Arial (slightly) clearer at smaller sizes. <a href="#fonta">Font Awesome details</a> at the bottom.</p>
+
+<hr>
 
 <h2>Body</h2>
 
@@ -69,6 +64,7 @@
 
 <h2>Headings</h2>
 
+<div class="code-example">
 <p>Helvetica, Arial, sans-serif;</p>
 
 <h1>Heading, level 1</h1>
@@ -95,17 +91,17 @@
 
 <p>Paragraph block: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a elit nisi. Quisque varius sapien sem, et interdum felis. Etiam egestas varius aliquet. Fusce elit ipsum, dictum sit amet rhoncus non, consequat nec sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Nam nunc turpis, pretium in tincidunt vel, venenatis sit amet nulla. Quisque quis justo neque, semper dictum libero. Donec eu est mauris. Integer a orci ac tortor scelerisque volutpat sed ut nisl. Praesent sapien erat, pulvinar eget lacinia vehicula, pellentesque vel quam. In diam elit, suscipit id aliquam fringilla, aliquam ut magna. Nunc laoreet malesuada elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lorem quam, porta sit amet dictum a, aliquam sed metus. Donec ut mauris sed mi laoreet dapibus vel et tortor.</p>
 
+</div>
+
 <hr>
 
 <h2 id="fonta">Font Awesome</h2>
 
-<p>Font Awesome is installed for the easy addition of icons throughout the site using the <strong>&lt;i&gt;</strong> tag. For example, this code:</p>
-
-<pre><code><i class="fa fa-flask"></i> This is a flask icon</code></pre>
-
-<p>Will give you:</p>
-
+<div class="code-example">
 <p><i class="fa fa-flask"></i> This is a flask icon</p>
+</div>
+
+<p>Font Awesome is installed for the easy addition of icons throughout the site using the <strong>&lt;i&gt;</strong> tag.</p>
 
 <p>Here is a full list of <a href="http://fortawesome.github.io/Font-Awesome/icons/" class="ou-external">available icons</a>.</p>
 
@@ -140,16 +136,8 @@
 <!-- Javascripts -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
-<script src="js/responsive-tabs.min.js"></script>
-
-<script>
-$(document).ready(function() {
-    RESPONSIVEUI.responsiveTabs();
-})
-</script>
-
-<!-- Styleguide/demo site js -->
-<script src="js/styleguide-only.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=desert" defer></script>
+<script src="demo/demo.js"></script>
 
 </body>
 </html>

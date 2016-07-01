@@ -323,8 +323,8 @@ a.ou-btn:hover {
 -------------------------------------------
 */
 
-p.ou-introduction {
-	color: #0b55a8;
+.ou-introduction {
+	color: #000;
 	font-size: 1.2em;
 }
 
@@ -396,38 +396,6 @@ div.ou-audio blockquote .ou-dialogue dt:before {
 }
 
 
-/*
--------------------------------------------
-	Blockquotes
--------------------------------------------
-*/
-
-blockquote cite a {text-decoration:none;}
-
-blockquote.ou-pullquote1,
-blockquote.ou-pullquote2 {
-	width: 40%;
-	float: left;
-	margin-left:0;
-	padding-right:0;
-}
-
-blockquote.ou-pullquote2 {
-	float:right;
-	margin-right:0;
-	margin-left:40px;
-}
-
-blockquote.ou-pullquote1 p,
-blockquote.ou-pullquote2 p {
-	font-size:1.2em;
-	color:#0b55a8;
-}
-
-#ou-region2 blockquote {
-	margin: 16px 0;
-	padding: 30px 0 20px 0;
-}
 
 
 
@@ -514,82 +482,41 @@ a.ou-advert .ou-advert-highlighted {
 a.ou-advert h2 {font-size:1.4em;}
 
 
-/*
--------------------------------------------
-	Calendar - DELETE
--------------------------------------------
-*/
-
-.ou-calendar {margin-bottom:25px;}
-
-.ou-calendar .ou-calendar-row {
-	margin-bottom:12px;
-	padding-bottom:12px;
-	border-bottom:1px solid #eee;
-}
-
-.ou-calendar .ou-calendar-row:last-child {
-	margin-bottom:0;
-	padding-bottom:0;
-	border-bottom:none;
-}
-
-.ou-calendar .ou-calendar-date {
-	width:55px;
-	height:auto;
-	float:left;
-	margin-right:10px;
-}
-
-.ou-calendar .ou-calendar-date em {
-	font-style:normal;
-	font-size:.9em;
-	color:#fff;
-	background:#b52a1e;
-	padding:3px;
-	text-align:center;
-	text-transform:uppercase;
-	display:block;
-}
-
-.ou-calendar .ou-calendar-date strong {
-	text-align:center;
-	color:#000;
-	font-size:25px;
-	font-weight:normal;
-	display:block;
-	background:#f5f5f5;
-	background: linear-gradient(to bottom, #f5f5f5 0%, #f5f5f5 50%, #eeeeee 50%, #eeeeee 100%);
-	padding:10px 0;
-}
-
-.ou-calendar .ou-calendar-info {
-	color:#666;
-	margin-left:65px;
-}
-
-.ou-calendar .ou-calendar-info h2,
-.ou-calendar .ou-calendar-info h3 {
-	font-size:1em;
-	font-weight:bold;
-	color:black;
-	margin:0 0 3px 0;
-}
-
-.ou-calendar .ou-calendar-info h2 a,
-.ou-calendar .ou-calendar-info h3 a {text-decoration:none;}
-
-.ou-calendar .ou-calendar-info p {
-	margin-bottom:0;
-	font-size:.9em;
-}
-
 
 /*
 -------------------------------------------
 	Blockquotes
 -------------------------------------------
 */
+
+
+blockquote cite a {text-decoration:none;}
+
+blockquote.ou-pullquote1,
+blockquote.ou-pullquote2 {
+	width: 40%;
+	float: left;
+	margin-left:0;
+	padding-right:0;
+}
+
+blockquote.ou-pullquote2 {
+	float:right;
+	margin-right:0;
+	margin-left:40px;
+}
+
+blockquote.ou-pullquote1 p,
+blockquote.ou-pullquote2 p {
+	font-size:1.2em;
+	color:#0b55a8;
+}
+
+#ou-region2 blockquote {
+	margin: 16px 0;
+	padding: 30px 0 20px 0;
+}
+
 
 
 blockquote {
@@ -633,6 +560,9 @@ blockquote p {
 
 blockquote p:last-child {margin-bottom:0;}
 
+
+
+
 /*
 -------------------------------------------
 	Events
@@ -652,8 +582,8 @@ span.ou-events__current {
 	font-weight:bold;
 }
 
-a.ou-events__prev,
-a.ou-events__next {
+.ou-events__prev,
+.ou-events__next {
 	display:inline-block;
 	float:left;
 	text-decoration:none;
@@ -661,30 +591,33 @@ a.ou-events__next {
 	border-right:1px solid #ddd;
 }
 
-a.ou-events__next {
+.ou-events__next {
 	float:right;
 	border-right:0;	
 	border-left:1px solid #ddd;
 }
 
-a.ou-events__prev:before,
-a.ou-events__next:after {
+.ou-events__prev:before,
+.ou-events__next:after {
 	content: "\25c0";
 	color:#999;
-	font-size:8px;
+	font-size:9px;
 	display:block;
 	float:left;
-	margin:0 4px 0 0;
+	margin:2px 4px 0 0;
 }
 
-a.ou-events__next:after {
+.ou-events__next:after {
 	content: "\25b6 ";
 	float:right;
-	margin:0 0 0 4px;
+	margin:2px 0 0 4px;
 }
 
-a.ou-events__prev:hover,
-a.ou-events__next:hover {background:#ddd;}
+.ou-events__prev:hover,
+.ou-events__next:hover {
+	background:#ddd;
+	text-decoration:none;
+}
 
 .ou-events__day {
 	border-bottom:1px solid #eee;
@@ -723,17 +656,14 @@ a.ou-events__next:hover {background:#ddd;}
 
 .ou-events__event {margin-left:75px;	}
 
-h2.ou-events__event-title,
-h3.ou-events__event-title {
+.ou-events__event-title {
 	font-size:1.2em;
 	margin:0 0 8px 0;	
 }
 
-h2.ou-events__event-title a,
-h3.ou-events__event-title a {text-decoration:none;}
+.ou-events__event-title a {text-decoration:none;}
 
-
-p.ou-events__event-time {
+.ou-events__event-time {
 	color:#777;	
 	font-size:.9em;
 	font-weight:bold;

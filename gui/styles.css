@@ -10,7 +10,12 @@
 */
 
 
-@import url('normalize.css');
+@import url('global.normalize.css');
+@import url('global.resets.css');
+@import url('global.box-sizing.css');
+
+@import url('objects.blocks.css');
+
 @import url('html.css');
 @import url('layout.css');
 @import url('tables.css');

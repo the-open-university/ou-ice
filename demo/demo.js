@@ -10,15 +10,15 @@
             var $example = $(this);
             var $pre = $('<pre></pre>');
             $pre.text($example.html())
-                .addClass('prettyprint')
+                .addClass('prettyprint prettyprint-toglable')
                 .insertBefore($example);
         });
 
         $('code.lang-html').text($('code.lang-html').html());
     
-        $('pre.prettyprint').hide();
+        $('pre.prettyprint-toglable').hide();
 		$('.code-example-trigger').click(function () {
-		  $(this).parent().nextAll('pre.prettyprint').first().slideToggle('fast');
+		  $(this).parent().nextAll('pre.prettyprint-toglable').first().slideToggle('fast');
 		  return false;
 		});	
 		

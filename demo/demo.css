@@ -70,8 +70,6 @@
 .ou-ice-back a:hover {color:#a6d0ff;}
 
 
-/**/
-
 /*
 -------------------------------------------
 	Code examples
@@ -84,7 +82,7 @@ pre.prettyprint {
 	border:1px solid #222 !important;
 	max-height:300px;
 	margin-bottom:20px;
-	overflow:scroll;
+	overflow-y:scroll;
 }
 
 a.code-example-trigger {
@@ -107,44 +105,27 @@ a.code-example-trigger {
 	
 }
 
-/**/
 
 
-#ou-content span.code-toggle a {
-	float:right;
-	display:inline-block;
-	background-color:#fff;
-	color:#000;
-	border-radius:4px;
-	padding:2px 6px;
-	margin-top:3px;
-	font-size:16px;
-	font-family:Arial, Helvetica, sans-serif;
-	text-decoration:none;
-	line-height:normal;
-}
+/*
+-------------------------------------------
+	Colour swatches
+-------------------------------------------
+*/
 
-#ou-content span.code-toggle a i {
-	font-weight:bold;
-}
 
-#ou-content span.code-toggle a:hover {
-	background-color:#222;
-	color:#ffc23d;
-}
-
-#ou-content ul.colours,
-#ou-content ul.colours li {
+ul.colours,
+ul.colours li {
 	margin:0;
 	padding:0;
 	list-style:none;
 }
 
-#ou-content ul.colours li:before {
+ul.colours li:before {
 	content:"";
 }
 
-#ou-content ul.colours li {
+ul.colours li {
 	display:inline-block;
 	width:110px;
 	margin-right:10px;
@@ -172,6 +153,12 @@ span.colours-swatch {
 	border-radius:2px;
 }
 
+
+
+
+
+
+
 .styleguide .ou-cols,
 .styleguide .ou-row div {background:#ddd; text-align:center; padding:4px 0;}
 
@@ -180,10 +167,4 @@ span.colours-swatch {
 .styleguide h2 {margin:0 0 25px 0;}
 
 .styleguide .box h2 {margin:0 0 10px 0;}
-
-.styleguide .block, 
-.styleguide .blocks-three-columns ul li {background-color: #eee;}
-
-.styleguide .block p, 
-.styleguide .blocks-three-columns ul li p {text-align:center; margin-bottom:0;}
 

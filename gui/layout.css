@@ -232,7 +232,7 @@ body.ou-site-ident #ou-site-header {border-bottom:1px solid #ddd;}
 	OU Blocks
 	remove #ou-content when possible
 -------------------------------------------
-*/
+
 
 .ou-blocks-two-columns,
 .ou-blocks-three-columns,
@@ -294,7 +294,7 @@ body.ou-site-ident #ou-site-header {border-bottom:1px solid #ddd;}
 .ou-blocks-four-columns .ou-block:nth-child(4n), #ou-content .ou-blocks-four-columns ul.ou-blocks li:nth-child(4n),
 .ou-blocks-five-columns .ou-block:nth-child(5n), #ou-content .ou-blocks-five-columns ul.ou-blocks li:nth-child(5n) {margin-right:0;}
 
-
+*/
 
 
 
@@ -381,7 +381,7 @@ body.one-col #ou-region2 {
 }
 
 
-/* ou blocks new code */
+/* ou blocks new code 
 
 .ou-blocks-three-columns .ou-block:nth-child(3n), #ou-content .ou-blocks-three-columns ul.ou-blocks li:nth-child(3n),
 .ou-blocks-four-columns .ou-block:nth-child(4n), #ou-content .ou-blocks-four-columns ul.ou-blocks li:nth-child(4n) {
@@ -415,7 +415,7 @@ body.one-col #ou-region2 {
 .ou-blocks-five-columns .ou-block,  #ou-content .ou-blocks-five-columns ul.ou-blocks li {
 	width: 48%;
 }
-
+*/
 
 
 
@@ -490,14 +490,14 @@ div.ou-c3of3,
 #ou-site-ident p#ou-site-description {font-size:.9em;}
 
 
-/* blocks new code */
+/* blocks new code 
 
 .mobile-one-column .ou-block, 
 #ou-content .mobile-one-column ul.ou-blocks li {
 	width: 100%;
 	margin-right:0;
 }
-
+*/
 
 
 } /* end media query */

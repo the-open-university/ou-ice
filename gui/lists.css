@@ -13,18 +13,15 @@
 
 /* unordered */
 
-#ou-content ul,
-#ou-region2 ul.ou-standard-list {
+.ou-list {
 	margin:0 0 15px 25px;
 	list-style-type: none;
 	padding: 0;
 }
 
-#ou-content ul ul,
-#ou-region2 ul.ou-standard-list ul {margin:0 0 0 25px;}
+.ou-list ul {margin:0 0 0 25px;}
 
-#ou-content ul li,
-#ou-region2 ul.ou-standard-list li {
+.ou-list li {
 	margin-bottom: 5px;
 	position: relative;
 	/*z-index:100;  so items can float alongside happily */
@@ -32,8 +29,7 @@
 	line-height:1.6em;
 }
 
-#ou-content ul li:before,
-#ou-region2 ul.ou-standard-list li:before {
+.ou-list li:before {
 	content: "\2022";
 	color: #0b55a8;
 	font-size: 1.8em;
@@ -130,8 +126,11 @@ ul.ou-list-alt3 li:before {
 
 /* list of links */
 
+.ou-link-list li {margin-bottom:10px;}
+
 .ou-link-list li a {text-decoration:none;}
 .ou-link-list li a:hover {text-decoration:underline;}
+
 
 
 /* 	
