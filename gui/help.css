@@ -95,7 +95,7 @@ body.ou-help-home3 #ou-content .search button.btn-submit {
 	top: 13px;
 	right: 15px;
 	background: transparent;
-	background-image: url(icon-search.png);
+	background-image: url(icons/icon-search.png);
 	background-position: 0 -17px;
 	background-repeat: no-repeat;
 	color: #0b55a8;
@@ -562,7 +562,7 @@ body.article-multi .related-help {padding-top:5px;}
 	top: 10px;
 	right: 12px;
 	background: transparent;
-	background-image: url(icon-search.png);
+	background-image: url(icons/icon-search.png);
 	background-position: 0 -17px;
 	background-repeat: no-repeat;
 	color: #0b55a8;
@@ -1233,7 +1233,7 @@ body.ou-help-home #ou-content .hero-top form {width:270px;}
 
 #ou-region0 .ou-quick-find form button,
 body.ou-help-home #ou-content .hero-top .search button.btn-submit {
-	background-image:url(icon-search@2x.png);
+	background-image:url(icons/icon-search@2x.png);
 	background-size:18px 34px;
 }
 
@@ -1292,7 +1292,7 @@ body.ou-help-future div#ou-region2 {
 	top: 12px;
 	right: 15px;
 	background: transparent;
-	background-image: url(icon-search.png);
+	background-image: url(icons/icon-search.png);
 	background-position: 0 -17px;
 	background-repeat: no-repeat;
 	color: #0b55a8;

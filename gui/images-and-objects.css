@@ -13,6 +13,106 @@
 
 /*
 -------------------------------------------
+	Articles
+-------------------------------------------
+*/
+
+.ou-articles__article {
+	border-bottom:1px solid #ddd;
+	padding-bottom:20px;
+	margin-bottom:20px;	
+}
+
+.block .ou-articles__article {
+	border-bottom:none;
+	padding-bottom:0;
+	margin-bottom:20px;	
+}
+
+.ou-articles__img {
+	float: left;
+    margin: 0;
+	width:140px;
+}
+
+.ou-articles__text {margin-left: 160px;}
+
+.ou-articles__article--nopic .ou-articles__text {margin-left: 0;}
+
+.ou-articles__text h2,
+.ou-articles__text h3 {
+    font-size:1.3em;
+	margin:0 0 10px 0;
+	line-height:130%;
+}
+
+.ou-articles__text h2 a,
+.ou-articles__text h3 a {text-decoration:none;}
+
+.ou-articles__text p {margin-bottom: 15px;}
+
+.ou-articles__text p:last-child {margin-bottom:0;}
+
+.ou-articles__more {margin-top:-5px;}
+
+.ou-articles__date {
+	color:#777;	
+	margin:10px 0 0 0;
+	line-height:100%;
+	font-size:.9em;
+}
+
+
+/* alt articles */
+
+.ou-articles--alt .ou-articles__article {
+	border-bottom:none;
+	padding:20px;
+	margin:0;
+}
+
+.ou-articles--alt .ou-articles__article:nth-child(odd) {background: #e7eff7;}
+
+
+/* alt2 articles */
+
+.ou-articles--alt2 .ou-articles__article {border-bottom:none;}
+
+.ou-articles--alt2 .ou-articles__img  {width:100%; float:none; margin-bottom:10px;}
+
+.ou-articles--alt2 .ou-articles__text {margin-left:0;}
+
+
+
+/* promoted story */
+
+.ou-articles__article--promoted .ou-articles__img {width:200px;}
+
+.ou-articles__article--promoted .ou-articles__text {margin-left:220px;}
+
+.ou-articles__article--promoted .ou-articles__text h2,
+.ou-articles__article--promoted .ou-articles__text h3 {font-size:1.6em;}
+
+
+/* smaller news - for region2 and other areas */
+
+.ou-articles--smaller .ou-articles__img {width:100px;}
+
+.ou-articles--smaller .ou-articles__text {margin-left: 120px;}
+
+.ou-articles--smaller .ou-articles__text h2,
+.ou-articles--smaller .ou-articles__text h3 {
+	font-size:1em;
+	font-weight:bold;
+	margin-bottom:4px;
+}
+
+.ou-articles--smaller .ou-articles__article--nopic .ou-articles__text {margin-left: 0;}
+
+
+
+/*
+-------------------------------------------
 	Images
 -------------------------------------------
 */
@@ -485,6 +585,53 @@ a.ou-advert h2 {font-size:1.4em;}
 }
 
 
+/*
+-------------------------------------------
+	Blockquotes
+-------------------------------------------
+*/
+
+
+blockquote {
+	margin: 16px 40px;
+	padding: 30px 0 20px 0;
+	position:relative;
+}
+
+blockquote:before, 
+blockquote:after {
+	font-family: 'FontAwesome';
+	font-size:25px;
+	content: "\f10d";
+	color:#a6d0ff;
+	display: block;
+	position: absolute;
+}
+
+blockquote:before {
+	left:0;
+	top: 0;
+}
+
+blockquote:after {
+	bottom: 0;
+	right: 0;
+	content: "\f10e";
+}
+
+blockquote cite {
+	font-size:.9em;
+	font-style:normal;	
+	color:#000;
+}
+
+blockquote p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #0b55a8;
+	font-size: 1.2em;
+}
+
+blockquote p:last-child {margin-bottom:0;}
 
 /*
 -------------------------------------------
@@ -734,6 +881,15 @@ p.ou-events__event-time {
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
+/* articles */
+
+.ou-articles__article--promoted .ou-articles__img,
+.block .ou-articles__img {width:100%; float:none; margin-bottom:15px;}
+
+.ou-articles__article--promoted .ou-articles__text,
+.block .ou-articles__text {margin-left:0;}
+
+
 img.ou-go1,
 img.ou-go2,
 #ou-content ul.ou-news img {
@@ -766,6 +922,7 @@ blockquote.ou-pullquote2 p {
 
 .ou-articles__article--promoted .ou-articles__text,
 .block .ou-articles__text {margin-left:0;}
+
 
 
 

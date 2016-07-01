@@ -5,7 +5,7 @@
 --------------------------------------------------------------------------------------
 	
 	html.css
-	core html elements only, no classes
+	core html elements only (no classes)
 
 --------------------------------------------------------------------------------------
 */
@@ -31,7 +31,8 @@ menu, footer, header, nav, section, summary, time, mark, audio, video {
 	border: 0;
 }
 
-ul, ul li {
+ul, 
+ul li {
 	list-style:none;
 	list-style-type:none;
 }
@@ -49,11 +50,13 @@ body {
 	font-family:Arial, Helvetica, sans-serif;
 	color: #222;
 	background-color: #fff;
-	line-height:120%;
 }
 
-img {max-width:100%;}
+img {
+	max-width:100%;
+	border:none;
 
+}
 
 a {
 	color:#039;
@@ -66,6 +69,8 @@ a:hover {
 }
 
 
+
+
 /*
 -------------------------------------------
 	Headings
@@ -75,21 +80,22 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: Helvetica, Arial, sans-serif;
-	font-weight: normal;
+	font-weight: bold;
 	font-style: normal;
 	color: #000;
 	margin:20px 0 10px 0;
-	line-height:120%;
+	line-height:130%;
 }
 
 h1 {
-	font-size: 2.1em; 
+	font-size: 2em; 
 	margin:0 0 25px 0;
-	padding:0 0 5px 0;
-	border-bottom: 1px solid #ddd;
 }
 
-h2 {font-size: 1.8em; margin-bottom:15px;}
+h2 {
+	font-size: 1.7em;
+	margin-bottom:15px;
+}
 
 h3 {font-size: 1.5em;}
 
@@ -98,36 +104,6 @@ h4 {font-size: 1.3em;}
 h5 {font-size: 1.1em; }
 
 h6 {font-size: 1em;}
-
-/* if georgia...
-
-h1, h2, h3, h4, h5, h6 {
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-weight: normal;
-	font-style: normal;
-	color: #000;
-	margin:20px 0 10px 0;
-	line-height:120%;
-}
-
-h1 {
-	font-size: 2.5em; 
-	margin:0 0 25px 0;
-	padding:0 0 5px 0;
-	border-bottom: 1px solid #ddd;
-}
-
-h2 {font-size: 2em;}
-
-h3 {font-size: 1.6em;}
-
-h4 {font-size: 1.4em;}
-
-h5 {font-size: 1.2em;}
-
-h6 {font-size: 1em;}
-
-*/
 
 
 
@@ -140,65 +116,18 @@ h6 {font-size: 1em;}
 
 p {
 	margin:0 0 15px 0;
-	line-height:1.6em;
+	line-height:160%;
 }
 
-small {font-size: 90%; color:#666;}
+small {
+	font-size: 90%;
+	color:#666;
+}
 
 ins {
 	text-decoration:none;
 	background-color:#eee;
 }
-
-
-
-/*
--------------------------------------------
-	Blockquotes
--------------------------------------------
-*/
-
-
-blockquote {
-	margin: 16px 40px;
-	padding: 30px 0 20px 0;
-	position:relative;
-}
-
-blockquote:before, 
-blockquote:after {
-	font-family: 'FontAwesome';
-	font-size:25px;
-	content: "\f10d";
-	color:#a6d0ff;
-	display: block;
-	position: absolute;
-}
-
-blockquote:before {
-	left:0;
-	top: 0;
-}
-
-blockquote:after {
-	bottom: 0;
-	right: 0;
-	content: "\f10e";
-}
-
-blockquote cite {
-	font-size:.9em;
-	font-style:normal;	
-	color:#000;
-}
-
-blockquote p {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #0b55a8;
-	font-size: 1.2em;
-}
-
-blockquote p:last-child {margin-bottom:0;}
 
 
 
@@ -230,12 +159,12 @@ table {
 	width: 100%;
 	max-width: 100%;
 	border-collapse: collapse;
-	margin: 0 0 15px 0;
+	margin: 0 0 20px 0;
 }
 
 td, 
 th {
-	padding: 0.875em 1.5em 0.75em 1.5em;
+	padding: 10px 15px;
 	border-bottom: 1px solid #a6d0ff;
 	border-right: 1px solid #a6d0ff;
 }
@@ -261,7 +190,7 @@ table tr:nth-child(even) {background: #e7eff7;}
 
 table caption {
 	background: #ddd;
-	padding: 0.5em;
+	padding: 10px 15px;
 	font-weight: bold;
 	font-size: 1.1em;
 	text-align:center;
@@ -294,7 +223,11 @@ hr {
 }
 
 
+<<<<<<< HEAD
 
+=======
+/*
+>>>>>>> turvey
 pre {
 	overflow: auto;
 	background-color:#333;
@@ -304,9 +237,15 @@ pre {
 	margin: 0 0 20px 0;
 	white-space: pre-wrap;       
 	white-space: -moz-pre-wrap;  
+<<<<<<< HEAD
 	white-space: -pre-wrap;      
 	white-space: -o-pre-wrap;    
 	word-wrap: break-word;       
+=======
+	white-space: -pre-wrap;     
+	white-space: -o-pre-wrap;    
+	word-wrap: break-word;      
+>>>>>>> turvey
 	word-break: keep-all;
 }
 
@@ -329,31 +268,20 @@ pre code::-moz-selection {
 	color:#000;
 	background:#ffc23d;
 }
-
-
-
+*/
 
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
 h1 {font-size: 1.8em; }
-
 h2 {font-size: 1.6em;}
-
 h3 {font-size: 1.4em;}
-
 h4 {font-size: 1.3em;}
-
 h5 {font-size: 1.1em; }
-
 h6 {font-size: 1em;}
 
 
 hr {margin: 20px 0;}
-
-blockquote p {font-size:1em;}
-
-
 
 
 } /* end media query */

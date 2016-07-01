@@ -4,13 +4,13 @@
 /*
 --------------------------------------------------------------------------------------
 
-	OU STUDENT THEME FRAMEWORK
+	OU ICE
 
 --------------------------------------------------------------------------------------
 */
 
 
-@import url('normalize.css'); /* do we want this? */
+@import url('normalize.css');
 @import url('html.css');
 @import url('layout.css');
 @import url('tables.css');
@@ -22,4 +22,5 @@
 @import url('forums.css');
 @import url('colours.css');
 @import url('misc.css');
-@import url('styleguide-only.css'); /* styles unique to demo site */
+@import url('legacy.css'); 	/* backwards-compatibility */
+@import url('../demo/demo.css'); 	/* demo site only */

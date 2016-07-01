@@ -183,7 +183,7 @@ a.ou-skip:active {
 	top: 10px;
 	right: 10px;
 	background: transparent;
-	background-image:url(icon-search.png);
+	background-image:url(icons/icon-search.png);
 	background-position:top right;
 	background-repeat:no-repeat;
     color: #0b55a8;
@@ -267,7 +267,7 @@ a.ou-skip:active {
 	width:16px;
 	height:16px;
 	color:#ffc23d;
-	background-image:url(icon-arrow.png);
+	background-image:url(icons/icon-arrow.png);
 	background-position:left -20px;
 	background-repeat:no-repeat;
 	text-indent:-5000em;
@@ -363,12 +363,12 @@ a.ou-skip:active {
 }
 
 #ou-header #ou-service-links .ou-search button {
-	background-image:url(icon-search@2x.png);
+	background-image:url(icons/icon-search@2x.png);
 	background-size:18px 34px;
 }
 
 #ou-header a.ou-mobile-menu-toggle {
-	background-image:url(icon-arrow@2x.png);
+	background-image:url(icons/icon-arrow@2x.png);
 	background-size:30px 331px;
 }
 
