@@ -1,0 +1,104 @@
+/*
+--------------------------------------------------------------------------------------
+
+	OU Grid
+	objects.grid.css
+
+--------------------------------------------------------------------------------------
+*/
+
+
+/* clear */
+
+.ou-grid:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+/**/
+
+.ou-grid {margin-bottom:20px;}
+
+/* move this later */
+.mb-0 {margin-bottom:0;}
+/**/
+
+
+
+.ou-grid__1,
+.ou-grid__2,
+.ou-grid__3,
+.ou-grid__4,
+.ou-grid__5,
+.ou-grid__6,
+.ou-grid__7,
+.ou-grid__8,
+.ou-grid__9,
+.ou-grid__10,
+.ou-grid__11,
+.ou-grid__12 {
+	float:left;
+	display:block;
+	margin-left:2%;
+}
+
+.ou-grid__1 {width:6.5%;}
+.ou-grid__2 {width:15%;}
+.ou-grid__3 {width:23.5%;}
+.ou-grid__4 {width:32%;}
+.ou-grid__5 {width:40.5%;}
+.ou-grid__6 {width:49%;}
+.ou-grid__7 {width:57.5%;}
+.ou-grid__8 {width:66%;}
+.ou-grid__9 {width:74.5%;}
+.ou-grid__10 {width:83%;}
+.ou-grid__11 {width:91.5%;}
+.ou-grid__12 {width:100%; margin-left:0;}
+
+.ou-grid > div:first-child {margin-left:0;}
+
+
+
+@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+
+
+.ou-grid--tablet {margin-bottom:0;}
+
+.ou-grid--tablet > div {
+	width:48%;
+	margin-left:4%;
+	margin-bottom:15px;
+}
+
+.ou-grid--tablet > div:nth-child(2n+1) {clear: left;}
+
+.ou-grid--tablet > div:nth-child(odd) {margin-left: 0;}
+
+
+} /* end media query */
+
+
+
+@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+
+
+.ou-grid > div,
+.ou-grid--tablet > div {
+	width: 100%;
+	float:left;
+	margin:0 0 15px 0;
+}
+
+.ou-grid--mobile > div {
+	width:48%;
+	float:left;
+	margin-right:4%;
+}
+
+.ou-grid--mobile > div:nth-child(2n+1) {clear: left;}
+
+.ou-grid--mobile > div:nth-child(even) {margin-right: 0;}
+
+
+} /* end media query */

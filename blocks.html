@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 
@@ -16,11 +16,10 @@
     <link rel="icon" href="gui/icons/favicon.png">
 
 	<style>
-    .ou-block, 
-    .ou-blocks-three-columns ul li {background-color: #eee;}
-    
-    .ou-block p, 
-    .ou-blocks-three-columns ul li p {text-align:center; margin-bottom:0;}
+	/* make blocks grey for examples so they are visible */
+    .ou-blocks > div, 
+    .ou-blocks--3-cols > li {background-color: #eee;}
+    .ou-blocks p {text-align:center; margin-bottom:0;}
     </style>
 
 </head>
@@ -59,176 +58,180 @@
 
 <h1>Blocks</h1>
 
-<p class="ou-introduction">OU Blocks are a way to float same-sized blocks of content within the same container with no restrictions on how many you have.</p>
+<p class="ou-introduction">Blocks are a way to float same-sized blocks of content within the same container with no restrictions on how many you have.</p>
 
 <p>You could do a similar thing using the <a href="layout-grid.html">grid</a> but that requires separate divs for each row of content, and that's not very useful if, for example, you have a long list of items you want to keep together in the same container. The other advantage of Blocks is that you don't have to specify the size of each block - you simply add a class to the container to say 2, 3, 4 or 5 columns and then the blocks within automatically adjust their size accordingly.</p>
 
 <div class="box ou-info">
-<p><strong>Note</strong>: All block layouts become two columns for tablet/mobile screen sizes (except for <strong>mobile-one-column</strong> example - see below).</p>
+    <p><strong>Note</strong>: All block layouts become two columns for tablet/mobile screen sizes (unless you specify a one column layout for mobile - see final example).</p>
 </div>
 
 <hr>
 
 <h2>2 columns</h2>
 
-<div class="ou-blocks-two-columns">
+<div class="code-example">
+<div class="ou-blocks ou-blocks--2-cols">
 
-    <div class="ou-block">
-    <p>1</p>
+    <div>
+        <p>1</p>
     </div>
     
-    <div class="ou-block">
-    <p>2</p>
+    <div>
+        <p>2</p>
     </div>
     
-    <div class="ou-block">
-    <p>3</p>
+    <div>
+        <p>3</p>
     </div>
     
-    <div class="ou-block">
-    <p>4</p>
+    <div>
+        <p>4</p>
     </div>
     
-    <div class="ou-block">
-    <p>5</p>
+    <div>
+        <p>5</p>
     </div>
     
-    <div class="ou-block">
-    <p>6</p>
+    <div>
+        <p>6</p>
     </div>
     
-    <div class="ou-block">
-    <p>7</p>
+    <div>
+        <p>7</p>
     </div>
         
-    <div class="ou-block">
-    <p>8</p>
+    <div>
+        <p>8</p>
     </div>
 
+</div>
 </div>
 
 <hr>
 
 <h2>3 columns</h2>
 
-<div class="ou-blocks-three-columns">
+<div class="code-example">
+<div class="ou-blocks ou-blocks--3-cols">
 
-    <div class="ou-block">
-    <p>1</p>
+    <div>
+        <p>1</p>
     </div>
     
-    <div class="ou-block">
-    <p>2</p>
+    <div>
+        <p>2</p>
     </div>
     
-    <div class="ou-block">
-    <p>3</p>
+    <div>
+        <p>3</p>
     </div>
     
-    <div class="ou-block">
-    <p>4</p>
+    <div>
+        <p>4</p>
     </div>
     
-    <div class="ou-block">
-    <p>5</p>
+    <div>
+        <p>5</p>
     </div>
     
-    <div class="ou-block">
-    <p>6</p>
+    <div>
+        <p>6</p>
     </div>
     
-    <div class="ou-block">
-    <p>7</p>
+    <div>
+        <p>7</p>
     </div>
         
-    <div class="ou-block">
-    <p>8</p>
+    <div>
+        <p>8</p>
     </div>
 
+</div>
 </div>
 
 <hr>
 
 <h2>4 columns</h2>
 
+<div class="code-example">
+<div class="ou-blocks ou-blocks--4-cols">
 
-
-<div class="ou-blocks-four-columns">
-
-    <div class="ou-block">
-    <p>1</p>
+    <div>
+        <p>1</p>
     </div>
     
-    <div class="ou-block">
-    <p>2</p>
+    <div>
+        <p>2</p>
     </div>
     
-    <div class="ou-block">
-    <p>3</p>
+    <div>
+        <p>3</p>
     </div>
     
-    <div class="ou-block">
-    <p>4</p>
+    <div>
+        <p>4</p>
     </div>
     
-    <div class="ou-block">
-    <p>5</p>
+    <div>
+        <p>5</p>
     </div>
     
-    <div class="ou-block">
-    <p>6</p>
+    <div>
+        <p>6</p>
     </div>
     
-    <div class="ou-block">
-    <p>7</p>
+    <div>
+        <p>7</p>
     </div>
         
-    <div class="ou-block">
-    <p>8</p>
+    <div>
+        <p>8</p>
     </div>
 
+</div>
 </div>
 
 <hr>
 
-
 <h2>5 columns</h2>
 
+<div class="code-example">
+<div class="ou-blocks ou-blocks--5-cols">
 
-<div class="ou-blocks-five-columns">
-
-    <div class="ou-block">
-    <p>1</p>
+    <div>
+        <p>1</p>
     </div>
     
-    <div class="ou-block">
-    <p>2</p>
+    <div>
+        <p>2</p>
     </div>
     
-    <div class="ou-block">
-    <p>3</p>
+    <div>
+        <p>3</p>
     </div>
     
-    <div class="ou-block">
-    <p>4</p>
+    <div>
+        <p>4</p>
     </div>
     
-    <div class="ou-block">
-    <p>5</p>
+    <div>
+        <p>5</p>
     </div>
     
-    <div class="ou-block">
-    <p>6</p>
+    <div>
+        <p>6</p>
     </div>
     
-    <div class="ou-block">
-    <p>7</p>
+    <div>
+        <p>7</p>
     </div>
         
-    <div class="ou-block">
-    <p>8</p>
+    <div>
+        <p>8</p>
     </div>
 
+</div>
 </div>
 
 <hr>
@@ -237,9 +240,8 @@
 
 <p>In the above examples all the blocks are divs. You can also achieve the same thing using an unordered list. The same column counts are available - 2, 3, 4 and 5 - just add the correct class to the container as with the div examples.</p>
 
-<div class="ou-blocks-three-columns">
-
-    <ul class="ou-blocks">
+<div class="code-example">
+    <ul class="ou-blocks ou-blocks--3-cols">
         <li><p>1</p></li>
         <li><p>2</p></li>
         <li><p>3</p></li>
@@ -249,43 +251,43 @@
         <li><p>7</p></li>
         <li><p>8</p></li>
     </ul>
-
 </div>
 
 <hr>
 
 <h2>Mobile one column</h2>
 
-<p>By default all of the layouts above will stick to  a two column layout for mobile. To make this one column (100% widths) for mobile screen sizes, add the class "<strong>mobile-one-column</strong>" to the container. Example below.</p>
+<p>By default all of the layouts above will stick to  a two column layout for mobile. To make this one column (100% widths) for mobile screen sizes, add the class "<strong>ou-blocks--mob-1-col</strong>" to the container. Example below.</p>
 
-<div class="ou-blocks-three-columns mobile-one-column">
+<div class="code-example">
+<div class="ou-blocks ou-blocks--3-cols ou-blocks--mob-1-col">
 
-    <div class="ou-block">
-    <p>1</p>
+    <div>
+        <p>1</p>
     </div>
     
-    <div class="ou-block">
-    <p>2</p>
+    <div>
+        <p>2</p>
     </div>
     
-    <div class="ou-block">
-    <p>3</p>
+    <div>
+        <p>3</p>
     </div>
     
-    <div class="ou-block">
-    <p>4</p>
+    <div>
+        <p>4</p>
     </div>
     
-    <div class="ou-block">
-    <p>5</p>
+    <div>
+        <p>5</p>
     </div>
     
-    <div class="ou-block">
-    <p>6</p>
+    <div>
+        <p>6</p>
     </div>
 
 </div>
-
+</div>
 
 
 
@@ -312,16 +314,10 @@
 <!-- Javascripts -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
-<script src="js/responsive-tabs.min.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=desert" defer></script>
+<script src="demo/demo.js"></script>
 
-<script>
-$(document).ready(function() {
-    RESPONSIVEUI.responsiveTabs();
-})
-</script>
 
-<!-- Styleguide/demo site js -->
-<script src="js/styleguide-only.js"></script>
 
 </body>
 </html>
