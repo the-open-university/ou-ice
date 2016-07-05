@@ -35,17 +35,6 @@
 	text-decoration:underline;
 }
 
-.ou-quote--white {
-	border:1px solid #ddd;
-	color:#666;
-	background-color:#fff;
-}
-
-/* consolidate this with colour classes */
-.ou-quote--orange {background-color:#CF6040;}
-.ou-quote--dark-blue {background-color:#036;}
-/**/
-
 .ou-quote p {font-size:1.2em;}
 
 .ou-quote cite {
@@ -55,7 +44,12 @@
 	font-size:1em;
 }
 
-.ou-quote--white cite {color:#000;}
+.ou-quote--light {
+	border:1px solid #ddd;
+	color:#000;
+}
+
+.ou-quote--light cite {color:#000;}
 
 
 
@@ -137,13 +131,33 @@ blockquote p:last-child {margin-bottom:0;}
 
 
 
-
 } /* end media query */
 
 
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
+
+
+} /* end media query */
+
+
+
+/*
+-------------------------------------------
+	Retina
+-------------------------------------------
+*/
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+.ou-quote {
+	background-image:url(icons/icon-quotemarks@2x.png);
+	background-size:50px 42px;
+}
 
 
 } /* end media query */

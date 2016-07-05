@@ -50,25 +50,13 @@
 
 <h1>Quotes</h1>
 
-<p>Intro text to come. ST: Consolidate colour classes with this instead of using extra quote classes; add retina icon</p>
-
-<h2>White</h2>
-
-<div class="code-example">
-<blockquote class="ou-quote ou-quote--white">
-    <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying, 
-      along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding 
-      experiences of my life. Huge thanks to the OU.</p>
-    <a href="#" class="ou-quote__more">Read more</a>  
-    <cite>Matt Beard, Law student</cite>
-</blockquote>
-</div>
+<p>Here are the options for quotes. Pull quotes which float left or right of content + images still to come...</p>
 
 
 <h2>Orange</h2>
 
 <div class="code-example">
-<blockquote class="ou-quote ou-quote--orange">
+<blockquote class="ou-quote ou-bg-orange">
     <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying, 
       along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding 
       experiences of my life. Huge thanks to the OU.</p>
@@ -81,19 +69,89 @@
 <h2>Dark blue</h2>
 
 <div class="code-example">
-<blockquote class="ou-quote ou-quote--dark-blue">
+<blockquote class="ou-quote ou-bg-dark-blue">
     <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying, 
       along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding 
       experiences of my life. Huge thanks to the OU.</p>
     <a href="#" class="ou-quote__more">Read more</a>  
-    <cite>Kapil Dev, Cricketer</cite>
+    <cite>Jeff Bridges, Actor</cite>
 </blockquote>
 </div>
 
 <h2>Purple</h2>
 
 <div class="code-example">
-<blockquote class="ou-quote bg-colour4">
+<blockquote class="ou-quote ou-bg-dark-purple">
+    <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying, 
+      along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding 
+      experiences of my life. Huge thanks to the OU.</p>
+    <a href="#" class="ou-quote__more">Read more</a>  
+    <cite>George Weah, Footballer</cite>
+</blockquote>
+</div>
+
+
+<p><strong>Note</strong>: if you don't want the "Read more" link you can simply omit that from the code.</p>
+
+<hr>
+
+<h2>Lighter backgrounds</h2>
+
+<p>For quotes with light background colours we need an extra class on the container so we can make the text darker in those scenarios.
+The extra class is called "<strong>ou-quote--light</strong>".</p>
+
+<div class="code-example">
+<blockquote class="ou-quote ou-quote--light ou-bg-white">
+    <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying, 
+      along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding 
+      experiences of my life. Huge thanks to the OU.</p>
+    <a href="#" class="ou-quote__more">Read more</a>  
+    <cite>Matt Beard, Law student</cite>
+</blockquote>
+
+<blockquote class="ou-quote ou-quote--light ou-bg-light-grey">
+    <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying, 
+      along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding 
+      experiences of my life. Huge thanks to the OU.</p>
+    <a href="#" class="ou-quote__more">Read more</a>  
+    <cite>Sarah Johnston, Chemistry student</cite>
+</blockquote>
+
+</div>
+
+<hr>
+
+<h2>All colour options</h2>
+
+<p>Here is a list of the current background colours available for the quotes. You simply add this class to the blockquote container. For lighter backgrounds, two classes are required (see above).</p>
+
+<pre class="prettyprint">
+/* Darker background, white text */
+.ou-bg-green
+.ou-bg-red
+.ou-bg-dark-purple
+.ou-bg-blue
+.ou-bg-dark-blue
+.ou-bg-dark-grey
+.ou-bg-purple
+.ou-bg-orange
+
+/* Lighter background, black text. Requires extra ou-quote--light class */
+.ou-bg-yellow
+.ou-bg-light-blue
+.ou-bg-grey
+.ou-bg-light-grey
+</pre>
+
+<hr>
+
+<h2>With pictures</h2>
+
+<p>Add images to the quote using the standard class "ou-go2" to float the picture right. Recommended image size: 120px x 120px (square).</p>
+
+<div class="code-example">
+<blockquote class="ou-quote ou-bg-orange">
+	<img src="demo/img/120x120/girl.jpg" alt="" class="ou-go2">
     <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying, 
       along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding 
       experiences of my life. Huge thanks to the OU.</p>
@@ -101,7 +159,6 @@
     <cite>Kapil Dev, Cricketer</cite>
 </blockquote>
 </div>
-
 
 
 </div> <!-- end ou-content -->

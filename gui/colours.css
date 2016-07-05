@@ -1,9 +1,7 @@
-@charset "UTF-8";
-
-
 /*
 --------------------------------------------------------------------------------------
 
+	Colours
 	colours.css
 
 --------------------------------------------------------------------------------------
@@ -18,9 +16,9 @@
 
     Green               #539d3c
     Red                 #b52a1e
-    Gold                #ffc23d
+    Yellow              #ffc23d
     Dark Purple         #470d43
-    Mid Blue            #0b55a8
+    Blue            	#0b55a8
     Light Blue          #a6d0ff
     Dark Blue           #002158
     Dark Grey           #312b39
@@ -29,6 +27,59 @@
     Light Grey Blue     #e7eff7
     Orange              #CF6041
 
+*/
+
+
+
+/*
+-------------------------------------------
+    Text colour
+-------------------------------------------
+*/
+
+.ou-text-white {color:#ffffff !important;}
+.ou-text-green {color:#539d3c !important;}
+.ou-text-red {color:#b52a1e !important;}
+.ou-text-yellow {color:#ffc23d !important;} 
+.ou-text-dark-purple {color:#470d43 !important;} 
+.ou-text-blue {color:#0b55a8 !important;} 
+.ou-text-light-blue {color:#a6d0ff !important;} 
+.ou-text-dark-blue {color:#002158 !important;}
+.ou-text-dark-grey {color:#312b39 !important;}
+.ou-text-purple {color:#880088 !important;}
+.ou-text-grey {color:#929fb0 !important;} 
+.ou-text-light-grey {color:#e7eff7 !important;}
+.ou-text-orange {color:#cf6041 !important;}
+
+
+
+/*
+-------------------------------------------
+    Background colour
+-------------------------------------------
+*/
+
+.ou-bg-white {background-color:#ffffff !important;}
+.ou-bg-green {background-color:#539d3c !important;}
+.ou-bg-red {background-color:#b52a1e !important;}
+.ou-bg-yellow {background-color:#ffc23d !important;} 
+.ou-bg-dark-purple {background-color:#470d43 !important;} 
+.ou-bg-blue {background-color:#0b55a8 !important;} 
+.ou-bg-light-blue {background-color:#a6d0ff !important;} 
+.ou-bg-dark-blue {background-color:#002158 !important;}
+.ou-bg-dark-grey {background-color:#312b39 !important;}
+.ou-bg-purple {background-color:#880088 !important;}
+.ou-bg-grey {background-color:#929fb0 !important;} 
+.ou-bg-light-grey {background-color:#e7eff7 !important;}
+.ou-bg-orange {background-color:#cf6041 !important;}
+
+
+
+
+/*
+-------------------------------------------
+    OLD!
+-------------------------------------------
 */
 
 .colour1 {color:#539d3c !important;} /* green */
