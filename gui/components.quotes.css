@@ -27,7 +27,8 @@
 	padding:8px 12px;
 	background-color: rgb(0, 0, 0);
 	background-color: rgba(0, 0, 0, 0.4); 	
-	text-decoration:none;	
+	text-decoration:none;
+	font-size:.9em;
 }
 
 .ou-quote__more:hover {
@@ -54,77 +55,29 @@
 
 
 /*
-blockquote cite a {text-decoration:none;}
-
-blockquote.ou-pullquote1,
-blockquote.ou-pullquote2 {
-	width: 40%;
-	float: left;
-	margin-left:0;
-	padding-right:0;
-}
-
-blockquote.ou-pullquote2 {
-	float:right;
-	margin-right:0;
-	margin-left:40px;
-}
-
-blockquote.ou-pullquote1 p,
-blockquote.ou-pullquote2 p {
-	font-size:1.2em;
-	color:#0b55a8;
-}
-
-#ou-region2 blockquote {
-	margin: 16px 0;
-	padding: 30px 0 20px 0;
-}
-
-
-
-blockquote {
-	margin: 16px 40px;
-	padding: 30px 0 20px 0;
-	position:relative;
-}
-
-blockquote:before, 
-blockquote:after {
-	font-family: 'FontAwesome';
-	font-size:25px;
-	content: "\f10d";
-	color:#a6d0ff;
-	display: block;
-	position: absolute;
-}
-
-blockquote:before {
-	left:0;
-	top: 0;
-}
-
-blockquote:after {
-	bottom: 0;
-	right: 0;
-	content: "\f10e";
-}
-
-blockquote cite {
-	font-size:.9em;
-	font-style:normal;	
-	color:#000;
-}
-
-blockquote p {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #0b55a8;
-	font-size: 1.2em;
-}
-
-blockquote p:last-child {margin-bottom:0;}
+-------------------------------------------
+    Pull quotes
+-------------------------------------------
 */
 
+.ou-quote--pull-left,
+.ou-quote--pull-right {
+	width:40%;
+	float:right;
+	margin:0 0 20px 20px;
+	padding:20px 15px 35px 55px;
+	background:url(icons/icon-quotemarks.png) 20px 25px no-repeat;
+	background-size:25px 21px;
+}
+
+.ou-quote--pull-right img,
+.ou-quote--pull-right img {max-width:100px;}
+
+.ou-quote--pull-left {
+	width:40%;
+	float:left;
+	margin:0 20px 20px 0;
+}
 
 
 @media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
@@ -137,6 +90,22 @@ blockquote p:last-child {margin-bottom:0;}
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
+
+.ou-quote {
+	padding:20px 15px 35px 55px;
+	background:url(icons/icon-quotemarks.png) 20px 25px no-repeat;
+	background-size:25px 21px;
+}
+
+.ou-quote img {max-width:120px;}
+
+
+.ou-quote--pull-left,
+.ou-quote--pull-right {
+	width:100%;
+	float:none;
+	margin:0 0 20px 0;
+}
 
 
 } /* end media query */
@@ -159,5 +128,15 @@ blockquote p:last-child {margin-bottom:0;}
 	background-size:50px 42px;
 }
 
+} /* end media query */
+
+
+@media 
+only screen and (max-width: 400px), 
+screen and (max-device-width: 400px),
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+.ou-quote {background-size:25px 21px;}
 
 } /* end media query */

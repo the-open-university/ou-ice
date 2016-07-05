@@ -118,6 +118,19 @@
 */
 
 
+/* new - perhaps move to generic */
+
+.ou-pull-left {
+	float: left;
+	margin: 0 25px 15px 0;
+}
+
+.ou-pull-right {
+	float: right;
+	margin: 0 0 15px 25px;
+}
+
+/**/
 
 
 img.ou-border {
