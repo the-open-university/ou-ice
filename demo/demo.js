@@ -14,7 +14,7 @@
                 .insertBefore($example);
         });
 
-        $('code.lang-html').text($('code.lang-html').html());
+        $('.lang-html').text($('.lang-html').html());
     
         $('pre.prettyprint-toglable').hide();
 		$('.code-example-trigger').click(function () {

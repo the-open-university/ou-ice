@@ -78,7 +78,7 @@
 
 
 pre.prettyprint {
-	padding:5px 20px 10px 20px !important;
+	padding:15px 20px 15px 20px !important;
 	border:1px solid #222 !important;
 	max-height:300px;
 	margin-bottom:20px;
@@ -95,6 +95,8 @@ a.code-example-trigger {
 	height:24px;
 	background:url(img/icons/icon-code.png) top left no-repeat;
 }
+
+pre.prettyprint > span.pln:first-child {display:none;}
 
 @media only screen and (max-width: 1200px), screen and (max-device-width: 1200px) {
 

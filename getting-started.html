@@ -51,90 +51,92 @@
 <h1>Getting started</h1>
 
 <div class="box ou-warning">
-	<p><strong>Please note</strong>: this page has been marked as incomplete.</p>
+	<p><strong>Please note</strong>: this page has been marked as incomplete. The following tags are being stripped out of the example code: doctype, html, head, body.</p>
 </div>
 
 <p>You'll need a to use the same basic core template for any page where you want to use the framework.</p>
 
 <p>First, <a href="https://github.com/the-open-university/ouice">download the latest source code</a>. There are two folders: <em>gui</em> and <em>js</em> containing all the assets. Next, copy the core HTML template and update the paths to the gui and js assets to reflect your directory structure:</p>
 
-<pre class="prettyprint">&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-&lt;meta charset="utf-8" /&gt;
-&lt;title&gt;Page title - Site title - Open University&lt;/title&gt;
+<pre class="prettyprint lang-html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-&lt;link rel="stylesheet" type="text/css" href="gui/styles.css" media="screen, projection" /&gt;
-&lt;link rel="stylesheet" type="text/css" href="gui/header-footer.css" media="screen, projection" /&gt;
+    <meta charset="utf-8" />
+    
+    <title>Page title</title>
+    
+    <link rel="stylesheet" type="text/css" href="gui/header-footer.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="gui/styles.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <link rel="apple-touch-icon" href="gui/icons/apple-touch-icon.png">
+    <link rel="icon" href="gui/icons/favicon.png">
 
-&lt;!-- optional font awesome --&gt;
-&lt;link rel="stylesheet" type="text/css" href="gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" /&gt;
+</head>
 
-&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /&gt;
+<body>
 
-&lt;!-- favicons --&gt;
-&lt;link rel="apple-touch-icon" href="gui/icons/apple-touch-icon.png"&gt;
-&lt;link rel="icon" href="gui/icons/favicon.png"&gt;
-&lt;/head&gt;
+<div id="ou-org">
 
-&lt;body class=""&gt;
+<a class="ou-skip" href="#ou-content"><i class="fa fa-arrow-circle-down"></i> Skip to content</a>
 
-&lt;div id="ou-org"&gt;
-&lt;a class="ou-skip" href="#ou-content"&gt;&lt;i class="fa fa-arrow-circle-down"&gt;&lt;/i&gt; Skip to content&lt;/a&gt;
-&lt;div id="ou-header"&gt;
-&lt;!-- insert OU header here --&gt;
-&lt;/div&gt; &lt;!-- end ou-header --&gt;
+<div id="ou-site">
 
-&lt;div id="ou-site"&gt;
+<div id="ou-site-header">
 
-&lt;div id="ou-site-header"&gt;
-&lt;!-- insert optional site-specific header here --&gt;
-&lt;/div&gt;
-&lt;!-- end ou-site-header --&gt;
+</div> <!-- end ou-site-header -->
 
-&lt;div id="ou-site-body"&gt;
-&lt;div id="ou-page"&gt;
+<div id="ou-site-body">
 
-&lt;div id="ou-region0"&gt;
-&lt;ol class="ou-ancestors"&gt;
-&lt;li&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Current page&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt; &lt;!-- end ou-region0 --&gt;
+<div id="ou-page">
 
-&lt;div id="ou-region1"&gt;
-&lt;div id="ou-content" class="ou-content"&gt;
-&lt;h1&gt;Page title&lt;/h1&gt;
-&lt;p&gt;Page content.&lt;/p&gt;
-&lt;/div&gt; &lt;!-- end ou-content --&gt;
-&lt;/div&gt; &lt;!-- end ou-region1 --&gt;
+<div id="ou-region0">
 
-&lt;div id="ou-region2"&gt;
-&lt;/div&gt; &lt;!-- end ou-region2 --&gt;
+</div> <!-- end ou-region0 -->
 
-&lt;/div&gt; &lt;!-- end ou-page --&gt;
-&lt;/div&gt; &lt;!-- end ou-site-body --&gt;
+<div id="ou-region1">
 
-&lt;div id="ou-site-footer"&gt;
-&lt;a class="ou-to-top" href="#ou-content"&gt;&lt;i class="fa fa-arrow-circle-up"&gt;&lt;/i&gt; Back to top&lt;/a&gt;
-&lt;/div&gt;
-&lt;!-- end ou-site-footer --&gt;
+<div id="ou-content" class="ou-content">
 
-&lt;/div&gt; &lt;!-- end ou-site --&gt;
+<h1>Main heading</h1>
 
-&lt;div id="ou-footer"&gt;
-&lt;!-- insert relevant OU footer here --&gt;
-&lt;/div&gt; &lt;!-- end ou-footer --&gt;
+</div> <!-- end ou-content -->
 
-&lt;/div&gt; &lt;!-- end ou-org --&gt;
+</div> <!-- end ou-region1 -->
 
-&lt;!-- Javascripts --&gt;
-&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"&gt;&lt;/script&gt;
-&lt;script src="js/scripts.js"&gt;&lt;/script&gt;
+<div id="ou-region2">
+<p>Sidebar</p>
+</div> <!-- end ou-region1 -->
 
 
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+</div> <!-- end ou-page -->
+
+</div> <!-- end ou-site-body -->
+
+
+<div id="ou-site-footer">
+<a class="ou-to-top" href="#ou-content"><i class="fa fa-arrow-circle-up"></i> Back to top</a>
+</div> <!-- end ou-site-footer -->
+
+</div> <!-- end ou-site -->
+
+
+
+</div> <!-- end ou-org -->
+
+
+
+<!-- Javascripts -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
+</pre>
 
 <hr>
 
@@ -143,9 +145,7 @@
 
 </div> <!-- end ou-content -->
 
-</div>
-<br> 
-<!-- end ou-region1 -->
+</div> <!-- end ou-region1 -->
 
 
 
@@ -169,6 +169,8 @@
 <!-- Javascripts -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=desert" defer></script>
+<script src="demo/demo.js"></script>
 
 </body>
 </html>
