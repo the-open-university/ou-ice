@@ -17,18 +17,20 @@
 @import url('objects.grid.css');
 @import url('objects.blocks.css');
 
-@import url('components.quotes.css');
+@import url('html.css'); /* rename this? */
 
-@import url('html.css');
+@import url('components.quotes.css');
+@import url('components.images.css');
+
 @import url('layout.css');
 @import url('tables.css');
 @import url('forms.css');
 @import url('boxes.css');
 @import url('lists.css');
-@import url('images-and-objects.css');
+@import url('images-and-objects.css'); /* to be broken down */
 @import url('navigation.css');
 @import url('forums.css');
 @import url('colours.css');
 @import url('misc.css');
-@import url('legacy.css'); 	/* backwards-compatibility */
-@import url('../demo/demo.css'); 	/* demo site only */
+@import url('legacy.css'); /* backwards-compatibility */
+@import url('../demo/demo.css'); /* demo site only */
