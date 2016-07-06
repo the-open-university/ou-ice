@@ -49,7 +49,8 @@
 
 <h1>Hero</h1>
 
-<p>A hero is a big image with some overlaying text, used as a promotional or feature block, or a carousel.</p>
+<p>A hero is a big image with some overlaying text, used as a promotional or feature block, or a carousel. The default colour for the text section is red but you can change this using a background colour class (see below).</p>
+<p><strong>Recommendations</strong>: Crop your images at 1180px wide and between 330-360px high. If using a description keep it to a maximum of two lines of text (or overlapping may occur at smaller screen sizes.)</p>
 
 
 <h2>Title only</h2>
@@ -80,6 +81,7 @@
 </div>
 </div>
 
+<hr>
 
 <h2>Colours</h2>
 
@@ -87,33 +89,43 @@
 
 <div class="code-example">
 <h3>Dark purple</h3>
-<div class="ou-hero">
+<div class="ou-hero ou-bg-dark-purple">
     <a href="#" class="ou-hero__link">
         <img src="demo/img/hero/hero-music.jpg" alt="" class="ou-hero__img">
-        <div class="ou-hero__text ou-bg-dark-purple">
+        <div class="ou-hero__text">
             <h2 class="ou-hero__title">Music is the answer</h2>
         </div>
     </a>
 </div>
 
 <h3>Green</h3>
-<div class="ou-hero">
+<div class="ou-hero ou-bg-green">
     <a href="#" class="ou-hero__link">
         <img src="demo/img/hero/hero-cube.jpg" alt="" class="ou-hero__img">
-        <div class="ou-hero__text ou-bg-green">
-            <h2 class="ou-hero__title">Looking at a cube</h2>
+        <div class="ou-hero__text">
+            <h2 class="ou-hero__title">We could be heroes</h2>
+        </div>
+    </a>
+</div>
+
+<h3>Light grey</h3>
+
+<p>Note that for the lighter palette colours the title and description will change from white to black.</p>
+
+<div class="ou-hero ou-bg-light-grey">
+    <a href="#" class="ou-hero__link">
+        <img src="demo/img/hero/hero-wind.jpg" alt="" class="ou-hero__img">
+        <div class="ou-hero__text">
+            <h2 class="ou-hero__title">The power of wind</h2>
+            <p class="ou-hero__description">Please note that these wind turbines are not to scale.</p>
         </div>
     </a>
 </div>
 </div>
 
+<h3>Colour options</h3>
 
-
-<hr>
-
-<h2>All colour options</h2>
-
-<p>Here is a list of the current background colours available for the heroes.</p>
+<p>Here is a list of the current background colours available for the heroes (add to the container).</p>
 
 <pre class="prettyprint">
 .ou-bg-green
