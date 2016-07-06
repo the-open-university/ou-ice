@@ -101,45 +101,14 @@ a.ou-events__prev,
 a.ou-events__next {color:#fff;}
 
 a.ou-events__prev:hover, 
-a.ou-events__next:hover {background:#111;}*/
+a.ou-events__next:hover {background:#111;}
 
-blockquote {
-	background:#4B5F4B;
-	background-image:url(img/icons/icon-quotemark.png);
-	background-position:center 15px ;
-	background-repeat:no-repeat;
-	color:#fff;
-	margin:0 0 25px 0;	
-	padding:60px 40px 30px 40px;
-	text-align:center;
-}
-
-blockquote p {
-    font-family: arial;
-    color: #fff;
-    font-size: 1.1em;
-}
-
-blockquote a {color:#fff;}
-
-blockquote:before,
-blockquote:after {content:"";}
-
-blockquote cite {
-	border-top: 2px solid rgb(0, 0, 0); 	
-	border-top: 2px solid rgba(0, 0, 0, 0.4); 	
-	color:#fff;
-	padding:8px 15px 0 15px;
-	font-size:.9em;	
-	display:inline-block;
-	opacity:.7;
-}
 
 #ou-region2 blockquote {
     margin: 0 0 20px 0;
 	padding: 60px 30px 20px 30px;
 }
-
+*/
 
 </style>
 
@@ -212,12 +181,14 @@ blockquote cite {
     </ul>
 </nav>
 
-<div class="ou-creative" style="background-color:#4B5F4B;">
+<div class="ou-creative" style="background-color:#4B5F4B; text-align:center;">
 
-<div class="hero ou-grid">
-    <a href="#">
-        <img src="img/hero/hero-law.jpg" alt="">
-        <p class="bg-colour7">Order now: Law Prospectus 2016</p>
+<div class="ou-hero ou-bg-dark-purple">
+    <a href="#" class="ou-hero__link">
+        <img src="img/hero/hero-law.jpg" alt="" class="ou-hero__img">
+    	<div class="ou-hero__text">
+        <h2 class="ou-hero__title">Order now: Law Prospectus 2016</h2>
+        </div>
     </a>
 </div>
 
@@ -245,9 +216,10 @@ blockquote cite {
 <p>A wide range of people study law with us. The wonderful richness of life in our tutor groups gives very helpful added dimension to the study of legal issues. <a href="#">Read more</a></p>
 
 
-<blockquote>
+<blockquote class="ou-quote" style="background-color:#4B5F4B;">
   <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying, 
-    along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding experiences of my life. <a href="#">Read more</a></p>
+    along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding experiences of my life. </p>
+  <a href="#" class="ou-quote__more">Read more</a>
   <cite>Matt Beard, Law student</cite>
 </blockquote>
 
@@ -460,8 +432,9 @@ blockquote cite {
 
 </div>
 
-<blockquote style="background-color:#003366;">
-  <p>I've got lots of examples of how law works in practice and how it can really change lives. <a href="#">Read more</a></p>
+<blockquote class="ou-quote ou-bg-dark-blue">
+  <p>I've got lots of examples of how law works in practice and how it can really change lives. </p>
+  <a href="#" class="ou-quote__more">Read more</a>
   <cite>Rosemarie McIlwhan, Law student</cite>
 </blockquote>
 
