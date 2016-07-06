@@ -9,6 +9,39 @@
 
 
 
+/*
+-------------------------------------------
+	Sections
+-------------------------------------------
+*/
+
+
+.ou-sections {
+	background:#fff;
+	max-width:1180px;
+	margin:0 auto 20px auto;
+}
+
+.ou-sections li {
+	display:inline-block;
+	margin:0 12px 5px 0;
+}
+
+.ou-sections a {
+	color:#0b55a8; 
+	text-decoration:none;
+}
+
+.ou-sections a.ou-selected {
+    color: #0b55a8;
+	font-weight:bold;
+}
+
+.ou-sections a:hover {
+	color:#000; 
+	text-decoration:underline;
+}
+
 
 /*
 -------------------------------------------
@@ -39,7 +72,8 @@
 	color:#039;
 }
 
-.ou-context-nav li strong {
+.ou-context-nav li strong,
+.ou-context-nav li a.ou-selected {
 	background-color:#036;
 	color:#fff;
 	border-top:none;
@@ -64,7 +98,14 @@
 .ou-context-nav ul ul ul ul li strong {padding-left:51px;}
 
 
+@media only screen and (max-width: 1180px), screen and (max-device-width: 1180px) {
 
+.ou-sections {
+	max-width:none;
+	padding:0 15px;
+}
+
+} /* end media query */
 
 
 @media only screen and (max-width: 767px), screen and (max-device-width: 767px) {

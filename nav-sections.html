@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 
     <meta charset="utf-8" />
     
-    <title>Getting started - OU ICE</title>
+    <title>Nav - Sections - OU ICE</title>
     
     <link rel="stylesheet" type="text/css" href="gui/header-footer.css" media="screen, projection" />
     <link rel="stylesheet" type="text/css" href="gui/styles.css" media="screen, projection" />
@@ -33,6 +33,21 @@
         </div>
     </div>
 
+    <div class="ou-site-ident">
+        <h2 class="ou-site-ident__title"><a href="#">The Open University Law School</a></h2>
+    </div>
+    
+    <nav class="ou-sections">
+        <ul>
+            <li><a href="#" class="ou-selected">Overview</a></li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Teaching</a></li>
+            <li><a href="#">Collaborations</a></li>
+            <li><a href="#">News and Events</a></li>
+        </ul>
+    </nav>
+
 </div> <!-- end ou-site-header -->
 
 <div id="ou-site-body">
@@ -45,30 +60,29 @@
 
 <div id="ou-region1">
 
-
 <div id="ou-content" class="ou-content">
 
-<h1>Getting started</h1>
+<h1>Sections</h1>
 
-<div class="box ou-warning">
-	<p><strong>Please note</strong>: this page has been marked as incomplete. The following tags are being stripped out of the example code: doctype, html, head, body.</p>
-</div>
+<p>The sections navigation is the list of links that dispaly horizontally in the ou-site-header. Example shown above in context. The title above the links is part of <a href="nav-site-ident.html">ou-site-ident</a>.</p>
 
-<p>You'll need a to use the same basic core template for any page where you want to use the framework.</p>
+<h2>Code</h2>
 
-<p>First, <a href="https://github.com/the-open-university/ouice">download the latest source code</a>. There are two folders: <em>gui</em> and <em>js</em> containing all the assets. Next, copy the core HTML template and update the paths to the gui and js assets to reflect your directory structure:</p>
-
-<pre class="prettyprint">
-Coming soon
+<pre class="prettyprint lang-html">
+<nav class="ou-sections">
+    <ul>
+        <li><a href="#" class="ou-selected">Overview</a></li>
+        <li><a href="#">People</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Teaching</a></li>
+        <li><a href="#">Collaborations</a></li>
+        <li><a href="#">News and Events</a></li>
+    </ul>
+</nav>
 </pre>
-
-<hr>
-
-<p>You are now free to start adding other components.</p>
 
 
 </div> <!-- end ou-content -->
-
 </div> <!-- end ou-region1 -->
 
 
@@ -83,7 +97,6 @@ Coming soon
 </div> <!-- end ou-site-footer -->
 
 </div> <!-- end ou-site -->
-
 
 
 </div> <!-- end ou-org -->

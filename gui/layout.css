@@ -70,6 +70,8 @@
 	width: 26%;
 }
 
+#ou-site-header {border-bottom:1px solid #ddd;}
+
 
 /*
 -------------------------------------------
@@ -108,33 +110,30 @@ body.one-col #ou-region2 {
 -------------------------------------------
 */
 
-body.ou-site-ident #ou-site-header {border-bottom:1px solid #ddd;}
 
-#ou-site-ident {
+.ou-site-ident {
 	text-align:left;
-	margin-bottom:20px;
-}
-
-#ou-site-ident p#ou-site-title {
-	margin:0 auto;
-	padding:5px 0 0 0;
 	max-width:1180px;
+	margin:20px auto 15px auto;
 }
 
-#ou-site-ident p#ou-site-title a {
+.ou-site-ident__title {
+	font-size:1.2em;
+	font-weight:normal;
 	padding:0;
-	display:inline-block;
+	margin:0 0 5px 0;
+}
+
+.ou-site-ident__title a {
 	color:#000;
 	text-decoration:none;
-	font-size:1.4em;
 }
 
-#ou-site-ident p#ou-site-title a:hover {text-decoration:underline;}
+.ou-site-ident__title a:hover {text-decoration:underline;}
 
-#ou-site-ident p#ou-site-description {
-	margin:0 auto;
-	max-width:1180px;
-	padding:0 0 0 0;
+.ou-site-ident__description {
+	padding:0;
+	margin:0;
 	color:#777;
 }
 
@@ -188,11 +187,8 @@ body.ou-site-ident #ou-site-header {border-bottom:1px solid #ddd;}
 	padding: 0 15px;
 }
 
-#ou-site-ident p#ou-site-title,
-#ou-site-ident p#ou-site-description {
-	padding-left:15px;
-}
-
+.ou-site-ident__title,
+.ou-site-ident__description {padding-left:15px;}
 
 body.one-col #ou-region1,
 body.one-col #ou-region2 {
@@ -222,35 +218,17 @@ body.one-col #ou-region2 {
 }
 
 
-#ou-site-ident p#ou-site-title {
-	padding-top:15px;
-}
-
-
 } /* end media query */
 
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
-#ou-site-body {
-	margin-top: 20px;
-}
 
-div.ou-c1of2, 
-div.ou-c2of2,
-div.ou-c1of3, 
-div.ou-c2of3, 
-div.ou-c3of3 {
-	width: 100%;
-	float:left;
-	margin:0 0 15px 0;
-}
+#ou-site-body {margin-top: 20px;}
 
+.ou-site-ident__title {font-size:1em;}
 
-#ou-site-ident p#ou-site-title a {font-size:1.2em;}
-
-#ou-site-ident p#ou-site-description {font-size:.9em;}
-
+.ou-site-ident__description {font-size:.9em;}
 
 
 } /* end media query */
