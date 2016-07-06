@@ -1,0 +1,60 @@
+/*
+--------------------------------------------------------------------------------------
+
+	Various
+	objects.various.css
+
+--------------------------------------------------------------------------------------
+*/
+
+
+
+/*
+-------------------------------------------
+	Pulls
+-------------------------------------------
+*/
+
+
+.ou-pull-left {
+	float: left;
+	margin: 0 25px 15px 0;
+}
+
+.ou-pull-right {
+	float: right;
+	margin: 0 0 15px 25px;
+}
+
+.ou-pull-center {
+	display: block;
+	margin: 0 auto 15px auto;
+}
+
+
+
+@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+
+/* pulls */
+
+.ou-pull-left,
+.ou-pull-right,
+.ou-pull-center {max-width:50%;}
+
+} /* end media query */
+
+
+@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+
+/* pulls */
+
+.ou-pull-left,
+.ou-pull-right,
+.ou-pull-center {
+	float:none;
+	max-width:none;
+	width:100%;
+	margin:0 0 20px 0;	
+}
+
+} /* end media query */

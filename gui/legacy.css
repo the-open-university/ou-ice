@@ -12,6 +12,8 @@
 */
 
 
+
+
 /*
 -------------------------------------------
 	Layouts
@@ -37,3 +39,62 @@
 }
 
 .ou-c2of3 {margin-left: 5%;}
+
+
+
+
+/*
+-------------------------------------------
+	Images
+-------------------------------------------
+*/
+
+
+img.ou-go1 {
+	float: left;
+	margin: 0 25px 15px 0;
+}
+
+img.ou-go2 {
+	float: right;
+	margin: 0 0 15px 25px;
+}
+
+img.ou-go3 {
+	display: block;
+	margin: 0 auto 15px auto;
+}
+
+p.ou-caption {
+	margin:5px 0 0 0;
+	color:#555;
+	font-size:.9em;
+}
+
+div.ou-go1 {
+	width:40%;
+	float:left;
+	margin:0 25px 15px 0;
+	padding:15px;
+	background-color: #e7eff7;
+}
+
+div.ou-go2 {
+	width:40%;
+	float:right;
+	margin:0 0 15px 25px;
+	padding:15px;
+	background-color: #e7eff7;
+}
+
+div.ou-go3 {
+	width:80%;
+	margin:0 auto 15px auto;
+	padding:15px;
+	background-color: #e7eff7;
+}
+
+div.ou-go1 h2,
+div.ou-go2 h2,
+div.ou-go3 h2 {margin-top:0;}
+

@@ -14,11 +14,14 @@
 @import url('global.resets.css');
 @import url('global.box-sizing.css');
 
-@import url('objects.grid.css');
-@import url('objects.blocks.css');
-
 @import url('html.css'); /* rename this? */
 
+@import url('objects.grid.css');
+@import url('objects.blocks.css');
+@import url('objects.colours.css');
+@import url('objects.various.css');
+
+@import url('components.articles.css');
 @import url('components.quotes.css');
 @import url('components.images.css');
 
@@ -30,7 +33,6 @@
 @import url('images-and-objects.css'); /* to be broken down */
 @import url('navigation.css');
 @import url('forums.css');
-@import url('colours.css');
 @import url('misc.css');
 @import url('legacy.css'); /* backwards-compatibility */
 @import url('../demo/demo.css'); /* demo site only */
