@@ -45,7 +45,7 @@
 
 /*
 -------------------------------------------
-	Images
+	Images - needs work, bring in new styling
 -------------------------------------------
 */
 
@@ -97,4 +97,64 @@ div.ou-go3 {
 div.ou-go1 h2,
 div.ou-go2 h2,
 div.ou-go3 h2 {margin-top:0;}
+
+
+
+/*
+-------------------------------------------
+	Full nav
+	been replaced by context nav
+-------------------------------------------
+*/
+
+
+.ou-full-nav {
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+.ou-full-nav h2 {
+    padding: 10px 12px;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.ou-full-nav h2 a {text-decoration:none;}
+
+.ou-full-nav li a,
+.ou-full-nav li strong {
+	display:block;
+	padding:12px;
+	border-top:1px solid #ddd;
+	text-decoration:none;
+	color:#039;
+}
+
+.ou-full-nav li strong {
+	background-color:#036;
+	color:#fff;
+	border-top:none;
+	font-weight:normal;
+}
+
+.ou-full-nav li a:hover  {
+	background-color:#f5f5f5;
+	color:black;
+	text-decoration:underline;
+}
+
+.ou-full-nav li.ou-expanded {background-color:#f5f5f5;}
+
+.ou-full-nav ul ul li a,
+.ou-full-nav ul ul li strong {padding:9px 12px 8px 25px;}
+
+.ou-full-nav ul ul ul li a,
+.ou-full-nav ul ul ul li strong {padding-left:38px;}
+
+.ou-full-nav ul ul ul ul li a,
+.ou-full-nav ul ul ul ul li strong {padding-left:51px;}
+
+
+
+
 

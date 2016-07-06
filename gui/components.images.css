@@ -56,7 +56,8 @@
 
 .ou-hero {
 	position:relative;
-	margin-bottom:25px;
+	margin:0 auto 25px auto;
+	max-width:1180px;
 }
 
 .ou-hero__img {display:block;}

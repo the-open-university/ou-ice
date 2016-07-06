@@ -22,8 +22,9 @@
 @import url('objects.various.css');
 
 @import url('components.articles.css');
-@import url('components.quotes.css');
 @import url('components.images.css');
+@import url('components.nav.css');
+@import url('components.quotes.css');
 
 @import url('layout.css');
 @import url('tables.css');
@@ -34,5 +35,5 @@
 @import url('navigation.css');
 @import url('forums.css');
 @import url('misc.css');
-@import url('legacy.css'); /* backwards-compatibility */
+@import url('legacy.css'); /* backwards compatibility */
 @import url('../demo/demo.css'); /* demo site only */
