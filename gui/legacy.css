@@ -191,6 +191,45 @@ div.ou-go3 h2 {margin-top:0;}
 
 
 
+/*
+-------------------------------------------
+	Boxes
+	box to ou-box, consolidation of names
+-------------------------------------------
+*/
+
+
+.box {
+	padding:15px 15px 15px 20px;
+	background-color:#eee;
+	margin:0 0 20px 0;
+	border-left-width:3px;
+	border-style:solid;
+	border-color:#ccc;
+}
+
+.box p:last-child {margin-bottom:0;}
+
+.box h2,
+.box h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:1.1em;
+	margin:0 0 8px 0;
+}
+
+.ou-download {border-color:#539d3c;}
+.ou-contact {border-color:#0b55a8;}
+
+.ou-notes,
+.ou-tip,
+.ou-steps {
+	border-color:#ffc23d;
+	background-color:#fdf6cd;
+}
+
+
+
 
 @media only screen and (max-width: 1180px), screen and (max-device-width: 1180px) {
 

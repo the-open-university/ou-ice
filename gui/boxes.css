@@ -5,111 +5,15 @@
 --------------------------------------------------------------------------------------
 
 	boxes.css
+	!! REST OF CONTENT IN THIS FILE FOR REVIEW !!
 
 --------------------------------------------------------------------------------------
 */
 
 
-/* sectioner
-note: this may not be necessary - use <hr> between items instead
- */
-
-.ou-section {
-	border-bottom: 1px solid #eee;
-	padding:0 0 15px 0;
-	margin:0 0 15px 0;
-}
 
 
-/* shared attributes */
 
-.box {
-	padding:15px 15px 15px 20px;
-	background-color:#eee;
-	margin:0 0 20px 0;
-	border-left-width:4px;
-	border-left-style:solid;
-}
-
-.box p:last-child {margin-bottom:0;}
-
-.box h2,
-.box h3 {
-	font-family:Arial, Helvetica, sans-serif;
-	font-weight:bold;
-	font-size:1em;
-	margin:2px 0 8px 0;
-}
-
-
-/* Modifiers */
-
-.ou-contact {border-color:#880088;}
-.ou-download {border-color:#539d3c;}
-.ou-info {border-color:#0b55a8;}
-.ou-notes {border-color: #ffc23d;}
-.ou-success {border-color:#539d3c;}
-.ou-tip {border-color:#ffc23d;}
-.ou-warning {border-color:#b52a1e;}
-.ou-steps {border-color:#880088;}
-.ou-careers {border-color:#CF6041;}
-
-/* Activity */
-
-.ou-activity {
-	border-left:none;
-	border-top:2px solid #8A3288;
-	border-bottom:2px solid #8A3288;
-	background:transparent;
-	background-image:url(icons/icon-activity.png);
-	background-position:15px 15px;
-	background-repeat:no-repeat;
-	padding:20px 15px 20px 75px;
-}
-
-.ou-activity a.ou-button {
-	margin-bottom:0;
-	color:#fff;
-	background:	#8A3288;
-}
-
-/* Box and Feature Block */
-
-.ou-box,
-.ou-feature-block {
-	border-left:1px solid #ccc;
-	background-color:#eee;
-	padding:15px;
-	margin-bottom:15px;
-}
-
-.ou-box h2,
-.ou-feature-block h2 {
-	font-family:Arial, Helvetica, sans-serif;
-	font-weight:bold;
-	margin:0 0 4px 0;
-	font-size:1em;
-}
-
-.ou-box p:last-child,
-.ou-feature-block p:last-child {
-	margin-bottom:0;
-}
-
-
-#ou-content .ou-box ol,
-#ou-content .ou-box ul,
-#ou-content .ou-feature-block ol,
-#ou-content .ou-feature-block ul {margin:10px 0 10px 0;}
-
-
-/* Contact */
-
-
-#ou-content .ou-contact ol,
-#ou-content .ou-contact ul {
-	margin:10px 0 10px 0;
-}
 
 /* Download */
 
@@ -141,60 +45,6 @@ note: this may not be necessary - use <hr> between items instead
 #ou-content .ou-download ul li:before {content:"";}
 
 
-/* Steps */
-
-
-#ou-content .ou-steps ol {
-	margin:10px 0 10px 0;
-}
-
-
-/* Alternative styles */
-
-/* style1 - light blue dashed border */
-
-.box-style1 {
-	border-left-width:2px;
-	border-left-style: dashed;
-	border:2px dashed #ACD0FF;
-	background-color:#E7EFF7;
-}
-
-/* style2 - light grey dashed border */
-
-.box-style2 {
-	border-left-width:2px;
-	border-left-style: dashed;
-	border:2px dashed #ddd;
-	background-color:#fff;
-}
-
-/* style3 - blue box white text */
-
-.box-style3 {
-	background-color:#0b55a8;
-	color:#a6d0ff;
-	padding:25px;
-	margin:0 0 25px 0;
-}
-
-.box-style3 h2 {
-	color:#fff; 
-	margin-top:0;
-}
-
-.box-style3 a {color:#fff; text-decoration:underline;}
-
-.box-style3 a:hover {color:#ffc23d; text-decoration:none;}
-
-.box-style3 hr {
-	border-bottom: 1px solid #a6d0ff;
-	margin:20px 0;
-}
-
-.box-style3 p:last-child {margin-bottom:0;}
-
-.box-style3 ul {margin-bottom:20px;}
 
 /* accordion */
 
@@ -251,15 +101,6 @@ note: this may not be necessary - use <hr> between items instead
 	border-bottom-right-radius:4px;
 	display:none;
 	
-	/*
-	opacity:0;
-	max-height:0px;
-	-webkit-transition: max-height 0.25s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.6s;
-	-moz-transition: max-height 0.25s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.6s;
-	-ms-transition: max-height 0.25s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.6s;
-	-o-transition: max-height 0.25s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.6s;
-	transition: max-height 0.25s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.6s;
-	*/
 }
 
 .ou-accordion dd.active {display:block; /*opacity:1; max-height:300px;*/}
@@ -285,66 +126,6 @@ note: this may not be necessary - use <hr> between items instead
 #ou-content .ou-accordion dd ol {margin-left:0;}
 
 .ou-accordion hr {margin:15px 0;}
-
-
-/* articles */
-
-.ou-articles {margin-bottom:20px;}
-
-.ou-articles-article:before,
-.ou-articles-article:after {
-	content: "";
-	display: table;
-}
-
-.ou-articles-article:after {clear:both;}
-
-.ou-articles-article {
-	padding:20px; 
-	zoom:1;
-}
-
-.ou-articles-article img {
-	float:left;
-	margin:0 20px 0 0;
-	max-width:120px;
-}
-
-.ou-articles-article:nth-child(odd) {background:#e7eff7;}
-
-.ou-articles-article h2 {
-	margin:0 0 6px 0;
-	font-size:1.2em;
-}
-
-.ou-articles-article a {text-decoration:none;}
-
-.ou-articles-article p {
-	margin-bottom:0;
-	color:#555;
-}
-
-#ou-content .ou-articles-article ul {
-	margin-top:20px;
-	margin-bottom:0;
-}
-
-
-/* Side piece */
-
-.ou-side-piece {
-	float:right;
-	width:30%;
-	border-left:4px solid #a6d0ff;
-	padding-left:20px;
-	margin:0 0 20px 30px;
-	position:relative;
-	z-index:200;
-}
-
-.ou-side-piece h2 {font-size:1.5em;}
-
-#ou-content .ou-side-piece ul {margin-left:0;}
 
 
 
@@ -449,12 +230,6 @@ div.ou-action-block {
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
-.ou-side-piece {
-	float:none;
-	width:auto;
-	padding-left:20px;
-	margin:0 0 20px 0;	
-}
 
 .ou-accordion {padding:15px;}
 
@@ -478,10 +253,6 @@ div.ou-action-block {
 (min-resolution: 192dpi) { 
 
 
-.ou-activity {
-	background-image:url(icons/icon-activity@2x.png);
-	background-size:42px 42px;
-}
 
 } /* end media query */
 
