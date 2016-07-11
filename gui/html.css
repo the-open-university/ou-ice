@@ -129,24 +129,6 @@ table {
 	width: 100%;
 	max-width: 100%;
 	border-collapse: collapse;
-	margin: 0 0 20px 0;
-}
-
-td, 
-th {
-	padding: 10px 15px;
-	border-bottom: 1px solid #a6d0ff;
-	border-right: 1px solid #a6d0ff;
-}
-
-tr th:last-child, 
-tr td:last-child {border-right: 0;}
-
-th {border-bottom:2px solid #a6d0ff;}
-
-tfoot th {
-	border-top: 2px solid #a6d0ff;
-	border-bottom:0;
 }
 
 th, 
@@ -155,19 +137,6 @@ caption {
 	text-align: left;
 	vertical-align: top;
 }
-
-table tr:nth-child(even) {background: #e7eff7;}
-
-table caption {
-	background: #ddd;
-	padding: 10px 15px;
-	font-weight: bold;
-	font-size: 1.1em;
-	text-align:center;
-	border-top: 1px solid #a6d0ff;
-	border-bottom: 1px solid #a6d0ff;
-}
-
 
 
 /*

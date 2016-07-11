@@ -1,0 +1,117 @@
+/*
+--------------------------------------------------------------------------------------
+
+	Tables
+	components.tables.css
+
+--------------------------------------------------------------------------------------
+*/
+
+
+.ou-table {margin: 0 0 20px 0;}
+
+.ou-table td, 
+.ou-table th {
+	padding: 10px 12px;
+	border: 1px solid #ddd;
+}
+
+.ou-table th {font-weight:bold;}
+
+
+/* wrap */
+
+.ou-table-wrap {overflow:auto;}
+
+
+/* striped */
+
+.ou-table--striped tr:nth-child(even) {background: #eee;}
+
+
+/* plain */
+
+.ou-table--plain td, 
+.ou-table--plain th {
+	border: none;
+	padding:10px 0;
+}
+
+
+/* column widths */
+
+.ou-table--2cols td {width:50%;}
+.ou-table--3cols td {width:33%;}
+.ou-table--4cols td {width:25%;}
+.ou-table--5cols td {width:20%;}
+
+
+
+/* colours */
+
+.ou-bg-green th {
+	color:#fff;
+	border:1px solid #539d3c;
+}
+
+.ou-bg-red th {
+	color:#fff;
+	border:1px solid #b52a1e;
+}
+
+.ou-bg-yellow th {
+	border:1px solid #ffc23d;
+}
+ 
+.ou-bg-dark-purple th {
+	color:#fff;
+	border:1px solid #470d43;
+}
+ 
+.ou-bg-blue th {
+	color:#fff;
+	border:1px solid #0b55a8;
+}
+ 
+.ou-bg-light-blue th {
+	border:1px solid #a6d0ff;
+}
+ 
+.ou-bg-dark-blue th {
+	color:#fff;
+	border:1px solid #002158;
+}
+
+.ou-bg-dark-grey th {
+	color:#fff;
+	border:1px solid #312b39;
+}
+
+.ou-bg-purple th {
+	color:#fff;
+	border:1px solid #880088;
+}
+
+.ou-bg-grey th {
+	border:1px solid #929fb0;
+}
+ 
+.ou-bg-light-grey th {
+	border:1px solid #e7eff7;
+}
+
+.ou-bg-orange th {
+	color:#fff;
+	border:1px solid #cf6041;
+}
+
+
+
+
+@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+
+
+
+} /* end media query */
+
+
