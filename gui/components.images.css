@@ -100,41 +100,41 @@
 
 /* darker colours */
 
-.ou-bg-green .ou-hero__text {background:#539d3c !important; background: rgb(83, 157, 60) !important; background: rgba(83, 157, 60, 0.8) !important; } 
-.ou-bg-red .ou-hero__text {background:#b52a1e !important; background: rgb(181, 42, 30) !important; background: rgba(181, 42, 30, 0.8) !important; } 
-.ou-bg-dark-purple .ou-hero__text {background:#470d43 !important; background: rgb(71, 13, 67) !important; background: rgba(71, 13, 67, 0.8) !important; } 
-.ou-bg-blue .ou-hero__text {background:#0b55a8 !important; background: rgb(11, 85, 168) !important; background: rgba(11, 85, 168, 0.8) !important; } 
-.ou-bg-dark-blue .ou-hero__text {background:#002158 !important; background: rgb(0, 33, 88) !important; background: rgba(0, 33, 88, 0.8) !important; } 
-.ou-bg-dark-grey .ou-hero__text {background:#312b39 !important; background: rgb(49, 43, 57) !important; background: rgba(49, 43, 57, 0.8) !important; } 
-.ou-bg-purple .ou-hero__text {background:#880088 !important; background: rgb(136, 0, 136) !important; background: rgba(136, 0, 136, 0.8) !important; }
-.ou-bg-orange .ou-hero__text {background:#cf6041 !important; background: rgb(207, 96, 65) !important; background: rgba(207, 96, 65, 0.8) !important; }
+.ou-hero.ou-bg-green .ou-hero__text {background:#539d3c !important; background: rgb(83, 157, 60) !important; background: rgba(83, 157, 60, 0.8) !important; } 
+.ou-hero.ou-bg-red .ou-hero__text {background:#b52a1e !important; background: rgb(181, 42, 30) !important; background: rgba(181, 42, 30, 0.8) !important; } 
+.ou-hero.ou-bg-dark-purple .ou-hero__text {background:#470d43 !important; background: rgb(71, 13, 67) !important; background: rgba(71, 13, 67, 0.8) !important; } 
+.ou-hero.ou-bg-blue .ou-hero__text {background:#0b55a8 !important; background: rgb(11, 85, 168) !important; background: rgba(11, 85, 168, 0.8) !important; } 
+.ou-hero.ou-bg-dark-blue .ou-hero__text {background:#002158 !important; background: rgb(0, 33, 88) !important; background: rgba(0, 33, 88, 0.8) !important; } 
+.ou-hero.ou-bg-dark-grey .ou-hero__text {background:#312b39 !important; background: rgb(49, 43, 57) !important; background: rgba(49, 43, 57, 0.8) !important; } 
+.ou-hero.ou-bg-purple .ou-hero__text {background:#880088 !important; background: rgb(136, 0, 136) !important; background: rgba(136, 0, 136, 0.8) !important; }
+.ou-hero.ou-bg-orange .ou-hero__text {background:#cf6041 !important; background: rgb(207, 96, 65) !important; background: rgba(207, 96, 65, 0.8) !important; }
 
-.ou-bg-green:hover .ou-hero__text {background:#539d3c !important;} 
-.ou-bg-red:hover .ou-hero__text {background:#b52a1e !important; } 
-.ou-bg-dark-purple:hover .ou-hero__text {background:#470d43 !important;} 
-.ou-bg-blue:hover .ou-hero__text {background:#0b55a8 !important;} 
-.ou-bg-dark-blue:hover .ou-hero__text {background:#002158 !important;} 
-.ou-bg-dark-grey:hover .ou-hero__text {background:#312b39 !important;} 
-.ou-bg-purple:hover .ou-hero__text {background:#880088 !important;}
-.ou-bg-orange:hover .ou-hero__text {background:#cf6041 !important;}
+.ou-hero.ou-bg-green:hover .ou-hero__text {background:#539d3c !important;} 
+.ou-hero.ou-bg-red:hover .ou-hero__text {background:#b52a1e !important; } 
+.ou-hero.ou-bg-dark-purple:hover .ou-hero__text {background:#470d43 !important;} 
+.ou-hero.ou-bg-blue:hover .ou-hero__text {background:#0b55a8 !important;} 
+.ou-hero.ou-bg-dark-blue:hover .ou-hero__text {background:#002158 !important;} 
+.ou-hero.ou-bg-dark-grey:hover .ou-hero__text {background:#312b39 !important;} 
+.ou-hero.ou-bg-purple:hover .ou-hero__text {background:#880088 !important;}
+.ou-hero.ou-bg-orange:hover .ou-hero__text {background:#cf6041 !important;}
 
 
 /* lighter colours */
 
-.ou-bg-yellow .ou-hero__text {background:#ffc23d !important; background: rgb(255, 194, 61) !important; background: rgba(255, 194, 61, 0.8) !important; color:#000; } 
-.ou-bg-light-blue .ou-hero__text {background:#a6d0ff !important; background: rgb(166, 208, 255) !important; background: rgba(166, 208, 255, 0.8) !important; color:#000; } 
-.ou-bg-grey .ou-hero__text {background:#929fb0 !important; background: rgb(146, 159, 176) !important; background: rgba(146, 159, 176, 0.8) !important; color:#000; } 
-.ou-bg-light-grey .ou-hero__text {background:#e7eff7 !important; background: rgb(231, 239, 247) !important; background: rgba(231, 239, 247, 0.8) !important; color:#000; }
+.ou-hero.ou-bg-yellow .ou-hero__text {background:#ffc23d !important; background: rgb(255, 194, 61) !important; background: rgba(255, 194, 61, 0.8) !important; color:#000; } 
+.ou-hero.ou-bg-light-blue .ou-hero__text {background:#a6d0ff !important; background: rgb(166, 208, 255) !important; background: rgba(166, 208, 255, 0.8) !important; color:#000; } 
+.ou-hero.ou-bg-grey .ou-hero__text {background:#929fb0 !important; background: rgb(146, 159, 176) !important; background: rgba(146, 159, 176, 0.8) !important; color:#000; } 
+.ou-hero.ou-bg-light-grey .ou-hero__text {background:#e7eff7 !important; background: rgb(231, 239, 247) !important; background: rgba(231, 239, 247, 0.8) !important; color:#000; }
 
-.ou-bg-yellow .ou-hero__title, 
-.ou-bg-light-blue .ou-hero__title, 
-.ou-bg-grey .ou-hero__title,
-.ou-bg-light-grey .ou-hero__title {color:#000;}
+.ou-hero.ou-bg-yellow .ou-hero__title, 
+.ou-hero.ou-bg-light-blue .ou-hero__title, 
+.ou-hero.ou-bg-grey .ou-hero__title,
+.ou-hero.ou-bg-light-grey .ou-hero__title {color:#000;}
 
-.ou-bg-yellow:hover .ou-hero__text {background:#ffc23d !important; } 
-.ou-bg-light-blue:hover .ou-hero__text {background:#a6d0ff !important;} 
-.ou-bg-grey:hover .ou-hero__text {background:#929fb0 !important;} 
-.ou-bg-light-grey:hover .ou-hero__text {background:#e7eff7 !important;}
+.ou-hero.ou-bg-yellow:hover .ou-hero__text {background:#ffc23d !important; } 
+.ou-hero.ou-bg-light-blue:hover .ou-hero__text {background:#a6d0ff !important;} 
+.ou-hero.ou-bg-grey:hover .ou-hero__text {background:#929fb0 !important;} 
+.ou-hero.ou-bg-light-grey:hover .ou-hero__text {background:#e7eff7 !important;}
 
 /* test this
 #ou-region2 .hero p {
