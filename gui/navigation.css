@@ -10,54 +10,9 @@
 */
 
 
-/*
--------------------------------------------
-	Breadcrumb
--------------------------------------------
-*/
 
 
-ol.ou-ancestors,
-ol.ou-ancestors li {
-	list-style:none;
-	list-style-type:none;
-	margin:0;
-	padding:0;	
-}
-
-ol.ou-ancestors {margin:5px 0 25px 0;}
-
-ol.ou-ancestors li {
-	float:left;
-	position:relative;
-	padding:0 15px 0 0;
-	margin:0 8px 5px 0;
-	color:#777;
-}
-
-ol.ou-ancestors li:before {content:"";}
-
-ol.ou-ancestors li:after {
-	font-family: 'FontAwesome';
-	color:#999;
-	font-size: 10px;
-	content: " \f054";
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-
-ol.ou-ancestors li:last-child:after {content: "";}
-
-ol.ou-ancestors li a {text-decoration:none;}
-
-ol.ou-ancestors li a:hover {
-	text-decoration:underline;
-	color:#000;
-}
-
-
-/* Breadcrumb with a tag line floated right (careers) */
+/* Breadcrumb with a tag line floated right (careers) 
 
 .ou-breadcrumb-and-tag ol.ou-ancestors {
 	width:48%;
@@ -76,7 +31,7 @@ ol.ou-ancestors li a:hover {
 	color:#CF6041; 
 	font-size:1.1em;
 }
-
+*/
 
 
 /*
@@ -667,17 +622,14 @@ ul.ou-icon-links li.ou-icon-links-googleplus i.fa-circle {color:#dd4b39;}
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
 
-
+/*
 .ou-breadcrumb-and-tag ol.ou-ancestors,
 .ou-breadcrumb-and-tag p {
 	width:100%;
 	float:none;
 	text-align:left;
 }
-
-ol.ou-ancestors {margin-bottom:15px;}
-
-ol.ou-ancestors li {font-size:.9em;}
+*/
 
 .ou-topics {margin-bottom:0;}
 

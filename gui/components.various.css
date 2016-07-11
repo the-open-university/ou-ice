@@ -1,0 +1,152 @@
+/*
+--------------------------------------------------------------------------------------
+
+	Various
+	components.various.css
+
+--------------------------------------------------------------------------------------
+*/
+
+
+
+/*
+-------------------------------------------
+	Events
+-------------------------------------------
+*/
+
+
+.ou-events__nav {
+	background:#eee;	
+	text-align:center;
+	margin:0 0 20px 0;
+}
+
+span.ou-events__current {
+	display:inline-block;
+	padding:8px 0;
+	font-weight:bold;
+}
+
+.ou-events__prev,
+.ou-events__next {
+	display:inline-block;
+	float:left;
+	text-decoration:none;
+	padding:8px 10px;
+	border-right:1px solid #ddd;
+}
+
+.ou-events__next {
+	float:right;
+	border-right:0;	
+	border-left:1px solid #ddd;
+}
+
+.ou-events__prev:before,
+.ou-events__next:after {
+	content: "\25c0";
+	color:#999;
+	font-size:9px;
+	display:block;
+	float:left;
+	margin:2px 4px 0 0;
+}
+
+.ou-events__next:after {
+	content: "\25b6 ";
+	float:right;
+	margin:2px 0 0 4px;
+}
+
+.ou-events__prev:hover,
+.ou-events__next:hover {
+	background:#ddd;
+	text-decoration:none;
+}
+
+.ou-events__day {
+	border-bottom:1px solid #eee;
+	margin:0 0 20px 0;
+	min-height:80px;
+}
+
+.ou-events__date {
+	width: 55px;
+    height: auto;
+    float: left;
+    margin: 3px 10px 0 0;
+}
+
+.ou-events__date em {
+	font-style: normal;
+    font-size: .9em;
+    color: #fff;
+    background: #b52a1e;
+    padding: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;	
+}
+
+.ou-events__date strong {
+	text-align: center;
+    color: #000;
+    font-size: 25px;
+    font-weight: normal;
+    display: block;
+    background: #eee;
+    padding: 10px 0;
+	border-radius:0 0 4px 4px;
+}
+
+.ou-events__event {margin-left:75px;	}
+
+.ou-events__event-title {
+	font-size:1.2em;
+	margin:0 0 8px 0;	
+}
+
+.ou-events__event-title a {text-decoration:none;}
+
+.ou-events__event-time {
+	color:#777;	
+	font-size:.9em;
+	font-weight:bold;
+	margin:0 0 6px 0;
+	line-height:100%;
+}
+
+
+
+
+@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+
+
+} /* end media query */
+
+
+
+@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+
+
+
+} /* end media query */
+
+
+
+/*
+-------------------------------------------
+	Retina
+-------------------------------------------
+*/
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+
+} /* end media query */
+
+
