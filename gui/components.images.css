@@ -60,7 +60,10 @@
 	max-width:1180px;
 }
 
-.ou-hero__img {display:block;}
+.ou-hero__img {
+	display:block;
+	height:auto;
+}
 
 .ou-hero__link,
 .ou-hero__link:hover {
