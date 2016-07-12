@@ -158,13 +158,29 @@ span.colours-swatch {
 
 
 
-
-
-
-
 .styleguide .ou-grid {margin:0 0 25px 0;}
 
 .styleguide h2 {margin:0 0 25px 0;}
 
 .styleguide .box h2 {margin:0 0 10px 0;}
+
+
+
+
+
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+
+a.code-example-trigger {
+	background:url(img/icons/icon-code@2x.png) top left no-repeat;
+	background-size:24px 24px;
+}
+
+
+
+} /* end media query */
 
