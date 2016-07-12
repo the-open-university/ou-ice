@@ -68,17 +68,19 @@
 
 .slick-dots li {margin:0 3px !important;}
 
+.slick-arrow {height: 20px !important;}
+
 .slick-prev::before,
 .slick-next::before {content: "" !important;}
 
 .slick-prev {background: url(icons/icon-carousel-left.png) top left no-repeat !important; left:-30px !important;}
-.slick-next {background: url(icons/icon-carousel-right.png) top left no-repeat !important; right:-30px !important;}
+.slick-next {background: url(icons/icon-carousel-right.png) top right no-repeat !important; right:-30px !important;}
 
 .slick-prev:hover, 
 .slick-prev:focus {background: url(icons/icon-carousel-left.png) bottom left no-repeat !important;}
 
 .slick-next:hover, 
-.slick-next:focus {background: url(icons/icon-carousel-right.png) bottom left no-repeat !important;}
+.slick-next:focus {background: url(icons/icon-carousel-right.png) bottom right no-repeat !important;}
 
 
 
