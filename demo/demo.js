@@ -14,7 +14,10 @@
                 .insertBefore($example);
         });
 
-        $('.lang-html').text($('.lang-html').html());
+        $('.lang-html,.lang-js').each(function(key, value){
+            var $value = $(value);
+            $value.text($value.html());
+        });
     
         $('pre.prettyprint-toglable').hide();
 		$('.code-example-trigger').click(function () {
