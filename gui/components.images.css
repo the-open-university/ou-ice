@@ -10,7 +10,6 @@
 
 
 
-
 /*
 -------------------------------------------
 	Image + caption
@@ -244,11 +243,59 @@
 }
 
 
+/* carousel */
+
+.slick-prev,
+.slick-next {display:none !important;}
+
+
+
 /* hero */
 
 .ou-hero__text {width:100%;}
 
 .ou-hero__title {font-size: 1.2em;}
+
+
+} /* end media query */
+
+
+
+/*
+-------------------------------------------
+	Retina
+-------------------------------------------
+*/
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+
+/* carousel */
+
+.slick-prev {
+	background-image: url(icons/icon-carousel-left@2x.png) !important;
+	background-size:20px 20px;
+}
+
+.slick-next {
+	background-image: url(icons/icon-carousel-right@2x.png) !important;
+	background-size:20px 20px;
+}
+
+.slick-prev:hover, 
+.slick-prev:focus {
+	background-image: url(icons/icon-carousel-left@2x.png) !important;
+	background-size:20px 20px;
+}
+
+.slick-next:hover, 
+.slick-next:focus {
+	background-image: url(icons/icon-carousel-right@2x.png) !important;
+	background-size:20px 20px;
+}
 
 
 } /* end media query */
