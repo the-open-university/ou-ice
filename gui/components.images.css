@@ -49,6 +49,42 @@
 
 /*
 -------------------------------------------
+	Carousel
+-------------------------------------------
+*/
+
+
+.ou-carousel,
+.ou-carousel-multiple {margin-bottom:25px;}
+
+.ou-carousel .ou-hero,
+.ou-creative .ou-carousel,
+.ou-creative .ou-carousel-multiple {margin-bottom:0;}
+
+.ou-carousel-multiple .slick-slide {margin:0 5px;}
+
+
+/* prev/next buttons - overruling Slick styles */
+
+.slick-dots li {margin:0 3px !important;}
+
+.slick-prev::before,
+.slick-next::before {content: "" !important;}
+
+.slick-prev {background: url(icons/icon-carousel-left.png) top left no-repeat !important; left:-30px !important;}
+.slick-next {background: url(icons/icon-carousel-right.png) top left no-repeat !important; right:-30px !important;}
+
+.slick-prev:hover, 
+.slick-prev:focus {background: url(icons/icon-carousel-left.png) bottom left no-repeat !important;}
+
+.slick-next:hover, 
+.slick-next:focus {background: url(icons/icon-carousel-right.png) bottom left no-repeat !important;}
+
+
+
+
+/*
+-------------------------------------------
 	Hero
 -------------------------------------------
 */
