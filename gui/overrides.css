@@ -27,3 +27,9 @@ body #ou-site-body {
     margin-bottom: 45px !important;
 }
 
+
+@media only screen and (max-width: 1180px), screen and (max-device-width: 1180px) {
+
+body #ou-header {padding: 0 15px 20px 15px !important;}
+
+} /* end media query */
