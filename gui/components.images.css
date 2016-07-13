@@ -77,6 +77,7 @@
 	width: 60%;
 	right: 0;
 	bottom: 0;
+	color: #fff;
 	background: #DD3E57;
 	background: rgb(221,62,87);
 	background: rgba(221,62,87, 0.8);
@@ -88,7 +89,7 @@
 .ou-hero:hover .ou-hero__text {background:#DD3E57;}
 
 .ou-hero__title {
-	color: #fff;
+	color: inherit;
 	line-height: 120%;
 	margin:0;
 	padding:0;
@@ -96,7 +97,7 @@
 }
 
 .ou-hero__description {
-	color:fff;
+	color: inherit;
 	font-size:1em;
 	margin:5px 0 0 0;
 }
@@ -129,10 +130,10 @@
 .ou-hero.ou-bg-grey .ou-hero__text {background:#929fb0 !important; background: rgb(146, 159, 176) !important; background: rgba(146, 159, 176, 0.8) !important; color:#000; } 
 .ou-hero.ou-bg-light-grey .ou-hero__text {background:#e7eff7 !important; background: rgb(231, 239, 247) !important; background: rgba(231, 239, 247, 0.8) !important; color:#000; }
 
-.ou-hero.ou-bg-yellow .ou-hero__title, 
-.ou-hero.ou-bg-light-blue .ou-hero__title, 
-.ou-hero.ou-bg-grey .ou-hero__title,
-.ou-hero.ou-bg-light-grey .ou-hero__title {color:#000;}
+.ou-hero.ou-bg-yellow .ou-hero__text, 
+.ou-hero.ou-bg-light-blue .ou-hero__text, 
+.ou-hero.ou-bg-grey .ou-hero__text,
+.ou-hero.ou-bg-light-grey .ou-hero__text {color:#000;}
 
 .ou-hero.ou-bg-yellow:hover .ou-hero__text {background:#ffc23d !important; } 
 .ou-hero.ou-bg-light-blue:hover .ou-hero__text {background:#a6d0ff !important;} 
