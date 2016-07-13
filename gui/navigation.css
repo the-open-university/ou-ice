@@ -334,46 +334,6 @@ a.ou-help {background-image:url(icons/icon-help@2x.png);}
 
 
 
-/* to top */
-
-#ou-site-footer a.ou-to-top {
-	display: inline-block;
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	opacity: 0;
-	text-decoration:none;
-	padding:10px 18px;
-	color:#0b55a8;
-	background-color:#a6d0ff;
-	font-size:.9em;
-	font-weight:bold;
-}
-
-#ou-site-footer a.ou-to-top:hover {
-	background-color:#539d3c;
-	color:#fff;
-}
-
-#ou-content a.ou-to-top {
-	text-decoration:none;
-	display:inline-block;
-	padding:4px;
-	background-color:transparent;
-	border-radius:6px;
-}
-
-#ou-content a.ou-to-top:hover {
-	background-color:#e7eff7;
-}
-
-#ou-content a.ou-to-top:before {
-	font-family: 'FontAwesome';
-	content: "\f077";
-	font-size:.9em;
-	color:#880088;
-	padding-right:10px;
-}
 
 /* standalone link */
 
@@ -642,4 +602,7 @@ ul.ou-icon-links li {
 
 
 } /* end media query */
+
+
+
 

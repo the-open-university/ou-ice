@@ -10,7 +10,7 @@
 
 /*
 -------------------------------------------
-	Breadcrumb
+	Breadcrumb / Ancestors
 -------------------------------------------
 */
 
@@ -139,6 +139,57 @@
 .ou-context-nav ul ul ul ul li strong {padding-left:51px;}
 
 
+/*
+-------------------------------------------
+	To top link
+-------------------------------------------
+*/
+
+
+/* in content */
+
+.ou-to-top {
+	text-decoration:none;
+	display:inline-block;
+	font-size:.9em;
+}
+
+.ou-to-top:before {
+	color:#ccc;
+	font-size: 12px;
+	content: "\25b2";
+	display:inline-block;
+	margin-right:5px;
+}
+
+.ou-to-top:hover:before {color:#000;}
+
+/* in footer, appears bottom right */
+
+#ou-site-footer .ou-to-top {
+	display: block;
+	position: fixed;
+	right: 12px;
+	bottom: 15px;
+	opacity: 0;
+	padding:0;
+	margin:0;
+	text-indent:-5000em;
+	overflow:hidden;
+	width: 25px;
+	height:25px;
+	background-image:url(icons/icon-to-top.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+#ou-site-footer .ou-to-top:before {display:none;}
+
+#ou-site-footer .ou-to-top:hover {background-position:bottom left;}
+
+
+
+
 @media only screen and (max-width: 1180px), screen and (max-device-width: 1180px) {
 
 .ou-sections {
@@ -167,3 +218,29 @@
 
 
 } /* end media query */
+
+
+
+/*
+-------------------------------------------
+	Retina
+-------------------------------------------
+*/
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+
+/* to top link */
+
+.ou-to-top {	
+	background-image:url(icons/icon-to-top@2x.png);
+	background-size: 25px 50px;
+}
+
+
+} /* end media query */
+
+
