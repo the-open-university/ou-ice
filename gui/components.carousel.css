@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 /*
 --------------------------------------------------------------------------------------
 
@@ -15,17 +13,14 @@
 /*
 -------------------------------------------
 	Copied from Slick theme
-	changes commented
+	changes commented or commented out
 -------------------------------------------
 */
 
 
 /* Slider */
 
-.slick-loading .slick-list
-{
-    background: #fff url('http://cdn.jsdelivr.net/jquery.slick/1.6.0/ajax-loader.gif') center center no-repeat;
-}
+.slick-loading .slick-list {background: #fff url('http://cdn.jsdelivr.net/jquery.slick/1.6.0/ajax-loader.gif') center center no-repeat;} /* url */
 
 /* Icons 
 
@@ -48,8 +43,7 @@
 /* Arrows */
 
 .slick-prev,
-.slick-next
-{
+.slick-next {
     font-size: 0;
     line-height: 0;
 
@@ -101,8 +95,7 @@
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
-.slick-next:focus
-{
+.slick-next:focus {
     color: transparent;
     outline: none;
     background-position: bottom right;
@@ -145,8 +138,7 @@
 }
 */
 
-[dir='rtl'] .slick-prev
-{
+[dir='rtl'] .slick-prev {
     /*right: -25px;*/
 	right: -30px;
     left: auto;
@@ -170,8 +162,7 @@
 }
 */
 
-[dir='rtl'] .slick-next
-{
+[dir='rtl'] .slick-next {
     right: auto;
     /*left: -25px;*/
 	left:-30px;
@@ -193,13 +184,9 @@
 /* Dots */
 
 
-.slick-dotted.slick-slider
-{
-    margin-bottom: 30px;
-}
+.slick-dotted.slick-slider {margin-bottom: 30px;}
 
-.slick-dots
-{
+.slick-dots {
     position: absolute;
     bottom: -25px;
 
@@ -213,8 +200,8 @@
 
     text-align: center;
 }
-.slick-dots li
-{
+
+.slick-dots li {
     position: relative;
 
     display: inline-block;
@@ -228,8 +215,7 @@
     cursor: pointer;
 }
 
-.slick-dots li button
-{
+.slick-dots li button {
     font-size: 0;
     line-height: 0;
 
@@ -248,19 +234,12 @@
 }
 
 .slick-dots li button:hover,
-.slick-dots li button:focus
-{
-    outline: none;
-}
+.slick-dots li button:focus {outline: none;}
 
 .slick-dots li button:hover:before,
-.slick-dots li button:focus:before
-{
-    opacity: 1;
-}
+.slick-dots li button:focus:before {opacity: 1;}
 
-.slick-dots li button:before
-{
+.slick-dots li button:before {
     font-size: 20px;
     line-height: 20px;
 
@@ -282,8 +261,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.slick-dots li.slick-active button:before
-{
+.slick-dots li.slick-active button:before {
     opacity: .75;
     color: black;
 }
@@ -306,18 +284,21 @@
 
 .ou-carousel-multiple .slick-slide {margin:0 5px;}
 
+.ou-creative .ou-carousel {
+	max-width:1180px;
+	margin:0 auto;
+}
+
 
 
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
 
-
 /* carousel */
 
 .slick-prev,
 .slick-next {display:none;}
-
 
 
 
