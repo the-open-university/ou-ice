@@ -341,12 +341,12 @@
 
 .slick-prev {
 	background-image: url(icons/icon-carousel-left@2x.png);
-	background-size:20px 20px;
+	background-size:20px 40px;
 }
 
 .slick-next {
 	background-image: url(icons/icon-carousel-right@2x.png);
-	background-size:20px 20px;
+	background-size:20px 40px;
 }
 
 
