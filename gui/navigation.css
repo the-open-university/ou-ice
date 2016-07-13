@@ -411,43 +411,6 @@ a.ou-button-delete:focus {
 
 
 
-/*
--------------------------------------------
-	Topics
--------------------------------------------
-*/
-
-
-.ou-topics h2 {
-	font-size:1.5em;
-	margin:0 0 5px 0;
-}
-
-.ou-topics img {margin-bottom:10px;}
-
-.ou-topics a {text-decoration:none;}
-
-.ou-topics a:hover {text-decoration:underline;}
-
-.ou-topics a h2 {color:#039;}
-
-.ou-topics a:hover h2 {color:#000;}
-
-.ou-topics p {color:#666; margin:0;}
-
-#ou-content .ou-topics ul {margin:10px 0 0 0;}
-
-#ou-content .ou-topics ul li {
-	margin-bottom:6px; 
-	padding-left:0;
-	line-height:1.4em;
-}
-
-#ou-content .ou-topics ul li:before {content:none;}
-
-.ou-topics a.ou-topics-more {font-weight:bold;}
-
-
 
 /*
 -------------------------------------------

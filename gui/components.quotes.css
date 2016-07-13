@@ -51,12 +51,9 @@
 	font-size:1em;
 }
 
-.ou-quote--light {
-	border:1px solid #ddd;
-	color:#000;
-}
-
-.ou-quote--light cite {color:#000;}
+.ou-quote--light,
+.ou-quote--light cite,
+.ou-quote--light cite a {color:#000;}
 
 
 
