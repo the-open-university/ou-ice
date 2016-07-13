@@ -1,0 +1,28 @@
+/*
+--------------------------------------------------------------------------------------
+
+	OVERRIDES
+	overrides.css
+
+--------------------------------------------------------------------------------------
+*/
+
+
+
+/*
+-------------------------------------------
+	headerfooter.css overrides
+-------------------------------------------
+*/
+
+body #ou-header {padding: 0 0 20px 0 !important;}
+
+body #ou-site-header {
+    max-width: none !important;
+    margin: 0 !important;
+}
+
+body #ou-site-body {
+    margin-top: 25px !important;
+    margin-bottom: 45px !important;
+}
