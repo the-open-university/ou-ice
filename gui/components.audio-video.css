@@ -1,0 +1,104 @@
+/*
+--------------------------------------------------------------------------------------
+
+	Audio + Video
+	components.audio-video.css
+
+--------------------------------------------------------------------------------------
+*/
+
+
+
+/*
+-------------------------------------------
+	Video
+-------------------------------------------
+*/
+
+
+.ou-video {
+	margin:0 0 20px 0;
+	background-color: #000;
+}
+
+.ou-video__clip {
+	text-align:center;
+	padding:20px;
+}
+
+.ou-video object,
+.ou-video iframe {max-width: 100%;}
+
+
+p.ou-video__toggle {margin:15px 0 0 0;}
+
+p.ou-video__toggle a {
+	text-decoration:none;
+	color:#777;
+}
+
+p.ou-video__toggle a:hover {color:#fff;}
+
+.ou-video .ou-quote p {font-size:1.1em;}
+
+.oembed-title {
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+	margin:0 0 15px 0;	
+}
+
+.oembed-title:hover {color:#999;}
+
+
+
+/* audio */
+
+.ou-audio blockquote .ou-dialogue dt,
+.ou-audio blockquote .ou-dialogue dd {
+	padding-left:0;
+	text-align:left;
+	color:#fff;
+}
+
+div.ou-audio blockquote .ou-dialogue dt {
+	color:#000;
+}
+
+div.ou-audio blockquote .ou-dialogue dt:before {
+	content:"";
+}
+
+
+
+
+@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+
+
+} /* end media query */
+
+
+
+@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+
+
+
+} /* end media query */
+
+
+
+/*
+-------------------------------------------
+	Retina
+-------------------------------------------
+*/
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+
+} /* end media query */
+
+

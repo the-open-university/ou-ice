@@ -37,9 +37,9 @@
         });
 
         // SHOW/HIDE TRANSCRIPTS
-        $(".ou-transcript").hide();
-        $('<p class="ou-toggle"><a href="#" class="ou-toggle">Show transcript</a></p>').appendTo("div.ou-clip");
-        $('a.ou-toggle').click(function(){
+        $(".ou-video__transcript").hide();
+        $('<p class="ou-video__toggle"><a href="#">Show transcript</a></p>').appendTo(".ou-video--transcript .ou-video__clip");
+        $('p.ou-video__toggle a').click(function(){
             $(this).text($(this).text()=='Show transcript'?'Hide transcript':'Show transcript');
             $(this).parent().parent().next().toggle();return false;
             $(this).html(text)

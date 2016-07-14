@@ -9,11 +9,6 @@
 
 
 
-/* links */
-
-.ou-list--links a {text-decoration:none;}
-.ou-list--links a:hover {text-decoration:underline;}
-
 
 /*
 -------------------------------------------
@@ -147,7 +142,11 @@
 
 
 
-/* list columns */
+/*
+-------------------------------------------
+	Columns
+-------------------------------------------
+*/
 
 
 .ou-list--2-cols,
@@ -171,6 +170,12 @@
     -webkit-column-count: 3;
     column-count: 3;
 }
+
+
+/* links */
+
+.ou-list--links a {text-decoration:none;}
+.ou-list--links a:hover {text-decoration:underline;}
 
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {

@@ -10,12 +10,6 @@
 */
 
 
-/*
--------------------------------------------
-	Images
--------------------------------------------
-*/
-
 
 
 
@@ -84,65 +78,6 @@ p.ou-welcome {
 
 
 
-/*
--------------------------------------------
-	Media
--------------------------------------------
-*/
-
-object,
-.ou-video iframe {max-width: 100%;}
-
-#ou-content a.ou-toggle {
-	text-decoration:none;
-}
-
-#ou-content a.ou-toggle:before {
-	font-family: 'FontAwesome';
-	content: "\f036";
-	display: inline-block;
-	padding-right:6px;
-}
-
-#ou-content a.ou-toggle:hover,
-#ou-content a.ou-toggle:hover:before {
-	color:#000;
-}
-
-p.ou-toggle {
-	margin:5px 0 0 0;
-}
-
-div.ou-video blockquote p,
-div.ou-audio blockquote p {
-	text-align:left;
-	font-size:1em;
-	color:#494949;
-	font-family:Arial, Helvetica, sans-serif;
-}
-
-div.ou-video,
-div.ou-audio {
-	padding: 20px;
-	margin:0 0 20px 0;
-	background-color: #e7eff7;
-	text-align:center;
-}
-
-div.ou-audio blockquote .ou-dialogue dt,
-div.ou-audio blockquote .ou-dialogue dd {
-	padding-left:0;
-	text-align:left;
-	color:#fff;
-}
-
-div.ou-audio blockquote .ou-dialogue dt {
-	color:#000;
-}
-
-div.ou-audio blockquote .ou-dialogue dt:before {
-	content:"";
-}
 
 
 
@@ -233,14 +168,6 @@ a.ou-advert h2 {font-size:1.4em;}
 
 
 
-@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
-
-
-} /* end media query */
-
-
-
-
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
@@ -260,17 +187,6 @@ img.ou-border {max-width:95%;}
 
 img.ou-go1.ou-border,
 img.ou-go2.ou-border {max-width:140px;}
-
-
-/* blockquotes */
-
-blockquote p,
-blockquote.ou-pullquote1 p, 
-blockquote.ou-pullquote2 p {
-	font-size:1em;
-}
-
-
 
 
 
