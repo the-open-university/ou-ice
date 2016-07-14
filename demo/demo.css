@@ -76,6 +76,12 @@
 -------------------------------------------
 */
 
+.ou-ice-code {
+	background:#eee;
+	color:#D13E34;	
+	display:inline-block;
+	padding:0 5px;
+}
 
 pre.prettyprint {
 	padding:15px 20px 15px 20px !important;

@@ -26,6 +26,7 @@
 @import url('components.boxes.css');
 @import url('components.carousel.css'); /* if using carousel only? */
 @import url('components.images.css');
+@import url('components.lists.css');
 @import url('components.nav.css');
 @import url('components.quotes.css');
 @import url('components.tables.css');

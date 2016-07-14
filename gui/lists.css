@@ -11,35 +11,8 @@
 
 
 
-/* unordered */
 
-.ou-list {
-	margin:0 0 15px 25px;
-	list-style-type: none;
-	padding: 0;
-}
-
-.ou-list ul {margin:0 0 0 25px;}
-
-.ou-list li {
-	margin-bottom: 5px;
-	position: relative;
-	/*z-index:100;  so items can float alongside happily */
-	padding-left: 20px;
-	line-height:1.6em;
-}
-
-.ou-list li:before {
-	content: "\2022";
-	color: #0b55a8;
-	font-size: 1.8em;
-	position: absolute;
-	left: 0;
-	top: 0;
-	line-height: 90%;
-}
-
-/* unordered alternative */
+/* unordered alternative
 
 #ou-content ul.ou-list-alt,
 ul.ou-list-alt {margin:0 0 20px 0;}
@@ -62,115 +35,11 @@ ul.ou-list-alt li:last-child {border-bottom:none;}
 ul.ou-list-alt li a {text-decoration:none;}
 
 ul.ou-list-alt li a:hover {text-decoration:underline;}
-
-
-/* unordered alternative 2 */
-
-#ou-content ul.ou-list-alt2,
-ul.ou-list-alt2 {margin:0; padding:0 0 20px 0;}
-
-#ou-content ul.ou-list-alt2 li,
-ul.ou-list-alt2 li {
-	margin-bottom: 0;
-	position: static;
-	padding-left: 0;
-	display:block;
-	padding:2px 15px;
-	line-height:1.6em;
-}
-
-#ou-content ul.ou-list-alt2 li:before {content: "";}
-
-ul.ou-list-alt2 li a {text-decoration:none;}
-
-ul.ou-list-alt2 li a:hover {text-decoration:underline;}
+ */
 
 
 
-/*
-	Unordered alternative 3
-	(black bullet points)
-*/
 
-#ou-content ul.ou-list-alt3,
-ul.ou-list-alt3 {
-	margin:0 0 15px 25px;
-	list-style-type: none;
-	padding: 0;
-}
-
-#ou-content ul.ou-list-alt3 ul,
-ul.ou-list-alt3 ul {margin:0 0 0 25px;}
-
-#ou-content ul.ou-list-alt3 li,
-ul.ou-list-alt3 li {
-	margin-bottom: 5px;
-	position: relative;
-	/*z-index:100;  so items can float alongside happily */
-	padding-left: 20px;
-	line-height:1.6em;
-}
-
-#ou-content ul.ou-list-alt3 li:before,
-ul.ou-list-alt3 li:before {
-	content: "\2022";
-	color: #000;
-	font-size: 1.8em;
-	position: absolute;
-	left: 0;
-	top: 0;
-	line-height: 90%;
-}
-
-
-
-/* list of links */
-
-.ou-link-list li {margin-bottom:10px;}
-
-.ou-link-list li a {text-decoration:none;}
-.ou-link-list li a:hover {text-decoration:underline;}
-
-
-
-/* 	
-	Unordered list of links 2
-	(black caret icons)
-*/
-
-#ou-content ul.ou-link-list2,
-ul.ou-link-list2 {
-	margin:0 0 20px 0;
-	padding:0;
-}
-
-#ou-content ul.ou-link-list2 li,
-ul.ou-link-list2 li {
-	margin-bottom: 10px;
-	position: relative;
-	/*z-index:100;  so items can float alongside happily */
-	padding-left: 15px;
-	line-height:130%;
-}
-
-#ou-content ul.ou-link-list2 li:before,
-ul.ou-link-list2 li:before {
-	display: inline-block;
-	content: '';
-	display: block;
-	width: 0;
-	height: 0;
-	border-left: 5px solid #222;
-	border-top: 5px solid transparent;
-	border-bottom: 5px solid transparent;
-	position: absolute;
-	top: 3px;
-	left: 0;
-}
-
-ul.ou-link-list2 li a {text-decoration:none;}
-
-ul.ou-link-list2 li a:hover {text-decoration:underline;}
 
 
 
@@ -221,141 +90,6 @@ ul.ou-cross-list li:before {
 
 
 
-/* unordered icon list */
-
-#ou-content ul.ou-icon-list,
-ul.ou-icon-list {
-	margin:0; 
-	padding:0;
-}
-
-#ou-content ul.ou-icon-list li,
-ul.ou-icon-list li {
-	margin:0 0 10px 0;
-	padding:0;
-	width:100%;
-}
-
-#ou-content ul.ou-icon-list li:before {content: "";}
-
-#ou-content ul.ou-icon-list li a,
-ul.ou-icon-list li a {
-	text-decoration:none;
-	display:block;
-	background:#eee;
-}
-
-#ou-content ul.ou-icon-list li a:hover,
-ul.ou-icon-list li a:hover {background:#e7eff7;}
-
-#ou-content ul.ou-icon-list li a i,
-ul.ou-icon-list li a i {
-	padding:15px 0;
-	margin-right:10px;
-	background:#539d3c;
-	font-size:1.2em;
-	color:#fff;
-	width:45px;
-	text-align:center;
-}
-
-
-
-/* unordered news */
-
-#ou-content ul.ou-news,
-ul.ou-news {
-	list-style-type: none;
-	margin: 0 0 20px 0;
-	padding: 0;
-}
-
-#ou-content ul.ou-news h2,
-ul.ou-news h3 {
-	margin-top:0;
-}
-
-#ou-region2 ul.ou-news h2,
-ul.ou-news h3 {
-	margin:0 0 5px 0;
-	font-size:1.1em;
-	line-height:140%;
-}
-
-#ou-content ul.ou-news li,
-ul.ou-news li {
-	margin: 0 0 15px 0;
-	padding: 0 0 15px 0;
-	list-style-type: none;
-	border-bottom: 1px solid #ddd;
-}
-
-#ou-content ul.ou-news li:last-child,
-ul.ou-news li:last-child {border-bottom:none;}
-
-#ou-content ul.ou-news li:before {
-	content:"";
-}
-
-#ou-content ul.ou-news li p:last-child,
-ul.ou-news li p:last-child {margin-bottom:0;}
-
-p.ou-date {
-	color: #777;
-	margin:0 0 8px 0;
-}
-
-ul.ou-news img {
-	float: right;
-	margin: 0 0 15px 15px;
-	width:200px;
-}
-
-
-#ou-region2 ul.ou-news img {
-	width:100px;
-	margin-bottom:5px;
-}
-
-
-ul.ou-news h2 a,
-ul.ou-news h3 a {
-	text-decoration:none;
-}
-
-/* unordered news alternative */
-
-#ou-content .ou-news-alt ul.ou-news li,
-.ou-news-alt ul.ou-news li {
-	margin: 0 0 10px 0;
-	padding: 15px 20px 15px 15px;
-	list-style-type: none;
-	border-bottom: none;
-	background:#eee;
-	font-size:.9em;
-	color:#666;
-	position:relative;
-}
-
-.ou-news-alt ul.ou-news h2,
-.ou-news-alt ul.ou-news h3 {
-	font-size:1.1em;
-	margin-bottom:4px;
-}
-
-.ou-news-alt ul.ou-news p {margin-bottom:0;}
-
-.ou-news-alt a.ou-news-close {
-	position:absolute;
-	top:2px;
-	right:4px;
-	text-decoration:none;
-	color:#999;
-	display:inline-block;
-}
-
-.ou-news-alt a.ou-news-close:hover {color:#b52a1e;}
-
 
 /* list columns */
 
@@ -381,35 +115,7 @@ ol.ou-list-cols3 {
 
 
 
-/* ordered 
 
-ol {
-	margin:0 0 15px 25px;
-	counter-reset: item;
-	list-style-type:none;
-}
-
-ol {margin:0 0 15px 0;}
-
-ol ol {margin:0 0 0 25px;}
-
-ol li {
-	position: relative;
-	padding-left: 25px;
-	margin-bottom: 5px;
-	line-height:1.6em;
-}
-
-ol li:before {
-	content: counter(item) ". ";
-	counter-increment: item;
-	color: #0b55a8;
-	display: inline-block;
-	text-align: right;
-	position: absolute;
-	top: 0;
-	left: 0;
-}*/
 
 /* zebra */
 
@@ -476,7 +182,7 @@ ul.ou-zebra li.ou-odd {
 .ou-glossary {margin-bottom:15px;}
 
 
-/* Icon links  */
+/* Icon links  
 
 #ou-content ul.ou-links li,
 ul.ou-links li {
@@ -495,7 +201,7 @@ ul.ou-links li a {
 
 ul.ou-links li a:hover {text-decoration:underline;}
 
-
+*/
 
 /* Sitemap */
 
