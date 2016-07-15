@@ -172,10 +172,31 @@
 }
 
 
-/* links */
+/*
+-------------------------------------------
+	Horizontal
+-------------------------------------------
+*/
+
+
+.ou-list--horizontal li {
+	display:inline-block;
+	margin-right:10px;	
+}
+
+
+
+/*
+-------------------------------------------
+	Links
+-------------------------------------------
+*/
+
 
 .ou-list--links a {text-decoration:none;}
 .ou-list--links a:hover {text-decoration:underline;}
+
+
 
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
