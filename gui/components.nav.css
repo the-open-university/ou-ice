@@ -74,7 +74,7 @@
 }
 
 .ou-sections a.ou-selected {
-    color: #0b55a8;
+    color: #000;
 	font-weight:bold;
 }
 
@@ -125,7 +125,7 @@
 .ou-context-nav li a:hover  {
 	background-color:#f5f5f5;
 	color:black;
-	text-decoration:underline;
+	text-decoration:none;
 }
 
 .ou-context-nav li.ou-expanded {background-color:#f5f5f5;}
