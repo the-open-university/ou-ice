@@ -6,7 +6,8 @@
 
 h1.smaller {font-size:2em;}
 
-h2.smaller {font-size:1.5em;}
+h2.smaller,
+h2.ou-smaller {font-size:1.4em;}
 
 
 /*
