@@ -8,14 +8,16 @@
 */
 
 
-
 /*
 -------------------------------------------
 	headerfooter.css overrides
 -------------------------------------------
 */
 
-body #ou-header {padding: 0 0 20px 0 !important;}
+body #ou-header {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
 
 body #ou-site-header {
     max-width: none !important;
@@ -28,8 +30,13 @@ body #ou-site-body {
 }
 
 
-@media only screen and (max-width: 1180px), screen and (max-device-width: 1180px) {
+@media only 
+screen and (min-width: 768px)
+and (max-width: 1180px) {
 
-body #ou-header {padding: 0 15px 20px 15px !important;}
+body #ou-header {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
 
 } /* end media query */
