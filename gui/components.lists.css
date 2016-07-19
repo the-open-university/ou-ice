@@ -185,6 +185,29 @@
 }
 
 
+/*
+-------------------------------------------
+	Social media
+-------------------------------------------
+*/
+
+.ou-list--social a {text-decoration:none;}
+
+.ou-list--social li {
+	background-position:center left;
+	background-repeat:no-repeat;
+	padding:8px 0 8px 42px;
+	margin-bottom:4px;
+	min-height:32px;
+}
+
+.ou-list--social__facebook {background-image:url(icons/social/icon-facebook.png);}
+.ou-list--social__twitter {background-image:url(icons/social/icon-twitter.png);}
+.ou-list--social__youtube {background-image:url(icons/social/icon-youtube.png);}
+.ou-list--social__linkedin {background-image:url(icons/social/icon-linkedin.png);}
+.ou-list--social__google {background-image:url(icons/social/icon-google.png);}
+.ou-list--social__skype {background-image:url(icons/social/icon-skype.png);}
+
 
 /*
 -------------------------------------------
@@ -214,4 +237,31 @@
 
 } /* end media query */
 
+
+
+/*
+-------------------------------------------
+	Retina
+-------------------------------------------
+*/
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+
+/* social media */
+
+.ou-list--social li {background-size:32px 32px;}
+
+.ou-list--social__facebook {background-image:url(icons/social/icon-facebook@2x.png);}
+.ou-list--social__twitter {background-image:url(icons/social/icon-twitter@2x.png);}
+.ou-list--social__youtube {background-image:url(icons/social/icon-youtube@2x.png);}
+.ou-list--social__linkedin {background-image:url(icons/social/icon-linkedin@2x.png);}
+.ou-list--social__google {background-image:url(icons/social/icon-google@2x.png);}
+.ou-list--social__skype {background-image:url(icons/social/icon-skype@2x.png);}
+
+
+} /* end media query */
 
