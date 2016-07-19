@@ -194,11 +194,11 @@
 .ou-list--social a {text-decoration:none;}
 
 .ou-list--social li {
-	background-position:center left;
+	background-position:0 1px;
 	background-repeat:no-repeat;
 	padding:8px 0 8px 42px;
 	margin-bottom:4px;
-	min-height:32px;
+	min-height:33px;
 }
 
 .ou-list--social__facebook {background-image:url(icons/social/icon-facebook.png);}
