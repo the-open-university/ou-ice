@@ -31,33 +31,6 @@
 
 
 
-/*
--------------------------------------------
-	Buttons
--------------------------------------------
-*/
-
-a.ou-btn {
-	border-radius: 4px;
-	-webkit-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
-	background: #ffc23d;
-	color: #0b55a8;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 10px 14px;
-	display: inline-block;
-	margin-bottom: 15px;
-}
-
-a.ou-btn:hover {
-	background:#539d3c;
-	color:#fff;
-}
-
-.box a.ou-btn {margin-bottom:0;}
-
-
 
 
 /*

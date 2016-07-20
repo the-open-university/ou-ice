@@ -1,0 +1,39 @@
+/*
+--------------------------------------------------------------------------------------
+
+	Buttons
+	components.buttons.css
+
+--------------------------------------------------------------------------------------
+*/
+
+
+
+.ou-btn {
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	background: #e80074;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.ou-btn:hover {
+	background:#000 !important;
+	color:#fff;
+	text-decoration:none;
+}
+
+.ou-box .ou-btn {margin-bottom:0;}
+
+
+@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+
+
+
+} /* end media query */
+
+
