@@ -27,15 +27,15 @@
 	margin:0 0 8px 0;
 }
 
-.ou-success {border-color:#539d3c;}
-.ou-info {border-color:#0b55a8;}
+.ou-box--success {border-color:#539d3c;}
+.ou-box--info {border-color:#0b55a8;}
 
-.ou-warning {
+.ou-box--warning {
 	border-color:#b52a1e;
 	background-color:#fedbdb;
 }
 
-.ou-note {
+.ou-box--note {
 	border-color:#ffc23d;
 	background-color:#fdf6cd;
 }
