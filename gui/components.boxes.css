@@ -12,9 +12,6 @@
 	padding:15px 15px 15px 20px;
 	background-color:#eee;
 	margin:0 0 20px 0;
-	border-left-width:3px;
-	border-style:solid;
-	border-color:#ccc;
 }
 
 .ou-box p:last-child {margin-bottom:0;}
@@ -25,6 +22,15 @@
 	font-weight:bold;
 	font-size:1.1em;
 	margin:0 0 8px 0;
+}
+
+.ou-box--success,
+.ou-box--info,
+ou-box--warning,
+.ou-box--note {
+	border-left-width:3px;
+	border-style:solid;
+	border-color:#ccc;
 }
 
 .ou-box--success {border-color:#539d3c;}
@@ -38,10 +44,6 @@
 .ou-box--note {
 	border-color:#ffc23d;
 	background-color:#fdf6cd;
-}
-
-.ou-box--plain {
-	border:0;	
 }
 
 
