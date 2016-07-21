@@ -201,12 +201,28 @@
 	min-height:33px;
 }
 
-.ou-list--social__facebook {background-image:url(icons/social/icon-facebook.png);}
-.ou-list--social__twitter {background-image:url(icons/social/icon-twitter.png);}
-.ou-list--social__youtube {background-image:url(icons/social/icon-youtube.png);}
-.ou-list--social__linkedin {background-image:url(icons/social/icon-linkedin.png);}
-.ou-list--social__google {background-image:url(icons/social/icon-google.png);}
-.ou-list--social__skype {background-image:url(icons/social/icon-skype.png);}
+.ou-list__facebook {background-image:url(icons/social/icon-facebook.png);}
+.ou-list__twitter {background-image:url(icons/social/icon-twitter.png);}
+.ou-list__youtube {background-image:url(icons/social/icon-youtube.png);}
+.ou-list__linkedin {background-image:url(icons/social/icon-linkedin.png);}
+.ou-list__google {background-image:url(icons/social/icon-google.png);}
+.ou-list__skype {background-image:url(icons/social/icon-skype.png);}
+
+
+/* icons only */
+
+.ou-list--social--icons li {
+	padding:0;
+	display:inline-block;
+	margin-right:10px;
+}
+
+.ou-list--social--icons a {
+	display:block;
+	width:32px;
+	height:32px;
+	text-indent:-5000em;	
+}
 
 
 /*
