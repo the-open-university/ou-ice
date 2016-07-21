@@ -230,6 +230,46 @@ div.ou-go3 h2 {margin-top:0;}
 
 
 
+/*
+-------------------------------------------
+	Buttons
+	ou-button to ou-btn, consolidation of names
+-------------------------------------------
+*/
+
+
+a.ou-button,
+a.ou-button-secondary,
+a.ou-button-delete {
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	background: #888;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: inline-block;
+	margin: 0 5px 15px 0;
+	cursor:pointer;
+	border:0;
+	text-align:center;
+}
+
+a.ou-button-secondary {background:#036;}
+a.ou-button-delete {background:#b52a1e;}
+
+a.ou-button:hover, 
+a.ou-button:focus,
+a.ou-button-secondary:hover, 
+a.ou-button-secondary:focus,
+a.ou-button-delete:hover, 
+a.ou-button-delete:focus {
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+}
+
+
 
 @media only screen and (max-width: 1180px), screen and (max-device-width: 1180px) {
 
