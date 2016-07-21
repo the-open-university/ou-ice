@@ -271,12 +271,12 @@
 
 .ou-list--social li {background-size:32px 32px;}
 
-.ou-list--social__facebook {background-image:url(icons/social/icon-facebook@2x.png);}
-.ou-list--social__twitter {background-image:url(icons/social/icon-twitter@2x.png);}
-.ou-list--social__youtube {background-image:url(icons/social/icon-youtube@2x.png);}
-.ou-list--social__linkedin {background-image:url(icons/social/icon-linkedin@2x.png);}
-.ou-list--social__google {background-image:url(icons/social/icon-google@2x.png);}
-.ou-list--social__skype {background-image:url(icons/social/icon-skype@2x.png);}
+.ou-list__facebook {background-image:url(icons/social/icon-facebook@2x.png);}
+.ou-list__twitter {background-image:url(icons/social/icon-twitter@2x.png);}
+.ou-list__youtube {background-image:url(icons/social/icon-youtube@2x.png);}
+.ou-list__linkedin {background-image:url(icons/social/icon-linkedin@2x.png);}
+.ou-list__google {background-image:url(icons/social/icon-google@2x.png);}
+.ou-list__skype {background-image:url(icons/social/icon-skype@2x.png);}
 
 
 } /* end media query */
