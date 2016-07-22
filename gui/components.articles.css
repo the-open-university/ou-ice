@@ -7,7 +7,7 @@
 --------------------------------------------------------------------------------------
 */
 
-
+.ou-articles {margin-bottom:20px;}
 
 .ou-articles__article {
 	border-bottom:1px solid #ddd;
@@ -57,24 +57,24 @@
 }
 
 
-/* alt articles (zebra style rows) */
+/* striped */
 
-.ou-articles--alt .ou-articles__article {
+.ou-articles--striped .ou-articles__article {
 	border-bottom:none;
 	padding:20px;
 	margin:0;
 }
 
-.ou-articles--alt .ou-articles__article:nth-child(odd) {background: #e7eff7;}
+.ou-articles--striped .ou-articles__article:nth-child(odd) {background: #e7eff7;}
 
 
-/* alt2 articles (images at top) */
+/* stacked articles (images at top) */
 
-.ou-articles--alt2 .ou-articles__article {border-bottom:none;}
+.ou-articles--stacked .ou-articles__article {border-bottom:none;}
 
-.ou-articles--alt2 .ou-articles__img  {width:100%; float:none; margin-bottom:10px;}
+.ou-articles--stacked .ou-articles__img  {width:100%; float:none; margin-bottom:10px;}
 
-.ou-articles--alt2 .ou-articles__text {margin-left:0;}
+.ou-articles--stacked .ou-articles__text {margin-left:0;}
 
 
 
