@@ -34,6 +34,17 @@
 	padding:50px 0 30px 0;	
 }
 
+.ou-shield {
+	display:block;
+	text-indent:-5000em;
+	width:33px;
+	height:39px;
+	background-image: url(img/icons/icon-shield.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	margin:0 auto;
+}
+
 @media only screen and (max-width: 1039px), screen and (max-device-width: 1039px) {
 
 .ou-ice-header__wrap {padding:40px 20px;}
@@ -188,6 +199,12 @@ a.code-example-trigger {
 	background:url(img/icons/icon-code@2x.png) top left no-repeat;
 	background-size:24px 24px;
 }
+
+.ou-shield {
+	background-image: url(img/icons/icon-shield@2x.png);
+	background-size:33px 39px;
+}
+
 
 
 } /* end media query */
