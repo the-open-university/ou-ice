@@ -192,6 +192,7 @@
 */
 
 .ou-list--social a {text-decoration:none;}
+.ou-list--social a:hover {text-decoration:underline;}
 
 .ou-list--social li {
 	background-position:0 1px;
@@ -223,6 +224,27 @@
 	height:32px;
 	text-indent:-5000em;	
 }
+
+
+/*
+-------------------------------------------
+	Document lists
+-------------------------------------------
+*/
+
+.ou-list--docs a {
+	background-position:0 0;
+	background-repeat:no-repeat;
+	padding-left:22px;	
+	text-decoration:none;
+}
+
+.ou-list--docs--pdf a {background-image:url(icons/docs/icon-pdf.png);}
+.ou-list--docs--doc a {background-image:url(icons/docs/icon-doc.png);}
+.ou-list--docs--xls a {background-image:url(icons/docs/icon-xls.png);}
+.ou-list--docs--ppt a {background-image:url(icons/docs/icon-ppt.png);}
+
+.ou-list--docs a:hover {text-decoration:underline;}
 
 
 /*
@@ -277,6 +299,17 @@
 .ou-list__linkedin {background-image:url(icons/social/icon-linkedin@2x.png);}
 .ou-list__google {background-image:url(icons/social/icon-google@2x.png);}
 .ou-list__skype {background-image:url(icons/social/icon-skype@2x.png);}
+
+
+/* docs */
+
+.ou-list--docs a {background-size:16px 16px;}
+
+.ou-list--docs--pdf a {background-image:url(icons/docs/icon-pdf@2x.png);}
+.ou-list--docs--doc a {background-image:url(icons/docs/icon-doc@2x.png);}
+.ou-list--docs--xls a {background-image:url(icons/docs/icon-xls@2x.png);}
+.ou-list--docs--ppt a {background-image:url(icons/docs/icon-ppt@2x.png);}
+
 
 
 } /* end media query */

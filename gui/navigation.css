@@ -243,13 +243,16 @@ a.ou-external:after {
 	padding-left:4px;
 }
 
-/* link icons */
+/* link icons 
 
 a.ou-pdf,
 a.ou-doc,
-a.ou-xls,
-a.ou-download,
 a.ou-ppt,
+a.ou-xls,
+*/
+
+
+a.ou-download,
 a.ou-archive,
 a.ou-audio,
 a.ou-video,
@@ -265,10 +268,13 @@ a.ou-help {
 	padding-left:22px;	
 }
 
+/*
 a.ou-doc {background-image:url(icons/icon-doc.png);}
-a.ou-xls {background-image:url(icons/icon-xls.png);}
-a.ou-download {background-image:url(icons/icon-download.png);}
 a.ou-ppt {background-image:url(icons/icon-ppt.png);}
+a.ou-xls {background-image:url(icons/icon-xls.png);}
+*/
+
+a.ou-download {background-image:url(icons/icon-download.png);}
 a.ou-archive {background-image:url(icons/icon-archive.png);}
 a.ou-audio {background-image:url(icons/icon-audio.png);}
 a.ou-video {background-image:url(icons/icon-video.png);}
