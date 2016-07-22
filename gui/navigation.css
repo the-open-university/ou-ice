@@ -305,11 +305,13 @@ a.ou-link:hover:before {color:#000;}
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) { 
 
+/*
 a.ou-pdf,
 a.ou-doc,
 a.ou-xls,
-a.ou-download,
 a.ou-ppt,
+*/
+a.ou-download,
 a.ou-archive,
 a.ou-audio,
 a.ou-video,
@@ -320,11 +322,13 @@ a.ou-info,
 a.ou-forum,
 a.ou-help {background-size:16px 16px;}
 
+/*
 a.ou-pdf {background-image:url(icons/icon-pdf@2x.png);}
 a.ou-doc {background-image:url(icons/icon-doc@2x.png);}
 a.ou-xls {background-image:url(icons/icon-xls@2x.png);}
-a.ou-download {background-image:url(icons/icon-download@2x.png);}
 a.ou-ppt {background-image:url(icons/icon-ppt@2x.png);}
+*/
+a.ou-download {background-image:url(icons/icon-download@2x.png);}
 a.ou-archive {background-image:url(icons/icon-archive@2x.png);}
 a.ou-audio {background-image:url(icons/icon-audio@2x.png);}
 a.ou-video {background-image:url(icons/icon-video@2x.png);}
