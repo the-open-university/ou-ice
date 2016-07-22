@@ -27,3 +27,8 @@ ul li {
 	list-style:none;
 	list-style-type:none;
 }
+
+input, 
+input:matches([type="password"], [type="search"]), 
+textarea, 
+input[type="range"] {border-radius:0;}
