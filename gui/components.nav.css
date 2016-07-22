@@ -237,7 +237,7 @@
 
 /* to top link */
 
-.ou-to-top {	
+#ou-site-footer .ou-to-top {
 	background-image:url(icons/icon-to-top@2x.png);
 	background-size: 25px 50px;
 }
