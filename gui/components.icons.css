@@ -18,7 +18,8 @@
 .ou-pdf,
 .ou-doc,
 .ou-xls,
-.ou-ppt {
+.ou-ppt,
+.ou-download {
 	background-position:0 0;
 	background-repeat:no-repeat;
 	padding-left:20px;	
@@ -29,6 +30,7 @@
 .ou-doc {background-image:url(icons/docs/icon-doc.png);}
 .ou-xls {background-image:url(icons/docs/icon-xls.png);}
 .ou-ppt {background-image:url(icons/docs/icon-ppt.png);}
+.ou-download {background-image:url(icons/icon-download.png);}
 
 
 
@@ -50,12 +52,14 @@
 .ou-pdf,
 .ou-doc,
 .ou-xls,
-.ou-ppt {background-size:16px 16px;}
+.ou-ppt,
+.ou-download {background-size:16px 16px;}
 
 .ou-pdf {background-image:url(icons/docs/icon-pdf@2x.png);}
 .ou-doc {background-image:url(icons/docs/icon-doc@2x.png);}
 .ou-xls {background-image:url(icons/docs/icon-xls@2x.png);}
 .ou-ppt {background-image:url(icons/docs/icon-ppt@2x.png);}
+.ou-download {background-image:url(icons/icon-download@2x.png);}
 
 
 } /* end media query */
