@@ -28,8 +28,8 @@
 .ou-articles__text h2,
 .ou-articles__text h3 {
     font-size:1.3em;
-	margin:0 0 10px 0;
-	line-height:130%;
+	margin:0 0 5px 0;
+	line-height:150%;
 }
 
 .ou-articles__text h2 a,
@@ -111,9 +111,13 @@
 
 .ou-articles--smaller .ou-articles__article--promoted .ou-articles__text {margin-left:0;}
 
-/* list testing */
 
-.ou-articles__list .ou-articles__date {display:block;}
+/* list  */
+
+.ou-articles__list .ou-articles__date {
+	display:block;
+	margin-top:5px;
+}
 
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
