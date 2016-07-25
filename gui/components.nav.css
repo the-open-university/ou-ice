@@ -34,6 +34,7 @@
 
 .ou-ancestors li:after {
 	color:#ddd;
+	font-family:Hiragino Mincho ProN;
 	font-size: 10px;
 	content: "\25b6";
 	display:inline-block;
