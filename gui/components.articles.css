@@ -103,6 +103,13 @@
 
 .ou-articles--smaller .ou-articles__article--nopic .ou-articles__text {margin-left: 0;}
 
+.ou-articles--smaller .ou-articles__article--promoted .ou-articles__img {
+	width:100%;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.ou-articles--smaller .ou-articles__article--promoted .ou-articles__text {margin-left:0;}
 
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
