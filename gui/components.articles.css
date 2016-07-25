@@ -111,6 +111,10 @@
 
 .ou-articles--smaller .ou-articles__article--promoted .ou-articles__text {margin-left:0;}
 
+/* list testing */
+
+.ou-articles__list .ou-articles__date {display:block;}
+
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
