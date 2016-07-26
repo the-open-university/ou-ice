@@ -1,28 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
 
-<title>Plain and simple | OU ICE</title>
-
-<link rel="stylesheet" type="text/css" href="gui/styles.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="gui/header-footer.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="gui/responsive-tabs.css" />
-
-<link rel="stylesheet" type="text/css" href="gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" />
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-<!-- favicons -->
-<link rel="apple-touch-icon" href="gui/apple-touch-icon.png">
-<link rel="icon" href="gui/favicon.png">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="gui/ie10-win8-tile-icon.png">
-
-
-<meta name="keywords" content="" />
-<meta name="description" content="" />
+    <meta charset="utf-8" />
+    
+    <title>Layout - R1 + R2 - OU ICE</title>
+    
+    <link rel="stylesheet" type="text/css" href="gui/header-footer.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="gui/styles.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <link rel="apple-touch-icon" href="gui/icons/apple-touch-icon.png">
+    <link rel="icon" href="gui/icons/favicon.png">
 
 </head>
 
@@ -61,8 +52,6 @@
 <img src="gui/ou-logo.png" alt="The Open University">
 </a>
 
-
-
 <a href="#" class="ou-mobile-menu-toggle icon-down">Toggle service links</a>
 
 </div> <!-- end ou-header -->
@@ -79,19 +68,18 @@
 <div id="ou-region0">
 <ol class="ou-ancestors">
     <li><a href="index.html">Home</a></li>
-    <li>Plain and simple</li>
+    <li>Page layout: Standard</li>
 </ol>
 
 </div> <!-- end ou-region0 -->
 
 <div id="ou-region1">
 
-
 <div id="ou-content" class="ou-content">
 
-<h1>Plain and simple</h1>
+<h1>Standard</h1>
 
-<p class="ou-introduction">This is the standard layout with no extra body classes applied</p>
+<p class="ou-introduction">This is the standard layout with no extra body classes applied. It contains region 1 (this area) and region 2 (right hand side bar on desktop, wraps under ).</p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum ligula sed sapien posuere vehicula. Ut dui purus, accumsan et condimentum eu, mollis at neque. Nulla facilisi. Pellentesque venenatis odio eget enim ornare quis suscipit est aliquet. Sed fermentum neque neque. Nulla condimentum adipiscing metus, vel fermentum lectus ultrices nec. Vestibulum rutrum sem eu turpis malesuada consequat. Etiam eget mauris in justo consectetur ultrices blandit convallis leo. Proin nunc ipsum, consectetur in gravida at, pulvinar non ante. In hac habitasse platea dictumst. Maecenas feugiat mi elementum libero dapibus ac commodo enim porta. In sed velit sit amet lectus laoreet porta at vitae magna. Praesent vel magna porta risus feugiat euismod quis ut augue.</p>
 
@@ -101,24 +89,21 @@
 
 <p>Aliquam malesuada nibh vel mi feugiat aliquet. Suspendisse tristique quam mi. Ut erat dolor, tincidunt sed accumsan vitae, scelerisque ut felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam fermentum fermentum mauris, sit amet ullamcorper velit malesuada a. Nullam tincidunt pellentesque orci sed ultricies. Vivamus in enim eros, non vulputate turpis. Integer neque nisl, cursus vestibulum hendrerit nec, facilisis ut lacus. Praesent ut lacus sit amet elit posuere congue eget a odio. Vestibulum porttitor felis eu leo pulvinar quis pulvinar diam euismod.</p>
 
-
-
 </div> <!-- end ou-content -->
 </div> <!-- end ou-region1 -->
 
 <div id="ou-region2">
 
 <div class="ou-context-nav">
-<h2>Page layouts</h2> 
-<ul>
-<li><strong>Plain and simple</strong></li>
-<li><a href="layout-sections.html">Sections</a></li>
-<li><a href="layout-site-ident.html">Site ident</a></li>
-<li><a href="layout-site-ident-and-sections.html">Site ident and sections</a></li>
-<li><a href="layout-single-column.html">Single column</a></li>
-<li><a href="layout-three-sub-columns.html">Three sub columns</a></li>
-<li><a href="layout-two-sub-columns.html">Two sub columns</a></li>
-</ul>
+    <h2>My website</h2>
+    <nav>
+        <ul>
+            <li><strong>Home</strong></li>
+            <li><a href="#1">About</a></li>
+            <li><a href="#2">Research</a></li>
+            <li><a href="#3">Contact</a></li>
+        </ul>
+    </nav>
 </div>
 
 </div> <!-- end ou-region2 -->
@@ -178,16 +163,9 @@
 <!-- Javascripts -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
-<script src="js/responsive-tabs.min.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=desert" defer></script>
+<script src="demo/demo.js"></script>
 
-<script>
-$(document).ready(function() {
-    RESPONSIVEUI.responsiveTabs();
-})
-</script>
-
-<!-- Styleguide/demo site js -->
-<script src="js/styleguide-only.js"></script>
 
 </body>
 </html>

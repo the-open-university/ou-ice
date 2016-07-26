@@ -91,17 +91,20 @@ body.ou-pure #ou-region2 {
 }
 
 
+
 /*
 -------------------------------------------
 	One column
 -------------------------------------------
 */
 
-body.one-col #ou-region1,
-body.one-col #ou-region2 {
+body.ou-1-col #ou-region1,
+body.ou-1-col #ou-region2 {
 	margin:0 auto;
 	float:none;	
+	width:65%;
 }
+
 
 
 /*
@@ -196,8 +199,8 @@ body.ou-help div#ou-region2 {
 	padding:0;
 }
 
-body.one-col #ou-region1,
-body.one-col #ou-region2 {
+body.ou-1-col #ou-region1,
+body.ou-1-col #ou-region2 {
 	width:100%;
 }
 
