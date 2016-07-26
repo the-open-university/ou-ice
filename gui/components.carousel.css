@@ -80,12 +80,12 @@
 }
 
 .slick-prev {
-	background-image: url(icons/icon-carousel-left.png); 
+	background-image: url(icons/carousel/icon-carousel-left.png); 
 	left:-30px;
 }
 
 .slick-next {
-	background-image: url(icons/icon-carousel-right.png); 
+	background-image: url(icons/carousel/icon-carousel-right.png); 
 	right:-30px;
 }
 
@@ -321,12 +321,12 @@
 /* carousel */
 
 .slick-prev {
-	background-image: url(icons/icon-carousel-left@2x.png);
+	background-image: url(icons/carousel/icon-carousel-left@2x.png);
 	background-size:20px 40px;
 }
 
 .slick-next {
-	background-image: url(icons/icon-carousel-right@2x.png);
+	background-image: url(icons/carousel/icon-carousel-right@2x.png);
 	background-size:20px 40px;
 }
 

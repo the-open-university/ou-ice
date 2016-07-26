@@ -19,6 +19,11 @@
 .ou-doc,
 .ou-xls,
 .ou-ppt,
+.ou-rss,
+.ou-info,
+.ou-print,
+.ou-help,
+.ou-warning,
 .ou-download {
 	background-position:0 0;
 	background-repeat:no-repeat;
@@ -30,6 +35,11 @@
 .ou-doc {background-image:url(icons/docs/icon-doc.png);}
 .ou-xls {background-image:url(icons/docs/icon-xls.png);}
 .ou-ppt {background-image:url(icons/docs/icon-ppt.png);}
+.ou-rss {background-image:url(icons/icon-rss.png);}
+.ou-print {background-image:url(icons/icon-print.png);}
+.ou-info {background-image:url(icons/icon-info.png);}
+.ou-help {background-image:url(icons/icon-help.png);}
+.ou-warning {background-image:url(icons/icon-warning.png);}
 .ou-download {background-image:url(icons/icon-download.png);}
 
 
@@ -53,12 +63,22 @@
 .ou-doc,
 .ou-xls,
 .ou-ppt,
+.ou-rss,
+.ou-info,
+.ou-print,
+.ou-help,
+.ou-warning,
 .ou-download {background-size:16px 16px;}
 
 .ou-pdf {background-image:url(icons/docs/icon-pdf@2x.png);}
 .ou-doc {background-image:url(icons/docs/icon-doc@2x.png);}
 .ou-xls {background-image:url(icons/docs/icon-xls@2x.png);}
 .ou-ppt {background-image:url(icons/docs/icon-ppt@2x.png);}
+.ou-rss {background-image:url(icons/icon-rss@2x.png);}
+.ou-print {background-image:url(icons/icon-print@2x.png);}
+.ou-info {background-image:url(icons/icon-info@2x.png);}
+.ou-help {background-image:url(icons/icon-help@2x.png);}
+.ou-warning {background-image:url(icons/icon-warning@2x.png);}
 .ou-download {background-image:url(icons/icon-download@2x.png);}
 
 
