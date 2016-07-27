@@ -79,9 +79,9 @@
 
 .ou-sections a.ou-selected,
 .ou-sections a.ou-selected:hover {
-    color: #0b55a8;
+    color: #036;
 	font-weight:bold;
-	border-bottom:2px solid #0b55a8;
+	border-bottom:2px solid #036;
 }
 
 .ou-sections a:hover {
@@ -216,9 +216,7 @@
 .ou-sections a,
 .ou-sections a:hover,
 .ou-sections a.ou-selected,
-.ou-sections a.ou-selected:hover {
-	border-bottom:0;
-}
+.ou-sections a.ou-selected:hover {border-bottom:0;}
 
 .ou-sections a {padding-bottom:12px;}
 
