@@ -61,27 +61,33 @@
 .ou-sections {
 	background:#fff;
 	max-width:1180px;
-	margin:0 auto 20px auto;
+	margin:0 auto;
 }
 
 .ou-sections li {
 	display:inline-block;
-	margin:0 12px 5px 0;
+	margin:0 12px 0 0;
 }
 
 .ou-sections a {
 	color:#0b55a8; 
 	text-decoration:none;
+	display:block;
+	padding:0 0 18px 0;
+	border-bottom:2px solid #fff;
 }
 
-.ou-sections a.ou-selected {
-    color: #000;
+.ou-sections a.ou-selected,
+.ou-sections a.ou-selected:hover {
+    color: #0b55a8;
 	font-weight:bold;
+	border-bottom:2px solid #0b55a8;
 }
 
 .ou-sections a:hover {
 	color:#000; 
-	text-decoration:underline;
+	text-decoration:none;
+	border-bottom:2px solid #ccc;
 }
 
 
@@ -205,6 +211,16 @@
 
 @media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
 
+
+
+.ou-sections a,
+.ou-sections a:hover,
+.ou-sections a.ou-selected,
+.ou-sections a.ou-selected:hover {
+	border-bottom:0;
+}
+
+.ou-sections a {padding-bottom:12px;}
 
 
 } /* end media query */
