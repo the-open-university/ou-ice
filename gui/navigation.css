@@ -10,74 +10,6 @@
 */
 
 
-
-
-/* Breadcrumb with a tag line floated right (careers) 
-
-.ou-breadcrumb-and-tag ol.ou-ancestors {
-	width:48%;
-	float:left;
-}
-
-.ou-breadcrumb-and-tag p {
-	float:right;
-	width:48%;
-	text-align:right;
-	font-size:.9em;
-	color:#777;
-}
-
-.ou-breadcrumb-and-tag p i {
-	color:#CF6041; 
-	font-size:1.1em;
-}
-*/
-
-
-/*
--------------------------------------------
-	Table of contents
--------------------------------------------
-*/
-
-
-dl.ou-toc {
-	border-left:2px solid #880088;
-	padding:8px 0 5px 25px;	
-	margin:15px 0 25px 0;
-}
-
-dl.ou-toc dt {
-	font-weight:bold;
-	color:black;
-	margin-bottom:10px;
-}
-
-dl.ou-toc dd {margin-bottom:0;}
-
-#ou-content dl.ou-toc ul,
-#ou-content dl.ou-toc ul li {
-	margin:0;
-	padding:0;
-	list-style:none;
-}
-
-#ou-content dl.ou-toc ul li:before {content:"";}
-
-#ou-content dl.ou-toc ul li a {
-	text-decoration:none;
-}
-
-#ou-content dl.ou-toc ul li a:before {
-	font-family: 'FontAwesome';
-	content: "\f078";
-	font-size:.9em;
-	color:#880088;
-	padding-right:10px;
-}
-
-
-
 /*
 -------------------------------------------
 	Nav - Paged
@@ -243,47 +175,6 @@ a.ou-external:after {
 	padding-left:4px;
 }
 
-/* link icons 
-
-a.ou-pdf,
-a.ou-doc,
-a.ou-ppt,
-a.ou-xls,
-a.ou-download,
-
-
-
-
-a.ou-archive,
-a.ou-audio,
-a.ou-video,
-a.ou-print,
-a.ou-rss,
-a.ou-warning,
-a.ou-info,
-a.ou-forum,
-a.ou-help {
-	background-image:url(icons/icon-pdf.png);
-	background-position:0 3px;
-	background-repeat:no-repeat;
-	padding-left:22px;	
-}
-
-
-a.ou-doc {background-image:url(icons/icon-doc.png);}
-a.ou-ppt {background-image:url(icons/icon-ppt.png);}
-a.ou-xls {background-image:url(icons/icon-xls.png);}
-a.ou-download {background-image:url(icons/icon-download.png);}
-a.ou-archive {background-image:url(icons/icon-archive.png);}
-a.ou-audio {background-image:url(icons/icon-audio.png);}
-a.ou-video {background-image:url(icons/icon-video.png);}
-a.ou-print {background-image:url(icons/icon-print.png);}
-a.ou-rss {background-image:url(icons/icon-rss.png);}
-a.ou-warning {background-image:url(icons/icon-warning.png);}
-a.ou-info {background-image:url(icons/icon-info.png);}
-a.ou-forum {background-image:url(icons/icon-forum.png);}
-a.ou-help {background-image:url(icons/icon-help.png);}
-*/
 a.ou-link:before {
 	font-family: 'FontAwesome';
 	font-weight:normal;
@@ -296,52 +187,6 @@ a.ou-link:before {
 a.ou-link:before {content:"\f061"; }
 
 a.ou-link:hover:before {color:#000;}
-
-
-/* Retina */
-
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
-
-/*
-a.ou-pdf,
-a.ou-doc,
-a.ou-xls,
-a.ou-ppt,
-a.ou-download,
-
-a.ou-archive,
-a.ou-audio,
-a.ou-video,
-a.ou-print,
-a.ou-rss,
-a.ou-warning,
-a.ou-info,
-a.ou-forum,
-a.ou-help {background-size:16px 16px;}
-
-
-a.ou-pdf {background-image:url(icons/icon-pdf@2x.png);}
-a.ou-doc {background-image:url(icons/icon-doc@2x.png);}
-a.ou-xls {background-image:url(icons/icon-xls@2x.png);}
-a.ou-ppt {background-image:url(icons/icon-ppt@2x.png);}
-a.ou-download {background-image:url(icons/icon-download@2x.png);}
-
-a.ou-archive {background-image:url(icons/icon-archive@2x.png);}
-a.ou-audio {background-image:url(icons/icon-audio@2x.png);}
-a.ou-video {background-image:url(icons/icon-video@2x.png);}
-a.ou-print {background-image:url(icons/icon-print@2x.png);}
-a.ou-rss {background-image:url(icons/icon-rss@2x.png);}
-a.ou-warning {background-image:url(icons/icon-warning@2x.png);}
-a.ou-info {background-image:url(icons/icon-info@2x.png);}
-a.ou-forum {background-image:url(icons/icon-forum@2x.png);}
-a.ou-help {background-image:url(icons/icon-help@2x.png);}
-*/
-
-} /* end media query */
-
-
 
 
 /* standalone link */
@@ -455,35 +300,6 @@ a.add-block:hover {border-color:#539d3c;}
 }
 
 .ou-atoz-results p.ou-atoz-items em {font-style:normal;}
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
-
-
-/*
-.ou-breadcrumb-and-tag ol.ou-ancestors,
-.ou-breadcrumb-and-tag p {
-	width:100%;
-	float:none;
-	text-align:left;
-}
-*/
-
-.ou-topics {margin-bottom:0;}
-
-
-
-
-
-} /* end media query */
-
 
 
 
