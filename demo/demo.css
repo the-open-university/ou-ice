@@ -113,7 +113,7 @@ a.code-example-trigger {
 	background:url(img/icons/icon-code.png) top left no-repeat;
 }
 
-pre.prettyprint > span.pln:first-child {display:none;}
+/*pre.prettyprint > span.pln:first-child {display:none;}*/
 
 @media only screen and (max-width: 1200px), screen and (max-device-width: 1200px) {
 
