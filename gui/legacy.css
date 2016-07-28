@@ -269,6 +269,47 @@ a.ou-button-delete:focus {
 
 
 
+
+/*
+-------------------------------------------
+	Icons
+	ou-pdf to ou-icon-pdf
+-------------------------------------------
+*/
+
+
+a.ou-pdf,
+a.ou-doc,
+a.ou-xls,
+a.ou-ppt,
+a.ou-rss,
+a.ou-info,
+a.ou-print,
+a.ou-help,
+a.ou-warning,
+a.ou-download {
+	background-position:0 0;
+	background-repeat:no-repeat;
+	padding-left:20px;	
+	text-decoration:none;
+}
+
+a.ou-pdf {background-image:url(icons/docs/icon-pdf.png);}
+a.ou-doc {background-image:url(icons/docs/icon-doc.png);}
+a.ou-xls {background-image:url(icons/docs/icon-xls.png);}
+a.ou-ppt {background-image:url(icons/docs/icon-ppt.png);}
+a.ou-rss {background-image:url(icons/icon-rss.png);}
+a.ou-print {background-image:url(icons/icon-print.png);}
+a.ou-info {background-image:url(icons/icon-info.png);}
+a.ou-help {background-image:url(icons/icon-help.png);}
+a.ou-warning {background-image:url(icons/icon-warning.png);}
+a.ou-download {background-image:url(icons/icon-download.png);}
+
+
+
+
+
+
 @media only screen and (max-width: 1180px), screen and (max-device-width: 1180px) {
 
 
@@ -311,4 +352,39 @@ a.ou-button-delete:focus {
 } /* end media query */
 
 
+/*
+-------------------------------------------
+	Retina
+-------------------------------------------
+*/
 
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+
+a.ou-pdf,
+a.ou-doc,
+a.ou-xls,
+a.ou-ppt,
+a.ou-rss,
+a.ou-info,
+a.ou-print,
+a.ou-help,
+a.ou-warning,
+a.ou-download {background-size:16px 16px;}
+
+a.ou-pdf {background-image:url(icons/docs/icon-pdf@2x.png);}
+a.ou-doc {background-image:url(icons/docs/icon-doc@2x.png);}
+a.ou-xls {background-image:url(icons/docs/icon-xls@2x.png);}
+a.ou-ppt {background-image:url(icons/docs/icon-ppt@2x.png);}
+a.ou-rss {background-image:url(icons/icon-rss@2x.png);}
+a.ou-print {background-image:url(icons/icon-print@2x.png);}
+a.ou-info {background-image:url(icons/icon-info@2x.png);}
+a.ou-help {background-image:url(icons/icon-help@2x.png);}
+a.ou-warning {background-image:url(icons/icon-warning@2x.png);}
+a.ou-download {background-image:url(icons/icon-download@2x.png);}
+
+
+} /* end media query */
