@@ -8,7 +8,7 @@
 */
 
 
-.ou-btn {
+.ou-button {
 	-webkit-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 	background: #888;
@@ -23,18 +23,18 @@
 	text-align:center;
 }
 
-.ou-btn--primary {background: #e80074;}
-.ou-btn--secondary {background:#036;}
-.ou-btn--success {background:#539d3c;}
-.ou-btn--warning {background:#b52a1e;}
+.ou-button--primary {background: #e80074;}
+.ou-button--secondary {background:#036;}
+.ou-button--success {background:#539d3c;}
+.ou-button--warning {background:#b52a1e;}
 
-.ou-btn--block {
+.ou-button--block {
 	display:block;
 	margin-right:0;
 	width:100%;
 }
 
-.ou-btn:hover {
+.ou-button:hover {
 	background:#000 !important;
 	color:#fff;
 	text-decoration:none;
@@ -42,4 +42,4 @@
 
 
 /* easter egg ;) */
-.ou-btn--btn:hover {-webkit-animation: spin 02s infinite ease; -moz-animation: spin 02s infinite ease;}
+.ou-button--button:hover {-webkit-animation: spin 02s infinite ease; -moz-animation: spin 02s infinite ease;}

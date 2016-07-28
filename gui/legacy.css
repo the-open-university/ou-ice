@@ -233,12 +233,12 @@ div.ou-go3 h2 {margin-top:0;}
 /*
 -------------------------------------------
 	Buttons
-	ou-button to ou-btn, consolidation of names
+	ou-button old classes
 -------------------------------------------
 */
 
 
-a.ou-button,
+.ou-btn,
 a.ou-button-secondary,
 a.ou-button-delete {
 	-webkit-transition: all 0.2s ease-out;
@@ -258,8 +258,6 @@ a.ou-button-delete {
 a.ou-button-secondary {background:#036;}
 a.ou-button-delete {background:#b52a1e;}
 
-a.ou-button:hover, 
-a.ou-button:focus,
 a.ou-button-secondary:hover, 
 a.ou-button-secondary:focus,
 a.ou-button-delete:hover, 
