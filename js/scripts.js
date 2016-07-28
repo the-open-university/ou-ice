@@ -31,7 +31,7 @@
                         scrollTop: target.offset().top
                     }, 500);
 
-                    return false;
+                    //return false;
                 }
             }
         });
