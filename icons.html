@@ -51,6 +51,16 @@
 
 <h1>Icons</h1>
 
+<ol class="ou-toc">
+    <li><a href="#icon-classes">Icon classes</a></li>
+    <li><a href="#available-icons">Available icons</a></li>
+    <li><a href="#inline-links">Inline links</a></li>
+    <li><a href="#icon-without-link">Icon without link</a></li>
+    <li><a href="#document-lists">Document lists</a></li>
+    <li><a href="#social-media">Social media</a></li>
+</ol>
+
+
 <div class="ou-box ou-box--info">
 <p>We are gradually adding new options to this page.</p>
 </div>
@@ -58,7 +68,7 @@
 <p>Here you will find the different classes available to add icons to your pages. </p>
 
 
-<h2>Icon classes</h2>
+<h2 id="icon-classes">Icon classes</h2>
 
 <p>To add an icon you need to use two classes: <span class="ou-ice-code">ou-icon</span> + specific icon class (see below).</p>
 
@@ -75,7 +85,7 @@ ou-icon ou-icon--help 		// Help
 ou-icon ou-icon--warning 	// Warning
 </pre>
 
-<h2>Available icons</h2>
+<h2 id="available-icons">Available icons</h2>
 
 <div class="code-example">
 <ul class="ou-list ou-list--docs">
@@ -94,7 +104,7 @@ ou-icon ou-icon--warning 	// Warning
 
 <hr>
 
-<h2>Inline links</h2>
+<h2 id="inline-links">Inline links</h2>
 
 <div class="code-example">
 <p>Perhaps you want to link to a <a href="#" class="ou-icon ou-icon--pdf">PDF document</a> as well as a <a href="#" class="ou-icon ou-icon--doc">Word Template</a> followed by an <a href="#" class="ou-icon ou-icon--xls">Excel Spreadsheet</a>. Then don't forget the <a href="#" class="ou-icon ou-icon--ppt">PowerPoint Presentation</a>!</p>
@@ -102,7 +112,7 @@ ou-icon ou-icon--warning 	// Warning
 
 <hr>
 
-<h2>Icon without link</h2>
+<h2 id="icon-without-link">Icon without link</h2>
 
 <p>To use an icon in a sentence without a link you can use a <span class="ou-ice-code">span</span>.
 
@@ -114,7 +124,7 @@ ou-icon ou-icon--warning 	// Warning
 
 <hr>
 
-<h2 id="lists-docs">Document lists</h2>
+<h2 id="document-lists">Document lists</h2>
 
 <p>If all items in the list require the same icon, you use two classes on the containing <span class="ou-ice-code">&lt;ul&gt;</span>. To mix and match document types, use one class on the containing <span class="ou-ice-code">&lt;ul&gt;</span> and specific document type classes on the <span class="ou-ice-code">&lt;a&gt;</span> elements.</p>
 
@@ -158,6 +168,53 @@ ou-icon ou-icon--warning 	// Warning
     <li><a href="#" class="ou-icon ou-icon--doc">Word document</a></li>
     <li><a href="#" class="ou-icon ou-icon--xls">Excel spreadsheet</a></li>
     <li><a href="#" class="ou-icon ou-icon--ppt">Power Point</a></li>
+</ul>
+</div> <!-- end code-example -->
+
+<hr>
+
+<h2 id="social-media">Social media</h2>
+
+<div class="code-example">
+<ul class="ou-list ou-list--social">
+    <li class="ou-list__facebook"><a href="#">Facebook</a></li>
+    <li class="ou-list__twitter"><a href="#">Twitter</a></li>
+    <li class="ou-list__youtube"><a href="#">YouTube</a></li>
+    <li class="ou-list__linkedin"><a href="#">LinkedIn</a></li>
+    <li class="ou-list__google"><a href="#">Google+</a></li>
+    <li class="ou-list__skype"><a href="#">Skype</a></li>
+    <li class="ou-list__instagram"><a href="#">Instagram</a></li>
+</ul>
+
+<p>The list items don't have to be links. Or they could have inline links like this:</p>
+
+<ul class="ou-list ou-list--social">
+    <li class="ou-list__facebook">Follow <a href="#">Arts</a> on Facebook</li>
+    <li class="ou-list__twitter">Follow <a href="#">@OUArtsFaculty</a> on Twitter</li>
+</ul>
+
+<p>You can also combine with the <span class="ou-ice-code">ou-list--horizontal</span> class for a linear display:</p>
+
+<ul class="ou-list ou-list--social ou-list--horizontal">
+    <li class="ou-list__youtube"><a href="#">Watch videos</a></li>
+    <li class="ou-list__instagram"><a href="#">Latest pics</a></li>
+</ul>
+</div> <!-- end code-example -->
+
+
+<h2 id="lists-social-media-icons">Social media icons only</h2>
+
+<p>Have the icons themselves as the links (with the text hidden).</p>
+
+<div class="code-example">
+<ul class="ou-list ou-list--social ou-list--social--icons">
+    <li class="ou-list__facebook"><a href="#">Facebook</a></li>
+    <li class="ou-list__twitter"><a href="#">Twitter</a></li>
+    <li class="ou-list__youtube"><a href="#">YouTube</a></li>
+    <li class="ou-list__linkedin"><a href="#">LinkedIn</a></li>
+    <li class="ou-list__google"><a href="#">Google+</a></li>
+    <li class="ou-list__skype"><a href="#">Skype</a></li>
+    <li class="ou-list__instagram"><a href="#">Instagram</a></li>
 </ul>
 </div> <!-- end code-example -->
 
