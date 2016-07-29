@@ -45,6 +45,7 @@ span.ou-events__current {
 
 .ou-events__prev:before,
 .ou-events__next:after {
+	font-family:Hiragino Mincho ProN;
 	content: "\25c0";
 	color:#999;
 	font-size:9px;
@@ -60,10 +61,11 @@ span.ou-events__current {
 }
 
 .ou-events__prev:hover,
-.ou-events__next:hover {
-	background:#ddd;
-	text-decoration:none;
-}
+.ou-events__next:hover {text-decoration:none;}
+
+.ou-events__prev:hover:before,
+.ou-events__next:hover:after {color:#e80074;}
+
 
 .ou-events__day {
 	border-bottom:1px solid #eee;
@@ -103,7 +105,7 @@ span.ou-events__current {
 .ou-events__event {margin-left:75px;	}
 
 .ou-events__event-title {
-	font-size:1.2em;
+	font-size:1.1em;
 	margin:0 0 8px 0;	
 }
 
