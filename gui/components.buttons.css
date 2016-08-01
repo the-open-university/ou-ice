@@ -9,8 +9,6 @@
 
 
 .ou-button {
-	-webkit-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
 	background: #888;
 	color: #fff;
 	font-weight: bold;
@@ -24,7 +22,7 @@
 }
 
 .ou-button--primary {background: #e80074;}
-.ou-button--secondary {background:#036;}
+.ou-button--secondary {background:#333;}
 .ou-button--success {background:#539d3c;}
 .ou-button--warning {background:#b52a1e;}
 

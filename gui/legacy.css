@@ -6,7 +6,6 @@
 	
 	legacy.css
 	include for sites requiring backwards-compatibility only
-	(testing this out, may fold elements back in if nothing much ends up here)
 
 --------------------------------------------------------------------------------------
 */
@@ -266,6 +265,18 @@ a.ou-button-delete:focus {
 	color: #fff;
 	text-decoration: none;
 }
+
+
+/*
+-------------------------------------------
+	Pagination
+	new classes
+-------------------------------------------
+*/
+
+a.ou-previous,
+a.ou-first,
+a.ou-last {background:transparent;}
 
 
 

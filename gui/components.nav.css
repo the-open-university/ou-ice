@@ -199,6 +199,70 @@
 
 /*
 -------------------------------------------
+	Nav - Paged
+-------------------------------------------
+*/
+
+
+.ou-paged__page {
+	text-align:center;
+	color:#777;
+}
+
+/*
+#ou-content .ou-paged ul,
+#ou-content .ou-paged ul li {
+	list-style:none;
+	list-style-type:none;
+	margin:0;
+	padding:0;	
+}
+*/
+
+.ou-paged {margin-bottom:20px;}
+
+.ou-paged ul {text-align:center;}
+
+.ou-paged li {
+	display:inline-block;
+	margin:0 0 10px 0;
+	color:#777;
+}
+
+.ou-paged li:last-child {margin-right:0;}
+
+.ou-paged a,
+.ou-paged strong {
+	background: #eee;
+	color: #039;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+.ou-paged strong,
+.ou-paged a.ou-selected {
+	color:#fff;
+	background-color:#036;
+}
+
+a.ou-paged__previous {background:transparent;}
+a.ou-paged__next {background:#eee;}
+
+.ou-paged--numbered a.ou-paged__previous,
+.ou-paged--numbered a.ou-paged__next,
+.ou-paged--numbered a.ou-paged__first,
+.ou-paged--numbered a.ou-paged__last {background:transparent;}
+
+.ou-paged a:hover {
+	background-color:#e80074;
+	color:#fff;
+}
+
+
+/*
+-------------------------------------------
 	To top link
 -------------------------------------------
 */
