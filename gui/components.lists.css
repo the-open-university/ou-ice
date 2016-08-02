@@ -197,6 +197,7 @@
 .ou-list--social li {
 	background-position:0 1px;
 	background-repeat:no-repeat;
+	background-color:transparent;
 	padding:8px 0 8px 42px;
 	margin-bottom:4px;
 	min-height:33px;
