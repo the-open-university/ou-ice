@@ -237,6 +237,7 @@
 .ou-list--docs a {
 	background-position:0 0;
 	background-repeat:no-repeat;
+	background-color:transparent;
 	padding-left:22px;	
 	text-decoration:none;
 }
