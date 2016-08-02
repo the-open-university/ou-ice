@@ -204,21 +204,6 @@
 */
 
 
-.ou-paged__page {
-	text-align:center;
-	color:#777;
-}
-
-/*
-#ou-content .ou-paged ul,
-#ou-content .ou-paged ul li {
-	list-style:none;
-	list-style-type:none;
-	margin:0;
-	padding:0;	
-}
-*/
-
 .ou-paged {margin-bottom:20px;}
 
 .ou-paged ul {text-align:center;}
@@ -247,6 +232,11 @@
 	background-color:#036;
 }
 
+.ou-paged__page {
+	text-align:center;
+	color:#777;
+}
+
 a.ou-paged__previous {background:transparent;}
 a.ou-paged__next {background:#eee;}
 
@@ -259,6 +249,79 @@ a.ou-paged__next {background:#eee;}
 	background-color:#e80074;
 	color:#fff;
 }
+
+
+/*
+-------------------------------------------
+	A to EZ
+-------------------------------------------
+*/
+
+.ou-atoz__filter {
+	margin-bottom:20px;
+	padding-bottom:15px;
+	border-bottom:1px solid #ddd;
+}
+
+.ou-atoz__filter:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+.ou-atoz__filter li {
+	list-style: none;
+	display: block;
+	float:left;
+}
+
+.ou-atoz__filter a,
+.ou-atoz__filter strong {
+	text-decoration: none;
+	color: #039;
+	padding:10px 15px;
+	font-weight:bold;
+	display:block;
+}
+
+.ou-atoz__filter strong,
+.ou-atoz__filter a.ou-selected,
+.ou-atoz__filter a.ou-selected:hover {
+	color: #fff;
+	background:#036;
+}
+
+.ou-atoz__filter a:hover {
+	text-decoration: none;
+	background:#e80074;
+	color:#fff;
+}
+
+.ou-atoz__results {margin-bottom:25px;}
+
+.ou-atoz__results li {padding:20px 25px;}
+
+.ou-atoz__results li:nth-child(odd) {background-color: #e7eff7;}
+
+.ou-atoz__results li p {color:#444;}
+
+.ou-atoz__results li p:last-child {margin-bottom:0;}
+
+.ou-atoz__results-title {
+	font-size:1.1em;
+	margin-bottom:5px;
+	font-weight:bold;
+	display:inline-block;
+	text-decoration:none;
+}
+
+.ou-atoz__results-title a {text-decoration:none;}
+
+.ou-atoz__results-item {
+	display:block;
+	color:#555;	
+}
+
 
 
 /*

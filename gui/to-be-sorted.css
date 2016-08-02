@@ -4,7 +4,7 @@
 /*
 --------------------------------------------------------------------------------------
 
-	navigation.css
+	Everything here needs to be reviewed
 
 --------------------------------------------------------------------------------------
 */
@@ -118,117 +118,114 @@ a.ou-link:before {content:"\f061"; }
 a.ou-link:hover:before {color:#000;}
 
 
-/* standalone link */
+/* unordered tick list */
 
-a.ou-standalone-link {font-size:90%; text-decoration:none;}
-
-
-/* dashboard add */
-
-a.add-block {
-	display:block;
-	padding:30px 20px;
-	text-align:center;
-	text-decoration:none;
-	border-radius:10px;
-	border:3px dashed #ddd;
+ul.ou-tick-list li,
+#ou-content ul.ou-tick-list li {
+	padding-left:22px;
+	margin-bottom:5px;
+	position:relative;
+	line-height:1.6em;
 }
 
-a.add-block:hover {border-color:#539d3c;}
+#ou-content ul.ou-tick-list li:before,
+ul.ou-tick-list li:before {
+	content: "\f00c";
+	font-family:FontAwesome;
+	font-size:1em;
+	color:#539d3c;
+	top:5px;
+	left:0;
+	position:absolute;
+	line-height:90%;
+}
 
+/* unordered cross list */
 
-/**/
+#ou-content ul.ou-cross-list li,
+ul.ou-cross-list li {
+	padding-left:22px;
+	margin-bottom:5px;
+	position:relative;
+	line-height:1.6em;
+}
+
+#ou-content ul.ou-cross-list li:before,
+ul.ou-cross-list li:before {
+	content: "\f00d";
+	font-family:FontAwesome;
+	font-size:1em;
+	color:#b52a1e;
+	top:5px;
+	left:0;
+	position:absolute;
+	line-height:90%;
+}
+
 
 
 
 /*
 -------------------------------------------
-	A to EZ
+	Forums
 -------------------------------------------
 */
 
-
-#ou-content ol.ou-atoz-filter {
-	padding: 0;
-	margin: 0;
-	margin-bottom: 20px;
-	display: block;
+.ou-forum-post {
+	margin:0 0 20px 40px;
+	border-bottom:1px solid #eee;	
+	zoom:1;
 }
 
-#ou-content ol.ou-atoz-filter li {
-	list-style: none;
-	display: inline;
-	padding: 0;
+.ou-forum-post:before,
+.ou-forum-post:after {
+	content: "";
+	display: table;
 }
 
-#ou-content ol.ou-atoz-filter li:before {content:"";}
+.ou-forum-post:after {clear:both;}
 
-#ou-content ol.ou-atoz-filter li a {
-	text-decoration: none;
-	color: #039;
-	padding:3px 6px;
-}
 
-#ou-content ol.ou-atoz-filter li.selected a  {
-	text-decoration: none;
-	color: #fff;
-	background:#0b55a8;
-}
 
-#ou-content ol.ou-atoz-filter li.filter-all.selected a {
-	text-decoration: none;
-	color: #fff;
-	font-size: 100%;
-}
+.ou-forum-post-first {margin-left:0;}
 
-#ou-content ol.ou-atoz-filter li a:hover {
-	text-decoration: none;
-	background:#a6d0ff;
-	color:black;
-}
-
-#ou-content ol.ou-atoz-filter li.selected a:hover,
-#ou-content ol.ou-atoz-filter li.filter-all.selected a:hover {
-	background:#0b55a8; 
-	color:#fff;
-}
-
-.ou-atoz-results {margin-top: 30px;}
-
-#ou-content .ou-atoz-results ul {
-	list-style-type: none;
+#ou-content .ou-forum-post-links ul,
+#ou-content .ou-forum-post-links ul li {
+	list-style:none;
 	margin:0;
-	padding:0;
+	padding:0;	
 }
 
-#ou-content .ou-atoz-results ul li {
-	padding:20px;
-	background-color:#fff;
+#ou-content .ou-forum-post-links ul {margin-bottom:20px;}
+
+#ou-content .ou-forum-post-links ul li:before {content:none;}
+
+#ou-content .ou-forum-post-links ul li {
+	display:inline;
+	margin-right:10px;
 }
 
-#ou-content .ou-atoz-results ul li:nth-child(odd) {background-color: #e7eff7;}
-
-#ou-content .ou-atoz-results ul li:before {content:"";}
-
-#ou-content .ou-atoz-results ul li a {text-decoration: none;}
-
-.ou-atoz-results h3 {
-	margin: 0 0 6px 0;
-	font-size: 1.2em;
+#ou-content .ou-forum-post-links ul li a {
+	text-decoration:none;
 }
 
-.ou-atoz-results p {
-	margin-bottom: 0;
-	color:#555;
-}
+.ou-forum-post-links i.fa-reply {color:#539d3c;}
+.ou-forum-post-links i.fa-link {color:#666;}
+.ou-forum-post-links i.fa-flag {color:#b52a1e;}
 
-.ou-atoz-results p.ou-atoz-items {
+.ou-forum-post-name {
+	float:left;
+	width:150px;
 	color:#777;
-	float: right;
-	margin-top: 3px;
+	font-size:.9em;	
 }
 
-.ou-atoz-results p.ou-atoz-items em {font-style:normal;}
+.ou-forum-post-name a {font-size:1.1em; text-decoration:none;}
+
+.ou-forum-post-content {
+	padding-left:170px;
+}
+
 
 
 
