@@ -52,7 +52,7 @@
 
 
 <ol class="ou-toc">
-    <li><a href="#orange">Orange</a></li>
+    <li><a href="#orange">Red</a></li>
     <li><a href="#dark-blue">Dark blue</a></li>
     <li><a href="#purple">Purple</a></li>
     <li><a href="#lighter-backgrounds">Lighter backgrounds</a></li>
@@ -66,10 +66,10 @@
 <p>Various options for styling quotations.</p>
 
 
-<h2 id="orange">Orange</h2>
+<h2 id="orange">Red</h2>
 
 <div class="code-example">
-<blockquote class="ou-quote ou-bg-orange">
+<blockquote class="ou-quote ou-bg-red">
     <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying, 
       along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding 
       experiences of my life. Huge thanks to the OU.</p>
@@ -94,7 +94,7 @@
 <h2 id="purple">Purple</h2>
 
 <div class="code-example">
-<blockquote class="ou-quote ou-bg-dark-purple">
+<blockquote class="ou-quote ou-bg-purple">
     <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying, 
       along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding 
       experiences of my life. Huge thanks to the OU.</p>
@@ -112,6 +112,8 @@
 
 <p>For quotes with light background colours we need an extra class on the container so we can make the text darker in those scenarios.
 The extra class is called <span class="ou-ice-code">ou-quote--light</span>.</p>
+
+<p>Also, as a small variation, this first example has a link in the citation instead of the read more box. This looks better for the white on white because there is no visible border for the read more box to sit flush against.</p>
 
 <div class="code-example">
 <blockquote class="ou-quote ou-quote--light ou-bg-white">
@@ -133,25 +135,25 @@ The extra class is called <span class="ou-ice-code">ou-quote--light</span>.</p>
 
 <hr>
 
-<h2 id="all-colour-options">All colour options</h2>
+<h2 id="all-colour-options">Recommended colour options</h2>
 
-<p>Here is a list of the current background colours available for the quotes. You simply add this class to the blockquote container. For lighter backgrounds, two classes are required (see above).</p>
+<p>Here is a list of recommended background colours for the quotes. Simply add this class to the blockquote container. For lighter backgrounds, two classes are required (see above).</p>
 
 <pre class="prettyprint">
 /* Darker background, white text */
 .ou-bg-green
 .ou-bg-red
-.ou-bg-dark-purple
 .ou-bg-blue
 .ou-bg-dark-blue
 .ou-bg-dark-grey
 .ou-bg-purple
 .ou-bg-orange
+.ou-bg-pink
+.ou-bg-burgundy
 
-/* Lighter background, black text. Requires extra ou-quote--light class */
-.ou-bg-yellow
+/* Lighter background, black text. Requires extra class: ou-quote--light */
+.ou-bg-white
 .ou-bg-light-blue
-.ou-bg-grey
 .ou-bg-light-grey
 </pre>
 
@@ -162,7 +164,7 @@ The extra class is called <span class="ou-ice-code">ou-quote--light</span>.</p>
 <p>Add images to the quote using the standard class <span class="ou-ice-code">ou-pull-right</span> to float the picture right. Recommended image size: 120px x 120px (square).</p>
 
 <div class="code-example">
-<blockquote class="ou-quote ou-bg-orange">
+<blockquote class="ou-quote ou-bg-burgundy">
 	<img src="demo/img/120x120/girl.jpg" alt="" class="ou-pull-right">
     <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying, 
       along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding 
@@ -202,7 +204,7 @@ The extra class is called <span class="ou-ice-code">ou-quote--light</span>.</p>
 
 
 <div class="code-example">
-  <blockquote class="ou-quote ou-pull-left ou-bg-green">
+  <blockquote class="ou-quote ou-pull-left ou-bg-pink">
     <p>In the full-grown creature the skull will measure at least twenty feet in length.</p>
     <cite>Herman Melville</cite>
 </blockquote>

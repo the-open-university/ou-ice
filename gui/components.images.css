@@ -37,12 +37,15 @@
 
 .ou-bg-green .ou-img__caption,
 .ou-bg-red .ou-img__caption, 
-.ou-bg-dark-purple .ou-img__caption,
+.ou-bg-burgundy .ou-img__caption,
 .ou-bg-blue .ou-img__caption,
 .ou-bg-dark-blue .ou-img__caption,
 .ou-bg-dark-grey .ou-img__caption,
 .ou-bg-purple .ou-img__caption,
-.ou-bg-orange .ou-img__caption {color:#fff;}
+.ou-bg-orange .ou-img__caption,
+.ou-bg-black .ou-img__caption,
+.ou-bg-pink .ou-img__caption,
+.ou-bg-dark-green .ou-img__caption {color:#fff;}
 
 
 
@@ -78,15 +81,15 @@
 	right: 0;
 	bottom: 0;
 	color: #fff;
-	background: #DD3E57;
-	background: rgb(221,62,87);
-	background: rgba(221,62,87, 0.8);
+	background: #B5002E;
+	background: rgb(181,0,46);
+	background: rgba(181,0,46, 0.8);
 	text-align: right;
 	padding: 25px 20px;
 	margin: 0;
 }
 
-.ou-hero:hover .ou-hero__text {background:#DD3E57;}
+.ou-hero:hover .ou-hero__text {background:#B5002E;}
 
 .ou-hero__title {
 	color: inherit;
@@ -104,56 +107,93 @@
 
 /* darker colours */
 
-.ou-hero.ou-bg-green .ou-hero__text {background:#539d3c !important; background: rgb(83, 157, 60) !important; background: rgba(83, 157, 60, 0.8) !important; } 
-.ou-hero.ou-bg-red .ou-hero__text {background:#b52a1e !important; background: rgb(181, 42, 30) !important; background: rgba(181, 42, 30, 0.8) !important; } 
-.ou-hero.ou-bg-dark-purple .ou-hero__text {background:#470d43 !important; background: rgb(71, 13, 67) !important; background: rgba(71, 13, 67, 0.8) !important; } 
-.ou-hero.ou-bg-blue .ou-hero__text {background:#0b55a8 !important; background: rgb(11, 85, 168) !important; background: rgba(11, 85, 168, 0.8) !important; } 
-.ou-hero.ou-bg-dark-blue .ou-hero__text {background:#002158 !important; background: rgb(0, 33, 88) !important; background: rgba(0, 33, 88, 0.8) !important; } 
-.ou-hero.ou-bg-dark-grey .ou-hero__text {background:#312b39 !important; background: rgb(49, 43, 57) !important; background: rgba(49, 43, 57, 0.8) !important; } 
-.ou-hero.ou-bg-purple .ou-hero__text {background:#880088 !important; background: rgb(136, 0, 136) !important; background: rgba(136, 0, 136, 0.8) !important; }
-.ou-hero.ou-bg-orange .ou-hero__text {background:#cf6041 !important; background: rgb(207, 96, 65) !important; background: rgba(207, 96, 65, 0.8) !important; }
+.ou-bg-black .ou-hero__text,
+.ou-bg-black:hover .ou-hero__text 		{background:#000000 !important;}
 
-.ou-hero.ou-bg-green:hover .ou-hero__text {background:#539d3c !important;} 
-.ou-hero.ou-bg-red:hover .ou-hero__text {background:#b52a1e !important; } 
-.ou-hero.ou-bg-dark-purple:hover .ou-hero__text {background:#470d43 !important;} 
-.ou-hero.ou-bg-blue:hover .ou-hero__text {background:#0b55a8 !important;} 
-.ou-hero.ou-bg-dark-blue:hover .ou-hero__text {background:#002158 !important;} 
-.ou-hero.ou-bg-dark-grey:hover .ou-hero__text {background:#312b39 !important;} 
-.ou-hero.ou-bg-purple:hover .ou-hero__text {background:#880088 !important;}
-.ou-hero.ou-bg-orange:hover .ou-hero__text {background:#cf6041 !important;}
+.ou-bg-dark-grey .ou-hero__text,
+.ou-bg-dark-grey:hover .ou-hero__text 	{background:#333333 !important;}
+
+.ou-bg-red .ou-hero__text,
+.ou-bg-red:hover .ou-hero__text 		{background:#B5002E !important;}
+
+.ou-bg-pink .ou-hero__text,
+.ou-bg-pink:hover .ou-hero__text 		{background:#E80074 !important;}
+
+.ou-bg-dark-blue .ou-hero__text,
+.ou-bg-dark-blue:hover .ou-hero__text 	{background:#003366 !important;}
+
+.ou-bg-purple .ou-hero__text,
+.ou-bg-purple:hover .ou-hero__text 		{background:#4E247B !important;}
+
+.ou-bg-orange .ou-hero__text,
+.ou-bg-orange:hover .ou-hero__text 		{background:#C5540A !important;}
+
+.ou-bg-burgundy .ou-hero__text,
+.ou-bg-burgundy:hover .ou-hero__text 	{background:#630031 !important;}
+
+.ou-bg-dark-green .ou-hero__text,
+.ou-bg-dark-green:hover .ou-hero__text 	{background:#4A5E4A !important;}
+
+.ou-bg-green .ou-hero__text,
+.ou-bg-green:hover .ou-hero__text 		{background:#539d3c !important;}
+
+.ou-bg-blue .ou-hero__text,
+.ou-bg-blue:hover .ou-hero__text 		{background:#0b55a8 !important;}
+
+
+.ou-bg-black 		.ou-hero__text {background: rgb(0, 0, 0) !important; 		background: rgba(0, 0, 0, 0.8) !important;}
+.ou-bg-dark-grey 	.ou-hero__text {background: rgb(51, 51, 51) !important; 	background: rgba(51, 51, 51, 0.8) !important;}
+.ou-bg-red 			.ou-hero__text {background: rgb(181, 0, 46) !important; 	background: rgba(181, 0, 46, 0.8) !important;}
+.ou-bg-pink 		.ou-hero__text {background: rgb(232, 0, 116) !important; 	background: rgba(232, 0, 116, 0.8) !important;}
+.ou-bg-dark-blue 	.ou-hero__text {background: rgb(0, 51, 102) !important; 	background: rgba(0, 51, 102, 0.8) !important;}
+.ou-bg-purple 		.ou-hero__text {background: rgb(78, 36, 123) !important; 	background: rgba(78, 36, 123, 0.8) !important;}
+.ou-bg-orange 		.ou-hero__text {background: rgb(197, 84, 10) !important; 	background: rgba(197, 84, 10, 0.8) !important;}
+.ou-bg-burgundy 	.ou-hero__text {background: rgb(99, 0, 49) !important; 		background: rgba(99, 0, 49, 0.8) !important;}
+.ou-bg-dark-green 	.ou-hero__text {background: rgb(74, 94, 74) !important; 	background: rgba(74, 94, 74, 0.8) !important;}
+.ou-bg-green 		.ou-hero__text {background: rgb(83, 157, 60) !important; 	background: rgba(83, 157, 60, 0.8) !important;} 
+.ou-bg-blue 		.ou-hero__text {background: rgb(11, 85, 168) !important; 	background: rgba(11, 85, 168, 0.8) !important;} 
+
 
 
 /* lighter colours */
 
-.ou-hero.ou-bg-yellow .ou-hero__text {background:#ffc23d !important; background: rgb(255, 194, 61) !important; background: rgba(255, 194, 61, 0.8) !important; color:#000; } 
-.ou-hero.ou-bg-light-blue .ou-hero__text {background:#a6d0ff !important; background: rgb(166, 208, 255) !important; background: rgba(166, 208, 255, 0.8) !important; color:#000; } 
-.ou-hero.ou-bg-grey .ou-hero__text {background:#929fb0 !important; background: rgb(146, 159, 176) !important; background: rgba(146, 159, 176, 0.8) !important; color:#000; } 
-.ou-hero.ou-bg-light-grey .ou-hero__text {background:#e7eff7 !important; background: rgb(231, 239, 247) !important; background: rgba(231, 239, 247, 0.8) !important; color:#000; }
 
-.ou-hero.ou-bg-yellow .ou-hero__text, 
-.ou-hero.ou-bg-light-blue .ou-hero__text, 
-.ou-hero.ou-bg-grey .ou-hero__text,
-.ou-hero.ou-bg-light-grey .ou-hero__text {color:#000;}
+.ou-bg-white .ou-hero__text,
+.ou-bg-white:hover .ou-hero__text {background:#FFFFFF !important; color:#000;}
 
-.ou-hero.ou-bg-yellow:hover .ou-hero__text {background:#ffc23d !important; } 
-.ou-hero.ou-bg-light-blue:hover .ou-hero__text {background:#a6d0ff !important;} 
-.ou-hero.ou-bg-grey:hover .ou-hero__text {background:#929fb0 !important;} 
-.ou-hero.ou-bg-light-grey:hover .ou-hero__text {background:#e7eff7 !important;}
+.ou-bg-grey .ou-hero__text,
+.ou-bg-grey:hover .ou-hero__text {background:#A7A9AC !important; color:#000;} 
 
-/* test this
-#ou-region2 .hero p {
-	position:static;
-	display:block;
-	font-size:1.2em;
-	padding:12px 18px;
-	line-height:130%;
-	text-align:left;
-	width:100%;
-	float:left;
-	font-family:Arial, Helvetica, sans-serif;
-	font-weight:normal;
-}
-*/
+.ou-bg-light-green .ou-hero__text,
+.ou-bg-light-green:hover .ou-hero__text {background:#A4A400 !important; color:#000;}
+
+.ou-bg-turquoise .ou-hero__text,
+.ou-bg-turquoise:hover .ou-hero__text {background:#00B0AC !important; color:#000;}
+
+.ou-bg-light-blue .ou-hero__text,
+.ou-bg-light-blue:hover .ou-hero__text {background:#A6D2FF !important; color:#000;} 
+
+.ou-bg-yellow .ou-hero__text,
+.ou-bg-yellow:hover .ou-hero__text {background:#F4C400 !important; color:#000;} 
+
+.ou-bg-beige .ou-hero__text,
+.ou-bg-beige:hover .ou-hero__text {background:#D1D1A5 !important; color:#000;} 
+
+.ou-bg-light-grey .ou-hero__text,
+.ou-bg-light-grey:hover .ou-hero__text {background:#e7eff7 !important; color:#000;}
+
+
+.ou-bg-white 		.ou-hero__text {background: rgb(255, 255, 255) !important; 	background: rgba(255, 255, 255, 0.8) !important; } 
+.ou-bg-grey 		.ou-hero__text {background: rgb(167, 169, 172) !important; 	background: rgba(167, 169, 172, 0.8) !important; } 
+.ou-bg-light-green 	.ou-hero__text {background: rgb(164, 164, 0) !important; 	background: rgba(164, 164, 0, 0.8) !important; } 
+.ou-bg-turquoise 	.ou-hero__text {background: rgb(0, 176, 172) !important; 	background: rgba(0, 176, 172, 0.8) !important; } 
+.ou-bg-light-blue 	.ou-hero__text {background: rgb(166, 210, 255) !important; 	background: rgba(166, 210, 255, 0.8) !important; } 
+.ou-bg-yellow 		.ou-hero__text {background: rgb(244, 196, 0) !important; 	background: rgba(244, 196, 0, 0.8) !important; } 
+.ou-bg-beige 		.ou-hero__text {background: rgb(209, 209, 165) !important; 	background: rgba(209, 209, 165, 0.8) !important; } 
+.ou-bg-light-grey 	.ou-hero__text {background: rgb(231, 239, 247) !important; 	background: rgba(231, 239, 247, 0.8) !important; } 
+
+
+
 
 @media only screen and (max-width: 850px), screen and (max-device-width: 850px) {
 

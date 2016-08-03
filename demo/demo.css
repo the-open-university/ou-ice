@@ -148,7 +148,7 @@ ul.colours li {
 	display:inline-block;
 	width:110px;
 	margin-right:10px;
-	margin-bottom:10px;
+	margin-bottom:15px;
 	zoom: 1;
     *display: inline;
 }
@@ -160,8 +160,9 @@ span.colours-title {
 
 span.colours-hex {
 	display:block;
-	color:#555;
+	color:#777;
 	font-size:13px;
+	margin:5px 0;
 }
 
 span.colours-swatch {
@@ -169,7 +170,6 @@ span.colours-swatch {
 	height:110px;
 	display:block;
 	margin-top:5px;
-	border-radius:2px;
 }
 
 
@@ -182,6 +182,25 @@ span.colours-swatch {
 .styleguide .box h2 {margin:0 0 10px 0;}
 
 
+
+/*
+-------------------------------------------
+	Media queries
+-------------------------------------------
+*/
+
+
+@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+
+
+ul.colours li {width:100px;}
+
+span.colours-swatch {
+	width:100px; 
+	height:100px;
+}
+
+} /* end media query */
 
 
 /*

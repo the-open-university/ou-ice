@@ -46,63 +46,33 @@
 .ou-table--5cols td {width:20%;}
 
 
+/* colours - dark */
 
-/* colours */
-
-.ou-bg-green th {
-	color:#fff;
-	border:1px solid #539d3c;
-}
-
-.ou-bg-red th {
-	color:#fff;
-	border:1px solid #b52a1e;
-}
-
-.ou-bg-yellow th {
-	border:1px solid #ffc23d;
-}
- 
-.ou-bg-dark-purple th {
-	color:#fff;
-	border:1px solid #470d43;
-}
- 
-.ou-bg-blue th {
-	color:#fff;
-	border:1px solid #0b55a8;
-}
- 
-.ou-bg-light-blue th {
-	border:1px solid #a6d0ff;
-}
- 
-.ou-bg-dark-blue th {
-	color:#fff;
-	border:1px solid #002158;
-}
-
-.ou-bg-dark-grey th {
-	color:#fff;
-	border:1px solid #312b39;
-}
-
-.ou-bg-purple th {
-	color:#fff;
-	border:1px solid #880088;
-}
-
-.ou-bg-grey th {
-	border:1px solid #929fb0;
-}
- 
-.ou-bg-light-grey th {
-	border:1px solid #e7eff7;
-}
-
+.ou-bg-black th,
+.ou-bg-dark-green th,
+.ou-bg-green th,
+.ou-bg-red th,
+.ou-bg-burgundy th,
+.ou-bg-dark-blue th,
+.ou-bg-blue th,
+.ou-bg-dark-grey th,
+.ou-bg-purple th,
+.ou-bg-pink th,
 .ou-bg-orange th {
 	color:#fff;
-	border:1px solid #cf6041;
+	border-collapse:collapse;
+	border:none;
 }
 
+/* colours - light */
 
+.ou-bg-light-grey th,
+.ou-bg-grey th, 
+.ou-bg-light-blue th,
+.ou-bg-yellow th,
+.ou-bg-turquoise th,
+.ou-bg-beige th {
+	border-collapse:collapse;
+	border:none;
+}
+ 

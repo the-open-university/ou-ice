@@ -229,3 +229,236 @@ ul.ou-cross-list li:before {
 
 
 
+
+
+/* Download */
+
+
+#ou-content .ou-download ul,
+#ou-content .ou-download ul li,
+.ou-download ul,
+.ou-download ul li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#ou-content .ou-download ul li,
+.ou-download ul li {
+	margin:0 0 5px 0;
+	line-height:1.6em;
+}
+
+#ou-content .ou-download ul li a,
+.ou-download ul li a {
+	text-decoration:none;
+	display:inline-block;
+}
+
+#ou-content .ou-download ul li a:hover,
+.ou-download ul li a:hover {text-decoration:underline;}
+
+#ou-content .ou-download ul li:before {content:"";}
+
+
+
+/* accordion */
+
+.ou-accordion {
+	margin: 0 0 20px 0;
+	padding:30px;
+	background-color:#0b55a8;
+}
+
+.ou-accordion.light {background-color:#e7eff7;}
+
+.ou-accordion dt {margin:0 0 15px 0;}
+
+.ou-accordion dt.active {margin:0 0 0 0;}
+
+.ou-accordion dt a {
+	display: block;
+	font-size:1.3em;
+	font-weight:normal;
+	line-height:130%;
+	text-decoration:none;
+	color:#000;
+	padding: 15px 20px 15px 50px;
+	color:#000;
+	background-color:#a6d0ff;
+	background-image:url(icons/icon-expand.png);
+	background-position:15px center;
+	background-repeat:no-repeat;
+	border-radius:4px;
+}
+
+.ou-accordion dt a:hover {background-color:#eee;}
+
+.ou-accordion.light dt a {
+	background-color:#fff; 
+	color:#0b55a8;
+}
+
+.ou-accordion.light dt a:hover {background-color:#a6d0ff; color:black;}
+
+.ou-accordion dt.active a,
+.ou-accordion.light dt.active a {
+	background-color:#fff;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+	background-image:url(icons/icon-collapse.png);
+}
+
+.ou-accordion dd {
+	padding: 5px 10px 15px 50px;
+	margin-bottom:15px;
+	background-color:#fff;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	display:none;
+	
+}
+
+.ou-accordion dd.active {display:block; /*opacity:1; max-height:300px;*/}
+
+.ou-accordion dd h2,
+.ou-accordion dd h3,
+.ou-accordion dd h4 {
+	font-size:1em;
+	font-weight:bold;
+	margin:0 0 6px 0;
+}
+
+.ou-accordion dt:last-of-type, 
+.ou-accordion dd:last-of-type,
+.ou-accordion dd p:last-child,
+#ou-content .ou-accordion dd ul:last-child,
+#ou-content .ou-accordion dd ol:last-child {
+	margin-bottom: 0;
+	margin-left:0;
+}
+
+#ou-content .ou-accordion dd ul,
+#ou-content .ou-accordion dd ol {margin-left:0;}
+
+.ou-accordion hr {margin:15px 0;}
+
+
+
+
+
+
+/* Action block (ice3) */
+
+div.ou-action-block {
+	margin-bottom:15px;	
+}
+
+#ou-content div.ou-action-block ul,
+#ou-content div.ou-action-block ul li {
+	list-style:none;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#ou-content div.ou-action-block ul li:before {
+	content:"";
+}
+
+#ou-content div.ou-action-block ul li a {
+	display:block;
+	padding:15px 20px;
+	background-color:#eee;
+	font-size:1.2em;
+	text-decoration:none;
+	border-bottom:1px solid #fff;
+	position:relative;
+}
+
+#ou-content div.ou-action-block ul li a:after {
+	font-family: 'FontAwesome';
+	font-size:20px;
+	position: absolute;
+	content: " \f0a9";
+	color: #539d3c;
+	right: 20px;
+	top: 16px;
+}
+
+#ou-content div.ou-action-block ul li a:hover {
+	background-color:#539d3c;
+	color:#fff;
+}
+
+#ou-content div.ou-action-block ul li a:hover:after {
+	color: #fff;
+	top:15px;
+	right:15px;
+	font-size:30px;
+}
+
+/* Action link (ice3) */
+
+#ou-content a.ou-action,
+#ou-content a.ou-action span {
+	display:block;
+	text-decoration:none;
+}
+
+#ou-content a.ou-action {
+	position:relative;
+	padding:10px 40px 10px 5px;	
+}
+
+#ou-content a.ou-action:nth-child(even) {
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+
+#ou-content a.ou-action span.ou-title {font-size:1.2em;}
+
+#ou-content a.ou-action span.ou-desc {
+	color:#777;
+	font-weight:normal;
+	font-size:.9em;
+	margin-top:8px;
+}
+
+#ou-content a.ou-action:after {
+	font-family: 'FontAwesome';
+	position: absolute;
+	content: " \f0a9";
+	color: #539d3c;
+	right: 5px;
+	top: 40%;
+	font-size:20px;
+}
+
+#ou-content a.ou-action:hover:after {
+	color: #000;
+	font-size:30px;
+	top:40%;
+	right:2px;
+	overflow:visible;
+}
+
+
+
+
+@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+
+
+.ou-accordion {padding:15px;}
+
+.ou-accordion dt a {
+	font-size:1.2em;
+	padding: 14px 15px 14px 40px;
+	background-position:10px center;
+}
+
+.ou-accordion dd {padding: 5px 10px 15px 40px;}
+
+
+
+} /* end media query */

@@ -12,7 +12,7 @@
 .ou-quote {
 	padding:30px 30px 35px 90px;
 	margin-bottom:20px;
-	background:url(icons/icon-quotemarks.png) 25px 32px no-repeat;
+	background:url(icons/icon-quotemarks.png) 25px 32px no-repeat #333;
 	color:#fff;
 	position:relative;
 }
