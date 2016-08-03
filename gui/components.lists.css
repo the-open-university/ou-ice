@@ -217,6 +217,7 @@
 .ou-list--social--icons li {
 	padding:0;
 	display:inline-block;
+	background-color:transparent;
 	margin-right:10px;
 }
 
