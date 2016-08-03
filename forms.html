@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    
+    <title>Forms - OU ICE</title>
+    
+    <link rel="stylesheet" type="text/css" href="gui/header-footer.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="gui/styles.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <link rel="apple-touch-icon" href="gui/icons/apple-touch-icon.png">
+    <link rel="icon" href="gui/icons/favicon.png">
+
+</head>
+
+<body class="ou-1-col">
+
+<div id="ou-org">
+
+<a class="ou-skip" href="#ou-content"><i class="fa fa-arrow-circle-down"></i> Skip to content</a>
+
+
+
+<div id="ou-site">
+
+<div id="ou-site-header">
+
+	<div class="ou-ice-back">
+    	<div class="ou-wrapper">
+            <a href="index.html">OU ICE</a>
+        </div>
+    </div>
+
+</div> <!-- end ou-site-header -->
+
+<div id="ou-site-body">
+
+<div id="ou-page">
+
+<div id="ou-region0">
+</div> <!-- end ou-region0 -->
+
+
+<div id="ou-region1">
+
+<div id="ou-content" class="ou-content">
+
+<h1>Forms</h1>
+
+<form class="ou-form" method="post" action="#form-action">
+  
+  <h2>Tell us about yourself</h2>
+
+  <fieldset>
+  <legend>About you</legend>
+  <ul>
+    <li>
+      <label for="name">Name</label>
+	  <input type="text" id="name">
+    </li>
+    <li>
+      <label for="email">Email</label>
+      <input type="text" id="email">
+    </li>
+    <li>
+      <label for="tel">Telephone</label>
+	  <input type="text" placeholder="Landline or mobile" id="tel">
+    </li>
+    <li>
+      <label for="address">Address</label>
+      <textarea name="address" id="address" cols="40" rows="5"></textarea>
+    </li>
+  </ul>
+  </fieldset>
+  
+  <fieldset>
+  <legend>How did you find us?</legend>
+  <ul>
+    <li>
+      <label for="check1"><input type="checkbox" id="check1"> Surfed on in</label>
+    </li>
+    <li>
+      <label for="check2"><input type="checkbox" id="check2"> Search engine</label>
+    </li>
+    <li>
+      <label for="check3"><input type="checkbox" id="check3"> Magazine</label>
+    </li>
+    <li>
+      <label for="check4"><input type="checkbox" id="check4"> Suggestion</label>
+    </li>
+  </ul>
+  </fieldset>
+  
+  <fieldset>
+  <legend>If you need a list within a form</legend>
+  
+  <p>Any lists within a form need the class "ou-form-list", like so:</p>
+      
+    <ul>
+        <li>Break your topic down into the areas you wish to research</li>
+        <li>Please keep your answer down to under 50 words</li>
+        <li>Are you focussing on a particular angle?</li>
+    </ul>
+    
+    <textarea cols="50" id="" name="" rows="5"></textarea>
+
+  </fieldset>
+  
+  <fieldset>
+  <legend>What is your favourite colour?</legend>
+  <ul>
+    <li>
+      <label for="radio1"><input type="radio" name="colour" id="radio1"> Blue</label>
+    </li>
+    <li>
+      <label for="radio2"><input type="radio" name="colour" id="radio2"> Red</label>
+    </li>
+    <li>
+      <label for="radio3"><input type="radio" name="colour" id="radio3"> Green</label>
+    </li>
+  </ul>
+  </fieldset>
+  
+  <fieldset>
+  <legend>How old are you?</legend>
+    <select name="dropdown">
+      <option>18-25</option>
+      <option>26-40</option>
+      <option>41-60</option>
+    </select>
+  </fieldset>
+  
+  <fieldset>
+  <legend>This field is disabled</legend>
+    <select name="dropdown" disabled>
+      <option>Apples</option>
+      <option>Bananas</option>
+      <option>Pears</option>
+    </select>
+  </fieldset>
+  
+<input type="submit" value="Send">
+</form>  
+
+
+</div> <!-- end ou-content -->
+</div> <!-- end ou-region1 -->
+
+
+
+</div> <!-- end ou-page -->
+
+</div> <!-- end ou-site-body -->
+
+
+<div id="ou-site-footer">
+<a class="ou-to-top" href="#ou-org">Back to top</a>
+</div> <!-- end ou-site-footer -->
+
+</div> <!-- end ou-site -->
+
+
+</div> <!-- end ou-org -->
+
+
+
+<!-- Javascripts -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=desert" defer></script>
+<script src="demo/demo.js"></script>
+
+</body>
+</html>

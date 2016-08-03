@@ -15,15 +15,23 @@
 	margin-bottom:20px;	
 }
 
-.ou-articles__img {
-	float: left;
-    margin: 0;
-	width:140px;
+.ou-articles__article:after {
+    content: " ";
+    display: block;
+    clear: both;
 }
 
-.ou-articles__text {margin-left: 160px;}
+.ou-articles__img {
+	display: table-cell;
+    vertical-align: top;
+	width:160px;
+	padding-right:20px;
+}
 
-.ou-articles__article--nopic .ou-articles__text {margin-left: 0;}
+.ou-articles__text {
+	display: table-cell;
+    vertical-align: top;
+}
 
 .ou-articles__text h2,
 .ou-articles__text h3 {
@@ -72,17 +80,20 @@
 
 .ou-articles--stacked .ou-articles__article {border-bottom:none;}
 
-.ou-articles--stacked .ou-articles__img  {width:100%; float:none; margin-bottom:10px;}
+.ou-articles--stacked .ou-articles__img  {
+	width:100%; 
+	float:none; 
+	margin-bottom:10px;
+	padding-right:0;
+	display:block;
+}
 
-.ou-articles--stacked .ou-articles__text {margin-left:0;}
-
+.ou-articles--stacked .ou-articles__text {display:block;}
 
 
 /* promoted story */
 
 .ou-articles__article--promoted .ou-articles__img {width:200px;}
-
-.ou-articles__article--promoted .ou-articles__text {margin-left:220px;}
 
 .ou-articles__article--promoted .ou-articles__text h2,
 .ou-articles__article--promoted .ou-articles__text h3 {font-size:1.6em;}
@@ -90,9 +101,7 @@
 
 /* smaller news - for region2 and other areas */
 
-.ou-articles--smaller .ou-articles__img {width:100px;}
-
-.ou-articles--smaller .ou-articles__text {margin-left: 120px;}
+.ou-articles--smaller .ou-articles__img {width:120px;}
 
 .ou-articles--smaller .ou-articles__text h2,
 .ou-articles--smaller .ou-articles__text h3 {
@@ -101,15 +110,13 @@
 	margin-bottom:4px;
 }
 
-.ou-articles--smaller .ou-articles__article--nopic .ou-articles__text {margin-left: 0;}
-
 .ou-articles--smaller .ou-articles__article--promoted .ou-articles__img {
 	width:100%;
     float: none;
     margin-bottom: 10px;
+	padding-right:0;
+	display:block;
 }
-
-.ou-articles--smaller .ou-articles__article--promoted .ou-articles__text {margin-left:0;}
 
 
 /* list  */
@@ -126,10 +133,13 @@
 /* articles */
 
 .ou-articles__article--promoted .ou-articles__img,
-.ou-blocks .ou-articles__img {width:100%; float:none; margin-bottom:15px;}
-
-.ou-articles__article--promoted .ou-articles__text,
-.ou-blocks .ou-articles__text {margin-left:0;}
+.ou-blocks .ou-articles__img {
+	width:100%; 
+	float:none; 
+	margin-bottom:15px;
+	padding-right:0;
+	display:block;
+}
 
 
 } /* end media query */
