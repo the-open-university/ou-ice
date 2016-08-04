@@ -26,6 +26,7 @@
 @import url('components.boxes.css');
 @import url('components.buttons.css');
 @import url('components.carousel.css'); /* if using carousel only? */
+@import url('components.forms.css');
 @import url('components.icons.css');
 @import url('components.images.css');
 @import url('components.lists.css');
@@ -36,7 +37,6 @@
 
 /* to be broken down */
 @import url('layout.css');
-@import url('forms.css');
 @import url('images-and-objects.css'); 
 @import url('misc.css');
 /**/

@@ -1,0 +1,90 @@
+/*
+--------------------------------------------------------------------------------------
+
+	Forms
+	components.forms.css
+
+--------------------------------------------------------------------------------------
+*/
+
+.ou-form {margin-bottom:20px;}
+
+.ou-form__item,
+.ou-form__group {margin-bottom:20px;}
+
+.ou-form__group .ou-form__item:last-child {margin-bottom:0;}
+
+.ou-form__item--compact {margin-bottom:10px;}
+
+.ou-form__legend {
+	font-weight:bold;
+	font-size:1.1em;
+	margin-bottom:20px;
+	color:#000;
+}
+
+.ou-form__label {
+	font-weight:bold;
+	display:block;
+	margin-bottom:5px;
+}
+
+.ou-form__label--disabled {color:#999;}
+.ou-form__label--error {color:#B5002E;}
+
+.ou-form__label--simple {
+	font-weight:normal;
+	margin-bottom:0;
+}
+
+.ou-form__checkbox,
+.ou-form__radio {margin-right:5px;}
+
+.ou-form__text,
+.ou-form__textarea,
+.ou-form__select {
+	display:block;
+	width:100%;
+	padding:8px 10px;
+	border:1px solid #ccc;
+}
+
+.ou-form__select {
+	height:2.5em;
+	border-radius:0;
+}
+
+.ou-form__text:focus,
+.ou-form__textarea:focus,
+.ou-form__select:focus {
+	border:1px solid #E80074;
+	outline:none;
+}
+
+.ou-form__text:disabled,
+.ou-form__textarea:disabled,
+.ou-form__select:disabled {
+	cursor:not-allowed;
+	background-color:#eee;	
+}
+
+.ou-form__text--error {
+	border:1px solid #B5002E;
+	background-color:#fedbdb;
+}
+
+
+/*
+-------------------------------------------
+	Retina
+-------------------------------------------
+*/
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+
+
+} /* end media query */

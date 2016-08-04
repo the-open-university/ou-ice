@@ -51,101 +51,127 @@
 
 <h1>Forms</h1>
 
+<h2>Tell us about yourself</h2>
+
+<div class="code-example">
 <form class="ou-form" method="post" action="#form-action">
-  
-  <h2>Tell us about yourself</h2>
-
-  <fieldset>
-  <legend>About you</legend>
-  <ul>
-    <li>
-      <label for="name">Name</label>
-	  <input type="text" id="name">
-    </li>
-    <li>
-      <label for="email">Email</label>
-      <input type="text" id="email">
-    </li>
-    <li>
-      <label for="tel">Telephone</label>
-	  <input type="text" placeholder="Landline or mobile" id="tel">
-    </li>
-    <li>
-      <label for="address">Address</label>
-      <textarea name="address" id="address" cols="40" rows="5"></textarea>
-    </li>
-  </ul>
-  </fieldset>
-  
-  <fieldset>
-  <legend>How did you find us?</legend>
-  <ul>
-    <li>
-      <label for="check1"><input type="checkbox" id="check1"> Surfed on in</label>
-    </li>
-    <li>
-      <label for="check2"><input type="checkbox" id="check2"> Search engine</label>
-    </li>
-    <li>
-      <label for="check3"><input type="checkbox" id="check3"> Magazine</label>
-    </li>
-    <li>
-      <label for="check4"><input type="checkbox" id="check4"> Suggestion</label>
-    </li>
-  </ul>
-  </fieldset>
-  
-  <fieldset>
-  <legend>If you need a list within a form</legend>
-  
-  <p>Any lists within a form need the class "ou-form-list", like so:</p>
-      
-    <ul>
-        <li>Break your topic down into the areas you wish to research</li>
-        <li>Please keep your answer down to under 50 words</li>
-        <li>Are you focussing on a particular angle?</li>
-    </ul>
     
-    <textarea cols="50" id="" name="" rows="5"></textarea>
+    <fieldset>
 
-  </fieldset>
+        <legend class="ou-form__legend">About you</legend>
+			
+        <div class="ou-form__item">
+            <label for="name" class="ou-form__label">Name</label>
+            <input type="text" id="name" class="ou-form__text">
+        </div>
+
+        <div class="ou-form__item">
+            <label for="email" class="ou-form__label">Email</label>
+            <input type="text" id="email" class="ou-form__text">
+        </div>
+
+        <div class="ou-form__item">
+            <label for="tel" class="ou-form__label">Telephone</label>
+            <input type="text" placeholder="Mobile preferred" id="tel" class="ou-form__text">
+        </div>
+
+        <div class="ou-form__item">
+            <label for="fax" class="ou-form__label ou-form__label--disabled">Fax</label>
+            <input type="text" id="fax" class="ou-form__text" disabled>
+        </div>
+
+        <div class="ou-form__item">
+            <label for="passport" class="ou-form__label ou-form__label--error">Passport number</label>
+            <input type="text" id="passport" class="ou-form__text ou-form__text--error">
+        </div>
+
+        <div class="ou-form__item">
+            <label for="address" class="ou-form__label">Address</label>
+            <textarea name="address" id="address" cols="40" rows="5" class="ou-form__textarea"></textarea>
+        </div>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend class="ou-form__legend">What sports do you like?</legend>
+        
+        <div class="ou-form__group">
+            
+            <div class="ou-form__item ou-form__item--compact">
+                <label for="check1" class="ou-form__label ou-form__label--simple"><input type="checkbox" id="check1" class="ou-form__checkbox"> Football</label>
+            </div>
+    
+            <div class="ou-form__item ou-form__item--compact">
+                <label for="check2" class="ou-form__label ou-form__label--simple"><input type="checkbox" id="check2" class="ou-form__checkbox"> Rugby</label>
+            </div>
+    
+            <div class="ou-form__item ou-form__item--compact">
+                <label for="check3" class="ou-form__label ou-form__label--simple"><input type="checkbox" id="check3" class="ou-form__checkbox"> Cricket</label>
+            </div>
+    
+            <div class="ou-form__item ou-form__item--compact">
+                <label for="check4" class="ou-form__label ou-form__label--simple"><input type="checkbox" id="check4" class="ou-form__checkbox"> Tennis</label>
+            </div>
+    
+            <div class="ou-form__item ou-form__item--compact">
+                <label for="check5" class="ou-form__label ou-form__label--simple ou-form__label--disabled"><input type="checkbox" id="check5" class="ou-form__checkbox" disabled> All of the above</label>
+            </div>
+        
+        </div>
+            
+    </fieldset>
+
+
+    <fieldset>
+    
+        <legend class="ou-form__legend">What is your favourite colour?</legend>
+            
+        <div class="ou-form__group">
+        
+            <div class="ou-form__item ou-form__item--compact">
+                <label for="radio1" class="ou-form__label ou-form__label--simple"><input type="radio" name="colour" id="radio1" class="ou-form__radio"> Blue</label>
+            </div>
+                
+            <div class="ou-form__item ou-form__item--compact">
+                <label for="radio2" class="ou-form__label ou-form__label--simple"><input type="radio" name="colour" id="radio2" class="ou-form__radio"> Red</label>
+            </div>
+                
+            <div class="ou-form__item ou-form__item--compact">
+                <label for="radio3" class="ou-form__label ou-form__label--simple"><input type="radio" name="colour" id="radio3" class="ou-form__radio"> Green</label>
+            </div>
+                
+            <div class="ou-form__item ou-form__item--compact">
+                <label for="radio4" class="ou-form__label ou-form__label--simple ou-form__label--disabled"><input type="radio" name="colour" id="radio4" class="ou-form__radio" disabled> Black</label>
+            </div>
+        
+        </div>
+                
+    </fieldset>
+
+
+    <fieldset>
+    
+        <legend class="ou-form__legend">How old are you?</legend>
+        
+        <div class="ou-form__item">
+            <select name="dropdown" class="ou-form__select">
+                <option>18-25</option>
+                <option>26-40</option>
+                <option>41-60</option>
+            </select>
+        </div>
+        
+    </fieldset>
+
   
-  <fieldset>
-  <legend>What is your favourite colour?</legend>
-  <ul>
-    <li>
-      <label for="radio1"><input type="radio" name="colour" id="radio1"> Blue</label>
-    </li>
-    <li>
-      <label for="radio2"><input type="radio" name="colour" id="radio2"> Red</label>
-    </li>
-    <li>
-      <label for="radio3"><input type="radio" name="colour" id="radio3"> Green</label>
-    </li>
-  </ul>
-  </fieldset>
-  
-  <fieldset>
-  <legend>How old are you?</legend>
-    <select name="dropdown">
-      <option>18-25</option>
-      <option>26-40</option>
-      <option>41-60</option>
-    </select>
-  </fieldset>
-  
-  <fieldset>
-  <legend>This field is disabled</legend>
-    <select name="dropdown" disabled>
-      <option>Apples</option>
-      <option>Bananas</option>
-      <option>Pears</option>
-    </select>
-  </fieldset>
-  
-<input type="submit" value="Send">
+<input type="submit" value="Send" class="ou-button ou-button--primary">
+<input type="submit" value="Cancel" class="ou-button ou-button--secondary">
+
 </form>  
+</div> <!-- end code-example -->
 
+<hr>
 
 </div> <!-- end ou-content -->
 </div> <!-- end ou-region1 -->
