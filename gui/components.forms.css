@@ -63,7 +63,9 @@
 
 .ou-form__text:disabled,
 .ou-form__textarea:disabled,
-.ou-form__select:disabled {
+.ou-form__select:disabled,
+.ou-form__checkbox:disabled,
+.ou-form__radio:disabled {
 	cursor:not-allowed;
 	background-color:#eee;	
 }
