@@ -51,10 +51,20 @@
 
 <h1>Forms</h1>
 
-<h2>Tell us about yourself</h2>
+
+<ol class="ou-toc">
+    <li><a href="#example">Example</a></li>
+    <li><a href="#grid-form">Grid form</a></li>
+    <li><a href="#inline">Inline elements</a></li>
+    <li><a href="#validation">Validation</a></li>
+    <li><a href="#disabled">Disabled elements</a></li>
+</ol>
+
+
+<h2 id="example">Example</h2>
 
 <div class="code-example">
-<form class="ou-form" method="post" action="#form-action">
+<form class="ou-form">
     
     <fieldset>
 
@@ -73,16 +83,6 @@
         <div class="ou-form__item">
             <label for="tel" class="ou-form__label">Telephone</label>
             <input type="text" placeholder="Mobile preferred" id="tel" class="ou-form__text">
-        </div>
-
-        <div class="ou-form__item">
-            <label for="fax" class="ou-form__label ou-form__label--disabled">Fax</label>
-            <input type="text" id="fax" class="ou-form__text" disabled>
-        </div>
-
-        <div class="ou-form__item">
-            <label for="passport" class="ou-form__label ou-form__label--error">Passport number</label>
-            <input type="text" id="passport" class="ou-form__text ou-form__text--error">
         </div>
 
         <div class="ou-form__item">
@@ -113,11 +113,7 @@
             <div class="ou-form__item ou-form__item--compact">
                 <label for="check4" class="ou-form__label ou-form__label--simple"><input type="checkbox" id="check4" class="ou-form__checkbox"> Tennis</label>
             </div>
-    
-            <div class="ou-form__item ou-form__item--compact">
-                <label for="check5" class="ou-form__label ou-form__label--simple ou-form__label--disabled"><input type="checkbox" id="check5" class="ou-form__checkbox" disabled> All of the above</label>
-            </div>
-        
+            
         </div>
             
     </fieldset>
@@ -140,11 +136,7 @@
             <div class="ou-form__item ou-form__item--compact">
                 <label for="radio3" class="ou-form__label ou-form__label--simple"><input type="radio" name="colour" id="radio3" class="ou-form__radio"> Green</label>
             </div>
-                
-            <div class="ou-form__item ou-form__item--compact">
-                <label for="radio4" class="ou-form__label ou-form__label--simple ou-form__label--disabled"><input type="radio" name="colour" id="radio4" class="ou-form__radio" disabled> Black</label>
-            </div>
-        
+                        
         </div>
                 
     </fieldset>
@@ -155,7 +147,7 @@
         <legend class="ou-form__legend">How old are you?</legend>
         
         <div class="ou-form__item">
-            <select name="dropdown" class="ou-form__select">
+            <select name="dropdown-age" class="ou-form__select">
                 <option>18-25</option>
                 <option>26-40</option>
                 <option>41-60</option>
@@ -164,14 +156,169 @@
         
     </fieldset>
 
-  
-<input type="submit" value="Send" class="ou-button ou-button--primary">
-<input type="submit" value="Cancel" class="ou-button ou-button--secondary">
+    <div class="ou-form__item">
+        <input type="submit" value="Send" class="ou-button ou-button--primary">
+        <input type="submit" value="Cancel" class="ou-button ou-button--secondary">
+    </div>
 
 </form>  
 </div> <!-- end code-example -->
 
 <hr>
+
+
+<h2 id="grid-form">Grid form</h2>
+
+<p>Line up the labels and inputs with the addition of some grid classes.</p>
+
+<div class="code-example">
+<form class="ou-form ou-form--grid">
+
+    <fieldset>
+			
+        <div class="ou-form__item ou-grid">
+            <div class="ou-grid__2"><label for="name-inline" class="ou-form__label">Name</label></div>
+            <div class="ou-grid__10"><input type="text" id="name-inline" class="ou-form__text"></div>
+        </div>
+
+        <div class="ou-form__item ou-grid">
+            <div class="ou-grid__2"><label for="email-inline" class="ou-form__label">Email</label></div>
+            <div class="ou-grid__10"><input type="text" id="email-inline" class="ou-form__text"></div>
+        </div>
+
+        <div class="ou-form__item ou-grid">
+            <div class="ou-grid__2"><label for="tel-inline" class="ou-form__label">Telephone</label></div>
+            <div class="ou-grid__10"><input type="text" placeholder="Mobile preferred" id="tel-inline" class="ou-form__text"></div>
+        </div>
+
+        <div class="ou-form__item ou-grid">
+            <div class="ou-grid__2"><label for="address-inline" class="ou-form__label">Address</label></div>
+            <div class="ou-grid__10"><textarea name="address-inline" id="address-inline" cols="40" rows="5" class="ou-form__textarea"></textarea></div>
+        </div>
+
+    </fieldset>
+
+</form>
+</div> <!-- end code-example -->
+
+
+<hr>
+
+
+<h2 id="inline">Inline form elements</h2>
+
+<p>Have multiple form elements lined up side by side by adding the <span class="ou-ice-code">ou-form__group--inline</span> modifier to the form group. This can be used in forms with non side by side elements, too.</p>
+
+<div class="code-example">
+<form class="ou-form">
+
+    <fieldset>
+            
+        <div class="ou-form__group ou-form__group--inline">
+
+            <div class="ou-form__item">
+            
+                <label for="dropdown-fruit" class="ou-form__label">Fruit</label>
+                <select name="dropdown-fruit" id="dropdown-fruit" class="ou-form__select">
+                    <option>Apples</option>
+                    <option>Bananas</option>
+                    <option>Pineapples</option>
+                </select>
+            
+            </div>
+           
+            <div class="ou-form__item">
+
+                <label for="dropdown-alcohol" class="ou-form__label">Alcohol</label>
+                <select name="dropdown-alcohol" id="dropdown-alcohol" class="ou-form__select">
+                    <option>Beer</option>
+                    <option>Cider</option>
+                    <option>Lager</option>
+                    <option>None of the above</option>
+                </select>
+            
+            </div>
+                
+            <div class="ou-form__item">
+                <label for="email2" class="ou-form__label">Email</label>
+                <input type="text" id="email2" class="ou-form__text">
+            </div>
+            
+            <div class="ou-form__item">
+                <label for="check-remember" class="ou-form__label ou-form__label--simple"><input type="checkbox" id="check-remember" class="ou-form__checkbox"> Remember me</label>
+            </div>
+            
+            <div class="ou-form__item">
+            	<button class="ou-button ou-button--primary">Submit</button>
+        	</div>
+        
+        </div>
+        
+    </fieldset>
+
+</form>
+</div> <!-- end code-example -->
+
+
+<hr>
+
+
+<h2 id="validation">Validation</h2>
+
+<div class="code-example">
+<form class="ou-form">
+
+	<fieldset>
+        
+        <div class="ou-form__item ou-form__item--error">
+            <label for="passport" class="ou-form__label">Error</label>
+            <input type="text" id="passport" class="ou-form__text">
+        </div>
+        
+        <div class="ou-form__item ou-form__item--success">
+            <label for="username" class="ou-form__label">Success</label>
+            <input type="text" id="username" class="ou-form__text">
+        </div>
+        
+	</fieldset>
+
+</form>
+</div> <!-- end code-example -->
+
+<hr>
+
+<h2 id="disabled">Disabled elements</h2>
+
+<div class="code-example">
+<form class="ou-form">
+
+	<fieldset>
+    
+        <div class="ou-form__item ou-form__item--disabled">
+            <label for="text-input" class="ou-form__label">Text input</label>
+            <input type="text" id="text-input" class="ou-form__text" disabled>
+        </div>
+                                        
+        <div class="ou-form__item ou-form__item--disabled">
+            <label for="radio-black" class="ou-form__label ou-form__label--simple"><input type="radio" name="colour" id="radio-black" class="ou-form__radio" disabled> Radio button</label>
+        </div>
+
+        <div class="ou-form__item ou-form__item--disabled">
+            <label for="check-all" class="ou-form__label ou-form__label--simple"><input type="checkbox" id="check-all" class="ou-form__checkbox" disabled> Checkbox</label>
+        </div>
+            
+        <div class="ou-form__item ou-form__item--disabled">
+            <select name="dropdown-age" class="ou-form__select" disabled>
+                <option>Disabled dropdown menu</option>
+            </select>
+        </div>
+        
+	</fieldset>
+
+</form>
+</div> <!-- end code-example -->
+
+
 
 </div> <!-- end ou-content -->
 </div> <!-- end ou-region1 -->

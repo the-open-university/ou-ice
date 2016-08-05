@@ -19,6 +19,7 @@
 @import url('objects.grid.css');
 @import url('objects.blocks.css');
 @import url('objects.colours.css');
+@import url('objects.layout.css');
 @import url('objects.various.css');
 
 @import url('components.audio-video.css');
@@ -36,8 +37,6 @@
 @import url('components.various.css');
 
 /* to be broken down */
-@import url('layout.css');
-@import url('images-and-objects.css'); 
 @import url('misc.css');
 /**/
 

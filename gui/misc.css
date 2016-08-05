@@ -1,3 +1,23 @@
+
+
+
+/*
+-------------------------------------------
+	Paragraphs
+-------------------------------------------
+*/
+
+.ou-introduction {
+	color: #000;
+	font-size: 1.2em;
+}
+
+.ou-welcome {
+	border-top:2px solid #a6d0ff;
+	padding:10px 15px 15px 10px;
+}
+
+
 /*
 -------------------------------------------
     Custom headings

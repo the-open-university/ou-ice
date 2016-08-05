@@ -11,6 +11,23 @@
 
 /*
 -------------------------------------------
+	Creative
+-------------------------------------------
+*/
+
+
+.ou-creative {background: #e7eff7;}
+
+.ou-creative img,
+.ou-creative img.ou-go3 {
+	margin:0 auto;
+	display:block;
+}
+
+
+
+/*
+-------------------------------------------
 	Events
 -------------------------------------------
 */
@@ -121,6 +138,49 @@ span.ou-events__current {
 
 
 
+/*
+-------------------------------------------
+	Site ident
+-------------------------------------------
+*/
+
+
+.ou-site-ident {
+	text-align:left;
+	max-width:1180px;
+	margin:20px auto 15px auto;
+}
+
+.ou-site-ident__title {
+	font-size:1.2em;
+	font-weight:normal;
+	padding:0;
+	margin:0 0 5px 0;
+}
+
+.ou-site-ident__title a {
+	color:#000;
+	text-decoration:none;
+}
+
+.ou-site-ident__title a:hover {text-decoration:underline;}
+
+.ou-site-ident__description {
+	padding:0;
+	margin:0;
+	color:#777;
+}
+
+
+@media only screen and (max-width: 1180px), screen and (max-device-width: 1180px) {
+
+
+.ou-site-ident__title,
+.ou-site-ident__description {padding-left:15px;}
+
+
+} /* end media query */
+
 
 @media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
 
@@ -131,6 +191,9 @@ span.ou-events__current {
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
+
+.ou-site-ident__title {font-size:1em;}
+.ou-site-ident__description {font-size:.9em;}
 
 
 } /* end media query */

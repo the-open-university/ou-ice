@@ -1,10 +1,8 @@
-@charset "UTF-8";
-
-
 /*
 --------------------------------------------------------------------------------------
 
-	layout.css
+	Layout
+	objects.layout.css
 
 --------------------------------------------------------------------------------------
 */
@@ -107,58 +105,6 @@ body.ou-1-col #ou-region2 {
 
 
 
-/*
--------------------------------------------
-	Site ident
--------------------------------------------
-*/
-
-
-.ou-site-ident {
-	text-align:left;
-	max-width:1180px;
-	margin:20px auto 15px auto;
-}
-
-.ou-site-ident__title {
-	font-size:1.2em;
-	font-weight:normal;
-	padding:0;
-	margin:0 0 5px 0;
-}
-
-.ou-site-ident__title a {
-	color:#000;
-	text-decoration:none;
-}
-
-.ou-site-ident__title a:hover {text-decoration:underline;}
-
-.ou-site-ident__description {
-	padding:0;
-	margin:0;
-	color:#777;
-}
-
-
-/*
--------------------------------------------
-	Creative
--------------------------------------------
-*/
-
-
-.ou-creative {background: #e7eff7;}
-
-.ou-creative img,
-.ou-creative img.ou-go3 {
-	margin:0 auto;
-	display:block;
-}
-
-
-
-
 @media only screen and (max-width: 1180px), screen and (max-device-width: 1180px) {
 
 
@@ -174,14 +120,10 @@ body.ou-1-col #ou-region2 {
 	padding: 0 15px;
 }
 
-.ou-site-ident__title,
-.ou-site-ident__description {padding-left:15px;}
-
 body.one-col #ou-region1,
 body.one-col #ou-region2 {
 	width:75%;
 }
-
 
 
 } /* end media query */
@@ -189,10 +131,8 @@ body.one-col #ou-region2 {
 
 @media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
 
-div#ou-region1,
-div#ou-region2,
-body.ou-help div#ou-region1,
-body.ou-help div#ou-region2 {
+#ou-region1,
+#ou-region2 {
 	float: left;
 	width: 100%;
 	margin:0 0 25px 0;
@@ -200,9 +140,7 @@ body.ou-help div#ou-region2 {
 }
 
 body.ou-1-col #ou-region1,
-body.ou-1-col #ou-region2 {
-	width:100%;
-}
+body.ou-1-col #ou-region2 {width:100%;}
 
 
 } /* end media query */
@@ -212,10 +150,6 @@ body.ou-1-col #ou-region2 {
 
 
 #ou-site-body {margin-top: 20px;}
-
-.ou-site-ident__title {font-size:1em;}
-
-.ou-site-ident__description {font-size:.9em;}
 
 
 } /* end media query */
