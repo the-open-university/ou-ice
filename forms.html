@@ -76,13 +76,14 @@
         </div>
 
         <div class="ou-form__item">
-            <label for="email" class="ou-form__label">Email</label>
-            <input type="text" id="email" class="ou-form__text">
+            <label for="email" class="ou-form__label">Email <span class="ou-form__required">*</span></label>
+            <input type="text" id="email" class="ou-form__text" required>
         </div>
 
         <div class="ou-form__item">
             <label for="tel" class="ou-form__label">Telephone</label>
-            <input type="text" placeholder="Mobile preferred" id="tel" class="ou-form__text">
+            <p class="ou-form__description">Please note we may call to discuss your requirements.</p>
+            <input type="text" id="tel" class="ou-form__text">
         </div>
 
         <div class="ou-form__item">
@@ -182,8 +183,8 @@
         </div>
 
         <div class="ou-form__item ou-grid">
-            <div class="ou-grid__2"><label for="email-inline" class="ou-form__label">Email</label></div>
-            <div class="ou-grid__10"><input type="text" id="email-inline" class="ou-form__text"></div>
+            <div class="ou-grid__2"><label for="email-inline" class="ou-form__label">Email <span class="ou-form__required">*</span></label></div>
+            <div class="ou-grid__10"><input type="text" id="email-inline" class="ou-form__text" required></div>
         </div>
 
         <div class="ou-form__item ou-grid">
@@ -194,6 +195,11 @@
         <div class="ou-form__item ou-grid">
             <div class="ou-grid__2"><label for="address-inline" class="ou-form__label">Address</label></div>
             <div class="ou-grid__10"><textarea name="address-inline" id="address-inline" cols="40" rows="5" class="ou-form__textarea"></textarea></div>
+        </div>
+
+        <div class="ou-form__item ou-grid">
+            <div class="ou-grid__2">&nbsp;</div>
+            <div class="ou-grid__10"><input type="submit" value="Send" class="ou-button ou-button--primary mb-0"></div>
         </div>
 
     </fieldset>

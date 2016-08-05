@@ -49,6 +49,14 @@
 	border-radius:0;
 }
 
+.ou-form__required {color:#B5002E;}
+
+.ou-form__description {
+	color:#777;
+	font-size:.9em;
+	margin-bottom:5px;	
+}
+
 
 /* grid form */
 
