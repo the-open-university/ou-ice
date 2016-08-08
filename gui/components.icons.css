@@ -34,6 +34,14 @@
 	padding-right:18px;	
 }
 
+.ou-icon--icon-only {
+	padding-left:0;
+	text-indent:-5000em;
+	width:16px;
+	height:16px;
+	display:block;
+}
+
 
 
 /*
