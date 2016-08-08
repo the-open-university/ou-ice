@@ -33,6 +33,66 @@
 
 
 
+/*
+-------------------------------------------
+	Typography
+-------------------------------------------
+*/
+
+.ou-introduction {
+	color: #000;
+	font-size: 1.2em;
+}
+
+
+h1.ou-smaller {font-size: 1.8em; }
+h2.ou-smaller {font-size: 1.4em;}
+h3.ou-smaller {font-size: 1.2em;}
+h4.ou-smaller {font-size: 1em;}
+
+
+
+
+/*
+-------------------------------------------
+	Misc
+-------------------------------------------
+*/
+
+hr.ou-hr-small,
+#ou-region2 hr {margin:15px 0;}
+
+
+/*
+-------------------------------------------
+	Utilities
+-------------------------------------------
+*/
+
+
+/* margins */
+
+.mt-0 {margin-top:0;}
+.mb-0 {margin-bottom:0;}
+
+
+/* widths */
+
+.w-10 {width:10%;}
+.w-15 {width:15%;}
+.w-20 {width:20%;}
+.w-25 {width:25%;}
+.w-30 {width:30%;}
+.w-40 {width:40%;}
+.w-50 {width:50%;}
+.w-60 {width:60%;}
+.w-70 {width:70%;}
+.w-80 {width:80%;}
+.w-90 {width:90%;}
+.w-100 {width:100%;}
+
+
+
 @media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
 
 /* pulls */
