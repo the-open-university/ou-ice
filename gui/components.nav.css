@@ -26,7 +26,7 @@
 .ou-ancestors {margin:0 0 25px 0;}
 
 .ou-ancestors li {
-	display:inline-block;
+	display:inline;
 	padding:0;
 	margin:0 5px 0 0;
 	color:#777;
