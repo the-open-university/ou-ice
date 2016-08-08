@@ -26,10 +26,26 @@
 .ou-button--success {background:#539d3c;}
 .ou-button--warning {background:#b52a1e;}
 
+.ou-button--disabled,
+button:disabled {
+	background:#ccc; 
+	color:#fff;
+	cursor:not-allowed;
+}
+
 .ou-button--block {
 	display:block;
 	margin-right:0;
 	width:100%;
+}
+
+.ou-button--more {
+	background:#fff;
+	border:1px solid #ccc;
+	padding:5px 10px;
+	font-size:.9em;
+	font-weight:normal;
+	color:#039;
 }
 
 .ou-button:hover {
@@ -38,6 +54,14 @@
 	text-decoration:none;
 }
 
+.ou-button--more:hover {
+	background:#fff !important;
+	border:1px solid #e80074;
+	color:#039;
+}
 
-/* easter egg ;) */
-.ou-button--button:hover {-webkit-animation: spin 02s infinite ease; -moz-animation: spin 02s infinite ease;}
+.ou-button--disabled:hover {
+	background:#ccc !important; 
+	color:#fff;
+	cursor:not-allowed;
+}
