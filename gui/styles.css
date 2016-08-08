@@ -36,9 +36,5 @@
 @import url('components.tables.css');
 @import url('components.various.css');
 
-/* to be broken down */
-@import url('misc.css');
-/**/
-
 @import url('legacy.css'); /* backwards compatibility */
 @import url('../demo/demo.css'); /* demo site only */
