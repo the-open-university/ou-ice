@@ -204,25 +204,21 @@
 */
 
 
-.ou-paged {margin-bottom:20px;}
+.ou-paged {margin:30px 0;}
 
 .ou-paged ul {text-align:center;}
 
 .ou-paged li {
 	display:inline-block;
-	margin:0 0 10px 0;
+	margin:0;
 	color:#777;
 }
 
-.ou-paged li:last-child {margin-right:0;}
-
 .ou-paged a,
 .ou-paged strong {
-	background: #eee;
 	color: #039;
-	font-weight: bold;
 	text-decoration: none;
-	padding: 10px 15px;
+	padding: 10px;
 	display: block;
 }
 
@@ -237,18 +233,31 @@
 	color:#777;
 }
 
-a.ou-paged__previous {background:transparent;}
-a.ou-paged__next {background:#eee;}
+a.ou-paged__previous:before,
+a.ou-paged__next:after {
+	color:#999;
+	font-family:Hiragino Mincho ProN;
+	font-size: 10px;
+	content: "\25c0";
+	display:inline-block;
+	margin:0 6px 0 0;
+}
 
-.ou-paged--numbered a.ou-paged__previous,
-.ou-paged--numbered a.ou-paged__next,
-.ou-paged--numbered a.ou-paged__first,
-.ou-paged--numbered a.ou-paged__last {background:transparent;}
+a.ou-paged__next:after {
+	content: "\25b6";
+	margin:0 0 0 6px;
+}
+
+.ou-paged--prev-next a.ou-paged__next {border:1px solid #ccc;}
 
 .ou-paged a:hover {
 	background-color:#e80074;
 	color:#fff;
 }
+
+a.ou-paged__previous:hover:before,
+a.ou-paged__next:hover:after {color:#fff;}
+
 
 
 /*
@@ -279,8 +288,7 @@ a.ou-paged__next {background:#eee;}
 .ou-atoz__filter strong {
 	text-decoration: none;
 	color: #039;
-	padding:10px 15px;
-	font-weight:bold;
+	padding:10px;
 	display:block;
 }
 

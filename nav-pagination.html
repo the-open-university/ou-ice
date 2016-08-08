@@ -53,27 +53,12 @@
 
 <hr>
 
-<h2>Prev/next</h2>
+<h2>Full</h2>
+
+<p>You can safely remove un-needed elements with this. For example, if you don't want the page count, just whip that part out of the code and the rest will stay as is.</p>
 
 <div class="code-example">
 <div class="ou-paged">
-    <ul>
-        <li><a class="ou-paged__previous" href="#">Previous page</a></li>
-        <li><a class="ou-paged__next" href="#">Next page</a></li>
-    </ul>
-</div>
-</div> <!-- end code-example -->
-
-
-<hr>
-
-
-<h2>Full</h2>
-
-<p>This one has the extra class <span class="ou-ice-code">ou-paged--numbered</span>.</p>
-
-<div class="code-example">
-<div class="ou-paged ou-paged--numbered">
     <p class="ou-paged__page">Page 1 of 20</p>
     <ul>
         <li><a class="ou-paged__first" href="#">First</a></li>
@@ -90,6 +75,24 @@
     </ul>
 </div>
 </div> <!-- end code-example -->
+
+<hr>
+
+<h2>Prev/next only</h2>
+
+<p>This one has the extra class <span class="ou-ice-code">ou-paged--prev-next</span> which adds the border to the next button as the most prominent option of the two.</p>
+
+<div class="code-example">
+<div class="ou-paged ou-paged--prev-next">
+    <ul>
+        <li><a class="ou-paged__previous" href="#">Previous page</a></li>
+        <li><a class="ou-paged__next" href="#">Next page</a></li>
+    </ul>
+</div>
+</div> <!-- end code-example -->
+
+
+
 
 
 </div> <!-- end ou-content -->
