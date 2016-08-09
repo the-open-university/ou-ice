@@ -248,7 +248,7 @@ a.ou-paged__next:after {
 	margin:0 0 0 6px;
 }
 
-.ou-paged--prev-next a.ou-paged__next {border:1px solid #ccc;}
+.ou-paged--previous-next a.ou-paged__next {border:1px solid #ccc;}
 
 .ou-paged a:hover {
 	background-color:#e80074;
