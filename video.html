@@ -56,6 +56,7 @@
     <li><a href="#standard">Standard</a></li>
     <li><a href="#video-transcript">Video + transcript</a></li>
     <li><a href="#oembed-example">OEmbed example</a></li>
+    <li><a href="#blocks">Using blocks</a></li>
 </ol>
 
 
@@ -115,15 +116,16 @@
     <div class="ou-video__clip">
 
     <div class="oembed oembed-video">
-      <a href="http://podcast.open.ac.uk/oulearn/science/podcast-2284_60secondadventuresinastronomy#!2f9a29940f" class="oembed-title">60-Second Adventures in Astronomy: The Big Bang</a>
-      <span class="oembed-content">
-      <iframe class="ou player podcast embed-rsp video size-default no-banner " aria-label="OU player" width="560" height="337" frameborder="0" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" src="//mediaplayer.open.ac.uk/embed/pod/2284_60secondadventuresinastronomy/2f9a29940f"></iframe>  </span>
+		<a href="http://podcast.open.ac.uk/oulearn/science/podcast-2284_60secondadventuresinastronomy#!2f9a29940f" class="oembed-title">60-Second Adventures in Astronomy: The Big Bang</a>
+		<span class="oembed-content">
+			<iframe class="ou player podcast embed-rsp video size-default no-banner " aria-label="OU player" width="560" height="337" frameborder="0" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" src="//mediaplayer.open.ac.uk/embed/pod/2284_60secondadventuresinastronomy/2f9a29940f"></iframe>
+		</span>
     </div>
 
     </div>
-    
+
     <div class="ou-video__transcript">
-        
+
         <blockquote class="ou-quote ou-bg-dark-grey">
             <p><strong>Derek</strong>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra feugiat neque et vulputate. Integer condimentum mauris ut massa tempus vitae tincidunt arcu posuere. Phasellus a risus ipsum, eu volutpat sem. Donec interdum dui in elit vestibulum auctor. Praesent elit est, porta id sagittis vitae, fringilla nec massa. Nunc vitae leo eget mauris vulputate consectetur. Quisque quis tincidunt tellus.</p>
             <p><strong>Cristina</strong>: Praesent arcu nulla, consequat et congue eget, pulvinar et risus. Cras sollicitudin lobortis commodo. Integer sed massa sed lorem volutpat ultricies sed sed augue. Suspendisse volutpat euismod eros et dignissim. Duis condimentum magna ut augue tincidunt rhoncus. Proin nec ante sed purus mattis dapibus. Vivamus at mi sit amet lacus rutrum luctus sit amet vitae enim. Curabitur dignissim dolor a dolor imperdiet adipiscing.</p>
@@ -133,6 +135,43 @@
 
 </div>
 </div> <!-- end code-example -->
+
+
+
+<hr>
+
+
+
+<h2 id="blocks">Using blocks</h2>
+
+<p>If using videos in combination with <a href="blocks.html">Blocks</a>, be sure to add <span class="ou-ice-code">ou-blocks--mob-1-col</span> to the container so that the videos aren't squeezed together for small viewports.</p>
+
+<div class="code-example">
+<div class="ou-blocks ou-blocks--2-cols ou-blocks--mob-1-col">
+
+    <div>
+        <div class="ou-video">
+        
+            <div class="ou-video__clip">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3vNnMxpVVkg?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div>
+        <div class="ou-video">
+        
+            <div class="ou-video__clip">
+    			<iframe width="560" height="315" src="https://www.youtube.com/embed/aoaSo2YcsTk?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+                    
+        </div>
+    </div>
+    
+</div>
+</div> <!-- end code-example -->
+
 
 </div> <!-- end ou-content -->
 </div> <!-- end ou-region1 -->
