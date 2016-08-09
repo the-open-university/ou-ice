@@ -101,6 +101,8 @@
 
 /* smaller news - for region2 and other areas */
 
+.ou-articles--smaller {color:#555;}
+
 .ou-articles--smaller .ou-articles__img {width:120px;}
 
 .ou-articles--smaller .ou-articles__text h2,
@@ -117,6 +119,10 @@
 	padding-right:0;
 	display:block;
 }
+
+.ou-articles--smaller p {font-size:95%;}
+
+.ou-articles--smaller .ou-articles__date {font-size:90%;}
 
 
 /* list  */
