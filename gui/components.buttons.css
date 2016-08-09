@@ -19,6 +19,7 @@
 	cursor:pointer;
 	border:0;
 	text-align:center;
+	line-height:120%;
 }
 
 .ou-button--primary {background: #e80074;}
