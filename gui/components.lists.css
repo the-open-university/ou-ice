@@ -79,8 +79,6 @@
 	margin-bottom: 10px;
 	position: relative;
 	padding-left: 15px;
-	line-height:130%;
-	/*z-index:100;  so items can float alongside happily */
 }
 
 .ou-list--arrows li:before {
@@ -93,7 +91,7 @@
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
 	position: absolute;
-	top: 3px;
+	top: 4px;
 	left: 0;
 }
 
