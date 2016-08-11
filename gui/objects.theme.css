@@ -25,11 +25,11 @@
 	background-repeat:no-repeat;
 }
 
-.ou-theme--dark-green #ou-header a.ou-logo {background:url(logos/ou-logo-dark-green.png);}
-.ou-theme--burgundy #ou-header a.ou-logo {background:url(logos/ou-logo-burgundy.png);}
-.ou-theme--orange #ou-header a.ou-logo {background:url(logos/ou-logo-orange.png);}
-.ou-theme--purple #ou-header a.ou-logo {background:url(logos/ou-logo-purple.png);}
-.ou-theme--blue #ou-header a.ou-logo {background:url(logos/ou-logo-blue.png);}
+.ou-theme--dark-green #ou-header a.ou-logo {background-image:url(logos/ou-logo-dark-green.png);}
+.ou-theme--burgundy #ou-header a.ou-logo {background-image:url(logos/ou-logo-burgundy.png);}
+.ou-theme--orange #ou-header a.ou-logo {background-image:url(logos/ou-logo-orange.png);}
+.ou-theme--purple #ou-header a.ou-logo {background-image:url(logos/ou-logo-purple.png);}
+.ou-theme--blue #ou-header a.ou-logo {background-image:url(logos/ou-logo-blue.png);}
 
 
 
@@ -192,12 +192,8 @@
 
 /* themes */
 
-.ou-theme--burgundy .ou-sections a.ou-selected,
-.ou-theme--orange .ou-sections a.ou-selected,
-.ou-theme--purple .ou-sections a.ou-selected,
-.ou-theme--blue .ou-sections a.ou-selected,
-.ou-theme--dark-green .ou-sections a.ou-selected {border-bottom:0;}
-
+.ou-theme .ou-sections a.ou-selected,
+.ou-theme .ou-sections a.ou-selected:hover {border-bottom:0;}
 
 
 } /* end media query */
@@ -217,12 +213,12 @@
 
 .ou-theme #ou-header a.ou-logo {background-size:61px 87px;}
 
-.ou-theme #ou-header a.ou-logo {background:url(logos/ou-logo-light-blue@2x.png);}
-.ou-theme--dark-green #ou-header a.ou-logo {background:url(logos/ou-logo-dark-green@2x.png);}
-.ou-theme--burgundy #ou-header a.ou-logo {background:url(logos/ou-logo-burgundy@2x.png);}
-.ou-theme--orange #ou-header a.ou-logo {background:url(logos/ou-logo-orange@2x.png);}
-.ou-theme--purple #ou-header a.ou-logo {background:url(logos/ou-logo-purple@2x.png);}
-.ou-theme--blue #ou-header a.ou-logo {background:url(logos/ou-logo-blue@2x.png);}
+.ou-theme #ou-header a.ou-logo {background-image:url(logos/ou-logo-light-blue@2x.png);}
+.ou-theme--dark-green #ou-header a.ou-logo {background-image:url(logos/ou-logo-dark-green@2x.png);}
+.ou-theme--burgundy #ou-header a.ou-logo {background-image:url(logos/ou-logo-burgundy@2x.png);}
+.ou-theme--orange #ou-header a.ou-logo {background-image:url(logos/ou-logo-orange@2x.png);}
+.ou-theme--purple #ou-header a.ou-logo {background-image:url(logos/ou-logo-purple@2x.png);}
+.ou-theme--blue #ou-header a.ou-logo {background-image:url(logos/ou-logo-blue@2x.png);}
 
 } /* end media query */
 
