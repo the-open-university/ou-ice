@@ -192,6 +192,8 @@
 .ou-list--social a {text-decoration:none;}
 .ou-list--social a:hover {text-decoration:underline;}
 
+.ou-list--social p {margin:0 0 5px 0;}
+
 .ou-list--social li {
 	background-position:0 1px;
 	background-repeat:no-repeat;
