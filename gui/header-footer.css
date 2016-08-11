@@ -230,7 +230,7 @@ a.ou-skip:active {
 #ou-header a.ou-logo {
 	width:21px;
 	height:25px;
-	background-image:url(ou-logo-mobile.png);
+	background-image:url(logos/ou-logo-mobile.png);
 	background-position:top left;
 	background-repeat:no-repeat;
 	margin:10px 15px;
@@ -358,7 +358,7 @@ a.ou-skip:active {
 (min-resolution: 192dpi) { 
 
 #ou-header a.ou-logo {
-	background-image:url(ou-logo-mobile@2x.png);
+	background-image:url(logos/ou-logo-mobile@2x.png);
 	background-size:21px 50px;
 }
 
