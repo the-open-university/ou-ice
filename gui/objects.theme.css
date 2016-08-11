@@ -187,7 +187,7 @@
 .ou-theme--dark-green #ou-header a.ou-logo {
 	width: 21px;
 	height: 25px;
-	background-image: url(../../gui/ou-logo-mobile.png);
+	background-image: url(logos/ou-logo-mobile.png);
 }
 
 /* themes */
@@ -224,4 +224,20 @@
 .ou-theme--purple #ou-header a.ou-logo {background:url(logos/ou-logo-purple@2x.png);}
 .ou-theme--blue #ou-header a.ou-logo {background:url(logos/ou-logo-blue@2x.png);}
 
+} /* end media query */
+
+
+@media 
+(min-resolution: 192dpi) and (max-width: 767px) {
+	
+.ou-theme #ou-header a.ou-logo,
+.ou-theme--burgundy #ou-header a.ou-logo,
+.ou-theme--orange #ou-header a.ou-logo,
+.ou-theme--purple #ou-header a.ou-logo,
+.ou-theme--blue #ou-header a.ou-logo,
+.ou-theme--dark-green #ou-header a.ou-logo {
+	background-size:21px 25px;
+	background-image: url(logos/ou-logo-mobile@2x.png);
+}
+	
 } /* end media query */
