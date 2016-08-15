@@ -37,9 +37,11 @@
     
         <img class="ou-creative__image" src="demo/img/creative/home.jpg" alt="">
         
-        <div class="ou-creative__message">
+        <div class="ou-creative__wording">
         	<h1 class="ou-creative__title">Optional text overlay</h1>
-            <p class="ou-creative__description">And this is an optional sentence of supporting text.</p>
+            <div class="ou-creative__description">
+            	<p>And this is an optional sentence of supporting text.</p>
+            </div>
         </div>
 
     </div>
@@ -63,6 +65,7 @@
 <p>A creative allows a 100% width "showpiece" in the header area where you can place a large image, video, hero, carousel etc.</p>
 
 <p>The creative will only take up the full width of the page if placed in the header (<span class="ou-ice-code">#ou-site-header</span>).</p>
+
 <p>You can have an optional text overlay, seen above, or leave it out and just feature a decorative image.</p>
 
 
@@ -82,25 +85,31 @@
 
 
 
-<h2>With message (seen above)</h2>
-
-<p>If you include a text overlay message it will align middle left by default. Add either <span class="ou-ice-code">ou-creative__message--top</span> or <span class="ou-ice-code">ou-creative__message--bottom</span> to move the message up or down.</p>
+<h2>With text (seen above)</h2>
 
 <pre class="prettyprint lang-html">
 <div class="ou-creative">
 
     <img class="ou-creative__image" src="demo/img/creative/home.jpg" alt="">
 
-    <div class="ou-creative__message">
+    <div class="ou-creative__wording">
         <h1 class="ou-creative__title">Your creative title</h1>
-        <p class="ou-creative__description">An optional line or two of supporting text below.</p>
+        <div class="ou-creative__description">
+            <p>An optional line or two of supporting text below.</p>
+        </div>
     </div>
 
 </div>
 </pre>
 
+<h3>Text positioning</h3>
+
+<p>If you include a text overlay it will align middle left by default. Add either <span class="ou-ice-code">ou-creative__wording--top</span> or <span class="ou-ice-code">ou-creative__wording--bottom</span> to move the text up or down.</p>
 
 
+
+
+<!--
 <hr>
 
 
@@ -118,7 +127,7 @@
     </div>
 </div>
 </pre>
-
+-->
 
 
 <hr>
