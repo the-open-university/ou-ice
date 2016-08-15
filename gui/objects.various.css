@@ -39,11 +39,7 @@
 -------------------------------------------
 */
 
-.ou-introduction {
-	color: #000;
-	font-size: 1.2em;
-}
-
+.ou-introduction {font-size: 1.2em;}
 
 h1.ou-smaller {font-size: 1.8em; }
 h2.ou-smaller {font-size: 1.4em;}
