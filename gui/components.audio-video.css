@@ -72,7 +72,7 @@ div.ou-audio blockquote .ou-dialogue dt:before {
 
 
 
-@media only screen and (max-width: 768px), screen and (max-device-width: 768px) {
+@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
 
 
 } /* end media query */
