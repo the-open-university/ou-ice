@@ -238,11 +238,11 @@ div.ou-go3 h2 {margin-top:0;}
 
 
 .ou-btn,
-a.ou-button-secondary,
-a.ou-button-delete {
+.ou-button-secondary,
+.ou-button-delete {
 	-webkit-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
-	background: #888;
+	background: #E80074;
 	color: #fff;
 	font-weight: bold;
 	text-decoration: none;
@@ -254,17 +254,18 @@ a.ou-button-delete {
 	text-align:center;
 }
 
-a.ou-button-secondary {background:#036;}
-a.ou-button-delete {background:#b52a1e;}
+.ou-button-secondary {background:#333;}
+.ou-button-delete {background:#B5002E;}
 
-a.ou-button-secondary:hover, 
-a.ou-button-secondary:focus,
-a.ou-button-delete:hover, 
-a.ou-button-delete:focus {
+.ou-button-secondary:hover, 
+.ou-button-secondary:focus,
+.ou-button-delete:hover, 
+.ou-button-delete:focus {
 	background: #000;
 	color: #fff;
 	text-decoration: none;
 }
+
 
 
 /*
@@ -315,7 +316,6 @@ a.ou-info {background-image:url(icons/icon-info.png);}
 a.ou-help {background-image:url(icons/icon-help.png);}
 a.ou-warning {background-image:url(icons/icon-warning.png);}
 a.ou-download {background-image:url(icons/icon-download.png);}
-
 
 
 
