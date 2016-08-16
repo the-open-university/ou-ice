@@ -41,10 +41,10 @@
 
 .ou-introduction {font-size: 1.2em;}
 
-h1.ou-smaller {font-size: 1.8em; }
-h2.ou-smaller {font-size: 1.4em;}
-h3.ou-smaller {font-size: 1.2em;}
-h4.ou-smaller {font-size: 1em;}
+h1.ou-smaller {font-size: 1.8em !important; }
+h2.ou-smaller {font-size: 1.4em !important;}
+h3.ou-smaller {font-size: 1.2em !important;}
+h4.ou-smaller {font-size: 1em !important;}
 
 
 
