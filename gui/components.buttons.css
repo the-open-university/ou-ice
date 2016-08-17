@@ -9,7 +9,7 @@
 
 
 .ou-button {
-	background: #888;
+	background-color: #888;
 	color: #fff;
 	font-weight: bold;
 	text-decoration: none;
@@ -22,14 +22,14 @@
 	line-height:120%;
 }
 
-.ou-button--primary {background: #e80074;}
-.ou-button--secondary {background:#333;}
-.ou-button--success {background:#539d3c;}
-.ou-button--warning {background:#b52a1e;}
+.ou-button--primary {background-color: #e80074;}
+.ou-button--secondary {background-color:#333;}
+.ou-button--success {background-color:#539d3c;}
+.ou-button--warning {background-color:#b52a1e;}
 
 .ou-button--disabled,
 button:disabled {
-	background:#ccc; 
+	background-color:#ccc; 
 	color:#fff;
 	cursor:not-allowed;
 }
@@ -41,7 +41,7 @@ button:disabled {
 }
 
 .ou-button--more {
-	background:#fff;
+	background-color:#fff;
 	border:1px solid #ccc;
 	padding:5px 10px;
 	font-size:.9em;
@@ -50,19 +50,19 @@ button:disabled {
 }
 
 .ou-button:hover {
-	background:#000 !important;
+	background-color:#000 !important;
 	color:#fff;
 	text-decoration:none;
 }
 
 .ou-button--more:hover {
-	background:#fff !important;
+	background-color:#fff !important;
 	border:1px solid #e80074;
 	color:#039;
 }
 
 .ou-button--disabled:hover {
-	background:#ccc !important; 
+	background-color:#ccc !important; 
 	color:#fff;
 	cursor:not-allowed;
 }

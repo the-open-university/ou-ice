@@ -31,6 +31,7 @@
 	right:0;
 	display:inline-block;
 	padding:9px 12px;
+	color: #fff;
 	background-color: rgb(0, 0, 0);
 	background-color: rgba(0, 0, 0, 0.4); 	
 	text-decoration:none;
@@ -47,6 +48,7 @@
 
 .ou-quote cite {
 	color:#fff;
+	background-color: transparent;
 	font-style:normal;
 	opacity:0.7;
 	font-size:1em;
@@ -54,7 +56,10 @@
 
 .ou-quote--light,
 .ou-quote--light cite,
-.ou-quote--light cite a {color:#000;}
+.ou-quote--light cite a {
+	color:#000;
+	background-color: transparent;
+}
 
 
 
@@ -84,12 +89,6 @@
 }
 
 
-
-@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
-
-
-
-} /* end media query */
 
 
 

@@ -17,7 +17,8 @@
 
 
 .ou-creative {
-	background: #e7eff7;
+	background-color: #e7eff7;
+	color: #222;
 	position:relative;
 }
 
@@ -30,6 +31,7 @@
 .ou-creative__wording {
 	position:absolute;
 	display:inline-block;
+	color: #666;
 	background:#fff;
 	background: rgb(255,255,255);
 	background: rgba(255,255,255, 0.9);
@@ -46,10 +48,13 @@
 .ou-creative__title {
 	margin:0;
 	font-size:1.8em;
+	background-color: transparent;
+	color: #000;
 }
 
 .ou-creative__description {
 	color:#666;
+	background-color: transparent;
 	font-size:1em;
 	margin:10px 0 0 0;
 }
@@ -65,7 +70,8 @@
 
 
 .ou-events__nav {
-	background:#eee;	
+	background-color:#eee;
+	color: #000;
 	text-align:center;
 	margin:0 0 20px 0;
 }
@@ -93,9 +99,10 @@ span.ou-events__current {
 
 .ou-events__prev:before,
 .ou-events__next:after {
-	font-family:Hiragino Mincho ProN;
+	font-family:"Hiragino Mincho ProN";
 	content: "\25c0";
 	color:#999;
+	background-color: transparent;
 	font-size:9px;
 	display:block;
 	float:left;
@@ -112,7 +119,10 @@ span.ou-events__current {
 .ou-events__next:hover {text-decoration:none;}
 
 .ou-events__prev:hover:before,
-.ou-events__next:hover:after {color:#e80074;}
+.ou-events__next:hover:after {
+	color:#e80074;
+	background-color: transparent;
+}
 
 
 .ou-events__day {
@@ -132,7 +142,7 @@ span.ou-events__current {
 	font-style: normal;
     font-size: .9em;
     color: #fff;
-    background: #B5002E;
+    background-color: #B5002E;
     padding: 3px;
     text-align: center;
     text-transform: uppercase;
@@ -142,6 +152,7 @@ span.ou-events__current {
 .ou-events__date strong {
 	text-align: center;
     color: #000;
+    background-color: transparent;
     font-size: 25px;
     font-weight: normal;
     display: block;
@@ -150,7 +161,7 @@ span.ou-events__current {
 	border-radius:0 0 4px 4px;
 }
 
-.ou-events__event {margin-left:75px;	}
+.ou-events__event {margin-left:75px;}
 
 .ou-events__event-title {
 	font-size:1.1em;
@@ -161,6 +172,7 @@ span.ou-events__current {
 
 .ou-events__event-time {
 	color:#777;	
+	background-color: transparent;
 	font-size:.9em;
 	font-weight:bold;
 	margin:0 0 6px 0;
@@ -191,6 +203,7 @@ span.ou-events__current {
 
 .ou-site-ident__title a {
 	color:#000;
+	background-color: transparent;
 	text-decoration:none;
 }
 
@@ -200,6 +213,7 @@ span.ou-events__current {
 	padding:0;
 	margin:0;
 	color:#777;
+	background-color: transparent;
 }
 
 
@@ -231,7 +245,7 @@ span.ou-events__current {
 	width:100%;
 	display:block;
 	position:static;
-	background:#fff;
+	background-color:#fff;
 }
 
 .ou-creative__title {font-size:1.4em;}
@@ -253,24 +267,7 @@ span.ou-events__current {
 
 
 
-
-
 } /* end media query */
 
-
-
-/*
--------------------------------------------
-	Retina
--------------------------------------------
-*/
-
-
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
-
-
-} /* end media query */
 
 

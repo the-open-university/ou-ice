@@ -29,6 +29,7 @@ ul li {
 }
 
 input, 
-input:matches([type="password"], [type="search"]), 
+input[type="password"], 
+input[type="search"], 
 textarea, 
 input[type="range"] {border-radius:0;}

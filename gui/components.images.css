@@ -32,6 +32,7 @@
 .ou-img__caption {
 	margin:5px 0 0 0;
 	color:#555;
+	background-color: transparent;
 	font-size:.9em;
 }
 
@@ -45,7 +46,10 @@
 .ou-bg-orange .ou-img__caption,
 .ou-bg-black .ou-img__caption,
 .ou-bg-pink .ou-img__caption,
-.ou-bg-dark-green .ou-img__caption {color:#fff;}
+.ou-bg-dark-green .ou-img__caption {
+	color:#fff;
+	background-color: transparent;
+}
 
 
 
@@ -72,6 +76,7 @@
 .ou-hero__link:hover {
 	text-decoration:none;
 	color:#fff;
+	background-color: transparent;
 }
 
 .ou-hero__wording {
@@ -93,6 +98,7 @@
 
 .ou-hero__title {
 	color: inherit;
+	background-color: transparent;
 	line-height: 120%;
 	margin:0;
 	padding:0;
@@ -101,6 +107,7 @@
 
 .ou-hero__description {
 	color: inherit;
+	background-color: transparent;
 	font-size:1em;
 	margin:5px 0 0 0;
 }
@@ -142,14 +149,14 @@
 
 
 .ou-bg-black 		.ou-hero__wording {background: rgb(0, 0, 0) !important; 		background: rgba(0, 0, 0, 0.8) !important;}
-.ou-bg-dark-grey 	.ou-hero__wording {background: rgb(51, 51, 51) !important; 	background: rgba(51, 51, 51, 0.8) !important;}
-.ou-bg-red 			.ou-hero__wording {background: rgb(181, 0, 46) !important; 	background: rgba(181, 0, 46, 0.8) !important;}
+.ou-bg-dark-grey 	.ou-hero__wording {background: rgb(51, 51, 51) !important; 		background: rgba(51, 51, 51, 0.8) !important;}
+.ou-bg-red 			.ou-hero__wording {background: rgb(181, 0, 46) !important; 		background: rgba(181, 0, 46, 0.8) !important;}
 .ou-bg-pink 		.ou-hero__wording {background: rgb(232, 0, 116) !important; 	background: rgba(232, 0, 116, 0.8) !important;}
-.ou-bg-dark-blue 	.ou-hero__wording {background: rgb(0, 51, 102) !important; 	background: rgba(0, 51, 102, 0.8) !important;}
+.ou-bg-dark-blue 	.ou-hero__wording {background: rgb(0, 51, 102) !important; 		background: rgba(0, 51, 102, 0.8) !important;}
 .ou-bg-purple 		.ou-hero__wording {background: rgb(78, 36, 123) !important; 	background: rgba(78, 36, 123, 0.8) !important;}
 .ou-bg-orange 		.ou-hero__wording {background: rgb(197, 84, 10) !important; 	background: rgba(197, 84, 10, 0.8) !important;}
 .ou-bg-burgundy 	.ou-hero__wording {background: rgb(99, 0, 49) !important; 		background: rgba(99, 0, 49, 0.8) !important;}
-.ou-bg-dark-green 	.ou-hero__wording {background: rgb(74, 94, 74) !important; 	background: rgba(74, 94, 74, 0.8) !important;}
+.ou-bg-dark-green 	.ou-hero__wording {background: rgb(74, 94, 74) !important; 		background: rgba(74, 94, 74, 0.8) !important;}
 .ou-bg-green 		.ou-hero__wording {background: rgb(83, 157, 60) !important; 	background: rgba(83, 157, 60, 0.8) !important;} 
 .ou-bg-blue 		.ou-hero__wording {background: rgb(11, 85, 168) !important; 	background: rgba(11, 85, 168, 0.8) !important;} 
 

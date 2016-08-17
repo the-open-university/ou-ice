@@ -51,6 +51,7 @@
 
 .ou-articles__date {
 	color:#777;	
+	background-color: transparent;
 	margin:10px 0 0 0;
 	line-height:100%;
 	font-size:.9em;
@@ -101,7 +102,10 @@
 
 /* smaller news - for region2 and other areas */
 
-.ou-articles--smaller {color:#555;}
+.ou-articles--smaller {
+	color:#555;
+	background-color: transparent;
+}
 
 .ou-articles--smaller .ou-articles__img {width:120px;}
 

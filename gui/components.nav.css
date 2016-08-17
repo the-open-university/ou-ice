@@ -30,11 +30,13 @@
 	padding:0;
 	margin:0 5px 0 0;
 	color:#777;
+	background-color: transparent;
 }
 
 .ou-ancestors li:after {
 	color:#ddd;
-	font-family:Hiragino Mincho ProN;
+	background-color: transparent;
+	font-family:"Hiragino Mincho ProN";
 	font-size: 10px;
 	content: "\25b6";
 	display:inline-block;
@@ -48,6 +50,7 @@
 .ou-ancestors a:hover {
 	text-decoration:underline;
 	color:#000;
+	background-color: transparent;
 }
 
 
@@ -59,7 +62,8 @@
 
 
 .ou-sections {
-	background:#fff;
+	background-color: transparent;
+	color: #000;
 	max-width:1180px;
 	margin:0 auto;
 }
@@ -71,6 +75,7 @@
 
 .ou-sections a {
 	color:#0b55a8; 
+	background-color: transparent;
 	text-decoration:none;
 	display:block;
 	padding:0 0 18px 0;
@@ -80,12 +85,14 @@
 .ou-sections a.ou-selected,
 .ou-sections a.ou-selected:hover {
     color: #036;
+    background-color: transparent;
 	font-weight:bold;
 	border-bottom:2px solid #036;
 }
 
 .ou-sections a:hover {
-	color:#000; 
+	color:#000;
+	background-color: transparent; 
 	text-decoration:none;
 	border-bottom:2px solid #ccc;
 }
@@ -127,7 +134,8 @@
 
 .ou-toc a:before {
 	color:#ddd;
-	font-family:Hiragino Mincho ProN;
+	background-color: transparent;
+	font-family:"Hiragino Mincho ProN";
 	font-size: 10px;
 	content: "\25bc";
 	display:block;
@@ -148,7 +156,8 @@
 
 
 .ou-context-nav {
-	background: #fff;
+	background-color: transparent;
+	color: #000;
 	margin-bottom: 20px;
 }
 
@@ -167,6 +176,7 @@
 	border-top:1px solid #ddd;
 	text-decoration:none;
 	color:#039;
+	background-color: transparent;
 	line-height:120%;
 }
 
@@ -212,11 +222,13 @@
 	display:inline-block;
 	margin:0;
 	color:#777;
+	background-color: transparent;
 }
 
 .ou-paged a,
 .ou-paged strong {
 	color: #039;
+	background-color: transparent;
 	text-decoration: none;
 	padding: 10px;
 	display: block;
@@ -231,12 +243,14 @@
 .ou-paged__page {
 	text-align:center;
 	color:#777;
+	background-color: transparent;
 }
 
 a.ou-paged__previous:before,
 a.ou-paged__next:after {
 	color:#999;
-	font-family:Hiragino Mincho ProN;
+	background-color: transparent;
+	font-family:"Hiragino Mincho ProN";
 	font-size: 10px;
 	content: "\25c0";
 	display:inline-block;
@@ -288,6 +302,7 @@ a.ou-paged__next:hover:after {color:#fff;}
 .ou-atoz__filter strong {
 	text-decoration: none;
 	color: #039;
+	background-color: transparent;
 	padding:10px;
 	display:block;
 }
@@ -296,12 +311,12 @@ a.ou-paged__next:hover:after {color:#fff;}
 .ou-atoz__filter a.ou-selected,
 .ou-atoz__filter a.ou-selected:hover {
 	color: #fff;
-	background:#036;
+	background-color:#036;
 }
 
 .ou-atoz__filter a:hover {
 	text-decoration: none;
-	background:#e80074;
+	background-color:#e80074;
 	color:#fff;
 }
 
@@ -309,9 +324,15 @@ a.ou-paged__next:hover:after {color:#fff;}
 
 .ou-atoz__results li {padding:20px 25px;}
 
-.ou-atoz__results li:nth-child(odd) {background-color: #e7eff7;}
+.ou-atoz__results li:nth-child(odd) {
+	background-color: #e7eff7;
+	color: inherit;
+}
 
-.ou-atoz__results li p {color:#444;}
+.ou-atoz__results li p {
+	color:#444;
+	background-color: transparent;
+}
 
 .ou-atoz__results li p:last-child {margin-bottom:0;}
 
@@ -328,6 +349,7 @@ a.ou-paged__next:hover:after {color:#fff;}
 .ou-atoz__results-item {
 	display:block;
 	color:#555;	
+	background-color: transparent;
 }
 
 
@@ -349,6 +371,7 @@ a.ou-paged__next:hover:after {color:#fff;}
 
 .ou-to-top:before {
 	color:#ccc;
+	background-color: transparent;
 	font-size: 12px;
 	content: "\25b2";
 	display:inline-block;

@@ -30,13 +30,21 @@ img {
 
 a {
 	color:#039;
+	background-color: transparent;
 	text-decoration:underline;
 }
 
+/*a:visited {
+	color:#880088;
+	background-color: transparent;
+}*/
+
 a:hover {
 	color:#000;
+	background-color: transparent;
 	text-decoration:underline;
 }
+
 
 
 

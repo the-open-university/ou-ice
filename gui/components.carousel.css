@@ -20,7 +20,10 @@
 
 /* Slider */
 
-.slick-loading .slick-list {background: #fff url('http://cdn.jsdelivr.net/jquery.slick/1.6.0/ajax-loader.gif') center center no-repeat;} /* url */
+.slick-loading .slick-list {
+    background: #fff url('http://cdn.jsdelivr.net/jquery.slick/1.6.0/ajax-loader.gif') center center no-repeat;
+    color: #000;
+} 
 
 /* Icons 
 
@@ -61,7 +64,7 @@
 
     cursor: pointer;
 
-    color: transparent;
+    color: #000;
     border: none;
     outline: none;
 	/* background:transparent; */
@@ -96,7 +99,8 @@
 .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus {
-    color: transparent;
+    color: #000;
+    background-color: transparent;
     outline: none;
     background-position: bottom right;
 }
@@ -227,10 +231,10 @@
 
     cursor: pointer;
 
-    color: transparent;
+    color: #000;
     border: 0;
     outline: none;
-    background: transparent;
+    background-color: transparent;
 }
 
 .slick-dots li button:hover,
@@ -256,6 +260,7 @@
 
     opacity: .25;
     color: black;
+    background-color: transparent;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

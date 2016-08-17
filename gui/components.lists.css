@@ -57,15 +57,22 @@
 .ou-list-ordered ul li:before {
 	content: "\2022";
 	color: #000;
+	background-color: transparent;
 	font-size: 25px;
 	position: absolute;
 	left: 0;
 	top: 0;
 }
 
-.ou-list--bullets.ou-list--links li:before {color:#039;}
+.ou-list--bullets.ou-list--links li:before {
+	color:#039;
+	background-color: transparent;
+}
 
-.ou-list--bullets.ou-list--links ol li:before {color:#666;}
+.ou-list--bullets.ou-list--links ol li:before {
+	color:#666;
+	background-color: transparent;
+}
 
 
 /* unordered - arrows */
@@ -131,6 +138,7 @@
 	font-size:1em;
 	counter-increment: item;
 	color: #666;
+	background-color: transparent;
 	display: inline-block;
 	text-align: right;
 	position: absolute;
@@ -198,6 +206,7 @@
 	background-position:0 1px;
 	background-repeat:no-repeat;
 	background-color:transparent;
+	color: #222;
 	padding:8px 0 8px 42px;
 	margin-bottom:4px;
 	min-height:33px;
@@ -218,6 +227,7 @@
 	padding:0;
 	display:inline-block;
 	background-color:transparent;
+	color: #222;
 	margin-right:10px;
 }
 
@@ -239,6 +249,7 @@
 	background-position:0 0;
 	background-repeat:no-repeat;
 	background-color:transparent;
+	color: #039;
 	padding-left:22px;	
 	text-decoration:none;
 }

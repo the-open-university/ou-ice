@@ -149,8 +149,6 @@ ul.colours li {
 	width:110px;
 	margin-right:10px;
 	margin-bottom:15px;
-	zoom: 1;
-    *display: inline;
 }
 
 span.colours-title {
