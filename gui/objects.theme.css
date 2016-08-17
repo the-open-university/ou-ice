@@ -46,6 +46,7 @@
 .ou-theme--burgundy .ou-sections a.ou-selected:hover {
 	border-bottom: 2px solid #630031;
 	color:#630031;
+	background-color: transparent;
 }
 
 .ou-theme--burgundy .ou-context-nav li strong, 
@@ -59,12 +60,18 @@
 
 .ou-theme--burgundy .ou-atoz__filter strong, 
 .ou-theme--burgundy .ou-atoz__filter a.ou-selected, 
-.ou-theme--burgundy .ou-atoz__filter a.ou-selected:hover {background: #630031;}
+.ou-theme--burgundy .ou-atoz__filter a.ou-selected:hover {
+	background-color: #630031;
+	color:#fff;
+}
 
 .ou-theme--burgundy .ou-articles--striped .ou-articles__article:nth-child(odd),
 .ou-theme--burgundy .ou-table--striped tr:nth-child(even),
 .ou-theme--burgundy .ou-creative,
-.ou-theme--burgundy .ou-events__nav {background:#F7F3F5;}
+.ou-theme--burgundy .ou-events__nav {
+	background-color:#F7F3F5;
+	color: #222;
+}
 
 
 
@@ -74,6 +81,7 @@
 .ou-theme--dark-green .ou-sections a.ou-selected:hover {
 	border-bottom: 2px solid #4A5E4A;
 	color:#4A5E4A;
+	background-color: transparent;
 }
 
 .ou-theme--dark-green .ou-context-nav li strong, 
@@ -87,12 +95,18 @@
 
 .ou-theme--dark-green .ou-atoz__filter strong, 
 .ou-theme--dark-green .ou-atoz__filter a.ou-selected, 
-.ou-theme--dark-green .ou-atoz__filter a.ou-selected:hover {background: #4A5E4A;}
+.ou-theme--dark-green .ou-atoz__filter a.ou-selected:hover {
+	background-color: #4A5E4A;
+	color: #fff;
+}
 
 .ou-theme--dark-green .ou-articles--striped .ou-articles__article:nth-child(odd),
 .ou-theme--dark-green .ou-table--striped tr:nth-child(even),
 .ou-theme--dark-green .ou-creative,
-.ou-theme--dark-green .ou-events__nav {background:#F5F5E5;}
+.ou-theme--dark-green .ou-events__nav {
+	background-color:#F5F5E5;
+	color: #222;
+}
 
 
 
@@ -102,6 +116,7 @@
 .ou-theme--orange .ou-sections a.ou-selected:hover {
 	border-bottom: 2px solid #C5540A;
 	color:#C5540A;
+	background-color: transparent;
 }
 
 .ou-theme--orange .ou-context-nav li strong, 
@@ -115,12 +130,18 @@
 
 .ou-theme--orange .ou-atoz__filter strong, 
 .ou-theme--orange .ou-atoz__filter a.ou-selected, 
-.ou-theme--orange .ou-atoz__filter a.ou-selected:hover {background: #C5540A;}
+.ou-theme--orange .ou-atoz__filter a.ou-selected:hover {
+	background-color: #C5540A;
+	color:#fff;
+}
 
 .ou-theme--orange .ou-articles--striped .ou-articles__article:nth-child(odd),
 .ou-theme--orange .ou-table--striped tr:nth-child(even),
 .ou-theme--orange .ou-creative,
-.ou-theme--orange .ou-events__nav {background:#FEF9E6;}
+.ou-theme--orange .ou-events__nav {
+	background-color:#FEF9E6;
+	color: #222;
+}
 
 
 
@@ -130,6 +151,7 @@
 .ou-theme--purple .ou-sections a.ou-selected:hover {
 	border-bottom: 2px solid #4E247B;
 	color:#4E247B;
+	background-color: transparent;
 }
 
 .ou-theme--purple .ou-context-nav li strong, 
@@ -143,12 +165,18 @@
 
 .ou-theme--purple .ou-atoz__filter strong, 
 .ou-theme--purple .ou-atoz__filter a.ou-selected, 
-.ou-theme--purple .ou-atoz__filter a.ou-selected:hover {background: #4E247B;}
+.ou-theme--purple .ou-atoz__filter a.ou-selected:hover {
+	background-color: #4E247B;
+	color: #fff;
+}
 
 .ou-theme--purple .ou-articles--striped .ou-articles__article:nth-child(odd),
 .ou-theme--purple .ou-table--striped tr:nth-child(even),
 .ou-theme--purple .ou-creative,
-.ou-theme--purple .ou-events__nav {background:#EEE9F2;}
+.ou-theme--purple .ou-events__nav {
+	background-color:#EEE9F2;
+	color: #222;
+}
 
 
 
@@ -158,6 +186,7 @@
 .ou-theme--blue .ou-sections a.ou-selected:hover {
 	border-bottom: 2px solid #0B55A8;
 	color:#0B55A8;
+	background-color: transparent;
 }
 
 .ou-theme--blue .ou-context-nav li strong, 
@@ -171,12 +200,18 @@
 
 .ou-theme--blue .ou-atoz__filter strong, 
 .ou-theme--blue .ou-atoz__filter a.ou-selected, 
-.ou-theme--blue .ou-atoz__filter a.ou-selected:hover {background: #0B55A8;}
+.ou-theme--blue .ou-atoz__filter a.ou-selected:hover {
+	background-color: #0B55A8;
+	color: #fff;
+}
 
 .ou-theme--blue .ou-articles--striped .ou-articles__article:nth-child(odd),
 .ou-theme--blue .ou-table--striped tr:nth-child(even),
 .ou-theme--blue .ou-creative,
-.ou-theme--blue .ou-events__nav {background:#E7EFF7;}
+.ou-theme--blue .ou-events__nav {
+	background-color:#E7EFF7;
+	color: #222;
+}
 
 
 
@@ -189,6 +224,7 @@
 	width: 21px;
 	height: 25px;
 	background-image: url(logos/ou-logo-mobile.png);
+	background-color: transparent;
 }
 
 .ou-theme #ou-header a.ou-logo:hover {background-position: bottom left;}
