@@ -12,7 +12,9 @@
 .ou-articles__article {
 	border-bottom:1px solid #ddd;
 	padding-bottom:20px;
-	margin-bottom:20px;	
+	margin-bottom:20px;
+	display:table;
+	table-layout: fixed;
 }
 
 .ou-articles__article:after {
@@ -79,7 +81,10 @@
 
 /* stacked articles (images at top) */
 
-.ou-articles--stacked .ou-articles__article {border-bottom:none;}
+.ou-articles--stacked .ou-articles__article {
+	border-bottom:none;
+	display:block;
+}
 
 .ou-articles--stacked .ou-articles__img  {
 	width:100%; 
