@@ -30,7 +30,6 @@
 .ou-video object,
 .ou-video iframe {max-width: 100%;}
 
-
 p.ou-video__toggle {margin:15px 0 0 0;}
 
 p.ou-video__toggle a {
@@ -40,6 +39,7 @@ p.ou-video__toggle a {
 }
 
 p.ou-video__toggle a:hover {color:#fff;}
+
 
 .ou-video .ou-quote p {font-size:1.1em;}
 
@@ -53,6 +53,18 @@ p.ou-video__toggle a:hover {color:#fff;}
 
 .oembed-title:hover {color:#999;}
 
+
+
+/* video light */
+
+
+.ou-video--light {background-color:transparent;}
+
+.ou-video--light .ou-video__clip {padding:0 0 20px 0;}
+
+.ou-video--light p.ou-video__toggle a {color:#039;}
+
+.ou-video--light p.ou-video__toggle a:hover {color:#000;}
 
 
 /* audio */

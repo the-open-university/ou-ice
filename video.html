@@ -56,6 +56,8 @@
     <li><a href="#standard">Standard</a></li>
     <li><a href="#video-transcript">Video + transcript</a></li>
     <li><a href="#oembed-example">OEmbed example</a></li>
+    <li><a href="#light">Light</a></li>
+    <li><a href="#light-transcript">Light + transcript</a></li>
     <li><a href="#blocks">Using blocks</a></li>
 </ol>
 
@@ -103,9 +105,7 @@
 </div> <!-- end code-example -->
 
 
-
 <hr>
-
 
 
 <h2 id="oembed-example">OEmbed example</h2>
@@ -141,6 +141,53 @@
 <hr>
 
 
+<h2 id="light">Video light</h2>
+
+<p>This light version of the video removes the black padding for instances where, for example, you have multiple videos lined up side by side and want to maximise the space (in use in Blocks <a href="#blocks">example</a> below).</p>
+
+<div class="code-example">
+<div class="ou-video ou-video--light">
+
+    <div class="ou-video__clip">
+    	<iframe width="560" height="315" src="https://www.youtube.com/embed/aoaSo2YcsTk?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+</div>
+</div> <!-- end code-example -->
+
+
+<hr>
+
+
+<h2 id="light-transcript">Video light + transcript</h2>
+
+<div class="code-example">
+<div class="ou-video ou-video--light ou-video--transcript">
+
+    <div class="ou-video__clip">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3vNnMxpVVkg?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    <div class="ou-video__transcript">
+        
+        <blockquote class="ou-quote">
+            <p><strong>John</strong>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra feugiat neque et vulputate. Integer condimentum mauris ut massa tempus vitae tincidunt arcu posuere. Phasellus a risus ipsum, eu volutpat sem. Donec interdum dui in elit vestibulum auctor. Praesent elit est, porta id sagittis vitae, fringilla nec massa. Nunc vitae leo eget mauris vulputate consectetur. Quisque quis tincidunt tellus.</p>
+            <p><strong>Paul</strong>: Praesent arcu nulla, consequat et congue eget, pulvinar et risus. Cras sollicitudin lobortis commodo. Integer sed massa sed lorem volutpat ultricies sed sed augue. Suspendisse volutpat euismod eros et dignissim. Duis condimentum magna ut augue tincidunt rhoncus. Proin nec ante sed purus mattis dapibus. Vivamus at mi sit amet lacus rutrum luctus sit amet vitae enim. Curabitur dignissim dolor a dolor imperdiet adipiscing.</p>
+            <p><strong>John</strong>: Praesent tincidunt semper dolor nec sodales. Phasellus mollis metus orci. Proin mollis egestas massa porttitor ultrices. Morbi feugiat, nunc at pulvinar vehicula, dolor tortor vehicula sem, eu tincidunt velit odio quis lacus. Maecenas at orci mi, vitae faucibus mauris. Aenean facilisis risus id massa vehicula porttitor. Nam molestie scelerisque justo. Curabitur at justo eget nisl porttitor semper in vel eros.</p>
+        </blockquote>
+
+    </div>
+
+</div>
+</div> <!-- end code-example -->
+
+
+
+<hr>
+
+
+
+
 
 <h2 id="blocks">Using blocks</h2>
 
@@ -150,7 +197,7 @@
 <div class="ou-blocks ou-blocks--2-cols ou-blocks--mob-1-col">
 
     <div>
-        <div class="ou-video">
+        <div class="ou-video ou-video--light">
         
             <div class="ou-video__clip">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/3vNnMxpVVkg?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -160,7 +207,7 @@
     </div>
     
     <div>
-        <div class="ou-video">
+        <div class="ou-video ou-video--light">
         
             <div class="ou-video__clip">
     			<iframe width="560" height="315" src="https://www.youtube.com/embed/aoaSo2YcsTk?rel=0" frameborder="0" allowfullscreen></iframe>

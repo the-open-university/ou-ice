@@ -40,8 +40,9 @@
 }
 
 .ou-quote__more:hover {
-	color:#fff; 
-	text-decoration:underline;
+	color:#fff;
+	background-color:#000;
+	text-decoration:none;
 }
 
 .ou-quote p {font-size:1.2em;}
@@ -97,7 +98,7 @@
 
 .ou-quote {
 	padding:20px 15px 35px 55px;
-	background:url(icons/icon-quotemarks.png) 20px 25px no-repeat;
+	background:url(icons/icon-quotemarks.png) 20px 25px no-repeat #333;
 	background-size:25px 21px;
 }
 
