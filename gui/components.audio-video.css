@@ -22,6 +22,14 @@
 	color:#fff;
 }
 
+.ou-video__title {
+	text-align:center;
+	color:#fff;
+	padding:20px 10px 0 10px;
+	margin:0;
+	font-size:1em;
+}
+
 .ou-video__clip {
 	text-align:center;
 	padding:20px;
@@ -40,15 +48,16 @@ p.ou-video__toggle a {
 
 p.ou-video__toggle a:hover {color:#fff;}
 
-
 .ou-video .ou-quote p {font-size:1.1em;}
 
 .oembed-title {
 	color:#fff;
+	font-weight:bold;
 	background-color: transparent;
 	text-decoration:none;
 	display:inline-block;
-	margin:0 0 15px 0;	
+	padding:0 0 15px 0;
+	margin:0;
 }
 
 .oembed-title:hover {color:#999;}
@@ -65,6 +74,13 @@ p.ou-video__toggle a:hover {color:#fff;}
 .ou-video--light p.ou-video__toggle a {color:#039;}
 
 .ou-video--light p.ou-video__toggle a:hover {color:#000;}
+
+.ou-video--light .oembed-title,
+.ou-video--light .ou-video__title {
+	color:#000;
+	background-color: transparent;
+	padding-bottom:15px;
+}
 
 
 /* audio */
