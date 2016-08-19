@@ -131,6 +131,8 @@ span.ou-events__current {
 	min-height:80px;
 }
 
+.ou-events__day:last-child {border-bottom:0;}
+
 .ou-events__date {
 	width: 55px;
     height: auto;
@@ -161,23 +163,31 @@ span.ou-events__current {
 	border-radius:0 0 4px 4px;
 }
 
+.ou-events__date--multi strong {font-size:16px;}
+
 .ou-events__event {margin-left:75px;}
 
 .ou-events__event-title {
 	font-size:1.1em;
-	margin:0 0 8px 0;	
+	margin:0 0 6px 0;	
 }
 
 .ou-events__event-title a {text-decoration:none;}
 
-.ou-events__event-time {
+.ou-events__event-time,
+.ou-events__event-date,
+.ou-events__event-location,
+.ou-events__event-contact {
 	color:#777;	
 	background-color: transparent;
 	font-size:.9em;
 	font-weight:bold;
-	margin:0 0 6px 0;
-	line-height:100%;
+	margin:0 0 5px 0;
+	line-height:120%;
 }
+
+.ou-events__event-contact a {color:#777;}
+
 
 
 
