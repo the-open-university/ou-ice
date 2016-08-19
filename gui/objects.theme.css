@@ -66,6 +66,7 @@
 }
 
 .ou-theme--burgundy .ou-articles--striped .ou-articles__article:nth-child(odd),
+.ou-theme--burgundy .ou-atoz__results li:nth-child(odd),
 .ou-theme--burgundy .ou-table--striped tr:nth-child(even),
 .ou-theme--burgundy .ou-creative,
 .ou-theme--burgundy .ou-events__nav {
@@ -101,6 +102,7 @@
 }
 
 .ou-theme--dark-green .ou-articles--striped .ou-articles__article:nth-child(odd),
+.ou-theme--dark-green .ou-atoz__results li:nth-child(odd),
 .ou-theme--dark-green .ou-table--striped tr:nth-child(even),
 .ou-theme--dark-green .ou-creative,
 .ou-theme--dark-green .ou-events__nav {
@@ -136,6 +138,7 @@
 }
 
 .ou-theme--orange .ou-articles--striped .ou-articles__article:nth-child(odd),
+.ou-theme--orange .ou-atoz__results li:nth-child(odd),
 .ou-theme--orange .ou-table--striped tr:nth-child(even),
 .ou-theme--orange .ou-creative,
 .ou-theme--orange .ou-events__nav {
@@ -171,6 +174,7 @@
 }
 
 .ou-theme--purple .ou-articles--striped .ou-articles__article:nth-child(odd),
+.ou-theme--purple .ou-atoz__results li:nth-child(odd),
 .ou-theme--purple .ou-table--striped tr:nth-child(even),
 .ou-theme--purple .ou-creative,
 .ou-theme--purple .ou-events__nav {
@@ -206,6 +210,7 @@
 }
 
 .ou-theme--blue .ou-articles--striped .ou-articles__article:nth-child(odd),
+.ou-theme--blue .ou-atoz__results li:nth-child(odd),
 .ou-theme--blue .ou-table--striped tr:nth-child(even),
 .ou-theme--blue .ou-creative,
 .ou-theme--blue .ou-events__nav {
