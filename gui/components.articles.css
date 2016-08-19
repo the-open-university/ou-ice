@@ -74,9 +74,13 @@
 	border-bottom:none;
 	padding:20px;
 	margin:0;
+	width:100%;
 }
 
 .ou-articles--striped .ou-articles__article:nth-child(odd) {background: #e7eff7;}
+
+.ou-articles--striped .ou-articles__text {width:80%;}
+
 
 
 /* stacked articles (images at top) */
@@ -146,6 +150,9 @@
 
 
 /* articles */
+
+.ou-articles__article--promoted,
+.ou-articles__article--promoted .ou-articles__text {display:block;}
 
 .ou-articles__article--promoted .ou-articles__img,
 .ou-blocks .ou-articles__img {
