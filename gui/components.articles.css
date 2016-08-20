@@ -79,7 +79,7 @@
 
 .ou-articles--striped .ou-articles__article:nth-child(odd) {background: #e7eff7;}
 
-.ou-articles--striped .ou-articles__text {width:80%;}
+.ou-articles--striped .ou-articles__text {width:100%;}
 
 
 
@@ -107,6 +107,11 @@
 
 .ou-articles__article--promoted .ou-articles__text h2,
 .ou-articles__article--promoted .ou-articles__text h3 {font-size:1.6em;}
+
+
+/* stacked + promoted */
+
+.ou-articles--stacked .ou-articles__article--promoted .ou-articles__img {width:100%;}
 
 
 /* smaller news - for region2 and smaller containers */
