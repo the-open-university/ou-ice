@@ -130,13 +130,6 @@
 .ou-articles--smaller .ou-articles__date {font-size:90%;}
 
 
-/* smaller promoted */
-
-.ou-articles--smaller .ou-articles__article--promoted .ou-articles__img {width:140px;}
-
-.ou-articles--smaller .ou-articles__article--promoted .ou-articles__text h2,
-.ou-articles--smaller .ou-articles__article--promoted .ou-articles__text h3 {font-size:1.1em;}
-
 
 /* list  */
 
@@ -165,7 +158,7 @@
 	display:table-cell;
 	margin-bottom:0;
 	padding-right:20px;
-	width:140px;
+	width:120px;
 }
 
 .ou-articles--smaller .ou-articles__article--promoted .ou-articles__text {display:table-cell;}
