@@ -26,7 +26,7 @@
 	margin: 0 0 15px 25px;
 }
 
-.ou-pull-center {
+.ou-pull-centre {
 	display: block;
 	margin: 0 auto 15px auto;
 }
@@ -65,7 +65,7 @@ hr.ou-hr-small,
 
 .ou-pull-left,
 .ou-pull-right,
-.ou-pull-center {max-width:50%;}
+.ou-pull-centre {max-width:50%;}
 
 } /* end media query */
 
@@ -76,10 +76,26 @@ hr.ou-hr-small,
 
 .ou-pull-left,
 .ou-pull-right,
-.ou-pull-center {
+.ou-pull-centre {
 	float:none;
 	max-width:100%;
 	margin:0 0 20px 0;	
 }
+
+.ou-pull-left--mobile {
+	float: left;
+	margin: 0 25px 15px 0;
+}
+
+.ou-pull-right--mobile {
+	float: right;
+	margin: 0 0 15px 25px;
+}
+
+.ou-pull-centre--mobile {
+	display: block;
+	margin: 0 auto 15px auto;
+}
+
 
 } /* end media query */
