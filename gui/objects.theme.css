@@ -226,8 +226,8 @@
 /* shield */
 
 .ou-theme #ou-header a.ou-logo {
-	width: 21px;
-	height: 25px;
+	width: 21px !important;
+	height: 25px !important;
 	background-image: url(logos/ou-logo-mobile.png);
 	background-color: transparent;
 }
