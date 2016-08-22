@@ -50,7 +50,6 @@
 	position: relative;
 	padding-left: 20px;
 	line-height:150%;
-	/* z-index:100;  so items can float alongside happily */
 }
 
 .ou-list--bullets li:before,
@@ -83,7 +82,7 @@
 }
 
 .ou-list--arrows li {
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	position: relative;
 	padding-left: 15px;
 }
@@ -219,6 +218,7 @@
 .ou-list__google {background-image:url(icons/social/icon-google.png);}
 .ou-list__skype {background-image:url(icons/social/icon-skype.png);}
 .ou-list__instagram {background-image:url(icons/social/icon-instagram.png);}
+.ou-list__blogger {background-image:url(icons/social/icon-blogger.png);}
 
 
 /* icons only */
@@ -228,7 +228,7 @@
 	display:inline-block;
 	background-color:transparent;
 	color: #222;
-	margin-right:10px;
+	margin-right:8px;
 }
 
 .ou-list--social--icons a {
@@ -315,6 +315,7 @@
 .ou-list__google {background-image:url(icons/social/icon-google@2x.png);}
 .ou-list__skype {background-image:url(icons/social/icon-skype@2x.png);}
 .ou-list__instagram {background-image:url(icons/social/icon-instagram@2x.png);}
+.ou-list__blogger {background-image:url(icons/social/icon-blogger@2x.png);}
 
 
 /* docs */
