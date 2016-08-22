@@ -252,9 +252,9 @@
 */
 
 
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
+@media only screen
+    and (-webkit-min-device-pixel-ratio: 2) 
+    and (min-resolution: 192dpi) { 
 
 .ou-theme #ou-header a.ou-logo {background-size:87px 61px;}
 
