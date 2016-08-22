@@ -124,11 +124,11 @@ span.ou-events__current {
 	background-color: transparent;
 }
 
-
 .ou-events__day {
 	border-bottom:1px solid #eee;
-	margin:0 0 20px 0;
-	min-height:80px;
+	margin:0 0 15px 0;
+	padding-bottom:15px;
+	min-height:90px;
 }
 
 .ou-events__day:last-child {border-bottom:0;}
@@ -188,6 +188,9 @@ span.ou-events__current {
 
 .ou-events__event-contact a {color:#777;}
 
+.ou-events__event-description p:last-child {margin-bottom:0;}
+
+.ou-events--single .ou-events__event-description {margin-top:20px;}
 
 
 
