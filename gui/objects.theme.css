@@ -268,15 +268,14 @@
 } /* end media query */
 
 
-@media 
-only screen and (max-width: 400px), 
-screen and (max-device-width: 400px),
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
-	
+@media only screen 
+  and (max-device-width: 400px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (min-resolution: 192dpi) {
+
 .ou-theme #ou-header a.ou-logo {
 	background-size:21px 50px;
 	background-image: url(logos/ou-logo-mobile@2x.png);
 }
-	
+
 } /* end media query */

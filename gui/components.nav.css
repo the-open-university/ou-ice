@@ -507,11 +507,10 @@ a.ou-paged__next:hover:after {color:#fff;}
 } /* end media query */
 
 
-@media 
-only screen and (max-width: 400px), 
-screen and (max-device-width: 400px),
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
+@media only screen 
+  and (max-device-width: 400px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (min-resolution: 192dpi) {
 
 #ou-site-footer .ou-to-top {background-image:none;}
 
