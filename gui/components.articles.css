@@ -3,6 +3,9 @@
 
 	Articles
 	components.articles.css
+	
+	NOTE: ou-articles__img has been replaced with ou-articles__image.
+	keeping the old code for now until people have time to update markup.
 
 --------------------------------------------------------------------------------------
 */
@@ -24,12 +27,14 @@
     clear: both;
 }
 
+.ou-articles__image,
 .ou-articles__img {
 	display: table-cell;
     vertical-align: top;
 	width:160px;
 }
 
+.ou-articles__image img,
 .ou-articles__img img {
 	width:140px;
 	height:auto;	
@@ -94,6 +99,7 @@
 	display:block;
 }
 
+.ou-articles--stacked .ou-articles__image,
 .ou-articles--stacked .ou-articles__img  {
 	width:100%; 
 	float:none; 
@@ -102,6 +108,7 @@
 	display:block;
 }
 
+.ou-articles--stacked .ou-articles__image img,
 .ou-articles--stacked .ou-articles__img img {width:100%;}
 
 .ou-articles--stacked .ou-articles__text {display:block;}
@@ -109,8 +116,10 @@
 
 /* promoted story */
 
+.ou-articles__article--promoted .ou-articles__image,
 .ou-articles__article--promoted .ou-articles__img {width:200px;}
 
+.ou-articles__article--promoted .ou-articles__image img,
 .ou-articles__article--promoted .ou-articles__img img {width:180px;}
 
 .ou-articles__article--promoted .ou-articles__text h2,
@@ -119,6 +128,8 @@
 
 /* stacked + promoted */
 
+.ou-articles--stacked .ou-articles__article--promoted .ou-articles__imgage,
+.ou-articles--stacked .ou-articles__article--promoted .ou-articles__image img,
 .ou-articles--stacked .ou-articles__article--promoted .ou-articles__img,
 .ou-articles--stacked .ou-articles__article--promoted .ou-articles__img img {width:100%;}
 
@@ -130,8 +141,10 @@
 	background-color: transparent;
 }
 
-.ou-articles--smaller .ou-articles__img {width:120px;}
+.ou-articles--smaller .ou-articles__image,
+.ou-articles--smaller .ou-articles__img {width:115px;}
 
+.ou-articles--smaller .ou-articles__image img,
 .ou-articles--smaller .ou-articles__img img {width:100px;}
 
 .ou-articles--smaller .ou-articles__text h2,
@@ -158,11 +171,11 @@
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
 
-/* striped */
+.ou-articles__image,
+.ou-articles__img {width:135px;}
 
-.ou-articles--striped .ou-articles__img {width:140px;}
-
-.ou-articles--striped .ou-articles__img img {width:120px;}
+.ou-articles__image img,
+.ou-articles__img img {width:120px;}
 
 
 /* promoted */
@@ -170,27 +183,33 @@
 .ou-articles__article--promoted,
 .ou-articles__article--promoted .ou-articles__text {display:block;}
 
+.ou-articles__article--promoted .ou-articles__image,
 .ou-articles__article--promoted .ou-articles__img,
+.ou-blocks .ou-articles__image,
 .ou-blocks .ou-articles__img {
 	width:100%; 
 	float:none; 
-	margin-bottom:15px;
+	margin-bottom:10px;
 	padding-right:0;
 	display:block;
 }
 
+.ou-articles__article--promoted .ou-articles__image img,
 .ou-articles__article--promoted .ou-articles__img img {width:100%;}
 
 
 /* smaller promoted (in case smaller/promoted combined, revert to default style) */
 
+.ou-articles--smaller .ou-articles__article--promoted .ou-articles__image,
 .ou-articles--smaller .ou-articles__article--promoted .ou-articles__img {
 	display:table-cell;
 	margin-bottom:0;
 	width:120px;
 }
 
+.ou-articles--smaller .ou-articles__article--promoted .ou-articles__image img,
 .ou-articles--smaller .ou-articles__article--promoted .ou-articles__img img {width:100px;}
+
 .ou-articles--smaller .ou-articles__article--promoted .ou-articles__text {display:table-cell;}
 
 
