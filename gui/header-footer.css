@@ -40,7 +40,7 @@ a.ou-skip:active {
 	z-index: 1;
 	padding: 10px 12px;
 	margin: 0;
-	background-color: #0b55a8;
+	background-color: #0E56A7;
 	color: #fff;
 	text-decoration: none;
 	font-weight:normal;
@@ -77,7 +77,7 @@ a.ou-skip:active {
 #ou-header #ou-identity p.ou-identity-name {
 	margin:0;
 	font-size:1.3em;
-	color:#0b55a8;
+	color:#0E56A7;
 	line-height:normal;
 }
 
@@ -115,7 +115,7 @@ a.ou-skip:active {
 }
 
 #ou-header #ou-service-links span {
-	color:#0b55a8;
+	color:#0E56A7;
 }
 
 .ou-hide {
@@ -186,7 +186,7 @@ a.ou-skip:active {
 	background-image:url(icons/icon-search.png);
 	background-position:top right;
 	background-repeat:no-repeat;
-    color: #0b55a8;
+    color: #0E56A7;
 	border: 0;
 	margin: 0;
 	width:18px;
@@ -320,7 +320,7 @@ a.ou-skip:active {
 	color: #484848;
 	display: block;
 	padding: 10px 20px;
-	border-bottom:2px solid #0b55a8;
+	border-bottom:2px solid #0E56A7;
 }
 
 #ou-header #ou-service-links ul li a:hover {

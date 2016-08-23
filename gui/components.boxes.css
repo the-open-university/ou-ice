@@ -35,15 +35,15 @@
 }
 
 .ou-box--success {border-color:#539d3c;}
-.ou-box--info {border-color:#0b55a8;}
+.ou-box--info {border-color:#0E56A7;}
 
 .ou-box--warning {
-	border-color:#B5002E;
+	border-color:#E3294A;
 	background-color:#fedbdb;
 }
 
 .ou-box--note {
-	border-color:#F4C400;
+	border-color:#FFD400;
 	background-color:#fdf6cd;
 }
 
