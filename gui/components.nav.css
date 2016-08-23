@@ -508,9 +508,9 @@ a.ou-paged__next:hover:after {color:#fff;}
 
 
 @media only screen 
-  and (max-device-width: 600px)
-  and (-webkit-min-device-pixel-ratio: 2) 
-  and (min-resolution: 192dpi) {
+and (max-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) 
+and (min-resolution: 192dpi) { 
 
 #ou-site-footer .ou-to-top {background-image:none;}
 
