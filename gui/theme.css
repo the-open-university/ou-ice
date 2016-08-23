@@ -221,8 +221,7 @@
 
 
 @media only 
-    screen and (max-width: 767px), 
-	screen and (max-device-width: 767px) {
+    screen and (max-width: 767px), screen and (max-device-width: 767px) {
 
 /* shield */
 
@@ -283,9 +282,10 @@
 }  end media query */
 
 
-@media	only screen and (-webkit-min-device-pixel-ratio: 1.3) and (min-width: 768px),
-only screen and (-o-min-device-pixel-ratio: 13/10) and (min-width: 768px),
-only screen and (min-resolution: 120dpi) and (min-width: 768px) {
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+	only screen and (-o-min-device-pixel-ratio: 13/10) and (min-width: 768px),
+	only screen and (min-resolution: 192dpi) and (min-width: 768px) {
 
 .ou-theme #ou-header a.ou-logo {background-size:87px 61px;}
 
@@ -299,9 +299,10 @@ only screen and (min-resolution: 120dpi) and (min-width: 768px) {
 } 
 
 
-@media	only screen and (-webkit-min-device-pixel-ratio: 1.3) and (max-width: 767px),
-only screen and (-o-min-device-pixel-ratio: 13/10) and (max-width: 767px),
-only screen and (min-resolution: 120dpi) and (max-width: 767px) {
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),
+	only screen and (-o-min-device-pixel-ratio: 13/10) and (max-width: 767px),
+	only screen and (min-resolution: 192dpi) and (max-width: 767px) {
 
 .ou-theme #ou-header a.ou-logo {
 	background-size:21px 50px;
