@@ -14,20 +14,19 @@
 @import url('global.box-sizing.css');
 
 @import url('overrides.css'); 
-@import url('html.css'); /* rename this? */
+@import url('html.css');
 
 @import url('objects.grid.css');
 @import url('objects.blocks.css');
 @import url('objects.colours.css');
 @import url('objects.layout.css');
-@import url('objects.theme.css');
 @import url('objects.various.css');
 
 @import url('components.audio-video.css');
 @import url('components.articles.css');
 @import url('components.boxes.css');
 @import url('components.buttons.css');
-@import url('components.carousel.css'); /* if using carousel only? */
+@import url('components.carousel.css');
 @import url('components.forms.css');
 @import url('components.icons.css');
 @import url('components.images.css');
@@ -37,8 +36,8 @@
 @import url('components.tables.css');
 @import url('components.various.css');
 
-@import url('legacy.css'); /* backwards compatibility */
-
+@import url('theme.css');
 @import url('trumps.various.css');
 
-@import url('../demo/demo.css'); /* demo site only */
+@import url('legacy.css'); 			/* backwards compatibility */
+@import url('../demo/demo.css'); 	/* demo site only */
