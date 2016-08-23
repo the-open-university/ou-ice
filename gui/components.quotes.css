@@ -94,7 +94,9 @@
 
 
 
-@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+@media 
+only screen and (max-width: 400px), 
+only screen and (max-device-width: 400px) {
 
 
 .ou-quote {
@@ -124,11 +126,12 @@
 */
 
 
-@media screen 
-  and (min-device-width: 767px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
+/* tablet, desktop */
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+only screen and (-o-min-device-pixel-ratio: 13/10) and (min-width: 768px),
+only screen and (min-resolution: 192dpi) and (min-width: 768px) {
 
 .ou-quote {
 	background-image:url(icons/icon-quotemarks@2x.png);
@@ -138,11 +141,12 @@
 } /* end media query */
 
 
-@media only screen 
-  and (min-device-width: 320px)
-  and (max-device-width: 767px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
+/* mobile */
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),
+only screen and (-o-min-device-pixel-ratio: 13/10) and (max-width: 767px),
+only screen and (min-resolution: 192dpi) and (max-width: 767px) {
 
 .ou-quote {background-size:25px 21px;}
 

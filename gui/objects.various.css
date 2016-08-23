@@ -59,7 +59,9 @@ hr.ou-hr-small,
 
 
 
-@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+@media 
+only screen and (max-width: 767px), 
+only screen and (max-device-width: 767px) {
 
 /* pulls */
 
@@ -70,7 +72,11 @@ hr.ou-hr-small,
 } /* end media query */
 
 
-@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+
+@media 
+only screen and (max-width: 400px), 
+only screen and (max-device-width: 400px) {
+
 
 /* pulls */
 

@@ -297,7 +297,9 @@
 
 
 
-@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+@media 
+only screen and (max-width: 400px), 
+only screen and (max-device-width: 400px) {
 
 
 /* carousel */
@@ -318,9 +320,12 @@
 */
 
 
+/* all high res screens */
+
 @media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 13/10),
+only screen and (min-resolution: 192dpi) { 
 
 
 /* carousel */

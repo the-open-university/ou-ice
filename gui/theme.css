@@ -251,11 +251,13 @@
 -------------------------------------------
 */
 
-/*
-@media only screen 
-  and (min-width: 768px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
+
+/* tablet, desktop */
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+only screen and (-o-min-device-pixel-ratio: 13/10) and (min-width: 768px),
+only screen and (min-resolution: 192dpi) and (min-width: 768px) {
 
 .ou-theme #ou-header a.ou-logo {background-size:87px 61px;}
 
@@ -266,49 +268,22 @@
 .ou-theme--purple #ou-header a.ou-logo {background-image:url(logos/ou-logo-purple@2x.png);}
 .ou-theme--blue #ou-header a.ou-logo {background-image:url(logos/ou-logo-blue@2x.png);}
 
-}  end media query */
+}  /* end media query */
 
-/*
-@media only screen 
-  and (max-width: 767px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
+
+
+/* mobile */
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),
+only screen and (-o-min-device-pixel-ratio: 13/10) and (max-width: 767px),
+only screen and (min-resolution: 192dpi) and (max-width: 767px) {
 
 .ou-theme #ou-header a.ou-logo {
 	background-size:21px 50px;
 	background-image: url(logos/ou-logo-mobile@2x.png);
 }
 
-}  end media query */
-
-
-@media 
-	only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-	only screen and (-o-min-device-pixel-ratio: 13/10) and (min-width: 768px),
-	only screen and (min-resolution: 192dpi) and (min-width: 768px) {
-
-.ou-theme #ou-header a.ou-logo {background-size:87px 61px;}
-
-.ou-theme #ou-header a.ou-logo {background-image:url(logos/ou-logo-light-blue@2x.png);}
-.ou-theme--dark-green #ou-header a.ou-logo {background-image:url(logos/ou-logo-dark-green@2x.png);}
-.ou-theme--burgundy #ou-header a.ou-logo {background-image:url(logos/ou-logo-burgundy@2x.png);}
-.ou-theme--orange #ou-header a.ou-logo {background-image:url(logos/ou-logo-orange@2x.png);}
-.ou-theme--purple #ou-header a.ou-logo {background-image:url(logos/ou-logo-purple@2x.png);}
-.ou-theme--blue #ou-header a.ou-logo {background-image:url(logos/ou-logo-blue@2x.png);}
-
-} 
-
-
-@media 
-	only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),
-	only screen and (-o-min-device-pixel-ratio: 13/10) and (max-width: 767px),
-	only screen and (min-resolution: 192dpi) and (max-width: 767px) {
-
-.ou-theme #ou-header a.ou-logo {
-	background-size:21px 50px;
-	background-image: url(logos/ou-logo-mobile@2x.png);
-}
-
-}
+}  /* end media query */
 
 

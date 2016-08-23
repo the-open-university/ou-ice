@@ -353,9 +353,12 @@ a.ou-skip:active {
 
 /* Retina */
 
+/* all high res screens */
+
 @media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 13/10),
+only screen and (min-resolution: 192dpi) { 
 
 #ou-header a.ou-logo {
 	background-image:url(logos/ou-logo-mobile@2x.png);
@@ -485,7 +488,9 @@ a.ou-skip:active {
 
 
 
-@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+@media 
+only screen and (max-width: 767px), 
+only screen and (max-device-width: 767px) {
 	
 .ou-footer-container {
 	padding: 0 15px;
