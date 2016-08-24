@@ -56,7 +56,7 @@
 	color:#666;
 	background-color: transparent;
 	font-size:1em;
-	margin:10px 0 0 0;
+	margin:8px 0 0 0;
 }
 
 .ou-creative__description p:last-child {margin-bottom:0;}
@@ -220,6 +220,12 @@ span.ou-events__current {
 }
 
 .ou-site-ident__title a:hover {text-decoration:underline;}
+
+.ou-site-ident__title a:visited {
+	color:black;
+	background-color: transparent;
+}
+
 
 .ou-site-ident__description {
 	padding:0;

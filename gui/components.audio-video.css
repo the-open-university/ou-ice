@@ -71,7 +71,10 @@ p.ou-video__toggle a:hover {color:#fff;}
 
 .ou-video--light .ou-video__clip {padding:0 0 20px 0;}
 
-.ou-video--light p.ou-video__toggle a {color:#039;}
+.ou-video--light p.ou-video__toggle a {
+	color:#039;
+	background-color: transparent;
+}
 
 .ou-video--light p.ou-video__toggle a:hover {color:#000;}
 

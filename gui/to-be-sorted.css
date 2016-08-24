@@ -267,7 +267,7 @@ ul.ou-cross-list li:before {
 .ou-accordion {
 	margin: 0 0 20px 0;
 	padding:30px;
-	background-color:#0E56A7;
+	background-color:#039;
 }
 
 .ou-accordion.light {background-color:#e7eff7;}
@@ -296,7 +296,7 @@ ul.ou-cross-list li:before {
 
 .ou-accordion.light dt a {
 	background-color:#fff; 
-	color:#0E56A7;
+	color:#039;
 }
 
 .ou-accordion.light dt a:hover {background-color:#a6d0ff; color:black;}

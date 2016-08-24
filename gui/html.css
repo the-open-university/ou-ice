@@ -34,10 +34,10 @@ a {
 	text-decoration:underline;
 }
 
-/*a:visited {
-	color:#880088;
+a:visited {
+	color:#9F2563;
 	background-color: transparent;
-}*/
+}
 
 a:hover {
 	color:#000;
@@ -169,6 +169,13 @@ hr {
 	border-bottom: 1px solid #ddd;
 	margin: 30px 0;
 	clear:both;
+}
+
+mark {
+	background-color:#FFD400;
+	color:#000;
+	padding:0 3px;
+	display:inline-block;
 }
 
 

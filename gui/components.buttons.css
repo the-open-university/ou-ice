@@ -58,7 +58,7 @@ button:disabled {
 .ou-button--more:hover {
 	background-color:#fff !important;
 	border:1px solid #e80074;
-	color:#039;
+	color:#000;
 }
 
 .ou-button--disabled:hover {
@@ -66,3 +66,7 @@ button:disabled {
 	color:#fff;
 	cursor:not-allowed;
 }
+
+.ou-button:visited {color:#fff;}
+
+.ou-button--more:visited {color:#039;}
