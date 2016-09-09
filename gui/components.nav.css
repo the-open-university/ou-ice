@@ -64,6 +64,7 @@
 .ou-sections {
 	background-color: transparent;
 	color: #000;
+	width:95%;
 	max-width:1180px;
 	margin:0 auto;
 }
@@ -427,10 +428,7 @@ a.ou-paged__next:hover:after {color:#fff;}
 only screen and (max-width: 1180px), 
 only screen and (max-device-width: 1180px) {
 
-.ou-sections {
-	max-width:none;
-	padding:0 15px;
-}
+.ou-sections {max-width:none;}
 
 } /* end media query */
 
@@ -457,6 +455,7 @@ only screen and (max-device-width: 767px) {
 @media 
 only screen and (max-width: 400px), 
 only screen and (max-device-width: 400px) {
+
 
 
 /* ancestors */

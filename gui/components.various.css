@@ -202,6 +202,7 @@ span.ou-events__current {
 
 .ou-site-ident {
 	text-align:left;
+	width:95%;
 	max-width:1180px;
 	margin:20px auto 15px auto;
 }
@@ -240,17 +241,12 @@ only screen and (max-width: 1180px),
 only screen and (max-device-width: 1180px) {
 
 
-.ou-site-ident__title,
-.ou-site-ident__description {padding-left:15px;}
-
-
 .ou-creative__wording {
 	max-width:80%;
 	left:0;
 	bottom:0;
 	top:auto;
 }
-
 
 
 } /* end media query */
@@ -284,9 +280,11 @@ only screen and (max-device-width: 767px) {
 only screen and (max-width: 400px), 
 only screen and (max-device-width: 400px) {
 
-
 .ou-site-ident__title {font-size:1em;}
 .ou-site-ident__description {font-size:.9em;}
+
+
+.ou-creative__wording {padding:15px 20px;}
 
 
 } /* end media query */

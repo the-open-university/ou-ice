@@ -30,13 +30,3 @@ body #ou-site-body {
 }
 
 
-@media only 
-screen and (min-width: 768px)
-and (max-width: 1180px) {
-
-body #ou-header {
-	padding-left: 15px !important;
-	padding-right: 15px !important;
-}
-
-} /* end media query */
