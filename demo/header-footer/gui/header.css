@@ -267,3 +267,166 @@ only screen and (min-resolution: 120dpi) {
 
 } /* end media query */
 
+
+
+
+
+
+
+
+
+/*
+-------------------------------------------
+	Demo controls
+-------------------------------------------
+*/
+
+
+.toggle-content,
+.toggle-content2,
+body.signed-in .signed-out,
+body.signed-out .signed-in {display:none;}
+
+body.with-content .toggle-content {display:block;}
+body.with-content2 .toggle-content2 {display:block;}
+
+body.blue .ou-header {background-color:#0E56A7;}
+
+body.orange .ou-global-nav a,
+body.purple .ou-global-nav a,
+body.burgundy .ou-global-nav a,
+body.dark-green .ou-global-nav a,
+body.pink .ou-global-nav a,
+body.red .ou-global-nav a,
+body.green .ou-global-nav a {color:#fff;}
+
+
+
+body.orange .ou-header,
+body.orange .ou-context-nav li a.ou-selected,
+body.orange .ou-context-nav li a.ou-selected:hover {background-color:#C5540A;}
+
+body.orange .ou-global-search__button,
+body.orange .ou-global-nav a:hover,
+body.orange .ou-global-nav__submenu1 li a,
+body.orange .ou-global-nav__parent:hover a,
+body.orange .ou-global-nav__submenu1__parent:hover a {background-color:#8A3B07;}
+
+body.orange .ou-global-nav__submenu1 li a:hover,
+body.orange .ou-global-nav__submenu2 li a:hover {background-color:#000;}
+
+
+
+
+body.purple .ou-header,
+body.purple .ou-context-nav li a.ou-selected,
+body.purple .ou-context-nav li a.ou-selected:hover {background-color:#5F4997;}
+
+body.purple .ou-global-search__button,
+body.purple .ou-global-nav a:hover,
+body.purple .ou-global-nav__submenu1 li a,
+body.purple .ou-global-nav__parent:hover a,
+body.purple .ou-global-nav__submenu1__parent:hover a {background-color:#036;}
+
+body.purple .ou-global-nav__submenu1 li a:hover,
+body.purple .ou-global-nav__submenu2 li a:hover {background-color:#000;}
+
+
+ 
+
+
+body.burgundy .ou-header,
+body.burgundy .ou-context-nav li a.ou-selected,
+body.burgundy .ou-context-nav li a.ou-selected:hover {background-color:#7B003F;}
+
+body.burgundy .ou-global-search__button,
+body.burgundy .ou-global-nav a:hover,
+body.burgundy .ou-global-nav__parent:hover a,
+body.burgundy .ou-global-nav__submenu1__parent:hover a,
+body.burgundy .ou-global-nav__submenu1 li a {background-color:#56002C;}
+
+body.burgundy .ou-global-nav__submenu1 li a:hover,
+body.burgundy .ou-global-nav__submenu2 li a:hover {background-color:#000;}
+
+
+
+
+body.dark-green .ou-header,
+body.dark-green .ou-context-nav li a.ou-selected,
+body.dark-green .ou-context-nav li a.ou-selected:hover {background-color:#3F644A;}
+
+body.dark-green .ou-global-search__button,
+body.dark-green .ou-global-nav a:hover,
+body.dark-green .ou-global-nav__submenu1 li a,
+body.dark-green .ou-global-nav__parent:hover a,
+body.dark-green .ou-global-nav__submenu1__parent:hover a {background-color:#2C4634;}
+
+body.dark-green .ou-global-nav__submenu1 li a:hover,
+body.dark-green .ou-global-nav__submenu2 li a:hover {background-color:#000;}
+
+
+
+body.pink .ou-header,
+body.pink .ou-context-nav li a.ou-selected,
+body.pink .ou-context-nav li a.ou-selected:hover {background-color:#E80074;}
+
+body.pink .ou-global-search__button,
+body.pink .ou-global-nav a:hover,
+body.pink .ou-global-nav__submenu1 li a,
+body.pink .ou-global-nav__parent:hover a,
+body.pink .ou-global-nav__submenu1__parent:hover a {background-color:#A20051;}
+
+body.pink .ou-global-nav__submenu1 li a:hover,
+body.pink .ou-global-nav__submenu2 li a:hover {background-color:#000;}
+
+
+
+
+body.red .ou-header,
+body.red .ou-context-nav li a.ou-selected,
+body.red .ou-context-nav li a.ou-selected:hover {background-color:#E3294A;}
+
+body.red .ou-global-search__button,
+body.red .ou-global-nav a:hover,
+body.red .ou-global-nav__submenu1 li a,
+body.red .ou-global-nav__parent:hover a,
+body.red .ou-global-nav__submenu1__parent:hover a {background-color:#9F1D34;}
+
+body.red .ou-global-nav__submenu1 li a:hover,
+body.red .ou-global-nav__submenu2 li a:hover {background-color:#000;}
+
+
+
+
+body.green .ou-header,
+body.green .ou-context-nav li a.ou-selected,
+body.green .ou-context-nav li a.ou-selected:hover {background-color:#539D3C;}
+
+body.green .ou-global-search__button,
+body.green .ou-global-nav a:hover,
+body.green .ou-global-nav__submenu1 li a,
+body.green .ou-global-nav__parent:hover a,
+body.green .ou-global-nav__submenu1__parent:hover a {background-color:#3F644A;}
+
+body.green .ou-global-nav__submenu1 li a:hover,
+body.green .ou-global-nav__submenu2 li a:hover {background-color:#000;}
+
+
+
+
+body.dark-grey .ou-global-nav a {color:#ccc;}
+body.dark-grey .ou-global-nav a.ou-selected {color:#fff;}
+
+body.dark-grey .ou-header,
+body.dark-grey .ou-context-nav li a.ou-selected,
+body.dark-grey .ou-context-nav li a.ou-selected:hover {background-color:#444;}
+
+body.dark-grey .ou-global-search__button,
+body.dark-grey .ou-global-nav a:hover,
+body.dark-grey .ou-global-nav__submenu1 li a,
+body.dark-grey .ou-global-nav__parent:hover a,
+body.dark-grey .ou-global-nav__submenu1__parent:hover a {background-color:#222;}
+
+body.dark-grey .ou-global-nav__submenu1 li a:hover,
+body.dark-grey .ou-global-nav__submenu2 li a:hover {background-color:#000;}
+

@@ -9,9 +9,22 @@
     
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
+	<style>
+	#switcher {
+		position:fixed; 
+		bottom:0; 
+		right:0;
+		background:#ddd;
+		text-align:center;
+		padding:15px 0;
+		width:100%;
+		}
+	#switcher select {font-size:1.1em; margin-right:5px;}
+	</style>
+
 </head>
 
-<body class="">
+<body class="signed-in without-content dark-blue">
 
 <div id="ou-org">
 
@@ -213,7 +226,7 @@
 		<div class="ou-global-nav ou-global-nav--user">
         
         	<ul>
-            	<li class="ou-global-nav__parent"><a href="#">Stephen Turvey</a>
+            	<li class="ou-global-nav__parent signed-in"><a href="#">Stephen Turvey</a>
                 
                     <ul class="ou-global-nav__submenu1">
                         <li><a href="#">StudentHome</a></li>
@@ -223,7 +236,8 @@
                 
                 </li>
             	
-                <li><a href="#">Sign out</a></li>
+                <li class="signed-in"><a href="#">Sign out</a></li>
+                <li class="signed-out"><a href="#">Sign in</a></li>
             	<li>
                 	<form class="ou-global-search">
                         <input type="search" class="ou-global-search__input" placeholder="Search the OU">
@@ -241,6 +255,33 @@
 
 
 
+<form id="switcher">
+ 
+    <select id="switcher__user">
+        <option value="signed-in">Signed in</option>
+        <option value="signed-out">Signed out</option>
+    </select>
+
+    <select id="switcher__content">
+        <option value="without-content">No content</option>
+        <option value="with-content">With content 1</option>
+        <option value="with-content2">With content 2</option>
+    </select>
+
+    <select id="switcher__colour">
+        <option value="dark-blue">Dark blue</option>
+        <option value="blue">Blue</option>
+        <option value="orange">Orange</option>
+        <option value="purple">Purple</option>
+        <option value="burgundy">Burgundy</option>
+        <option value="dark-green">Dark green</option>
+        <option value="pink">Pink</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="dark-grey">Dark grey</option>
+    </select>
+
+</form>
 
 
 <style>
@@ -255,11 +296,11 @@
 
 .ou-site-ident {margin-top:30px;}
 
-.ou-context-nav li a.ou-selected,
-.ou-context-nav li a.ou-selected:hover {background-color:#549DD0;}
 
 </style>
 
+
+<div class="toggle-content">
 
 
 
@@ -282,11 +323,6 @@
             <li><a href="#">Events</a></li>
         </ul>
     </nav>
-    <!--<div class="ou-creative">
-    
-        <img class="ou-creative__image" src="../img/creative/home.jpg" alt="">
-
-	</div> -->
 
 
 </div>
@@ -464,13 +500,25 @@
 
 
 
+</div> <!-- end toggle-content -->
 
 
 
+<div class="toggle-content2">
+
+<div id="ou-site-header">
+
+    
+    <div class="ou-creative">
+    
+        <img class="ou-creative__image" src="../img/creative/home.jpg" alt="">
+
+	</div>
 
 
+</div>
 
-<!--
+
 <div id="ou-site-body">
 
 <div id="ou-page">
@@ -586,7 +634,12 @@
 </div> 
 
 </div> 
--->
+
+
+
+
+</div> <!-- end toggle-content2 -->
+
 
 
 
@@ -600,6 +653,34 @@
 <script src="../../js/scripts.js"></script>
 <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=desert" defer></script>
 <script src="../demo.js"></script>
+
+
+<script>
+
+$(document).ready(function(){
+
+  $('#switcher__user').change(function(){ 
+    $('body')
+    .removeClass('signed-in signed-out')
+    .addClass( $(this).val() );
+  })
+
+  $('#switcher__content').change(function(){ 
+    $('body')
+    .removeClass('with-content with-content2 without-content')
+    .addClass( $(this).val() );
+  })
+
+  $('#switcher__colour').change(function(){ 
+    $('body')
+    .removeClass('dark-blue blue orange purple dark-green burgundy pink red green dark-grey')
+    .addClass( $(this).val() );
+  })
+
+})
+
+</script>
+
 
 </body>
 </html>
