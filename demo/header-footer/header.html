@@ -18,13 +18,14 @@
 		text-align:center;
 		padding:15px 0;
 		width:100%;
+		z-index:50;
 		}
 	#switcher select {font-size:1.1em; margin-right:5px;}
 	</style>
 
 </head>
 
-<body class="signed-in without-content dark-blue">
+<body class="env-public signed-in without-content dark-blue">
 
 <div id="ou-org">
 
@@ -34,12 +35,12 @@
 	<div class="ou-header__wrap">    
     
     	<div class="ou-logo">
-        	<a href="#" class="ou-logo__link"><img src="gui/logos/ou-logo-white.png" srcset="gui/logos/ou-logo-white@2x.png 2x" alt="The Open University" class="ou-logo__image"></a>
+        	<a href="header.html" class="ou-logo__link"><img src="gui/logos/ou-logo-white.png" srcset="gui/logos/ou-logo-white@2x.png 2x" alt="The Open University" class="ou-logo__image"></a>
         </div>
     
 		<div class="ou-global-nav">
         
-        	<ul>
+        	<ul class="temp-public">
             	
                 <li class="ou-global-nav__parent"><a href="#">Courses</a>
                 
@@ -219,8 +220,46 @@
                     </ul>                
                 
                 </li>
-            </ul>       
+            </ul>
+            
+            <ul class="temp-sh">
+            	<li><a href="#">StudentHome</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Study</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Help Centre</a></li>
+            </ul>     
         
+            <ul class="temp-th">
+            	<li><a href="#">TutorHome</a></li>
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Tutoring</a></li>
+                <li><a href="#">AL Development</a></li>
+                <li class="ou-global-nav__parent"><a href="#">More</a>
+                
+                    <ul class="ou-global-nav__submenu1">
+                		<li><a href="#">Employment</a></li>
+                        <li><a href="#">People &amp; Places</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Explore</a></li>
+                    </ul>                
+                
+                </li>
+            </ul>     
+        
+            <ul class="temp-intranet">
+            	<li><a href="#">Intranet</a></li>
+                <li><a href="#">Units</a></li>
+                <li><a href="#">A-Z</a></li>
+                <li><a href="#">Find Staff</a></li>
+                <li><a href="#">Locations</a></li>
+            </ul>     
+        
+
+
         </div>
         
 		<div class="ou-global-nav ou-global-nav--user">
@@ -256,6 +295,13 @@
 
 
 <form id="switcher">
+ 
+    <select id="switcher__environment">
+        <option value="env-public">Public</option>
+        <option value="env-sh">StudentHome</option>
+        <option value="env-th">TutorHome</option>
+        <option value="env-intranet">Intranet</option>
+    </select>
  
     <select id="switcher__user">
         <option value="signed-in">Signed in</option>
@@ -658,6 +704,12 @@
 <script>
 
 $(document).ready(function(){
+
+  $('#switcher__environment').change(function(){ 
+    $('body')
+    .removeClass('env-public env-sh env-th env-intranet')
+    .addClass( $(this).val() );
+  })
 
   $('#switcher__user').change(function(){ 
     $('body')

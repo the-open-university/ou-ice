@@ -285,7 +285,19 @@ only screen and (min-resolution: 120dpi) {
 .toggle-content,
 .toggle-content2,
 body.signed-in .signed-out,
-body.signed-out .signed-in {display:none;}
+body.signed-out .signed-in,
+body.env-public .temp-sh,
+body.env-public .temp-th,
+body.env-public .temp-intranet,
+body.env-sh .temp-public,
+body.env-sh .temp-th,
+body.env-sh .temp-intranet,
+body.env-th .temp-public,
+body.env-th .temp-sh,
+body.env-th .temp-intranet,
+body.env-intranet .temp-public,
+body.env-intranet .temp-sh,
+body.env-intranet .temp-th {display:none;}
 
 body.with-content .toggle-content {display:block;}
 body.with-content2 .toggle-content2 {display:block;}
