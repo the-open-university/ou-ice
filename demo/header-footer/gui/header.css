@@ -44,9 +44,9 @@ body {
 
 .ou-header__wrap {
 	max-width:1280px;
-	width:1280px;
+	width:95%;
 	height:auto;
-	padding:0 0 0 0;
+	padding:0;
 	margin:0 auto;
 	position:relative;
 }
@@ -114,6 +114,8 @@ body {
 	margin-left:0;
 	float:right;
 }
+
+
 
 /* sub menu 1 */
 
@@ -241,6 +243,8 @@ body {
 	text-indent:-5000em;
     background: url();
     background: url(icons/icon-search.svg), linear-gradient(transparent, transparent);
+	background-repeat: no-repeat;
+    background-position: center center;
 	background-color:#549DD0;
 	color:#fff;
 }
@@ -249,6 +253,77 @@ body {
 	outline:0;
 	background-color:#E80074;	
 }
+
+.ou-global-nav .ou-global-search-trigger {display:none;}
+
+
+
+/*
+-------------------------------------------
+	Media Queries
+-------------------------------------------
+*/
+
+@media 
+only screen and (max-width: 1100px), 
+only screen and (max-device-width: 1100px) {
+
+.ou-global-nav {margin-left: 80px;}
+
+.ou-global-nav--user {margin-left: 0;}
+
+.ou-global-nav__name .ou-global-nav__submenu1 {
+	right:0;
+	left:auto;
+}
+
+.ou-global-nav a {padding: 28px 6px;}
+	
+.ou-global-nav__name > a {
+	background-image:url(icons/icon-user.svg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	text-indent:-5000em;
+	width:32px;
+	padding:28px 0;
+}
+
+.ou-global-nav .ou-global-search-trigger {
+	display:block;
+    background: url();
+    background: url(icons/icon-search.svg), linear-gradient(transparent, transparent);
+	background-position:center center;
+	background-repeat:no-repeat;
+	text-indent:-5000em;
+	padding:28px 0;
+	width:32px;
+}
+
+.ou-global-search {display:none;}
+
+} /* end media query */
+
+
+
+@media 
+only screen and (max-width: 768px), 
+only screen and (max-device-width: 768px) {
+
+
+.ou-header {height:45px;}
+
+.ou-logo__link {
+    background: url(logos/ou-logo-white.png);
+    background: url(logos/ou-shield-white.svg), linear-gradient(transparent, transparent);
+	width:21px;
+	height:25px;
+	display:block;
+	margin-top:10px;
+}
+
+
+} /* end media query */
+
 
 
 
