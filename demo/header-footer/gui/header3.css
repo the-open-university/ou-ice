@@ -378,6 +378,7 @@ only screen and (max-device-width: 768px) {
 	width:21px;
 	height:25px;
 	display:block;
+	margin-left:5px;
 }
 
 .ou-dropdown .ou-user-nav__status {display:none;}
