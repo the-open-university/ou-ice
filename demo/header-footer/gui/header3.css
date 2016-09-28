@@ -64,6 +64,8 @@ body {
 .ou-logo__link {
     background: url(logos/ou-logo-white.png);
     background: url(logos/ou-logo-white.svg), linear-gradient(transparent, transparent);
+	background-position:top left;
+	background-repeat:no-repeat;
 	width:70px;
 	height:48px;
 	display:block;
@@ -254,7 +256,7 @@ body {
 	height:32px;
 	width:32px;
 	text-indent:-5000em;
-    background: url();
+    background: url(icons/icon-search.png);
     background: url(icons/icon-search.svg), linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
     background-position: center center;
@@ -298,7 +300,8 @@ only screen and (max-device-width: 1100px) {
 	
 .ou-user-nav__name > a {
 	display:block;
-	background-image:url(icons/icon-user.svg);
+    background: url(icons/icon-user.png);
+    background: url(icons/icon-user.svg), linear-gradient(transparent, transparent);
 	background-position:center center;
 	background-repeat:no-repeat;
 	text-indent:-5000em;
@@ -310,7 +313,7 @@ only screen and (max-device-width: 1100px) {
 
 .ou-global-search-trigger {
 	display:block;
-    background: url();
+    background: url(icons/icon-search.png);
     background: url(icons/icon-search.svg), linear-gradient(transparent, transparent);
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -373,8 +376,10 @@ only screen and (max-device-width: 767px) {
 #switcher select {margin-bottom:15px;}
 
 .ou-logo__link {
-    background: url(logos/ou-logo-white.png);
+    background: url(logos/ou-shield-white.png);
     background: url(logos/ou-shield-white.svg), linear-gradient(transparent, transparent);
+	background-position:top left;
+	background-repeat:no-repeat;
 	width:21px;
 	height:25px;
 	display:block;
@@ -396,7 +401,7 @@ only screen and (max-device-width: 767px) {
 
 .ou-global-nav-trigger {
 	display:block;
-    background: url();
+    background: url(icons/icon-lines.png);
     background: url(icons/icon-lines.svg), linear-gradient(transparent, transparent);
 	background-position:center center;
 	background-repeat:no-repeat;
