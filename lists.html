@@ -52,8 +52,8 @@
 <h1>Lists</h1>
 
 <ol class="ou-toc">
-    <li><a href="#unordered-standard">Unordered - standard (plain)</a></li>
-    <li><a href="#unordered-bullets">Unordered - bullets</a></li>
+    <li><a href="#unordered-default">Unordered - default</a></li>
+    <li><a href="#unordered-reset">Unordered - reset</a></li>
     <li><a href="#unordered-arrows">Unordered - arrows</a></li>
     <li><a href="#link-lists">Link lists</a></li>
     <li><a href="#ordered">Ordered lists</a></li>
@@ -65,10 +65,18 @@
     <li><a href="#definition">Definition lists</a></li>
 </ol>
 
-<h2 id="unordered-standard">Unordered - standard (plain)</h2>
 
+
+
+<h2 id="unordered-default">Unordered - default</h2>
+
+<p>The default styling is a bulleted list. </p>
+
+<div class="ou-box ou-box--note">
+  <p><strong>Note</strong>: In certain situations you may need to force bullet styling in which case you can use  <span class="ou-ice-code">ou-list--bullets</span></p></div>
+  
 <div class="code-example">
-<ul class="ou-list">
+  <ul>
     <li>Ipod classic
         <ul>
             <li>16GB</li>
@@ -87,11 +95,12 @@
 <hr>
 
 
+<h2 id="unordered-reset">Unordered - reset</h2>
 
-<h2 id="unordered-bullets">Unordered - bullets</h2>
+<p>Add the class <span class="ou-ice-code">ou-list</span> to remove styling.</p>
 
 <div class="code-example">
-<ul class="ou-list ou-list--bullets">
+<ul class="ou-list">
     <li>Ipod classic
         <ul>
             <li>16GB</li>
@@ -104,8 +113,6 @@
     <li>Ipod shuffle</li>
 </ul>
 </div> <!-- end code-example -->
-
-
 <hr>
 
 
@@ -128,7 +135,12 @@
 </ul>
 </div> <!-- end code-example -->
 
+
+
 <hr>
+
+
+
 
 <h2 id="link-lists">Link lists</h2>
 
@@ -144,13 +156,30 @@
 </ul>
 </div> <!-- end code-example -->
 
+
+
 <hr>
 
 
-<h2 id="ordered">Ordered list</h2>
+<h2 id="ordered">Ordered list - default</h2>
+<p>The default styling is a numbered list. </p>
+<div class="ou-box ou-box--note">
+  <p><strong>Note</strong>: In certain situations you may need to force numbered styling in which case you can use <span class="ou-ice-code">ou-list--ordered</span></p>
+</div>
+<div class="code-example">
+  <ul>
+    <li>Ipod classic
+      <ul>
+        <li>16GB</li>
+        <li>32GB</li>
+        <li>64GB</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 <div class="code-example">
-<ol class="ou-list-ordered ou-list--links">
+  <ol>
     <li>Back up everything
       <ol>
             <li>Hard drive</li>
@@ -162,14 +191,18 @@
     <li>Turn back on</li>
     <li>Download and install the update</li>
 </ol>
-</div> <!-- end code-example -->
+</div> <!-- end code-example --><!-- end code-example -->
+
 
 <hr>
+
+
+
 
 <h2 id="combined">Unordered and ordered combined</h2>
 
 <div class="code-example">
-<ul class="ou-list ou-list--bullets">
+<ul>
     <li>Back up everything
       <ol>
             <li>Hard drive</li>
@@ -183,7 +216,12 @@
 </ul>
 </div> <!-- end code-example -->
 
+
+
 <hr>
+
+
+
 
 <h2 id="columns">Lists split into columns</h2>
 
@@ -208,7 +246,7 @@
 
 <h3>2 cols (ordered)</h3>
 
-<ol class="ou-list-ordered ou-list--2-cols">
+<ol class="ou-list ou-list--ordered ou-list--2-cols">
     <li>Complaints</li>
     <li>Policies</li>
     <li>Friends and family</li>
@@ -220,7 +258,7 @@
 </ol>
 
 
-<h3>3 cols (+ links)</h3>
+<h3>3 cols (+ format reset + links)</h3>
 
 <ul class="ou-list ou-list--3-cols ou-list--links">
     <li><a href="#">Complaints</a></li>
@@ -235,7 +273,11 @@
 </div> <!-- end code-example -->
 
 
+
+
 <hr>
+
+
 
 
 <h2 id="horizontal">Horizontal</h2>

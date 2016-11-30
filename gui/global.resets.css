@@ -12,7 +12,7 @@
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
 p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
 img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+dl, dt, dd, /*ol, ul, li,*/ fieldset, form, label, legend, 
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, div.page-title, canvas, details, figure, figcaption, hgroup, 
 menu, footer, header, nav, section, summary, time, mark, audio, video {
@@ -22,11 +22,6 @@ menu, footer, header, nav, section, summary, time, mark, audio, video {
 }
 
 
-ul, 
-ul li {
-	list-style:none;
-	list-style-type:none;
-}
 
 input, 
 input[type="password"], 

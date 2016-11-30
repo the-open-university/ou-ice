@@ -7,53 +7,65 @@
 --------------------------------------------------------------------------------------
 */
 
-
-
-
 /*
 -------------------------------------------
-	Unordered
+	Reset
 -------------------------------------------
 */
-
-
-/* unordered - standard */
 
 .ou-list {
 	margin:0 0 20px 0; 
 	padding:0;
+	list-style:none;
+	list-style-type:none;
 }
 
-.ou-list ul {margin:10px 0 10px 25px;}
+.ou-list ul {
+	margin:10px 0 10px 25px;
+}
 
 .ou-list li {
+	list-style:none;
+	list-style-type:none;
 	display:block;
+	padding-left:0;
 	margin-bottom:5px;
 	line-height:150%;
 }
 
+.ou-list li:before {content:normal;}
 
-/* unordered - bullets */
 
+/*
+-------------------------------------------
+	Unordered - standard/bullets
+-------------------------------------------
+*/
+
+
+ul,
 .ou-list--bullets {
 	margin:0 0 20px 25px;
 	list-style-type: none;
 	padding: 0;
 }
 
+ul ul,
 .ou-list--bullets ul,
-.ou-list-ordered ul {margin:10px 0 10px 25px;}
+.ou-list--ordered ul {margin:10px 0 10px 25px;}
 
+ul li,
 .ou-list--bullets li,
-.ou-list-ordered ul li {
+.ou-list--ordered ul li {
 	margin-bottom: 5px;
 	position: relative;
 	padding-left: 20px;
 	line-height:150%;
 }
 
+ul li:before,
 .ou-list--bullets li:before,
-.ou-list-ordered ul li:before {
+.ou-list--ordered ul li:before {
 	content: "\2022";
 	color: #000;
 	background-color: transparent;
@@ -63,15 +75,20 @@
 	top: 0;
 }
 
-.ou-list--bullets.ou-list--links li:before {
+
+
+.ou-list--links li:before {
 	color:#549DD0;
 	background-color: transparent;
 }
 
-.ou-list--bullets.ou-list--links ol li:before {
+.ou-list--links ol li:before {
 	color:#666;
 	background-color: transparent;
 }
+
+
+
 
 
 /* unordered - arrows */
@@ -109,21 +126,27 @@
 -------------------------------------------
 */
 
-.ou-list-ordered {
+ol,
+.ou-list--ordered {
 	margin:0 0 20px 25px;
+	padding:0;
 	counter-reset: item;
 	list-style-type:none;
 	
 }
 
-.ou-list-ordered ol,
+ol ol,
+ul ol,
+.ou-list--ordered ol,
 .ou-list ol {
 	margin:10px 0 10px 25px;
+	padding:0;
 	counter-reset: item;
 	list-style-type:none;
 }
 
-.ou-list-ordered li,
+ol li,
+.ou-list--ordered li,
 .ou-list ol li {
 	position: relative;
 	padding-left: 25px;
@@ -131,7 +154,8 @@
 	line-height:150%;
 }
 
-.ou-list-ordered li:before,
+ol li:before,
+.ou-list--ordered li:before,
 .ou-list ol li:before {
 	content: counter(item) ". ";
 	font-size:1em;

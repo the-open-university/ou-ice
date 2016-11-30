@@ -31,6 +31,8 @@
 
 .ou-blocks > ul {margin:0;}
 
+.ou-blocks > li:before {content:normal;}
+
 .ou-blocks--2-cols > div, .ou-blocks--2-cols > li {width:48%;}
 .ou-blocks--3-cols > div, .ou-blocks--3-cols > li {width:30.5%;}
 .ou-blocks--4-cols > div, .ou-blocks--4-cols > li {width:22%;}
@@ -52,14 +54,14 @@
 only screen and (max-width: 767px), 
 only screen and (max-device-width: 767px) {
 	
-.ou-blocks--3-cols > div:nth-child(3n), .ou-blocks--3-cols > li:nth-child(3n),
+/*.ou-blocks--3-cols > div:nth-child(3n), .ou-blocks--3-cols > li:nth-child(3n),
 .ou-blocks--4-cols > div:nth-child(4n), .ou-blocks--4-cols > li:nth-child(4n) {
 	margin-right: 4%;
 }	
 
 .ou-blocks--5-cols > div:nth-child(5n), .ou-blocks--5-cols > li:nth-child(5n) {
 	margin-right:3%;	
-}
+}*/
 
 .ou-blocks--3-cols > div:nth-child(3n+1), .ou-blocks--3-cols > li:nth-child(3n+1),
 .ou-blocks--4-cols > div:nth-child(4n+1), .ou-blocks--4-cols > li:nth-child(4n+1),

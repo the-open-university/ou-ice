@@ -30,3 +30,18 @@ body #ou-site-body {
 }
 
 
+/* so header/footer lists don't inherit bullets and padding/margins */
+
+#ou-header ul li:before,
+.ou-footer ul li:before {content:normal;}
+
+ul.ou-ia-public,
+ul.ou-ia-public li {
+	margin:0;
+	padding:0;
+}
+
+
+
+
+
