@@ -35,6 +35,11 @@ body #ou-site-body {
 #ou-header ul li:before,
 .ou-footer ul li:before {content:normal;}
 
+.ou-footer-links ul li {
+	padding-left:0;
+	margin-bottom:0;
+}
+
 ul.ou-ia-public,
 ul.ou-ia-public li {
 	margin:0;
