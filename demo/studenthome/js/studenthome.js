@@ -13,7 +13,15 @@ $(function() {
     return false;
   });
   
-
+  // Toggle definition list
+  
+  $("dl.show-hide dt").addClass("plus");
+  $("dl.show-hide dd").hide();
+  $("dl.show-hide dt").click(function(){
+	  $(this).toggleClass("plus minus");
+	  $(this).next().slideToggle("fast");
+  return false;
+  })
 
 
 });

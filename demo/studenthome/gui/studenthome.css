@@ -59,12 +59,11 @@ body #ou-site-body,
 	color:#000;	
 }
 
-#ou-region1 {width:80%;	}
+#ou-region1 {width:72%;}
+#ou-region2 {width:28%;}
 
-#ou-region2 {width:20%;	}
-
-.studenthome-home #ou-region1 {float:right;}
-.studenthome-home #ou-region2 {float:left;}
+.studenthome-home #ou-region1 {float:right; width:80%;}
+.studenthome-home #ou-region2 {float:left; width:20%;}
 
 .ou-footer {margin:0;}
 
@@ -86,6 +85,8 @@ body #ou-site-body,
 
 .ou-ancestors li:after {color: #0B55A8;}
 
+.ou-ancestors a:visited {color:#0B55A8;}
+
 .ou-sh-top {
 	width:95%;
 	max-width:1280px;
@@ -94,6 +95,9 @@ body #ou-site-body,
 	background-color:transparent;
 	color:#000;
 	border-radius: 6px 8px 0 0;
+}
+
+.studenthome-home .ou-sh-top {
 	background-image:url(bg-stripe-dark-20.png);
 	background-position:20% 0;
 	background-repeat:repeat-y;
@@ -116,8 +120,10 @@ body #ou-site-body,
 
 .ou-sh-top__heading {
 	float:left;
-	width:80%;	
+	width:100%;
 }
+
+.studenthome-home .ou-sh-top__heading {width:80%;}
 
 h1 {
 	background-color:#f5f5f5;
@@ -142,12 +148,16 @@ h1 {
 	max-width:1280px;
 	margin:0 auto;
 	padding:0;
-	background-color:transparent;
+	background-color:#fff;
 	color:#000;
+}
+
+.studenthome-home .ou-sh-main {
 	background-image:url(bg-stripe-light-20.png);
 	background-position:20% 0;
 	background-repeat:repeat-y;
 }
+
 
 .ou-content {
 	padding:30px;
@@ -227,7 +237,7 @@ h1 {
 
 .ou-sh-sidepanel {padding:30px 20px;}
 
-.ou-sh-sidepanel a {color:#fff;}
+.studenthome-home .ou-sh-sidepanel a {color:#fff;}
 
 .ou-sh-showhide {padding-left:15px;}
 
@@ -274,6 +284,131 @@ h1 {
 }
 
 
+/*
+-------------------------------------------
+	Boxes
+-------------------------------------------
+*/
+
+.ou-box--sh {
+	background:#fff;
+	color:#000;
+	border:1px solid #ddd;
+	padding:15px;	
+}
+
+.ou-box--sh ul {padding:10px 0 0 15px;}
+
+.ou-box__link {
+	padding: 10px 0 0 15px;
+    margin: 10px 0 0 0;
+    border-top: 1px solid #ddd;	
+}
+
+
+
+/*
+-------------------------------------------
+	Profile page
+-------------------------------------------
+*/
+
+
+.ou-sh-profile-block {
+	position:relative;
+	padding-left:90px;	
+}
+
+.ou-sh-profile-block img {
+	position:absolute;
+	top:0;
+	left:0;	
+}
+
+
+
+/*
+-------------------------------------------
+	Study record page
+-------------------------------------------
+*/
+
+
+
+.ou-sh-qual-progress tr td {
+    text-align: center;
+    color: #888;
+    padding: 6px;
+    border-right: 1px solid #ddd;
+}
+
+.ou-sh-qual-progress tr td:last-child {border-right: none;}
+
+.ou-progress-bar {
+    display: block;
+    height: 10px;
+    width: 100%;
+    background-color: #ddd;
+    color: #000;
+    margin: 0 0 0 0;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.ou-progress-pc {
+    display: inline-block;
+    height: 10px;
+    background-color: #00CC33;
+    color: #000;
+    float: left;
+    text-indent: -5000em;
+}
+
+.ou-sh-showhide--study-record {
+	padding:20px;
+	border:1px solid #ddd;
+	border-top:0;
+}
+
+
+/* show/hide definition list */
+
+.show-hide {margin:0 0 20px 0;}
+
+.show-hide dt {
+	font-weight:bold;
+	color:black;
+	background-color:transparent;
+	padding:5px 0 5px 25px;
+	margin:0;
+	display:block;
+}
+
+.show-hide dt:hover {color:#cc3300;}
+
+.show-hide dt.plus {
+	background:url(icons/switch-plus.png);
+	background:url(icons/switch-plus.svg), linear-gradient(transparent, transparent);
+	background-position:center left;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.show-hide dt.minus {
+	background:url(icons/switch-minus.png);
+	background:url(icons/switch-minus.svg), linear-gradient(transparent, transparent);
+	background-position:center left;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.show-hide dd {
+	margin:10px 0 0 0;
+	padding:0 0 0 25px;
+}
+	
+/**/
+
 
 /*
 -------------------------------------------
@@ -294,28 +429,41 @@ only screen and (max-device-width: 768px) {
 	border-top:1px solid #fff;
 }
 
-#ou-region1 {width: 65%;}
-#ou-region2 {width: 35%;}
+#ou-region1,
+.studenthome-home #ou-region1 {width: 65%;}
+
+#ou-region2,
+.studenthome-home #ou-region2 {width: 35%; margin:0;}
+
+#ou-page {padding-bottom:0px;}
 
 .ou-sh-top__id {width:35%;}
-.ou-sh-top__heading {width:65%;}
+.studenthome-home .ou-sh-top__heading {width:65%;}
+
+.ou-ancestors {padding:15px 0 15px 10px;}
+
 
 .ou-sh-main__r1,
 .ou-sh-main__r2 {width:100%;}
 
-.ou-sh-top {
-    background-image: url(bg-stripe-dark-35.png);
+.ou-sh-top {width:100%;}
+
+.studenthome-home .ou-sh-top {
+	background-image: url(bg-stripe-dark-35.png);
     background-position: 35% 0;
     background-repeat: repeat-y;
-	width:100%;
 }
 
 .ou-sh-top__id {border-radius:0;}
 
 .ou-sh-main {
-    background-image: url(bg-stripe-light-35.png);
-	background-position:35% 0;
 	width:100%;
+	border-bottom:1px solid #fff;
+}
+
+.studenthome-home .ou-sh-main {
+	background-image: url(bg-stripe-light-35.png);
+	background-position:35% 0;
 }
 
 .ou-sh-sidepanel {padding: 30px 15px;}
@@ -325,9 +473,10 @@ only screen and (max-device-width: 768px) {
 h1 {
 	font-size:1.6em;
 	padding:18px 20px;
+	border-radius:0;
 }
 
-.studenthome-home h1 {border-radius:0;}
+.studenthome-home h1 {border-radius: 0;}
 
 
 } /* end media query */
@@ -338,10 +487,14 @@ only screen and (max-width: 400px),
 only screen and (max-device-width: 400px) {
 
 #ou-region1,
-#ou-region2 {width:100%;}
+#ou-region2,
+.studenthome-home #ou-region1,
+.studenthome-home #ou-region2 {
+	width:100%; 
+	margin-bottom:0;
+}
 
 .studenthome-home #ou-region0 {border-top:0;}
-.studenthome-home #ou-region1 {margin-bottom:0;}
 .studenthome-home #ou-region2 {background-color:#036;}
 
 .ou-sh-top,
@@ -351,7 +504,8 @@ only screen and (max-device-width: 400px) {
 }
 
 .ou-sh-top__id,
-.ou-sh-top__heading {
+.ou-sh-top__heading,
+.studenthome-home .ou-sh-top__heading {
 	float:left;
 	width:100%;
 }
