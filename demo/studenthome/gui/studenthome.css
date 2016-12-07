@@ -364,9 +364,9 @@ h1 {
     text-indent: -5000em;
 }
 
-.ou-sh-showhide--study-record {
-	padding:20px;
-	border:1px solid #ddd;
+.ou-sh-study-record {
+	padding:25px 20px 20px 20px;
+	border:1px solid #eee;
 	border-top:0;
 }
 
