@@ -270,12 +270,13 @@ ol li:before,
 */
 
 .ou-list--docs a {
-	background-position:0 0;
+	background-position:0 2px;
 	background-repeat:no-repeat;
 	background-color:transparent;
 	color: #039;
 	padding-left:22px;	
 	text-decoration:none;
+	display:block;
 }
 
 .ou-list--docs--pdf a {background-image:url(icons/docs/icon-pdf.png);}

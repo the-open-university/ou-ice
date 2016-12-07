@@ -313,6 +313,7 @@ a.ou-skip:active {
 	text-align: left;
 	vertical-align: auto;
 	display: block;
+	margin-bottom:0;
 }
 
 #ou-header #ou-service-links ul li a {
