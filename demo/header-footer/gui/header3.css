@@ -25,6 +25,7 @@ body {
 
 /* overrides */
 
+ul {margin:0;}
 ul li:before {content:normal;}
 
 

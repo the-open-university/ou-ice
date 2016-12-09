@@ -15,7 +15,8 @@ StudentHome Styles
 -------------------------------------------
 */
 
-a {
+a,
+.ou-context-nav li a {
     color: #0B55A8;
     background-color: transparent;
 }
@@ -410,6 +411,115 @@ h1 {
 /**/
 
 
+
+/*
+-------------------------------------------
+	Messages
+-------------------------------------------
+*/
+
+.studenthome-messages #ou-region1 {width:35%;}
+.studenthome-messages #ou-region2 {width:65%;}
+
+.ou-sh-messages-unread {font-weight:bold;}
+
+
+/* dropdown nav */
+
+.ou-user-nav {float:right;}
+
+.ou-dropdown,
+.ou-dropdown li {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.ou-dropdown li {
+    display: block;
+    float:left;
+}
+
+.ou-dropdown li:before {content:normal;}
+
+.ou-dropdown a {
+	display:block;
+	padding:28px 8px;
+	text-decoration:none;
+	color:#A9CEE7;	
+	background-color:transparent;
+}
+
+.ou-dropdown a:hover {
+	color:#fff;
+	background-color:#E80074;
+}
+
+.ou-dropdown a.ou-selected {
+	color:#fff;
+	font-weight:bold;
+}
+
+.ou-dropdown__submenu1 {
+	width:150px;
+	position:absolute;
+	top:100%;
+	right:0;
+	display:none;
+	z-index:100;
+	margin:0;
+}
+
+.ou-dropdown__submenu1 li {
+	display:block;
+	float:left;
+	width:100%;
+}
+
+.ou-dropdown__submenu1 li a {
+	background-color:#E80074;
+	color:#fff;
+	padding:8px 20px 8px 12px;
+	line-height:130%;
+}
+
+.ou-dropdown__submenu1 li a:hover {background-color:#B8005C;}
+
+.ou-dropdown__parent {position:relative;}
+
+.ou-dropdown__parent:hover > .ou-dropdown__submenu1 {display:block;}
+
+.ou-dropdown__parent:hover a {
+	background-color:#E80074;
+	color:#fff;
+}
+
+.ou-dropdown__submenu1 a.ou-selected {background-color:#B8005C;}
+
+
+.ou-user-nav__name > a {
+    display: block;
+    background: url(icons/elipsis.png);
+    background: url(icons/elipsis.svg), linear-gradient(transparent, transparent);
+    background-position: center center;
+    background-repeat: no-repeat;
+	background-color: #fff;
+    text-indent: -5000em;
+    width: 32px;
+    padding: 10px 0;
+}
+
+.ou-dropdown__parent:hover > a {
+    background: url(icons/elipsis2.png);
+    background: url(icons/elipsis2.svg), linear-gradient(transparent, transparent);
+	background-color: #E80074;
+    background-position: center center;
+    background-repeat: no-repeat;
+	color:#fff;
+}
+
+
+
 /*
 -------------------------------------------
 	Media queries
@@ -434,6 +544,9 @@ only screen and (max-device-width: 768px) {
 
 #ou-region2,
 .studenthome-home #ou-region2 {width: 35%; margin:0;}
+
+.studenthome-messages #ou-region1 {width:45%;}
+.studenthome-messages #ou-region2 {width:55%;}
 
 #ou-page {padding-bottom:0px;}
 
@@ -496,6 +609,10 @@ only screen and (max-device-width: 400px) {
 
 .studenthome-home #ou-region0 {border-top:0;}
 .studenthome-home #ou-region2 {background-color:#036;}
+
+.studenthome-messages #ou-region1 {width:100%;}
+.studenthome-messages #ou-region2 {width:100%;}
+
 
 .ou-sh-top,
 .ou-sh-main {
