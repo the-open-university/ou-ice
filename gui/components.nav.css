@@ -55,6 +55,12 @@
 	background-color: transparent;
 }
 
+.ou-ancestors a:visited {
+	color:#039;
+	background-color: transparent;
+}
+
+
 
 /*
 -------------------------------------------
@@ -219,7 +225,7 @@
 }
 
 .ou-context-nav a:visited {
-	color:#9F2563;
+	color:#039;
 	background-color: transparent;
 }
 
