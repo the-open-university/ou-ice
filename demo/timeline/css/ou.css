@@ -1,0 +1,108 @@
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 90%;
+		color: #666;
+	}
+
+	h1, h2 {
+		font-family: Arial, Helvetica, sans-serif;
+		line-height: 130%;
+	}
+
+	a {font-family: Arial, Helvetica, sans-serif;}
+
+	#ou-header {
+		width: 95%;
+    	max-width: 1180px;
+    	margin: 0 auto;
+	}
+
+	#ou-header:after {
+    	content: " ";
+    	display: block;
+    	clear: both;
+	}
+
+	#ou-header a.ou-logo {
+	    float: left;
+	    display: block;
+	    margin: 20px 0 20px 0;
+	    width: 87px;
+	    height: 66px;
+	}
+
+	header {
+    	height: auto;
+    	line-height: 200%;
+    	padding:40px 0;
+    	background-color: #036;
+	}
+
+	.back-link {
+		float: right;
+		color:#0B55A8;
+		display: inline-block;
+		padding-top: 40px;
+	}
+
+	.cd-timeline-content .cd-read-more {
+		background-color: #539D3C;
+		font-weight: bold;
+	}
+
+	.no-touch .cd-timeline-content .cd-read-more:hover {background-color: #222;}
+
+	.tag-line {
+		color: #549DD0;
+		margin-top: 10px;
+		padding:0 20px;
+		font-size: 1.2em;
+	}
+
+	.cd-timeline-content .cd-date {
+    	padding: 0;
+    	opacity: 1; 
+	}
+
+	.cd-timeline-content .cd-date--text-only {color: #E3294A; font-weight: bold;}
+
+	@media only screen and (min-width: 1170px) {
+	.cd-timeline-content .cd-date {top: 0;}
+	.cd-timeline-content .cd-date--text-only {top:8px; padding: .8em 0;}
+	}
+
+	.ou-events__date {
+	    width: 55px;
+	    height: auto;
+	    margin: 3px 10px 0 0;
+	}
+
+	@media only screen and (min-width: 1170px) {
+	.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date .ou-events__date {
+	    float: right;
+	}
+	}
+
+	.ou-events__date em {
+	    font-style: normal;
+	    font-weight: bold;
+	    font-size: .9em;
+	    color: #fff;
+	    background-color: #E3294A;
+	    padding: 3px;
+	    text-align: center;
+	    text-transform: uppercase;
+	    display: block;
+	}
+
+	.ou-events__date strong {
+	    text-align: center;
+	    color: #000;
+	    background-color: transparent;
+	    font-size: 25px;
+	    font-weight: normal;
+	    display: block;
+	    background: #fff;
+	    padding: 10px 0;
+	    border-radius: 0 0 4px 4px;
+	}
