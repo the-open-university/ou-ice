@@ -4,54 +4,52 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
-
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 
 	<link rel="stylesheet" href="css/ou.css"> <!-- Our overrides -->
 
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-
   	
-	<title>Your OU Study Timeline</title>
+	<title>Countdown to study in October</title>
 
 </head>
 <body>
 
 <div id="ou-header">
 
-    <a class="ou-logo" href="http://www.open.ac.uk/">
-		<img src="../img/icons/icon-shield-blue.png" alt="The Open University">
-    </a>
+	<div class="ou-header__wrap">
 
-    <a href="sh.html" class="back-link">Back to StudentHome</a>
+        <a class="ou-logo" href="http://www.open.ac.uk/"><img src="../img/icons/icon-shield-blue.png" alt="The Open University"></a>
+        <a href="sh.html" class="link link--back">Back to StudentHome</a>
+
+    </div>
 
 </div> <!-- end ou-header -->
 
 
 	<header>
-		<h1>Your OU Study Timeline</h1>
-		<p class="tag-line">Countdown to October 2017: What you need to do and when</p>
+    	<img src="img/clock.png" srcset="img/clock.svg" alt="Clock icon" >
+		<h1>Countdown to study in October</h1>
+		<p class="tag-line">What you need to do and when</p>
 	</header>
-	
-
-	<section id="cd-timeline" class="cd-container">
 
 
+<section id="cd-timeline" class="cd-container">
 
-		<div class="cd-timeline-block">
+
+  <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-location">
 				<img src="img/cd-icon-location.svg" alt="Location">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
+            	<span class="cd-date cd-date--text-only">Before choosing your modules</span>
 				<h2>Plan your available study time</h2>
 				<p>Our time planning activity will help you get started.</p>
 				<a href="https://docs.google.com/document/d/11bCkIDm0vzkKD-RCSF6asomIm1FdZ1-pd5wjj98z8UI/edit#heading=h.ah8wq9vm88f" class="cd-read-more">Plan your time</a>
-				<span class="cd-date cd-date--text-only">Before choosing your modules</span>
 
-				<form class="checkit"><label for="checkbox1"><input type="checkbox" name="checkbox1" id="checkbox1" /> Done</label></form>
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
 
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -65,12 +63,12 @@
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
+            	<span class="cd-date cd-date--text-only">Before choosing your modules</span>
 				<h2>Decide how to pay</h2>
 				<p>Consider the options and choose your payment method.</p>
 				<a href="https://docs.google.com/document/d/1RW23_ad2RiRpljpNqPPgT6aeN34vzhdXuziZSIBK03g/edit#heading=h.1vczbfxju369" class="cd-read-more">Choose payment method</a>
-				<span class="cd-date cd-date--text-only">Before choosing your modules</span>
 
-				<form class="checkit"><label for="checkbox2"><input type="checkbox" name="checkbox2" id="checkbox2" /> Done</label></form>
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
 
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -86,19 +84,20 @@
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
-				<h2>You can now choose your modules</h2>
-				<p>You will need to transfer any credit from previous study before selecting your modules. You can choose your modules at any time before the final enrolment date but it's best to do this as early as possible in order to complete all the other steps in good time.</p>
-				<a href="https://docs.google.com/document/d/1rkG0AflXANyidWPPUHTEHuxbrKM4am71qHnKiWGIa0M/edit#heading=h.4ajun9prsi6a" class="cd-read-more">Choose modules</a>
-				<span class="cd-date">
 
+            	<span class="cd-date">
 					<div class="ou-events__date">
 			            <em>Mar</em>
 			            <strong>7</strong>
 			        </div>
-
 				</span>
 
-				<form class="checkit"><label for="checkbox3"><input type="checkbox" name="checkbox3" id="checkbox3" /> Done</label></form>
+                <h2>You can now choose your modules</h2>
+				<p>You will need to transfer any credit from previous study before selecting your modules You have to apply for Credit Transfer before you register on a qual and the deadline for applying is August. You can choose your modules at any time before the final enrolment dateOnly if you don&rsquo;t want to pay with a loan or financial support but it's best to do this as early as possible in order to complete all the other steps in good time.</p>
+				<a href="https://docs.google.com/document/d/1rkG0AflXANyidWPPUHTEHuxbrKM4am71qHnKiWGIa0M/edit#heading=h.4ajun9prsi6a" class="cd-read-more">Choose modules</a>
+				
+
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
 
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -114,12 +113,12 @@
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
+				<span class="cd-date cd-date--text-only">Before you pay</span>
 				<h2>Make sure your profile is up to date</h2>
 				<p>Check your address, phone number and email address are correct</p>
 				<a href="https://docs.google.com/document/d/1hHPnXZpAevBX5yMjVOR1Zgs89JTGndpe4q1X1co59us/edit#heading=h.8cw1df3nlysu" class="cd-read-more">Go to my profile</a>
-				<span class="cd-date cd-date--text-only">Before you pay</span>
 
-				<form class="checkit"><label for="checkbox4"><input type="checkbox" name="checkbox4" id="checkbox4" /> Done</label></form>
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
 
 
 			</div> <!-- cd-timeline-content -->
@@ -136,19 +135,18 @@
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
-				<h2>Apply for additional funding, equipment and support</h2>
-				<p>Deadline to guarantee your application for additional funding, equipment and support will be processed in time to start your course. It can take up to four months to get additional funding, equipment and support sorted so do it ASAP.</p>
-				<a href="https://docs.google.com/document/d/1yjVZN0pDMcEo__nYmfnR0Aq4hA9wuEDEAkuv7BeRX94/edit#heading=h.phk1m4wcigl3" class="cd-read-more">Apply for additional funding and support</a>
 				<span class="cd-date">
-
 					<div class="ou-events__date">
 			            <em>Jun</em>
 			            <strong>6</strong>
 			        </div>
-
 				</span>
+				
+                <h2>Apply for additional funding, equipment and support</h2>
+				<p>Deadline to guarantee your application for additional funding, equipment and support will be processed in time to start your course. It can take up to four months to get additional funding, equipment and support sorted so do it ASAP.</p>
+				<a href="https://docs.google.com/document/d/1yjVZN0pDMcEo__nYmfnR0Aq4hA9wuEDEAkuv7BeRX94/edit#heading=h.phk1m4wcigl3" class="cd-read-more">Apply for additional funding and support</a>
 
-				<form class="checkit"><label for="checkbox5"><input type="checkbox" name="checkbox5" id="checkbox5" /> Done</label></form>
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
 
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -162,130 +160,23 @@
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
-				<h2>Book your tutorials</h2>
-				<p>You can now select your tutorial dates. You can do this at any time from this date but it's best to book early to guarantee a place.</p>
-				<a href="https://docs.google.com/document/d/1pBtObmzvFcjHtvVPPnkxGb16Thqu0gLEImX6Ier8WtI/edit#heading=h.vn99uqvr0zeq" class="cd-read-more">Book your tutorials</a>
-				<span class="cd-date">
-
+				
+                <span class="cd-date">
 					<div class="ou-events__date">
 			            <em>Jul</em>
 			            <strong>13</strong>
 			        </div>
-
 				</span>
+                
+				<h2>Book your tutorials</h2>
+				<p>You can now select your tutorial dates. You can do this at any time from this date but it's best to book early to guarantee a place.</p>
+				<a href="https://docs.google.com/document/d/1pBtObmzvFcjHtvVPPnkxGb16Thqu0gLEImX6Ier8WtI/edit#heading=h.vn99uqvr0zeq" class="cd-read-more">Book your tutorials</a>
 
-				<form class="checkit"><label for="checkbox6"><input type="checkbox" name="checkbox6" id="checkbox6" /> Done</label></form>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-
-
-
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="img/cd-icon-location.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
-
-					<div class="cd-timeline-content">
-				<h2>Last chance to enrol on your modules to start in October</h2>
-				<p>Last chance to enrol on your modules to start in October</p>
-				<a href="https://docs.google.com/document/d/1q8j67feYlQnehw3H_Jy_rj90cpmPfOw_u8O3kO2mrG4/edit#heading=h.93tn7ontaqp5" class="cd-read-more">Enrol now!</a>
-				<span class="cd-date">
-
-					<div class="ou-events__date">
-			            <em>Sep</em>
-			            <strong>7</strong>
-			        </div>
-
-				</span>
-
-				<form class="checkit"><label for="checkbox7"><input type="checkbox" name="checkbox7" id="checkbox7" /> Done</label></form>
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
 
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
-
-
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="img/cd-icon-location.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
-
-
-							<div class="cd-timeline-content">
-				<h2>Deadline to pay for your modules by credit card or loan</h2>
-				<p>Your loan will need to have been approved by this point</p>
-				<a href="https://docs.google.com/document/d/1SXspgxf3uQ7Cr0DQP1PHoGZ6W9eSLak0MpaZqPY7LIU/edit#heading=h.kc9pofoolbqv" class="cd-read-more">Pay now</a>
-				<span class="cd-date">
-
-					<div class="ou-events__date">
-			            <em>Sep</em>
-			            <strong>8</strong>
-			        </div>
-
-				</span>
-
-				<form class="checkit"><label for="checkbox8"><input type="checkbox" name="checkbox8" id="checkbox8" /> Done</label></form>
-
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-
-
-
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="img/cd-icon-location.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
-										<div class="cd-timeline-content">
-				<h2>Dedicate time to study</h2>
-				<p>What days and hours will you put aside to study your module?</p>
-				<a href="https://docs.google.com/document/d/1URxxP3_KmEAGJl2linFwoY8ZbBwrH18nhy0z_WmBEhE/edit#heading=h.l30v0uhmj7q" class="cd-read-more">Time planning activity</a>
-				<span class="cd-date">
-
-					<div class="ou-events__date">
-			            <em>Sep</em>
-			            <strong>13</strong>
-			        </div>
-
-				</span>
-
-				<form class="checkit"><label for="checkbox9"><input type="checkbox" name="checkbox9" id="checkbox9" /> Done</label></form>
-
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-
-
-
-
-
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="img/cd-icon-location.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
-
-									<div class="cd-timeline-content">
-				<h2>Setup and get familiar with your equipment</h2>
-				<p>Make sure you can work your computer, software and any additional equipment</p>
-				<a href="#0" class="cd-read-more">Computing guide</a>
-				<span class="cd-date">
-
-					<div class="ou-events__date">
-			            <em>Sep</em>
-			            <strong>14</strong>
-			        </div>
-
-				</span>
-
-				<form class="checkit"><label for="checkbox10"><input type="checkbox" name="checkbox10" id="checkbox10" /> Done</label></form>
-
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
 
 
 
@@ -296,19 +187,173 @@
 			</div> <!-- cd-timeline-img -->
 
 				<div class="cd-timeline-content">
-				<h2>Make contact with your tutor</h2>
-				<p>You should know who your tutor is by now</p>
-				<a href="https://docs.google.com/document/d/1Mx609w_x42DS0_ulc4xhbcTW7hkhLvDWXWvTINvvgoY/edit#heading=h.5zclzwxt6nh" class="cd-read-more">Contact your tutor</a>
-				<span class="cd-date">
+				
+                <span class="cd-date">
+					<div class="ou-events__date">
+			            <em>Sep</em>
+			            <strong>7</strong>
+			        </div>
+				</span>
+                
+				<h2>Last chance to enrol on your modules to start in October</h2>
+				<p>Last chance to enrol on your modules to start in October.</p>
+				<a href="https://docs.google.com/document/d/1q8j67feYlQnehw3H_Jy_rj90cpmPfOw_u8O3kO2mrG4/edit#heading=h.93tn7ontaqp5" class="cd-read-more">Enrol now!</a>
 
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
+
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+
+
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+				<img src="img/cd-icon-location.svg" alt="Location">
+			</div> <!-- cd-timeline-img -->
+
+
+				<div class="cd-timeline-content">
+				<span class="cd-date">
+					<div class="ou-events__date">
+			            <em>Sep</em>
+			            <strong>7</strong>
+			        </div>
+				</span>
+				<h2>Deadline to pay for your modules by credit card or loan</h2>
+				<p>Your loan will need to have been approved by this point.</p>
+				<a href="https://docs.google.com/document/d/1SXspgxf3uQ7Cr0DQP1PHoGZ6W9eSLak0MpaZqPY7LIU/edit#heading=h.kc9pofoolbqv" class="cd-read-more">Pay now</a>
+
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
+
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+
+
+
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+				<img src="img/cd-icon-location.svg" alt="Location">
+			</div> <!-- cd-timeline-img -->
+			
+            <div class="cd-timeline-content">
+				<span class="cd-date">
+					<div class="ou-events__date">
+			            <em>Sep</em>
+			            <strong>13</strong>
+			        </div>
+				</span>
+				<h2>Dedicate time to study</h2>
+				<p>What days and hours will you put aside to study your module?</p>
+				<a href="https://docs.google.com/document/d/1URxxP3_KmEAGJl2linFwoY8ZbBwrH18nhy0z_WmBEhE/edit#heading=h.l30v0uhmj7q" class="cd-read-more">Time planning activity</a>
+
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
+
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+
+
+
+
+
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+				<img src="img/cd-icon-location.svg" alt="Location">
+			</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content">
+				<span class="cd-date">
+					<div class="ou-events__date">
+			            <em>Sep</em>
+			            <strong>14</strong>
+			        </div>
+				</span>
+				<h2>Setup and get familiar with your equipment</h2>
+				<p>Make sure you can work your computer, software and any additional equipment.</p>
+				<a href="#0" class="cd-read-more">Computing guide</a>
+
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
+
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+
+
+
+  <div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+				<img src="img/cd-icon-location.svg" alt="Location">
+			</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content">
+				<span class="cd-date">
+					<div class="ou-events__date">
+			            <em>Sep</em>
+			            <strong>16</strong>
+			        </div>
+				</span>
+				<h2>Module website opens</h2>
+				<p>From September 16 you will find a link here to your module website.</p>
+
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
+
+			</div> <!-- cd-timeline-content -->
+	</div> <!-- cd-timeline-block --><!-- cd-timeline-block -->
+
+
+
+
+
+	<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+				<img src="img/cd-icon-location.svg" alt="Location">
+			</div> <!-- cd-timeline-img -->
+
+				<div class="cd-timeline-content">
+				
+                <span class="cd-date">
+					<div class="ou-events__date">
+			            <em>Sep</em>
+			            <strong>23</strong>
+			        </div>
+				</span>
+				
+                <h2>Make contact with your tutor</h2>
+				<p>You should know who your tutor is by now.</p>
+				<a href="https://docs.google.com/document/d/1Mx609w_x42DS0_ulc4xhbcTW7hkhLvDWXWvTINvvgoY/edit#heading=h.5zclzwxt6nh" class="cd-read-more">Contact your tutor</a>
+
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
+
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+
+
+
+
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+				<img src="img/cd-icon-location.svg" alt="Location">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<span class="cd-date">
 					<div class="ou-events__date">
 			            <em>Oct</em>
-			            <strong>9</strong>
+			            <strong>3</strong>
 			        </div>
-
 				</span>
+				
+                <h2>Unpack your course materials</h2>
+				<p>Your should have unpacked your course materials by now</p>
+				<a href="https://docs.google.com/document/d/1qSJ2R7Q0tQxdeyclUuEwsXCqzpV1WDlnMf_CEPzmj4M/edit#heading=h.phu1uhdwjw9b" class="cd-read-more">Course materials checklist</a>
 
-				<form class="checkit"><label for="checkbox11"><input type="checkbox" name="checkbox11" id="checkbox11" /> Done</label></form>
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
 
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -323,23 +368,21 @@
 			</div> <!-- cd-timeline-img -->
 
 		<div class="cd-timeline-content">
-				<h2>Visit your module website</h2>
-				<p>You can visit your module website now</p>
-				<a href="https://docs.google.com/document/d/1kp7p1lJ_wYbWNhWE52SpOIwLOgvPJy_tPpf1ThqpNmw/edit#heading=h.sygywbro54w2" class="cd-read-more">Visit module website</a>
-				<span class="cd-date">
 
+                <span class="cd-date">
 					<div class="ou-events__date">
 			            <em>Oct</em>
-			            <strong>10</strong>
+			            <strong>7</strong>
 			        </div>
-
 				</span>
-
-				<form class="checkit"><label for="checkbox12"><input type="checkbox" name="checkbox12" id="checkbox12" /> Done</label></form>
+				
+                <h2>Start studying</h2>
+				<p>You're all set.</p>
+	
+    			<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
 
 			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
+		</div> <!-- cd-timeline-block --><!-- cd-timeline-block -->	
 
 
 
@@ -349,76 +392,56 @@
 			<div class="cd-timeline-img cd-location">
 				<img src="img/cd-icon-location.svg" alt="Location">
 			</div> <!-- cd-timeline-img -->
-
 			<div class="cd-timeline-content">
-				<h2>Unpack your course materials</h2>
-				<p>Your should have unpacked your course materials by now</p>
-				<a href="https://docs.google.com/document/d/1qSJ2R7Q0tQxdeyclUuEwsXCqzpV1WDlnMf_CEPzmj4M/edit#heading=h.phu1uhdwjw9b" class="cd-read-more">Course materials checklist</a>
 				<span class="cd-date">
-
 					<div class="ou-events__date">
 			            <em>Oct</em>
-			            <strong>12</strong>
+			            <strong>21</strong>
 			        </div>
-
 				</span>
-
-				<form class="checkit"><label for="checkbox13"><input type="checkbox" name="checkbox13" id="checkbox13" /> Done</label></form>
-
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-
-
-
-
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="img/cd-icon-location.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2>Start studying</h2>
-				<p>You're all set</p>
-				<span class="cd-date">
-
-					<div class="ou-events__date">
-			            <em>Oct</em>
-			            <strong>13</strong>
-			        </div>
-
-				</span>
-
-				<form class="checkit"><label for="checkbox14"><input type="checkbox" name="checkbox14" id="checkbox14" /> Done</label></form>
-
-			</div> <!-- cd-timeline-content -->
-			</div> <!-- cd-timeline-block -->	
-
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="img/cd-icon-location.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
-			<div class="cd-timeline-content">
-				<h2>Deadline to cancel your modules without incurring fee liability</h2>
-				<p>If you need to cancel, do it by this point!</p>
+			  <h2>Deadline to cancel your modules</h2>
+				<p>Deadline to cancel your modules without incurring fee liability - excluding Scotland if paying with fee grant.</p>
 				<a href="https://docs.google.com/document/d/1Rj-RimkEDkhVli_F_Sb-FBEt9dndJqd3WtwLeHu3DYQ/edit#heading=h.a3n4tmi74xe9" class="cd-read-more">Cancel or pause study</a>
-				<span class="cd-date">
 
-					<div class="ou-events__date">
-			            <em>Oct</em>
-			            <strong>27</strong>
-			        </div>
-
-				</span>
-
-				<form class="checkit"><label for="checkbox15"><input type="checkbox" name="checkbox15" id="checkbox15" /> Done</label></form>
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
 
 			</div> <!-- cd-timeline-content -->
 
 		</div> <!-- cd-timeline-block -->
+        
+
+
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+				<img src="img/cd-icon-location.svg" alt="Location">
+			</div> <!-- cd-timeline-img -->
+			<div class="cd-timeline-content">
+				<span class="cd-date">
+					<div class="ou-events__date">
+			            <em>Dec</em>
+			            <strong>1</strong>
+			        </div>
+				</span>
+			  <h2>Deadline to cancel your modules</h2>
+				<p>Deadline to cancel your modules without incurring fee liability - including Scotland and if using fee grant.</p>
+				<a href="https://docs.google.com/document/d/1Rj-RimkEDkhVli_F_Sb-FBEt9dndJqd3WtwLeHu3DYQ/edit#heading=h.a3n4tmi74xe9" class="cd-read-more">Cancel or pause study</a>
+
+				<form class="checkit"><button class="checkme" title="Mark this item as complete">Done</button></form>
+
+			</div> <!-- cd-timeline-content -->
+
+		</div> <!-- cd-timeline-block -->
+
+
+        
+        
 	</section> <!-- cd-timeline -->
+
+<p class="link-top"><a href="#ou-header" class="link">Back to top</a></p>
+
+
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
