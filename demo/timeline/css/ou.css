@@ -197,7 +197,8 @@
 		background:#fff;
 		font-size:1em;
 		color:#555;
-		background-image:url(../img/icon-tick-unticked.svg);
+		background:url(../img/icon-tick-unticked.png);
+		background:url(../img/icon-tick-unticked.svg), linear-gradient(transparent,transparent);
 		background-position:center left;
 		background-repeat:no-repeat;
 		cursor:pointer;
@@ -208,7 +209,10 @@
 	
 	.checkme--checked {
 		color:#000;
-		background-image:url(../img/icon-tick-ticked.svg);
+		background:url(../img/icon-tick-ticked.png);
+		background:url(../img/icon-tick-ticked.svg), linear-gradient(transparent,transparent);
+		background-position:center left;
+		background-repeat:no-repeat;
 	}
 	
 	.checkme:focus {outline:0;}
