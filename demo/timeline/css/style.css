@@ -164,6 +164,11 @@ header h1 {
   background: #f0ca45;
 }
 
+.cd-timeline-img.cd-success {
+  background: #539D3C;
+}
+
+
 .cd-timeline-img.cd-reminder {
   background: #c03b44;
 }
