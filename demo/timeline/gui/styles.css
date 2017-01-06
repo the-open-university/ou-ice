@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+
+/* time for study */
+
+table.time {
+	background-color: white;
+	width:100%;
+	max-width: 100%;
+}
+
+table.time tr,
+table.time td,
+table.time th {
+	padding:0;
+	margin:0;
+	border:1px solid #ccc;
+}
+
+tr.time-slots {
+	height:20px;
+}
+
+table.time th {
+	text-align:center;
+	vertical-align:middle;
+}
+
+table.time thead th {
+	width:10%;
+	padding:.5em 0;
+}
+
+table.time thead th.autosize {
+	width:auto;
+}
+
+table.time tbody td {
+	cursor:pointer;
+	color: #999;
+	font-size: 11px;
+	text-align: left;
+	padding-left: 3px;
+}
+
+
+table.time td.highlighted {
+  /*background-color: #C00;*/
+  background-color:#009933;
+  color: #fff !important;
+}
+
+.time-busy p,
+.time-free p {
+	margin:0;
+	padding:.5em;
+}
+
+
+.time-chart p.time-result {
+	text-align:center;
+	font-size:1.7em;
+	color:#F36;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:.6em;
+}
+
+.time-chart p.time-result strong {
+	color:#111;
+	font-weight:normal;
+}
+
+
+div.time img {
+	display:none;
+}
+
+/* ADDED BY ST: Inputs */
+
+
+div.prev-next ul {
+	margin:0;
+	padding:1em 0;
+	text-align:center;
+}
+
+div.prev-next li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 .2em;
+    padding: 0;
+}
+
+
+div.prev-next input, 
+div.check input {
+	background-color: #13902E;
+    background-image: -moz-linear-gradient(0% 100% 90deg, #15A033, #91C933);
+	background-image: -webkit-gradient(linear, left top, left bottom,
+                   	 	  color-stop(0.00, #91C933),   
+                  		  color-stop(1.00, #15A033));    
+	border: 0;
+    border-radius: 23px 23px 23px 23px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: bold;
+	font-size:1em;
+    line-height: 1;
+    padding: 10px 15px 8px 15px;
+    font-size: 1em;
+	text-decoration:none;
+	display:inline-block;
+	cursor:pointer;
+}
+
+div.check {text-align:center; padding-bottom:.5em;}
+
+div.check input {
+	padding:8px 12px 7px 12px;
+	text-align:center;
+	background-color: #111;
+    background-image: -moz-linear-gradient(0% 100% 90deg, #222, #555);
+	background-image: -webkit-gradient(linear, left top, left bottom,
+                   	 	  color-stop(0.00, #555),   
+                  		  color-stop(1.00, #222));    
+}
+
+div.prev-next input:hover, 
+div.check input:hover {
+	background-color:#15A033;
+	background-image:none;
+    color: #fff;
+	border:0;
+}
+
+div.check input:hover {
+	background-color:#15A033;
+	}
+
+
+div.prev-next .prev input {
+	background-color:#eee;
+	background-image:none;
+	color:#555;
+	border:0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.prev-next .prev input:hover {
+	background-color:#ddd;
+}
+
+span.messagebox {
+    border: 0;
+    display: block;
+    font-weight: bold;
+    margin: 0.7em 0 1.5em;
+    padding: 0.3em 1.3em;
+    border-radius:6px;
+}
+
+span.error {
+    background-color: #FFD6D6;
+    color: #000;
+}
+
+span.success {
+    background-color: #DFF2BF;
+    color: #000;
+}
+
+body.modal .ou-content {
+    position:relative;
+}
+
+body.modal a.cancel {
+    position:absolute;
+    top:2.3em;
+    right:2em;
+    background-image: url(icon-cross.png);
+    background-position:center left;
+    background-repeat:no-repeat;
+    padding-left:16px;
+    text-decoration:none;
+}
+
+body.modal #ou-region1 { width: 100%; }
+
+body.modal #ou-region2 {display:none;}
+
+
+
+/* nav */
+
+div#ou-region2 {
+	background-color:transparent;
+}
+
+
+/* OVERRIDES AND STYLES ADDED BY B GURNEY */
+
+div.time-chart {padding-top:1em;}
+.time-busy, .time-free {display:block; color:#fff; font-weight:bold; vertical-align:middle; margin:0 0 0 0; height:35px;}
+.time-busy {width:0; background-color:#009933; border-right:1px solid #fff;}
+.time-free {background-color:#FFF;}
+
+.js-safe, .hidden { display: none; }
+
+body.home div.prev-next {display:none;}
+
+table.how-good-results tbody tr.progress td {background-color: #ccc;}
+table.how-good-results tbody tr td.tbc {color: #333;}
+
+ul.style1 li.complete { background-image:url(icon-tick.png); }
+
+
+
+/* added by turvey 9-3-12 */
+
+
+.inputs input[type=text],
+.inputs input[type=password],
+.inputs input[type=submit] {
+	border:1px solid #ccc;
+	background-color:#fff;
+	padding:.5em 1em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	border-radius:4px;
+}
+
+.inputs input[type=submit] {
+	border:none;
+	background-color:#f36;
+	color:#fff;
+}
+
+.inputs input[type=submit]:hover {
+	background-color:#111;
+}
+
+.inputs input[type=text]:focus,
+.inputs input[type=password]:focus {
+	background-color:#E0F1D6;
+}
+
+span.field_error {
+	font-weight:bold;
+	color:#C30;
+}
+
+
+/**/
+
+
+
+
+
+

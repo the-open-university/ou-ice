@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* Mobile CSS - ATS */
+
+* {font-size:1em;}
+
+body {margin:0 3px;}
+
+img.save-your-progress {display:none;}
+
+.home-content-wrap,
+body.home ul.ou-children {width:100%;}
+
+body.home div.ou-content {background-image:none;}
+
+#site-ident {margin:0; border-radius:5px;}
+#site-ident .site-title {width:auto; margin-right:100px;}
+
+#site-ident .site-title a {line-height:1em; font-size:1.2em; font-weight:bold;}
+
+#site-ident div.buttons {top:3px; right:10px; position:absolute; width:80px;}
+#site-ident div.buttons ul li input {width:30px; display:block; text-indent:-5000em; overflow:hidden; margin-left:10px;}
+
+body h1, h1, h2, h3, h4, h5, h6, body.home h1 {font-size:1.2em; margin:0;}
+h2 {border-radius:5px;}
+
+body.home div.ou-content, body div.ou-content {padding:0; margin:3px 0;}
+body.home div.ou-content {padding:0.5em;}
+
+.content-wrap {
+padding: 0.5em;
+}
+
+body h1 {text-shadow:none;}
+
+ul.style1, ul.style2 {
+margin:0;
+}
+
+img.go1, img.go2 {width:100px;}
+
+.form {margin:5px 0;}
+
+body.modal a.cancel {
+position: absolute;
+top: 10px;
+right: 10px;
+background-image: url(icon-cross.png);
+background-position: center left;
+background-repeat: no-repeat;
+padding-left: 16px;
+text-decoration: none;
+}
+
+.extract {padding:1em 1.5em;}
+
+.time-chart p.time-result {font-size:1.2em; font-weight:bold;}
+
