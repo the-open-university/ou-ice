@@ -36,6 +36,24 @@ h1, h2 {
   font-weight: bold;
 }
 
+div.update-timeline-footer {
+  max-width:750px;
+  margin:1em auto;
+}
+
+a.update-timeline {
+  background-color:#539d3c; 
+  color:#fff; 
+  font-weight:bold; 
+  padding:0.8em 1em; 
+  border-radius:0.25em;
+}
+
+a.update-timeline:hover {
+  background-color: black;
+}
+
+
 /* -------------------------------- 
 
 Modules - reusable parts of our design
