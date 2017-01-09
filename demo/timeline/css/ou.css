@@ -224,10 +224,13 @@
 	
 	.checkme:focus {outline:0;}
 
+	.cd-timeline-img.cd-highlight {background: #E80074;}
+	
+	.cd-timeline-content--highlight {border-left:5px solid #E80074;}
 
-
-
-
+	@media only screen and (max-width: 1170px) {
+	.cd-timeline-content--highlight {border-left:none; border-right:5px solid #E80074;}
+	}
 
 
 
