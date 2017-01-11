@@ -203,7 +203,7 @@
 		border:0;
 		background:#fff;
 		font-size:1em;
-		color:#555;
+		color:#666;
 		background:url(../img/icon-tick-unticked.png);
 		background:url(../img/icon-tick-unticked.svg), linear-gradient(transparent,transparent);
 		background-position:center left;
@@ -213,6 +213,8 @@
 		-moz-appearance: none;
 		appearance:none;
 	}
+	
+	.checkme:hover {color:#000;}
 	
 	.checkme--checked {
 		color:#000;

@@ -32,6 +32,14 @@ jQuery(document).ready(function($){
         // TOGGLE 'DONE' FOR DEMO
         $(".checkme").click(function(){
             $(this).toggleClass("checkme--checked");
+			  if ($(this).text() == "Done") 
+			  { 
+				 $(this).text("Tick when done"); 
+			  } 
+			  else 
+			  { 
+				 $(this).text("Done"); 
+			  }; 
             return false;
         });
 		
