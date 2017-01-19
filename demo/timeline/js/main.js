@@ -28,9 +28,16 @@ jQuery(document).ready(function($){
 	}
 
 
-
-        // TOGGLE 'DONE' FOR DEMO
+		
+		// TOGGLE CHECKED
         $(".checkme").click(function(){
+            $(this).toggleClass("checkme--checked");
+            return false;
+        });
+		
+		
+		// TOGGLE CHECKED TIMELINE
+        $(".checkme-timeline").click(function(){
             $(this).toggleClass("checkme--checked");
 			  if ($(this).text() == "Done") 
 			  { 

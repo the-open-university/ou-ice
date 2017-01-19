@@ -197,7 +197,8 @@
 
 	}
 	
-	.checkme {
+	.checkme,
+	.checkme-timeline {
 		display:inline-block;
 		padding:4px 0 4px 25px;
 		border:0;
@@ -214,7 +215,8 @@
 		appearance:none;
 	}
 	
-	.checkme:hover {color:#000;}
+	.checkme:hover,
+	.checkme-timeline:hover {color:#000;}
 	
 	.checkme--checked {
 		color:#000;
@@ -224,7 +226,8 @@
 		background-repeat:no-repeat;
 	}
 	
-	.checkme:focus {outline:0;}
+	.checkme:focus,
+	.checkme-timeline:focus {outline:0;}
 
 	.cd-timeline-img.cd-highlight {background: #E80074;}
 	
