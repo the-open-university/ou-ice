@@ -49,6 +49,26 @@ jQuery(document).ready(function($){
 			  }; 
             return false;
         });
+
+		
+		// CUSTOMISE TIMELINE
+		
+		$(".hidden").hide();
+		
+        $(".toggle-questions").click(function(){
+			$(this).toggleClass("button--primary"); 
+            $(".hidden").slideToggle("fast");
+			
+			  if ($(this).text() == "Cancel") 
+			  { 
+				 $(this).text("Continue"); 
+			  } 
+			  else 
+			  { 
+				 $(this).text("Cancel"); 
+			  }; 
+            return false;
+        });
 		
 
 		
