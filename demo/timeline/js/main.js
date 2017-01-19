@@ -26,6 +26,10 @@ jQuery(document).ready(function($){
 			( $(this).offset().top <= $(window).scrollTop()+$(window).height()*offset && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) && $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
 		});
 	}
+	
+	// added for customise.html so top of timeline is visible
+	$(".faded-out .cd-timeline-img").removeClass("is-hidden");
+	$(".faded-out .cd-timeline-content").removeClass("is-hidden");
 
 
 		
