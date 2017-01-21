@@ -182,13 +182,22 @@ header h1 {
   background: #f0ca45;
 }
 
-.cd-timeline-img.cd-success {
-  background: #539D3C;
+.cd-timeline-img.cd-warning {
+  background: #D65F11;
+}
+
+.cd-timeline-img.cd-overdue {
+  background: #E3294A;
 }
 
 .cd-timeline-img.cd-reminder {
   background: #c03b44;
 }
+
+.cd-timeline-img.cd-success {
+  background: #539D3C;
+}
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;

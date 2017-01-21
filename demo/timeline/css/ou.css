@@ -132,6 +132,12 @@ header {
 
 .cd-timeline-content .cd-date--text-only {color: #E3294A; font-weight: bold;}
 
+.cd-timeline-img .icon-tick,
+.cd-timeline-img.cd-success .icon-location,
+.cd-timeline-img.cd-success .icon-warning {display:none;}
+.cd-timeline-img.cd-success .icon-tick {display:block;}
+
+
 div.dsa-box { 
 	margin-top:1.5em;
 	padding:1em;
@@ -162,12 +168,11 @@ div.dsa-box {
 	width: 55px;
 	height: auto;
 	margin: 3px 10px 0 0;
+	display:inline-block;
 }
 
 @media only screen and (min-width: 1170px) {
-.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date .ou-events__date {
-	float: right;
-}
+x.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date .ou-events__date {float: right;}
 }
 
 .ou-events__date em {
@@ -194,9 +199,16 @@ div.dsa-box {
 	border-radius: 0 0 4px 4px;
 }
 
+.ou-events__helper {
+	color:#E3294A;
+	display:inline-block;
+	padding:10px 10px 10px 0;
+	font-weight:bold;
+}
+
 .checkit {
 	position: absolute; 
-	bottom: 15px; 
+	bottom: 20px; 
 	right: 15px;
 }
 
@@ -246,12 +258,37 @@ div.dsa-box {
 
 .cd-timeline-img.cd-highlight {background: #E80074;}
 
-.cd-timeline-content--highlight {border-left:5px solid #E80074;}
-
-@media only screen and (max-width: 1170px) {
-.cd-timeline-content--highlight {border-left:none; border-right:5px solid #E80074;}
+.cd-timeline-content--highlight {
+	border:0; 
+	background:transparent; 
+	box-shadow:none;
 }
 
+.cd-timeline-content--highlight h2 {color:#E80074;}
+
+.cd-timeline-content .item-status {
+	margin:0 0 5px 0;
+	font-size:.9em;
+	font-weight:bold;
+}
+
+.cd-timeline-content .item-status--asap {
+	color:#D65F11; 
+	background-color:transparent;
+}
+
+.cd-timeline-content .item-status--overdue {
+	color:#E3294A; 
+	background-color:transparent;
+}
+
+
+
+@media only screen and (min-width: 1170px) {
+.cd-timeline-block:nth-child(odd) .cd-timeline-content--highlight h2 {text-align:right;}
+}
+
+.cd-timeline-content.cd-timeline-content--highlight::before {display:none;}
 
 /* fade out timeline before config */
 
@@ -307,8 +344,10 @@ div.dsa-box {
     max-width: 900px;
     margin: 0 auto;
 	padding:40px 0 30px 0;
-	
 }
+
+.customise__wrapper--slim {padding:40px 0 0 0;}
+
 
 .customise p {margin:0 0 15px 0;}
 
@@ -359,3 +398,18 @@ div.dsa-box {
 .c1of2,
 .c2of2 {width:100%; float:none;}
 }
+
+
+/* minimise items when done */
+
+.minimise-items .cd-timeline-content--done h2 {
+	font-size:1em;
+	padding-right:50px;
+}
+
+.minimise-items .cd-timeline-content--done p,
+.minimise-items .cd-timeline-content--done .cd-read-more {display:none;}
+
+.minimise-items .cd-timeline-content--done {transition:all ease 0.5s;}
+
+

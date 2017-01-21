@@ -1,4 +1,29 @@
 jQuery(document).ready(function($){
+	
+	// CUSTOMISE TIMELINE
+	
+	$(".hidden").hide();
+	
+	$(".toggle-questions").click(function(){
+		$(this).toggleClass("button--primary"); 
+		$(".hidden").slideToggle("fast");
+		
+		  if ($(this).text() == "Cancel") 
+		  { 
+			 $(this).text("Continue"); 
+		  } 
+		  else 
+		  { 
+			 $(this).text("Cancel"); 
+		  }; 
+		return false;
+	});
+
+	$(".toggle-questions2").click(function(){
+		$(".hidden").slideToggle("fast");
+		return false;
+	});
+
 
 	// TIMELINE
 
@@ -42,6 +67,8 @@ jQuery(document).ready(function($){
 		
 		// TOGGLE CHECKED TIMELINE
         $(".checkme-timeline").click(function(){
+			$(this).parent().parent().toggleClass("cd-timeline-content--done");
+			$(this).parent().parent().siblings(".cd-timeline-img").toggleClass("cd-success");
             $(this).toggleClass("checkme--checked");
 			  if ($(this).text() == "Done") 
 			  { 
@@ -55,24 +82,6 @@ jQuery(document).ready(function($){
         });
 
 		
-		// CUSTOMISE TIMELINE
-		
-		$(".hidden").hide();
-		
-        $(".toggle-questions").click(function(){
-			$(this).toggleClass("button--primary"); 
-            $(".hidden").slideToggle("fast");
-			
-			  if ($(this).text() == "Cancel") 
-			  { 
-				 $(this).text("Continue"); 
-			  } 
-			  else 
-			  { 
-				 $(this).text("Cancel"); 
-			  }; 
-            return false;
-        });
 		
 
 		
