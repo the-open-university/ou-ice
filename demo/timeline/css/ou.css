@@ -46,7 +46,7 @@ h3 {
 h4 {
 	font-size:1em;
 	font-weight:bold;
-	margin:0 0 5px 0;
+	margin:0 0 15px 0;
 }
 
 header h1 {color:#000;}
@@ -332,29 +332,54 @@ x.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date .ou-events__da
 
 /* customise timeline */
 
+
+
+.content-wrapper {
+	width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+	padding:20px 0 20px 0;
+}
+
+.content-wrapper:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.content-wrapper--slim {
+	padding:40px 0 0 0;
+    max-width: 900px;
+}
+
+.content-wrapper--fat {
+	padding:40px 0 30px 0;
+    max-width: 900px;
+}
+
+
+
+
+
+/* customise timeline */
+
 .customise {
 	background-color:#e9f0f5;
 	color:#000;
 	line-height:150%;
 }
 
-.customise__wrapper:after {
-	content: " ";
-	display: block;
-	clear: both;
-}
-
-.customise__wrapper {
-	width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-	padding:40px 0 30px 0;
-}
-
-.customise__wrapper--slim {padding:40px 0 0 0;}
-
-
 .customise p {margin:0 0 15px 0;}
+
+.customise-toggle:after {
+	content:"";
+    display: inline-block;
+    margin-left: 5px;
+	width:11px;
+	height:6px;
+	background:url(../img/icon-arrow-down.svg) center center no-repeat;
+	vertical-align: middle;
+}
 
 .customise__intro {
 	text-align:center;
@@ -421,5 +446,61 @@ x.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date .ou-events__da
 	transition:all ease 0.5s;
 	box-shadow:none;
 }
+
+
+/* articles */
+
+.articles {
+	border-bottom:1px solid #d7e4ed;	
+}
+
+.articles__main-heading {
+	font-size:1.6em;
+	text-align:center;
+	margin-bottom:15px;	
+}
+
+.articles__sub-heading {
+	color:#222;
+	text-align:center;
+	max-width:800px;
+	margin:0 auto;
+	margin-bottom:25px;
+	line-height:160%;
+}
+
+
+.articles__header {
+	font-size:1.1em;
+	font-weight:bold;
+	margin-bottom:10px;	
+	padding-top:15px;
+	border-top:2px solid #00B7B2;
+}
+
+.articles__header-study-skills {border-color:#0E56A7;}
+.articles__header-tutorials {border-color:#539D3C;}
+.articles__header-assignments {border-color:#E80074;}
+
+
+/* cancel */
+
+.cancel__date,
+.cancel__wording {
+	display:table-cell;
+	vertical-align:top;
+}
+
+.cancel__wording {
+	padding-left:15px;
+	line-height:160%;
+}
+
+.cancel__wording h2 {
+	font-size:1.2em;
+	margin-bottom:8px;	
+}
+
+
 
 

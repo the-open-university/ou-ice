@@ -7,6 +7,9 @@
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 
+	<link rel="stylesheet" href="../../gui/components.forms.css"> <!-- Forms -->
+	<link rel="stylesheet" href="../../gui/components.lists.css"> <!-- Lists -->
+	<link rel="stylesheet" href="../../gui/objects.blocks.css"> <!-- Blocks -->
 	<link rel="stylesheet" href="css/ou.css"> <!-- Our overrides -->
 
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
@@ -28,6 +31,7 @@
 </div> <!-- end ou-header -->
 
 
+
 <header>
 	<img src="img/clock.png" srcset="img/clock.svg" alt="Clock icon" >
 	<h1>Countdown to study in October</h1>
@@ -38,86 +42,113 @@
 
 <section class="customise">
 
-	<div class="customise__wrapper">
+	<div class="content-wrapper content-wrapper--fat">  
 
-        <div class="customise__intro">
-    
+      <div class="customise__intro">
             <h2 class="customise__heading">Customise your Timeline</h2>
             <p class="customise__text">To start using your Countdown to study we just need to ask a few questions so that we can add some additional, relevant items and key dates to your timeline.</p> 
-    
         </div>
         
         
         <div class="customise__questions hidden">
-                    
+          <form>
             <div class="c1of2">
-            	
-                <h3>What type of student are you?</h3>
-                
-                <div class="answer-wrap">
-                    <form><button class="checkme">New student</button></form>
-                    <form><button class="checkme">Returning student</button></form>
-                    <form><button class="checkme">Coming back from a break</button></form>
+              <h3>What type of student are you?</h3>
+              <div class="ou-form__group">
+                <div class="ou-form__item ou-form__item--compact">
+                  <label for="radio1" class="ou-form__label ou-form__label--simple">
+                    <input type="radio" name="student_type" id="radio1" class="ou-form__radio">
+                    New student</label>
                 </div>
-            
-                <h3>What level are you studying?</h3>
-                
-                <div class="answer-wrap">
-                    <form><button class="checkme">Undergraduate</button></form>
-                    <form><button class="checkme">Postgraduate</button></form>
+                <div class="ou-form__item ou-form__item--compact">
+                  <label for="radio2" class="ou-form__label ou-form__label--simple">
+                    <input type="radio" name="student_type" id="radio2" class="ou-form__radio">
+                    Returning student</label>
                 </div>
-            
-                <h3>Disability support allowance (DSA)</h3>
-                
-                <p>Please indicate if you are thinking about applying for additional funding for equipment and support because you have a disability, mental health condition or specific learning difficulty.</p>
-                
-                <div class="answer-wrap">
-                <form><button class="checkme">Yes please</button></form>
+                <div class="ou-form__item ou-form__item--compact">
+                  <label for="radio3" class="ou-form__label ou-form__label--simple">
+                    <input type="radio" name="student_type" id="radio3" class="ou-form__radio">
+                    Coming back from a break</label>
                 </div>
-                
-                <p><a href="#">Not sure? Find out more about DSA</a></p>
-            
+              </div>
+              <h3>What level are you studying?</h3>
+              <div class="ou-form__group">
+                <div class="ou-form__item ou-form__item--compact">
+                  <label for="level1" class="ou-form__label ou-form__label--simple">
+                    <input type="radio" name="level" id="level1" class="ou-form__radio">
+                    Undergraduate</label>
+                </div>
+                <div class="ou-form__item ou-form__item--compact">
+                  <label for="level2" class="ou-form__label ou-form__label--simple">
+                    <input type="radio" name="level" id="level2" class="ou-form__radio">
+                    Postgraduate</label>
+                </div>
+              </div>
+              <h3>Disability support allowance (DSA)</h3>
+              <p>Please indicate if you are thinking about applying for additional funding for equipment and support because you have a disability, mental health condition or specific learning difficulty.</p>
+              <div class="ou-form__group">
+                <div class="ou-form__item ou-form__item--compact">
+                  <label for="dsa1" class="ou-form__label ou-form__label--simple">
+                    <input type="radio" name="dsa" id="dsa1" class="ou-form__radio">
+                    Yes please</label>
+                </div>
+              </div>
+              <p><a href="#">Not sure? Find out more about DSA</a></p>
             </div>
-            
             <div class="c2of2">
-                
-                <h3>How are you paying for your studies?</h3>
-                
+              <h3>How are you paying for your studies?</h3>
+              <div class="ou-form__group">
                 <h4>Paying upfront</h4>
-                
-                <div class="answer-wrap">
-                    <form><button class="checkme">Credit/debit card</button></form>
+                <div class="ou-form__item ou-form__item--compact">
+                  <label for="paying1" class="ou-form__label ou-form__label--simple">
+                    <input type="radio" name="paying" id="paying1" class="ou-form__radio">
+                    Credit/debit card</label>
                 </div>
-
                 <h4>Paying later</h4>
-                
-                <div class="answer-wrap">
-                    <form><button class="checkme">Part Time Tuition Fee Loan</button></form>
-                    <form><button class="checkme">OU Student Budget Account Loan</button></form>
-                    <form><button class="checkme">Employer Sponsorship</button></form>
+                <div class="ou-form__item ou-form__item--compact">
+                  <label for="paying2" class="ou-form__label ou-form__label--simple">
+                    <input type="radio" name="paying" id="paying2" class="ou-form__radio">
+                    Part Time Tuition Fee Loan</label>
                 </div>
-
+                <div class="ou-form__item ou-form__item--compact">
+                  <label for="paying3" class="ou-form__label ou-form__label--simple">
+                    <input type="radio" name="paying" id="paying3" class="ou-form__radio">
+                    OU Student Budget Account Loan</label>
+                </div>
+                <div class="ou-form__item ou-form__item--compact">
+                  <label for="paying4" class="ou-form__label ou-form__label--simple">
+                    <input type="radio" name="paying" id="paying4" class="ou-form__radio">
+                    Employer Sponsorship</label>
+                </div>
                 <h4>Mixed payments</h4>
-                
-                <div class="answer-wrap">
-                    <form><button class="checkme">Credit/debit card &amp; OU Student Budget Account Loan</button></form>
-                    <form><button class="checkme">Employer Sponsorship &amp; OU Student Budget Account Loan</button></form>
-                    <form><button class="checkme">Credit/debit card &amp; Employer Sponsorship</button></form>
+                <div class="ou-form__item ou-form__item--compact">
+                  <label for="paying5" class="ou-form__label ou-form__label--simple">
+                    <input type="radio" name="paying" id="paying5" class="ou-form__radio">
+                    Credit/debit card &amp; OU Student Budget Account Loan</label>
                 </div>
-                
-                <p><a href="#">Not sure? Find out more about payment options</a></p>
-                
+                <div class="ou-form__item ou-form__item--compact">
+                  <label for="paying6" class="ou-form__label ou-form__label--simple">
+                    <input type="radio" name="paying" id="paying6" class="ou-form__radio">
+                    Employer Sponsorship &amp; OU Student Budget Account Loan</label>
+                </div>
+                <div class="ou-form__item ou-form__item--compact">
+                  <label for="paying7" class="ou-form__label ou-form__label--simple">
+                    <input type="radio" name="paying" id="paying7" class="ou-form__radio">
+                    Credit/debit card &amp; Employer Sponsorship</label>
+                </div>
+              </div>
+              <p><a href="#">Not sure? Find out more about payment options</a></p>
             </div>
-            
-            
+          </form>
         </div>
         
-        <div class="c1of1">
-            <p class="button-centered"><a href="#" class="button button--primary toggle-questions">Continue</a><a href="index3.html" class="button button--primary hidden">Save and go to Timeline</a></p>
-        </div>
-    
+<div class="c1of1">
+      <p class="button-centered"><a href="#" class="button button--primary toggle-questions">Continue</a><a href="index4.html" class="button button--primary hidden">Save and go to Timeline</a></p>
+      </div>
+        
+        
+        
     </div>
-
 </section>
 
 
