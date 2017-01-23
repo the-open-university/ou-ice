@@ -138,7 +138,8 @@ header {
 
 .cd-timeline-img .icon-tick,
 .cd-timeline-img.cd-success .icon-location,
-.cd-timeline-img.cd-success .icon-warning {display:none;}
+.cd-timeline-img.cd-success .icon-warning,
+.cd-timeline-img.cd-success .icon-overdue {display:none;}
 .cd-timeline-img.cd-success .icon-tick {display:block;}
 
 
