@@ -130,7 +130,11 @@ header {
 	opacity: 1; 
 }
 
-.cd-timeline-content .cd-date--text-only {color: #E3294A; font-weight: bold;}
+.cd-timeline-content .cd-date--text-only {
+	color: #E3294A; 
+	font-weight: bold;
+	font-size:1.1em;
+}
 
 .cd-timeline-img .icon-tick,
 .cd-timeline-img.cd-success .icon-location,
@@ -403,13 +407,18 @@ x.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date .ou-events__da
 /* minimise items when done */
 
 .minimise-items .cd-timeline-content--done h2 {
-	font-size:1em;
+	font-size:1.1em;
+	font-weight:normal;
 	padding-right:50px;
+	color:#666;
 }
 
 .minimise-items .cd-timeline-content--done p,
 .minimise-items .cd-timeline-content--done .cd-read-more {display:none;}
 
-.minimise-items .cd-timeline-content--done {transition:all ease 0.5s;}
+.minimise-items .cd-timeline-content--done {
+	transition:all ease 0.5s;
+	box-shadow:none;
+}
 
 
