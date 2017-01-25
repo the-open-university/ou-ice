@@ -432,7 +432,7 @@ x.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date .ou-events__da
 
 /* minimise items when done */
 
-.minimise-items .cd-timeline-content--done h2 {
+/*.minimise-items .cd-timeline-content--done h2 {
 	font-size:1.1em;
 	font-weight:normal;
 	padding-right:50px;
@@ -440,12 +440,12 @@ x.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date .ou-events__da
 }
 
 .minimise-items .cd-timeline-content--done p,
-.minimise-items .cd-timeline-content--done .cd-read-more {display:none;}
+.minimise-items .cd-timeline-content--done .cd-read-more {display:initial;}
 
 .minimise-items .cd-timeline-content--done {
 	transition:all ease 0.5s;
 	box-shadow:none;
-}
+}*/
 
 
 /* articles */
