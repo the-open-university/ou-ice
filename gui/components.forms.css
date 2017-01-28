@@ -34,6 +34,12 @@
 
 .ou-form__label--simple {font-weight:normal;}
 
+.ou-form__label--inline {
+	font-weight:normal;
+	display:inline-block;
+	margin-bottom:0;
+}
+
 .ou-form__checkbox,
 .ou-form__radio {margin-right:5px;}
 

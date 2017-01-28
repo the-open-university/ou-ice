@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    
+    <title>Countdown to Study - The Open University</title>
+    
+    <link rel="stylesheet" type="text/css" href="../../gui/header-footer.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="../../gui/styles.css" media="screen, projection" />
+    
+    <link rel="stylesheet" type="text/css" href="gui/timeline.css" media="screen, projection" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+</head>
+
+<body class="ou-timeline faded-out">
+
+<div id="ou-org">
+
+
+
+
+
+	<a class="ou-skip" href="#ou-content"><i class="fa fa-arrow-circle-down"></i> Skip to content</a>
+
+    <div id="ou-header">
+        
+        <div id="ou-service-links" role="navigation">
+        
+            <ul>
+                <li><a href="#">Sign out</a> <span>|</span></li>
+                <li><a href="https://msds.open.ac.uk/students/">StudentHome</a> <span>|</span></li>
+                <li><a href="http://www.open.ac.uk/about/main/management/policies-and-statements/website-accessibility-open-university">Accessibility</a> <span>|</span></li>
+                <li><a href="http://www.open.ac.uk/contact">Contact the OU</a></li>
+                <li class="ou-search">
+                <fieldset>
+                <legend class="ou-hide">Site search</legend>
+                <label for="site-search" class="ou-hide">Search the OU</label>
+                <input type="search" id="site-search" placeholder="">
+                <button><span class="ou-hide">Submit</span></button>
+                </fieldset>
+                </li>
+            </ul>
+                            
+        </div> <!-- end ou-service-links -->
+
+        <a class="ou-logo" href="http://www.open.ac.uk/">
+        <img src="../../gui/ou-logo.png" alt="The Open University">
+        </a>
+
+        <a href="#" class="ou-mobile-menu-toggle icon-down">Toggle service links</a>
+
+    </div> <!-- end ou-header -->
+
+
+
+
+
+
+
+<div id="ou-site">
+
+
+
+    <div id="ou-site-header">
+
+		<div class="tl-header">
+
+        	<img class="tl-header__icon" src="gui/icons/clock.png" srcset="gui/icons/clock.svg" alt="Clock icon">
+            <h1 class="tl-header__title">Countdown to Study in October</h1>
+            <p class="tl-header__tagline">What you need to do and when</p>
+
+        </div>
+
+    </div> <!-- end ou-site-header -->
+
+
+
+    <div id="ou-site-body">
+    
+
+      <section class="tl-customise">          
+
+          <div class="tl-customise__intro">
+                <h2 class="tl-customise__heading">Customise your Timeline</h2>
+                <p class="tl-customise__text">To start using your Countdown to study we just need to ask a few questions so that we can add some additional, relevant items and key dates to your timeline.</p> 
+          </div>
+              
+              <div class="tl-customise__questions hidden">
+              
+                  <form>
+
+              			<div class="ou-blocks ou-blocks--2-cols ou-blocks--mob-1-col">
+              
+              			<div>
+                      
+                      		<h2 class="tl-customise__question">What type of student are you?</h2>
+                      
+                              <div class="ou-form__group">
+          
+                                  <div class="ou-form__item ou-form__item--compact">
+                                      <input type="radio" name="student_type" id="radio1" class="ou-form__radio" checked>
+                                      <label for="radio1" class="ou-form__label ou-form__label--inline">New student</label>
+                                  </div>
+                                      
+                                  <div class="ou-form__item ou-form__item--compact">
+                                      <input type="radio" name="student_type" id="radio2" class="ou-form__radio">
+                                      <label for="radio2" class="ou-form__label ou-form__label--inline">Returning student</label>
+                                  </div>
+                                      
+                                  <div class="ou-form__item ou-form__item--compact">
+                                      <input type="radio" name="student_type" id="radio3" class="ou-form__radio">
+                                      <label for="radio3" class="ou-form__label ou-form__label--inline">Coming back from a break</label>
+                                  </div>
+          
+                              </div>
+      
+                  
+                      <h2 class="tl-customise__question">What level are you studying?</h2>
+                      
+                          <div class="ou-form__group">
+      
+                              <div class="ou-form__item ou-form__item--compact">
+                                  <input type="radio" name="level" id="level1" class="ou-form__radio" checked>
+                                  <label for="level1" class="ou-form__label ou-form__label--inline">Undergraduate</label>
+                              </div>
+      
+                              <div class="ou-form__item ou-form__item--compact">
+                                  <input type="radio" name="level" id="level2" class="ou-form__radio">
+                                  <label for="level2" class="ou-form__label ou-form__label--inline">Postgraduate</label>
+                              </div>
+      
+                          </div>
+      
+                      <h2 class="tl-customise__question">Disability and health support</h2>
+                      
+                      <p>Please indicate if you are thinking about applying for additional funding for equipment and support because you have a disability or health condition that may affect your study.</p>
+                      
+                          <div class="ou-form__group">
+      
+                              <div class="ou-form__item ou-form__item--compact">
+                                  <input type="radio" name="dsa" id="dsa1" class="ou-form__radio" checked>
+                                  <label for="dsa1" class="ou-form__label ou-form__label--inline">Yes please</label>
+                              </div>
+      
+                          </div>
+                      
+                      <p><a href="http://www2.open.ac.uk/students/help/telling-us-what-you-need">Not sure? Find out more about Disability and Health Support</a></p>
+                  
+                  </div>
+                  
+                  <div>
+                      
+                      <h2 class="tl-customise__question">How are you paying for your studies?</h2>
+                      
+                          <div class="ou-form__group">
+      
+                              <!--<h3 class="tl-customise__option">Paying upfront</h3>-->
+                              
+                              <div class="ou-form__item ou-form__item--compact">
+                                  <input type="radio" name="paying" id="paying1" class="ou-form__radio">
+                                  <label for="paying1" class="ou-form__label ou-form__label--inline"> Credit/debit card</label>
+                              </div>
+                              
+                              <!--<h3 class="tl-customise__option">Paying later</h3>-->
+                                  
+                              <div class="ou-form__item ou-form__item--compact">
+                                  <input type="radio" name="paying" id="paying2" class="ou-form__radio" checked>
+                                  <label for="paying2" class="ou-form__label ou-form__label--inline">Part Time Tuition Fee Loan</label>
+                              </div>
+                                  
+                              <div class="ou-form__item ou-form__item--compact">
+                                  <input type="radio" name="paying" id="paying3" class="ou-form__radio">
+                                  <label for="paying3" class="ou-form__label ou-form__label--inline">OU Student Budget Account Loan</label>
+                              </div>
+      
+                              <div class="ou-form__item ou-form__item--compact">
+                                  <input type="radio" name="paying" id="paying4" class="ou-form__radio"> 
+                                  <label for="paying4" class="ou-form__label ou-form__label--inline">Employer Sponsorship</label>
+                              </div>
+                              
+                              <!--<h3 class="tl-customise__option">Mixed payments</h3>-->
+                              
+                              <div class="ou-form__item ou-form__item--compact">
+                                  <input type="radio" name="paying" id="paying5" class="ou-form__radio"> 
+                                  <label for="paying5" class="ou-form__label ou-form__label--inline">Credit/debit card &amp; OU Student Budget Account Loan</label>
+                              </div>
+                                  
+                              <div class="ou-form__item ou-form__item--compact">
+                                  <input type="radio" name="paying" id="paying6" class="ou-form__radio"> 
+                                  <label for="paying6" class="ou-form__label ou-form__label--inline">Employer Sponsorship &amp; OU Student Budget Account Loan</label>
+                              </div>
+      
+                              <div class="ou-form__item ou-form__item--compact">
+                                  <input type="radio" name="paying" id="paying7" class="ou-form__radio"> 
+                                  <label for="paying7" class="ou-form__label ou-form__label--inline">Credit/debit card &amp; Employer Sponsorship</label>
+                              </div>
+      
+                          </div>
+                      
+                      <p><a href="#">Not sure? Find out more about payment options</a></p>
+                      <p>There are also a number of grants and support funds that may be available to you. <a href="#">Find out more about additional funding</a></p>
+                                            
+                  </div>
+                  
+                  </div>
+                                
+              </form>
+      
+              </div>
+              
+              <div>
+              <p class="ta-c"><a href="#" class="ou-button ou-button--primary tl-toggle-questions">Continue</a><a href="index.html" class="ou-button ou-button--primary hidden">Save and go to Timeline</a></p>
+              </div>
+
+
+      </section>
+      
+
+
+
+
+
+		<section class="tl-timeline">
+
+
+
+
+        	<div class="tl-block">
+            
+            	<div class="tl-block__icon tl-block__icon--done"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date tl-block__date--text-only">Before choosing your modules</span>
+                	
+                    <h2 class="tl-block__heading">Plan your study time</h2>
+                    <p class="tl-block__description">
+                    Make sure you know how much time you have available for study. Our time planning activity will help you get started.</p>
+                    <a href="#" class="ou-button ou-button--success mb-0">Plan your time</a>
+                    <form class="tl-block__checkit"><button class="tl-block__button tl-block__button--done" title="Mark as done">Done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+
+
+        	<div class="tl-block">
+            
+            	<div class="tl-block__icon tl-block__icon--done"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date">
+                    
+                        <div class="ou-events__date">
+                            <em>Mar</em><strong>7</strong>
+                        </div>
+                        
+                        <div class="ou-events__helper">to</div>
+                        
+                        <div class="ou-events__date">
+                            <em>Sep</em><strong>7</strong>
+                        </div>
+                        
+                    </span>
+                	
+                    <h2 class="tl-block__heading">Choose and enrol on your modules</h2>
+                    <p class="tl-block__description">You can book onto an October module from 7 March 2017. Choosing your modules early gives you more time to get your payment and other arrangements in place.</p>
+                    <a href="#" class="ou-button ou-button--success mb-0">Choose modules</a>
+                    <form class="tl-block__checkit"><button class="tl-block__button tl-block__button--done" title="Mark as done">Done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+
+
+
+        	<div class="tl-block">
+            
+            	<div class="tl-block__icon tl-block__icon--done"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date tl-block__date--text-only">Before you pay</span>
+                	
+                    <h2 class="tl-block__heading">Check your profile</h2>
+                    <p class="tl-block__description">
+                    Check your contact details are correct to ensure you receive important communications about your module enrolment.</p>
+                    <a href="#" class="ou-button ou-button--success mb-0">Go to your profile</a>
+                    <form class="tl-block__checkit"><button class="tl-block__button tl-block__button--done" title="Mark as done">Done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+
+        	<div class="tl-block">
+            
+            	<div class="tl-block__icon tl-block__icon--done"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date tl-block__date--text-only">Before you pay</span>
+                	
+                    <h2 class="tl-block__heading">Setup a student finance online account</h2>
+                    <p class="tl-block__description">
+                    You won’t be able to apply for your loan yet, but get ahead by setting up your details early. Have your National Insurance number to hand.</p>
+                    <a href="#" class="ou-button ou-button--success mb-0">Set up an account</a>
+                    <form class="tl-block__checkit"><button class="tl-block__button tl-block__button--done" title="Mark as done">Done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+
+
+        	<div class="tl-block">
+            
+            	<div class="tl-block__icon tl-block__icon--done"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date">
+                    
+                        <div class="ou-events__date">
+                            <em>May</em><strong>3</strong>
+                        </div>
+                        
+                        <div class="ou-events__helper">to</div>
+                        
+                        <div class="ou-events__date">
+                            <em>Sep</em><strong>7</strong>
+                        </div>
+                        
+                    </span>
+                	
+                    <h2 class="tl-block__heading">Complete your loan application</h2>
+                    <p class="tl-block__description">Student Finance England opens for loan applications in May. Apply as soon as possible to avoid any hold-ups.</p>
+                    <a href="#" class="ou-button ou-button--success mb-0">Complete  your loan application</a>
+                    <form class="tl-block__checkit"><button class="tl-block__button tl-block__button--done" title="Mark as done">Done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+
+
+
+        	<div class="tl-block">
+            
+            	<div class="tl-block__icon"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date tl-block__date--text-only">Once you've completed your loan application</span>
+                	
+                    <h2 class="tl-block__heading">Provide your CRN</h2>
+                    <p class="tl-block__description">
+                    When you apply for your loan, SFE will give you a customer reference number (CRN). We need this to complete your enrolment process and so that we can track your loan.</p>
+                    <a href="#" class="ou-button ou-button--success mb-0">Tell us your CRN</a>
+                    <form class="tl-block__checkit"><button class="tl-block__button" title="Mark as done">Tick when done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+
+        	<div class="tl-block">
+            
+            	<div class="tl-block__icon"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date tl-block__date--text-only">Once you've completed your loan application</span>
+                	
+                    <h2 class="tl-block__heading">Sign and return your student finance declaration Form</h2>
+                    <p class="tl-block__description">
+                    You’ll have this within 6 weeks of applying for your loan. SFE won’t pay your fees without it.</p>
+                    <a href="#" class="ou-button ou-button--success mb-0">Return your declaration form</a>
+                    <form class="tl-block__checkit"><button class="tl-block__button" title="Mark as done">Tick when done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+
+        	<div class="tl-block tl-block--overdue">
+            
+            	<div class="tl-block__icon tl-block__icon--overdue"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date">
+
+                        <div class="ou-events__date">
+                            <em>Jun</em><strong>6</strong>
+                        </div>
+                        
+                    </span>
+                    
+                	<p class="tl-block__status tl-block__status--overdue">Overdue</p>
+                    <h2 class="tl-block__heading">Check your eligibility and apply for additional funding, equipment and support</h2>
+                    <p class="tl-block__description">Deadline to guarantee your application for additional funding, equipment and support will be processed in time to start your course. It can take up to four months to get additional funding, equipment and support sorted so do it ASAP.</p>
+                    <a href="#" class="ou-button ou-button--success mb-0">Apply for additional funding and support</a>
+                    <form class="tl-block__checkit"><button class="tl-block__button" title="Mark as done">Tick when done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+
+        	<div class="tl-block tl-block--asap">
+            
+            	<div class="tl-block__icon tl-block__icon--asap"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date">
+                                            
+                        <div class="ou-events__helper">Available from</div>
+                        
+                        <div class="ou-events__date">
+                            <em>Jul</em><strong>13</strong>
+                        </div>
+                        
+                    </span>
+                    
+                	<p class="tl-block__status tl-block__status--asap">Complete ASAP</p>
+                    <h2 class="tl-block__heading">Book your tutorials</h2>
+                    <p class="tl-block__description">You can now select your tutorial dates. You can do this at any time from this date but it's best to book early to guarantee a place.</p>
+                    <a href="#" class="ou-button ou-button--success mb-0">Book your tutorials</a>
+                    <form class="tl-block__checkit"><button class="tl-block__button" title="Mark as done">Tick when done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+
+
+        	<div class="tl-block">
+            
+            	<div class="tl-block__icon"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date">
+                                            
+                        <div class="ou-events__date">
+                            <em>Sep</em><strong>7</strong>
+                        </div>
+                        
+                    </span>
+                	
+                    <h2 class="tl-block__heading">Last chance to enrol</h2>
+                    <p class="tl-block__description">Last chance to enrol on modules starting in October 2017.</p>
+                    <a href="#" class="ou-button ou-button--success mb-0">Enrol now!</a>
+                    <form class="tl-block__checkit"><button class="tl-block__button" title="Mark as done">Tick when done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+        	<div class="tl-block">
+            
+            	<div class="tl-block__icon"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date">
+                                            
+                        <div class="ou-events__date">
+                            <em>Sep</em><strong>7</strong>
+                        </div>
+                        
+                    </span>
+                	
+                    <h2 class="tl-block__heading">Check your loan is approved</h2>
+                    <p class="tl-block__description">If you haven’t yet had confirmation of your loan approval from SFE, log on and check the status.</p>
+                    <a href="#" class="ou-button ou-button--success mb-0">Check your loan</a>
+                    <form class="tl-block__checkit"><button class="tl-block__button" title="Mark as done">Tick when done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+        	<div class="tl-block">
+            
+            	<div class="tl-block__icon"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date">
+                                            
+                        <div class="ou-events__date">
+                            <em>Sep</em><strong>13</strong>
+                        </div>
+                        
+                    </span>
+                	
+                    <h2 class="tl-block__heading">Get ready to study</h2>
+                    <p class="tl-block__description">Sort out a place to study, get your equipment setup and plan your first few weeks ahead.</p>
+                    <a href="#" class="ou-button ou-button--success mb-0">Get ready to study</a>
+                    <form class="tl-block__checkit"><button class="tl-block__button" title="Mark as done">Tick when done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+
+
+        	<div class="tl-block">
+            
+            	<div class="tl-block__icon"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date">
+                                            
+                        <div class="ou-events__helper">Available from</div>
+                        
+                        <div class="ou-events__date">
+                            <em>Sep</em><strong>16</strong>
+                        </div>
+                        
+                    </span>
+                    
+                    <h2 class="tl-block__heading">Module website opens</h2>
+                    <p class="tl-block__description">From September 16 you will find a link your module website on StudentHome.</p>
+                    <a href="#" class="ou-button ou-button--success mb-0">Go to StudentHome</a>
+                    <form class="tl-block__checkit"><button class="tl-block__button" title="Mark as done">Tick when done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+
+        	<div class="tl-block">
+            
+            	<div class="tl-block__icon"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date">
+                                            
+                        <div class="ou-events__date">
+                            <em>Sep</em><strong>23</strong>
+                        </div>
+                        
+                    </span>
+                	
+                    <h2 class="tl-block__heading">Make contact with your tutor</h2>
+                    <p class="tl-block__description">You should know who your tutor is by now.</p>
+                    <a href="#" class="ou-button ou-button--success mb-0">Contact your tutor</a>
+                    <form class="tl-block__checkit"><button class="tl-block__button" title="Mark as done">Tick when done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+
+
+        	<div class="tl-block">
+            
+            	<div class="tl-block__icon"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date">
+                                            
+                        <div class="ou-events__date">
+                            <em>Oct</em><strong>3</strong>
+                        </div>
+                        
+                    </span>
+                	
+                    <h2 class="tl-block__heading">Unpack your course materials</h2>
+                    <p class="tl-block__description">If your module sends out study materials, you should have received them by now.</p>
+                    <form class="tl-block__checkit"><button class="tl-block__button" title="Mark as done">Tick when done</button></form>
+                
+                </div>
+
+            </div>
+
+
+
+
+
+
+        	<div class="tl-block tl-block--start">
+            
+            	<div class="tl-block__icon tl-block__icon--start"></div>
+                
+                <div class="tl-block__content">
+                	
+                    <span class="tl-block__date">
+
+                        <div class="ou-events__date">
+                            <em>Oct</em><strong>7</strong>
+                        </div>
+                        
+                    </span>
+                    
+                    <h2 class="tl-block__heading">Start studying</h2>
+                
+                </div>
+
+            </div>
+
+
+
+
+        </section>
+
+
+
+        
+        
+        
+
+
+
+    </div> <!-- end ou-site-body -->
+
+
+
+
+
+</div> <!-- end ou-site -->
+
+
+
+
+
+
+
+
+
+
+
+<div class="ou-footer" role="contentinfo">
+    
+    <div class="ou-footer-container">
+    
+    <div class="ou-footer-top ou-grid">
+    
+    <div class="ou-footer-crest">
+    <img src="../../img/ou-crest.png" alt="The Open University Crest">
+    </div> <!-- end ou-footer-crest -->
+    
+    <div class="ou-footer-contact">
+    <h3>The Open University</h3>
+    </div> <!-- end ou-footer-contact -->
+    
+    </div> <!-- end ou-footer-top -->
+    
+    <div class="ou-footer-links ou-grid">
+    <ul>
+    <li><a href="http://www.open.ac.uk/contact">Contact the OU</a></li>
+    <li><a href="http://www3.open.ac.uk/employment/">Jobs</a></li>
+    <li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-accessibility-the-open-university">Accessibility</a></li>
+    <li><a href="http://www3.open.ac.uk/near-you/wales/p6.asp">Cymraeg</a></li>
+    <li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/conditions-use-open-university-websites">Conditions of use</a></li>
+    <li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-privacy-the-ou">Privacy and cookies</a></li>
+    <li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/copyright-ou-websites">Copyright</a></li>
+    </ul>
+    </div> <!-- end ou-footer-links -->
+    
+    <div class="ou-footer-small-print ou-grid">
+    <p class="copyright"><small>© 2017. All rights reserved. The Open University is incorporated by Royal Charter (RC 000391), an exempt charity in England &amp; Wales and a charity registered in Scotland (SC 038302). The Open University is authorised and regulated by the Financial Conduct Authority. Open University Student Budget Accounts Limited (OUSBA) is a wholly owned subsidiary of The Open University, Companies House number 303735 and until 31 March 2014 was licensed by the Office of Fair Trading (OFT) under licence number 573250 and from 1 April 2014 is authorised and regulated by the Financial Conduct Authority (FCA) under interim permission number 573250.</small></p>
+    </div> <!-- end ou-footer-small-print -->
+    
+    </div> <!-- end ou-footer-container -->
+
+</div> <!-- end ou-footer -->
+
+
+
+
+
+
+
+</div> <!-- end ou-org -->
+
+
+
+<!-- Javascripts -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
