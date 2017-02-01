@@ -262,8 +262,8 @@ body.ou-timeline .ou-footer {margin-top:0;}
 
 .tl-block__icon--asap {
 	color:#000;
-	background:url(icons/warning.png);
-	background:url(icons/warning.svg), linear-gradient(transparent,transparent);
+	background:url(icons/exclamation.png);
+	background:url(icons/exclamation.svg), linear-gradient(transparent,transparent);
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-color: #E27229;
