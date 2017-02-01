@@ -1,0 +1,66 @@
+﻿/* cookie banner */
+@import "variables.less";
+@import "mixins.less";
+@import "base.less";
+
+.ou-cookies-bar {
+	background: @beigeLighter6;
+	color: @text-color;
+    a {
+        font-weight: 700;
+	    color: @blue;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    p {
+        margin-top: 0;
+        //font-size: 1.07143em;
+    }
+    h3 {
+        color: @black;
+        font-family: @base-font-family;
+        font-style: normal;
+	    font-weight: normal;
+        margin-bottom: .5em;
+        margin-top: .67em;
+    }
+    .ou-policyWrap {
+	    display: inline-table;
+	    width: 100%;
+	    vertical-align: top;
+	    margin-bottom: 1em;
+        p {
+	        display: table-cell;
+	        width: 100%;
+	        vertical-align: top;
+	        padding-right: 2em;
+        }
+        .ou-button, a.ou-button {
+            .ou-button();
+	        display: inline-table;
+	        width: 1%;
+	        margin: 0;
+        }
+    }
+    @media (max-width: 767px) {
+        p {
+            padding-right: 45px;
+        }
+        .ou-button {
+            font-size: 0.875em;
+        }
+        .ou-policyWrap {
+            p {
+                display: block;
+            }
+            .ou-button, a.ou-button {
+                display: inline-block;
+                width: auto;
+            }
+        }
+    }
+}
+
+

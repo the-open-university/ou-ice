@@ -148,8 +148,8 @@ body.ou-timeline .ou-footer {margin-top:0;}
 
 .tl-panel__button--active {
 	color: #000;
-    background: url(icons/tick-ticked.png);
-    background: url(icons/tick-ticked.svg), linear-gradient(transparent,transparent);
+    background: url(icons/tick-filter.png);
+    background: url(icons/tick-filter.svg), linear-gradient(transparent,transparent);
     background-position: center left;
     background-repeat: no-repeat;
 }
@@ -262,8 +262,8 @@ body.ou-timeline .ou-footer {margin-top:0;}
 
 .tl-block__icon--asap {
 	color:#000;
-	background:url(icons/calendar.png);
-	background:url(icons/calendar.svg), linear-gradient(transparent,transparent);
+	background:url(icons/warning.png);
+	background:url(icons/warning.svg), linear-gradient(transparent,transparent);
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-color: #E27229;
@@ -349,7 +349,7 @@ body.ou-timeline .ou-footer {margin-top:0;}
 	top: 0;
     padding: 0;
 	display: inline-block;	
-	color: #E3294A;
+	color: #000;
 	background-color:transparent;
     font-weight: bold;
 }
@@ -363,7 +363,7 @@ body.ou-timeline .ou-footer {margin-top:0;}
 .tl-block__date--text-only {padding: 20px 0;}
 
 .ou-events__helper {
-    color: #E3294A;
+    color: #000;
     display: inline-block;
     padding: 10px 10px 10px 0;
     font-weight: bold;
@@ -471,14 +471,10 @@ body.ou-timeline .ou-footer {margin-top:0;}
 
 .tl-articles__main-heading {
 	font-size:1.6em;
-	text-align:center;
 	margin-bottom:15px;	
 }
 
-.tl-articles__text {
-	text-align:center;
-	margin-bottom:30px;
-}
+.tl-articles__text {margin-bottom:30px;}
 
 .tl-articles__header {
 	font-size:1.1em;
@@ -774,6 +770,8 @@ body.ou-timeline .ou-footer {margin-top:0;}
 .tl-block:nth-child(odd).tl-block--start .tl-block__heading {text-align: left;}
 
 .tl-block--start .tl-block__content {padding:0;}
+
+.tl-block:nth-child(even) .tl-block__content {float:none;}
 
 .tl-block__content:before {
     top: 16px;

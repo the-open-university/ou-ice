@@ -1,0 +1,224 @@
+﻿@charset "UTF-8";
+
+
+/*
+
+--------------------------------------------------------------------------------------
+	Basic framework to support header/footer
+	Stephen Turvey - August, 2014
+--------------------------------------------------------------------------------------
+*/
+
+
+/*
+-------------------------------------------
+	Colour Palette
+-------------------------------------------
+
+	Mid Blue			#0b55a8
+	Light Blue			#a6d0ff
+	Gold				#ffc23d
+	Dark Blue			#002158
+	Dark Grey			#312b39
+	White				#ffffff
+	Purple				#880088
+	Dark Purple			#470d43
+	Mid Grey Blue		#929fb0
+	Light Grey Blue		#e7eff7
+	Green				#539d3c
+	Red					#b52a1e
+
+*/
+
+
+
+/*
+-------------------------------------------
+	Resets
+-------------------------------------------
+*/
+
+
+/*html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, div.page-title, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}*/
+
+/*ul, ul li {
+	list-style:none;
+	list-style-type:none;
+}*/
+
+
+/*
+-------------------------------------------
+	Fonts
+-------------------------------------------
+*/
+
+
+/* Carat */
+
+/*@font-face {
+	font-family:Caratlight;
+	src:url(fonts/carat-light/fonts/2A3DC6_0_0.eot);
+	src:url(fonts/carat-light/fonts/2A3DC6_0_0.eot?#iefix) format('embedded-opentype'),url(fonts/carat-light/fonts/2A3DC6_0_0.woff) format('woff'),url(fonts/carat-light/fonts/2A3DC6_0_0.ttf) format('truetype');
+	font-weight:400;
+	font-style:normal
+}*/
+
+/*@font-face {
+	font-family:CaratReg;
+	src:url(fonts/carat-reg/2A86BB_0_0.eot);
+	src:url(fonts/carat-reg/2A86BB_0_0.eot?#iefix) format('embedded-opentype'),url(fonts/carat-reg/2A86BB_0_0.woff) format('woff'),url(fonts/carat-reg/2A86BB_0_0.ttf) format('truetype');
+	font-weight:400;
+	font-style:normal
+}*/
+
+/* Futura */
+
+/*@font-face {
+	font-family:futura-pt;
+	src:url(fonts/futura-pt/FTN45__W.eot);
+	src:url(fonts/futura-pt/FTN45__W.eot?#iefix) format('embedded-opentype'),url(fonts/futura-pt/FTN45__W.woff) format('woff'),url(fonts/futura-pt/FTN45__W.ttf) format('truetype'),url(fonts/futura-pt/FTN45__W.svg#futura-pt) format('svg');
+	font-weight:400;
+	font-style:normal
+}*/
+
+/*@font-face {
+	font-family:futura-pt-oblique;
+	src:url(fonts/futura-pt/FTN46__W.eot);src:url(fonts/futura-pt/FTN46__W.eot?#iefix) format('embedded-opentype'),url(fonts/futura-pt/FTN46__W.woff) format('woff'),url(fonts/futura-pt/FTN46__W.ttf) format('truetype'),url(fonts/futura-pt/FTN46__W.svg#futura-pt-oblique) format('svg');
+	font-weight:400;
+	font-style:normal
+}*/
+
+/*@font-face {
+	font-family:futura-pt-heavy;
+	src:url(fonts/futura-pt/FTN75__W.eot);
+	src:url(fonts/futura-pt/FTN75__W.eot?#iefix) format('embedded-opentype'),url(fonts/futura-pt/FTN75__W.woff) format('woff'),url(fonts/futura-pt/FTN75__W.ttf) format('truetype'),url(fonts/futura-pt/FTN75__W.svg#futura-pt-heavy) format('svg');
+	font-weight:400;
+	font-style:normal
+}*/
+
+/*@font-face {
+	font-family:futura-pt-heavy-oblique;
+	src:url(fonts/futura-pt/FTN76__W.eot);
+	src:url(fonts/futura-pt/FTN76__W.eot?#iefix) format('embedded-opentype'),url(fonts/futura-pt/FTN76__W.woff) format('woff'),url(fonts/futura-pt/FTN76__W.ttf) format('truetype'),url(fonts/futura-pt/FTN76__W.svg#futura-pt-heavy-oblique) format('svg');
+	font-weight:400;
+	font-style:normal
+}*/
+
+
+/*
+-------------------------------------------
+	Headings
+-------------------------------------------
+*/
+
+
+/*h1, h2, h3, h4, h5, h6 {
+	font-family: "CaratReg", "Book Antiqua", Georgia, serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #0b55a8;
+	margin-top: .67em;
+}*/
+
+/*h1 {font-size: 2.5em; margin:.67em 0;}
+
+h2 {font-size: 1.75em; margin-bottom:.67em;}
+
+h3 {font-size: 1.25em; margin-bottom: .5em;}
+
+h4 {font-size: 1.125em; margin-bottom: .5em;}
+
+h5 {font-size: 1em;}
+
+h6 {font-size: 0.875em;}
+*/
+
+/*
+-------------------------------------------
+	Links
+-------------------------------------------
+*/
+
+
+/*#ou-content a,
+#ou-region2 a {
+	color:#0b55a8;
+	text-decoration:underline;
+}*/
+
+
+/*#ou-content a:hover,
+#ou-region2 a:hover {
+	color:#000;
+	text-decoration:none;
+}*/
+
+
+/*
+-------------------------------------------
+	General
+-------------------------------------------
+*/
+
+
+/*body {
+	color: #424242;
+	background-color: #fff;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 400;
+	font-size:1em;
+	font-family:"futura-pt", verdana, sans-serif;
+}
+
+div#ou-region1 {
+	float: left;
+	width: 68%;
+}
+
+div#ou-region2 {
+	float: right;
+	width: 30%;
+}
+
+img {
+	max-width:100%;
+}
+
+p {
+	margin:0 0 15px 0;
+	line-height:1.4em;
+}*/
+
+
+
+/*
+-------------------------------------------
+	Media queries
+-------------------------------------------
+*/
+
+
+/*@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+
+div#ou-region1,
+div#ou-region2 {
+	float: left;
+	width: 100%;
+	margin:0 0 25px 0;
+	padding:0;
+}*/
+
+
+} /* end media query */

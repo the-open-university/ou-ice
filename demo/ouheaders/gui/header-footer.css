@@ -1,0 +1,2033 @@
+﻿/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  /*-webkit-appearance: none;*/
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  /*margin: 0 2px;*/
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+#i-cookies-bar *,
+#ou-header *,
+#ou-header *:before,
+#ou-header *:after,
+#ou-site-footer *,
+#ou-site-footer *:before,
+#ou-site-footer *:after
+ {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+@charset "UTF-8";
+
+/*
+--------------------------------------------------------------------------------------
+	Header & Footer Styles
+	Stephen Turvey, Jack Chapple - August/September, 2014
+--------------------------------------------------------------------------------------
+*/
+
+/*
+-------------------------------------------
+	Clears
+-------------------------------------------
+*/
+
+#ou-header,
+#ou-site,
+#ou-site-body,
+#ou-site-header,
+#ou-footer,
+#ou-footer .ou-footer-top,
+#ou-footer .ou-footer-links,
+#ou-footer .ou-footer-ou-small-print,
+#ou-footer ul.ou-footer-social,
+ol.ou-ancestors,
+.ou-paged {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+#ou-header:before, div#ou-header:after,
+#ou-site:before, div#ou-site:after,
+#ou-site-body:before, div#ou-site-body:after,
+#ou-site-header:before, #ou-site-header:after,
+#ou-footer:before, #ou-footer:after,
+#ou-footer .ou-footer-top:before, #ou-footer .ou-footer-top:after,
+#ou-footer .ou-footer-links:before, #ou-footer .ou-footer-links:after,
+#ou-footer .ou-footer-ou-small-print:before, #ou-footer .ou-footer-ou-small-print:after,
+#ou-footer ul.ou-footer-social:before, #ou-footer ul.ou-footer-social:after,
+ol.ou-ancestors:before, ol.ou-ancestors:after,
+.ou-paged:before, .ou-paged:after {
+    content: "";
+    display: table;
+}
+
+#ou-header:after,
+#ou-site:after,
+#ou-site-body:after,
+#ou-site-header:after,
+#ou-footer:after,
+#ou-footer .ou-footer-top:after,
+#ou-footer .ou-footer-links:after,
+#ou-footer .ou-footer-ou-small-print:after,
+#ou-footer ul.ou-footer-social:after,
+ol.ou-ancestors:after,
+.ou-paged:after {
+    clear: both;
+}
+
+/*Grid*/
+/*Grids
+..........................................................*/
+
+.ou-container {
+	width:100%;
+	padding:0 15px;
+	margin:0 auto;
+	max-width: 1180px;
+}
+
+.ou-row:before, .ou-row:after, .int-wrap:before, .int-wrap:after, .int-innerFeature:before, .int-innerFeature:after, .int-formFeature:before, .int-formFeature:after, .int-togglerFeature:before, .int-togglerFeature:after, .int-togglerFeatureNote:before, .int-togglerFeatureNote:after
+{
+	display: table;
+	line-height: 0;
+	content: "";
+}
+.ou-row:after, .int-wrap:after, .int-innerFeature:after, .int-formFeature:after, .int-togglerFeature:after, .int-togglerFeatureNote:after
+{
+	clear: both;
+}
+[class*="ou-grid"], [class*="int-col"]
+{
+	float: left;
+	display: block;
+	width: 100%;
+	margin-left: 2%;
+	position:relative;
+    box-sizing: border-box;
+}
+[class*="ou-grid"]:first-child, [class*="ou-grid"] .ou-grid, [class*="int-col"]:first-child
+{
+	margin-left: 0;
+}
+.ou-grid12, [class*="of2"] .ou-grid6, [class*="of3"] .ou-grid4, [class*="1/3rd"] .ou-grid4, [class*="2/3rd"] .ou-grid8
+{
+	width: 100%;
+	margin-left: 0;
+}
+.ou-grid11
+{
+	width: 91.5%;
+}
+[class*="2/3rd"] .ou-grid7
+{
+    width: 87.25%;   
+}
+.ou-grid10, [class*="of2"] .ou-grid5
+{
+	width: 83%;
+}
+.ou-grid9, [class*="of3"] .ou-grid3, [class*="1/3rd"] .ou-grid3, [class*="2/3rd"] .ou-grid6
+{
+	width: 74.5%;
+}
+.ou-grid8, [class*="of2"] .ou-grid4, [class*="2/3rd"]
+{
+	width: 66%;
+}
+[class*="2/3rd"] .ou-grid5
+{
+    width: 61.75%;   
+}
+.ou-grid7
+{
+	width: 57.5%;
+}
+.ou-grid6, [class*="of2"], [class*="of2"] .ou-grid3, [class*="of3"] .ou-grid2, [class*="1/3rd"] .ou-grid2, [class*="2/3rd"] .ou-grid4
+{
+	width: 49%;
+}
+.ou-grid5
+{
+	width: 40.5%;
+}
+[class*="2/3rd"] .ou-grid3
+{
+    width: 36.25%;   
+}
+.ou-grid4, [class*="of2"] .ou-grid2, [class*="of3"], [class*="1/3rd"]
+{
+	width: 32%;
+}
+.ou-grid3, [class*="of3"] .ou-grid1, [class*="1/3rd"] .ou-grid1, [class*="2/3rd"] .ou-grid2
+{
+	width: 23.5%;
+}
+.ou-grid2, [class*="of2"] .ou-grid1
+{
+	width: 15%;
+}
+[class*="2/3rd"] .ou-grid1
+{
+    width: 10.75%;   
+}
+.ou-grid1
+{
+	width: 6.5%;
+}
+
+@media (max-width: 767px) {
+
+	[class*="ou-grid"] {
+      width: 100%;
+      margin-left: 0;
+  }
+  [class*="col"], [class*="/3rd"], [class*="col"] [class*="ou-grid"]
+  {
+      width: 100%;
+      margin-left: 0;
+  }
+  [class*="of2"], .int-col3of3 {
+      margin-left: 0;
+  }
+
+}
+
+/*
+-------------------------------------------
+	Header
+-------------------------------------------
+*/
+
+#ou-org {
+    width: 100%;
+
+    /* off canvas menu bits
+    position: relative;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    end off canvas menu */
+}
+
+a.ou-skip {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    display: block;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    text-indent: -5000em;
+}
+
+a.ou-skip:focus,
+a.ou-skip:active {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    text-indent: 0;
+    z-index: 1;
+    padding: 10px 12px;
+    margin: 0;
+    background-color: #0b55a8;
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: .875em;
+}
+
+#ou-header,
+#ou-site-body,
+#ou-site-header {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+#ou-site-body {
+    margin-top: 25px;
+}
+
+#ou-header {
+    position: relative;
+}
+
+#ou-header a.ou-logo {
+    float: left;
+    display: block;
+    margin: 20px 0 0 0;
+    width: 87px;
+    height: 66px;
+}
+
+#ou-header #ou-identity {
+    float: left;
+    width: auto;
+    margin: 40px 0 0 20px;
+    color: #0b55a8;
+}
+
+#ou-header #ou-identity p#ou-identity-id {
+    margin: 0 0 0 .1em;
+    padding: 0;
+    font-size: .95em;
+    font-family: arial, sans-serif;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#ou-header #ou-identity p.ou-identity-name {
+    margin: 0;
+    font-size: 1.3em;
+    line-height: normal;
+}
+
+#ou-header #ou-header-nav {
+    float: right;
+    margin: 10px 0 20px 0;
+    padding: 0;
+    text-align: right;
+}
+
+#ou-header #ou-service-links {
+    width: auto;
+    top: 10px;
+}
+
+#ou-header #ou-service-links ul {
+    /*float: right;
+    margin: 10px 0 40px 0;
+    padding: 0;
+    text-align:right;*/
+    margin-left: .5em;
+}
+
+#ou-header #ou-service-links ul li {
+    white-space: nowrap;
+    text-align: right;
+    padding: 0;
+    vertical-align: middle;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+#ou-header #ou-service-links ul li a {
+    text-decoration: none;
+    color: #494949;
+    display: inline-block;
+    padding: 0 3px;
+}
+
+#ou-header #ou-service-links ul li a:hover {
+    text-decoration: underline;
+}
+
+#ou-header #ou-service-links span {
+    color: #0b55a8;
+}
+
+#ou-header #ou-service-links ul li.ou-header-remove {
+	display: none;
+}
+
+#ou-header #ou-service-links ul li span:before,
+#ou-header #ou-service-links ul li span:after
+{
+    content: "\0020";
+    height: 0;
+    overflow: hidden;
+
+}
+#ou-header #ou-service-links ul li span:after
+{
+    clear: both;
+}
+
+#ou-header .ou-hide {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+#ou-header #ou-service-links .ou-search {
+    position: relative;
+}
+
+#ou-header #ou-service-links .ou-search fieldset {
+    padding: 0;
+    border: 0;
+}
+
+#ou-header #ou-service-links .ou-search input {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    /*-webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;*/
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 6px 10px 6px 5px;
+    margin: 0 0 0 5px;
+    background: #fff;
+    font-size: 1em;
+    font-family: "futura-pt", verdana, sans-serif;
+    width: 150px;
+    color: black;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: text;
+}
+
+#ou-header #ou-service-links .ou-search input#ou-header-search {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+#ou-header #ou-service-links .ou-search input:focus {
+    outline: 0;
+    background-color: #e7f0f7;
+    border: 1px solid #a6d0ff;
+    color: #002158;
+}
+
+#ou-header #ou-service-links .ou-search input::-webkit-input-placeholder {
+    color: #767676;
+}
+
+#ou-header #ou-service-links .ou-search input:-moz-placeholder {
+    color: #767676;
+}
+
+#ou-header #ou-service-links .ou-search input::-moz-placeholder {
+    color: #767676;
+}
+
+#ou-header #ou-service-links .ou-search input:-ms-input-placeholder {
+    color: #767676;
+}
+
+#ou-header #ou-service-links .ou-search input:focus::-webkit-input-placeholder {
+    color: #312b39;
+}
+
+#ou-header #ou-service-links .ou-search input:focus:-moz-placeholder {
+    color: #312b39;
+}
+
+#ou-header #ou-service-links .ou-search input:focus::-moz-placeholder {
+    color: #312b39;
+}
+
+#ou-header #ou-service-links .ou-search input:focus::-ms-input-placeholder {
+    color: #312b39;
+}
+
+#ou-header #ou-service-links .ou-search button {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    position: absolute;
+    top: 9px;
+    right: 8px;
+    background: transparent;
+    background-image: url(icon-search.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    color: #0b55a8;
+    border: 0;
+    margin: 0;
+    width: 18px;
+    height: 17px;
+    cursor: pointer;
+}
+
+#ou-header #ou-service-links .ou-search button:hover {
+    background-position: 0 -17px;
+}
+
+/* Global nav */
+
+#ou-header .ou-ia-nav {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+#ou-header .ou-ia-nav ul li {
+    display: inline-block;
+}
+
+#ou-header .ou-ia-nav ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 4px 5px;
+    border-radius: 3px;
+}
+
+#ou-header .ou-ia-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/*default header primary nav*/
+#ou-header .ou-ia-nav ul li a:hover {text-decoration:underline;}
+
+body #ou-header .ou-ia-nav li.ou-ia-open,
+body #ou-header .ou-ia-nav li.ou-ia-study {
+	visibility: hidden;
+	display: none;
+}
+
+/*highlight an IA*/
+body.ou-ia-courses #ou-header .ou-ia-nav li.ou-ia-courses a,
+body.ou-ia-postgraduate #ou-header .ou-ia-nav li.ou-ia-postgraduate a,
+body.ou-ia-research #ou-header .ou-ia-nav li.ou-ia-research a,
+body.ou-ia-about #ou-header .ou-ia-nav li.ou-ia-about a,
+body.ou-ia-news #ou-header .ou-ia-nav li.ou-ia-news a,
+body.ou-ia-employers #ou-header .ou-ia-nav li.ou-ia-employers a,
+body.ou-ia-open #ou-header .ou-ia-nav li.ou-ia-open a,
+body.ou-ia-study #ou-header .ou-ia-nav li.ou-ia-study a {
+	background-color:#0b55a8;
+	color:#fff;
+	text-decoration:none;
+}
+
+/*openlearn selectors primary nav*/
+body.ou-ia-openlearn #ou-header .ou-ia-nav li.ou-ia-courses,
+body.ou-ia-openlearn #ou-header .ou-ia-nav li.ou-ia-postgraduate,
+body.ou-ia-openlearn #ou-header .ou-ia-nav li.ou-ia-news,
+body.ou-ia-openlearn #ou-header .ou-ia-nav li.ou-ia-research,
+body.ou-ia-openlearn #ou-header .ou-ia-nav li.ou-ia-about,
+body.ou-ia-openlearn #ou-header .ou-ia-nav li.ou-ia-employers {
+	visibility: hidden;
+	display:none;	
+}
+body.ou-ia-openlearn #ou-header .ou-ia-nav li.ou-ia-open,
+body.ou-ia-openlearn #ou-header .ou-ia-nav li.ou-ia-study {
+	visibility: visible;
+	display: initial;
+
+}
+
+/* Toggle entire IA line */
+body.ou-ia-nonav #ou-header #ou-ia-nav,
+body.wales #ou-header #ou-ia-nav,
+body.roi #ou-header #ou-ia-nav,
+body.nir #ou-header #ou-ia-nav,
+body.scotland #ou-header #ou-ia-nav,
+body.cymraeg #ou-header #ou-ia-nav {
+	visibility: hidden;
+	display:none;	
+}
+
+/*** Toggle correct contact link ***/
+/* Public layout */
+#ou-header-nav a.ou-ia-public {
+	visibility: visible;
+	display: initial;
+}
+
+#ou-header #ou-header-nav #ou-service-links ul li a.ou-ia-student,
+#ou-header #ou-header-nav #ou-service-links ul li a.ou-ia-tutor,
+.ou-footer-nav a.ou-ia-tutor {
+	visibility: hidden;
+	display: none;
+}
+
+/* Tutor layout */
+
+body.ou-ia-tutor #ou-header #ou-header-nav #ou-service-links ul li a.ou-ia-tutor {
+	visibility: visible;
+	display: initial;
+}
+
+body.ou-ia-tutor #ou-header #ou-header-nav #ou-service-links ul li a.ou-ia-student,
+body.ou-ia-tutor #ou-header #ou-header-nav #ou-service-links ul li a.ou-ia-public {
+	visibility: hidden;
+	display: none;
+}
+body.ou-ia-tutor .ou-footer-nav ul li a.ou-ia-tutor {
+	visibility: visible;
+	display: block;
+	border-right: none;
+}
+
+body.ou-ia-tutor .ou-footer-nav ul li a.ou-ia-student,
+body.ou-ia-tutor .ou-footer-nav ul li a.ou-ia-public {
+	visibility: hidden;
+	display: none;
+}
+
+/* Student Layout */
+body.ou-ia-student #ou-header #ou-header-nav #ou-service-links ul li a.ou-ia-student {
+	visibility: visible;
+	display: initial;
+}
+
+body.ou-ia-student #ou-header #ou-header-nav #ou-service-links ul li a.ou-ia-tutor,
+body.ou-ia-student #ou-header #ou-header-nav #ou-service-links ul li a.ou-ia-public {
+	visibility: hidden;
+	display: none;
+}
+
+/* Public/Student footer toggle */
+
+body.ou-ia-student #ou-site-footer #ou-ia-student {
+  visibility: visible;
+  display: inline;
+}
+
+body.ou-ia-student #ou-site-footer #ou-ia-public {
+  visibility: hidden;
+  display: none;
+}
+
+body #ou-site-footer #ou-ia-student {
+  visibility: hidden;
+  display: none;
+}
+
+body #ou-site-footer #ou-ia-public {
+  visibility: visible;
+  display: inline;
+}
+
+@media only screen and (max-width: 1180px), screen and (max-device-width: 1180px) {
+
+    #ou-header,
+    #ou-site-body,
+    #ou-site-header {
+        max-width: none;
+        /*padding: 0 15px;*/
+    }
+
+}
+
+/* end media query */
+
+@media only screen and (max-width: 850px), screen and (max-device-width: 850px) {
+
+    #ou-header #ou-identity {
+        display: none;
+    }
+
+}
+
+/* end media query */
+
+@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+
+    h1 {
+        margin: 0 0 5px 0;
+    }
+
+    #ou-header {
+        background-color: #002158;
+        padding: 0;
+    }
+
+    #ou-site-body {
+        margin-top: 1em;
+    }
+
+    #ou-header a.ou-logo {
+        width: 21px;
+        height: 25px;
+        background-image: url(ou-logo-mobile.png);
+        background-position: top left;
+        background-repeat: no-repeat;
+        margin: 10px 11px;
+    }
+
+    #ou-header a.ou-logo:hover {
+        background-position: bottom left;
+    }
+
+    #ou-header a.ou-logo img {
+        display: none;
+    }
+
+    #ou-header #ou-identity {
+        display: block;
+        padding: 0;
+        margin: 12px 0 0 0;
+    }
+
+#ou-header #ou-identity p#ou-identity-id {
+	display:none;
+}
+
+#ou-header #ou-identity p#ou-identity-name {
+	font-size: 1em;
+	color: #fff;
+}
+
+    #ou-header a.ou-mobile-menu {
+        display: inline-block;
+        text-decoration: none;
+        padding: 0;
+        background-color: #e9ecee;
+        background-image: url(icon-bars-close.png);
+        background-position: top left;
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 40px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        color: #3786a9;
+        position: absolute;
+        right: 0;
+        top: 60px;
+        -webkit-transform: translateZ(0) translateX(0);
+        transform: translateZ(0) translateX(0);
+        -webkit-transition: .3s ease all;
+        transition: .3s ease all;
+        text-indent: -5000em;
+        overflow: hidden;
+    }
+
+    body.ou-service-links-open #ou-header a.ou-mobile-menu {
+        top: 320px;
+        display: block;
+    }
+
+    /*
+    TO HAVE THE OFF CANVAS NAV DISAPPEAR WHEN THE TOP NAV IS ACTIVATED, UNCOMMENT BELOW
+    body.ou-service-links-open #ou-header a.ou-mobile-menu {display:none;}
+    */
+    #ou-header a.ou-mobile-menu:hover {
+        background-color: #e7eff7;
+        color: #fff;
+    }
+
+    #ou-org.show-nav a.ou-mobile-menu {
+        -webkit-transform: translateZ(0) translateX(-228px);
+        transform: translateZ(0) translateX(-228px);
+        background-color: #3786a9;
+        color: #fff;
+        background-position: 0 -80px;
+    }
+
+    #ou-header a.ou-mobile-menu-toggle {
+        float: right;
+        margin: 15px 15px 0 0;
+        display: inline-block;
+        padding: 0;
+        width: 16px;
+        height: 16px;
+        color: #ffc23d;
+        /*xbackground-image: url(icon-arrow.png);*/
+        background-image: url('/oudigital/headerandfooter/gui/sprite.png?1.0.1.33');
+        background-position: -113px -149px;
+        background-repeat: no-repeat;
+        text-indent: -5000em;
+        overflow: hidden;
+    }
+
+    #ou-header a.ou-mobile-menu-toggle:hover {
+        background-position: -113px -189px;
+    }
+
+    /*#ou-header a.ou-mobile-menu-toggle.icon-up {background-position:0 -220px;}
+
+    #ou-header a.ou-mobile-menu-toggle.icon-up:hover {background-position:0 -320px;}*/
+    #ou-header #ou-header-nav {
+        visibility: hidden;
+        background-color: #fff;
+        opacity: 0;
+        max-height: 0px;
+        -webkit-transition: max-height 0.25s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.6s;
+        -moz-transition: max-height 0.25s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.6s;
+        -ms-transition: max-height 0.25s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.6s;
+        -o-transition: max-height 0.25s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.6s;
+        transition: max-height 0.25s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.6s;
+        overflow: hidden;
+        margin: 0;
+        width: 100%;
+    }
+
+    #ou-header #ou-header-nav.ou-toggle {
+        visibility: visible;
+        opacity: 1;
+        max-height: 600px;
+    }
+
+    #ou-header #ou-service-links,
+    #ou-header .ou-ia-nav {
+        width: 100%;
+        float: left;
+        margin-top: 8px;
+    }
+
+    #ou-header .ou-ia-nav {
+        margin-top: 15px;
+    }
+
+    #ou-header #ou-service-links ul,
+    #ou-header .ou-ia-nav ul {
+        float: left;
+        margin: 0;
+        text-align: left;
+        width: 100%;
+    }
+
+    #ou-header #ou-service-links ul {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    #ou-header #ou-service-links ul li,
+    #ou-header .ou-ia-nav ul li {
+        white-space: normal;
+        text-align: left;
+        vertical-align: auto;
+        display: block;
+    }
+
+    #ou-header #ou-service-links ul li {
+        margin: 0;
+        float: left;
+        width: 50%;
+    }
+
+    #ou-header #ou-service-links ul li a {
+        text-decoration: none;
+        color: #484848;
+        display: block;
+        padding: 4px 0;
+    }
+
+    #ou-header .ou-ia-nav ul li a {
+        text-decoration: none;
+        color: #000;
+        display: block;
+        padding: 8px 20px;
+        border-top: 1px solid #fff;
+        background-color: #e7eff7;
+        border-radius: 0;
+    }
+
+    #ou-header .ou-ia-nav ul li a:hover {
+        background-color: #0b55a8;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #ou-header #ou-service-links ul li a:hover {
+        color: #000;
+        text-decoration: none;
+    }
+
+    #ou-header #ou-service-links ul li span {
+        display: none;
+    }
+
+    #ou-header #ou-service-links ul li.ou-search {
+        margin-top: 6px;
+        margin-left: 0;
+        margin-bottom: 7px;
+        width: 100%;
+    }
+
+    #ou-header #ou-service-links .ou-search > input {
+        width: 100%;
+        margin: 0;
+        padding: 6px 15px 6px 5px;
+    }
+
+    #ou-header #ou-service-links .ou-search input:focus {
+        /*width: 100%;*/
+    }
+
+    #ou-header #ou-service-links .ou-search button {
+        right: 10px;
+        top: 9px;
+    }
+
+}
+
+/* end media query */
+
+/* Retina */
+
+/*NEED TO PRODUCE HIGH RES IMAGES!!!!*/
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+    #ou-header a.ou-logo {
+        background-image: url(ou-logo-mobile@2x.png);
+        background-size: 21px 50px;
+    }
+
+    #ou-header #ou-service-links .ou-search button {
+        background-image: url(icon-search@2x.png);
+        background-size: 18px 34px;
+    }
+
+    #ou-header a.ou-mobile-menu-toggle {
+        background-image: url(icon-mobile-menu@2x.png);
+        background-size: 16px 55px;
+    }
+
+    #ou-header a.ou-mobile-menu {
+        background-image: url(icon-bars-close@2x.png);
+        background-size: 40px 160px;
+    }
+
+}
+
+/* end media query */
+
+/*Custom styles*/
+#ou-header
+{
+    padding: 0 15px;
+}
+#ou-header a.ou-logo
+{
+    background: url('/oudigital/headerandfooter/gui/sprite.png?1.0.1.33');
+    height: 61px;
+    width: 87px;
+    background-position: 0 -1px;
+}
+.wales #ou-header a.ou-logo,
+.cymraeg #ou-header a.ou-logo
+{
+    background-position: 0 -150px;
+    width: 105px;
+    height: 78px;
+}
+.scotland #ou-header a.ou-logo
+{
+    background-position: 0 -300px;
+    width: 105px;
+    height: 74px;
+}
+
+
+/**** Display correct logo based on nation ****/
+/* England */
+#ou-header a.ou-logo.england {
+	 display: block;
+	 visibility: visible;
+}
+
+#ou-header a.ou-logo.scotland,
+#ou-header a.ou-logo.nir,
+#ou-header a.ou-logo.roi,
+#ou-header a.ou-logo.wales {
+	display: none;
+	visibility: hidden;
+}
+/* Scotland */
+.scotland #ou-header a.ou-logo.scotland {
+	 display: block;
+	 visibility: visible;
+}
+
+.scotland #ou-header a.ou-logo.england,
+.scotland #ou-header a.ou-logo.nir,
+.scotland #ou-header a.ou-logo.roi,
+.scotland #ou-header a.ou-logo.wales {
+	display: none;
+	visibility: hidden;
+}
+/* Wales */
+.wales #ou-header a.ou-logo.wales,
+.cymraeg #ou-header a.ou-logo.wales
+{
+	 display: block;
+	 visibility: visible;
+}
+
+.wales #ou-header a.ou-logo.england,
+.wales #ou-header a.ou-logo.scotland,
+.wales #ou-header a.ou-logo.nir,
+.wales #ou-header a.ou-logo.roi,
+.cymraeg #ou-header a.ou-logo.england,
+.cymraeg #ou-header a.ou-logo.scotland,
+.cymraeg #ou-header a.ou-logo.nir,
+.cymraeg #ou-header a.ou-logo.roi {
+	display: none;
+	visibility: hidden;
+}
+
+/* Republic of Ireland */
+.roi #ou-header a.ou-logo.roi {
+	 display: block;
+	 visibility: visible;
+}
+
+.roi #ou-header a.ou-logo.england,
+.roi #ou-header a.ou-logo.scotland,
+.roi #ou-header a.ou-logo.nir,
+.roi #ou-header a.ou-logo.wales {
+	display: none;
+	visibility: hidden;
+}
+
+/* Northern Ireland */
+.nir #ou-header a.ou-logo.nir {
+	 display: block;
+	 visibility: visible;
+}
+
+.nir #ou-header a.ou-logo.england,
+.nir #ou-header a.ou-logo.scotland,
+.nir #ou-header a.ou-logo.roi,
+.nir #ou-header a.ou-logo.wales {
+	display: none;
+	visibility: hidden;
+}
+
+
+#ou-header .ou-identity p.ou-identity-name
+{
+    display: none;
+}
+#ou-header .ou-mobile-menu-toggle
+{
+    display: none;
+}
+#ou-header #ou-header-nav {
+    float: none;
+    margin-top: 10px;
+    margin-left: 97px;
+}
+#ou-header #ou-service-links ul li {
+    margin-bottom: 10px;
+    vertical-align: inherit;
+    white-space:normal;
+}
+#ou-header #ou-service-links .ou-search {
+    margin: 0 0 0 2px;
+    display: inline-table;
+    border: 1px solid #ccc;
+    width: 172px;
+}
+#ou-header #ou-service-links .ou-search fieldset {
+    display: inline-table;
+    width: 100%;
+}
+#ou-header #ou-service-links .ou-search #ou-header-search {
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+#ou-header #ou-service-links .ou-search #ou-header-search:focus {
+    outline: 1px solid #a6d0ff;
+}
+#ou-header #ou-service-links .ou-search .ou-button-container {
+    display: table-cell;
+    padding: 6px 7px;
+    width: 36px;
+}
+#ou-header #ou-service-links .ou-search button {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    background: transparent;
+    /*background-image: url(icon-search.png);*/
+    background-image: url('/oudigital/headerandfooter/gui/sprite.png?1.0.1.33');
+    /*background-position: top right;*/
+    background-position: -147px -149px;
+    background-repeat: no-repeat;
+    color: #0b55a8;
+    border: 0;
+    margin: 0;
+    width: 18px;
+    height: 17px;
+    cursor: pointer;
+    text-indent: -999999px;
+    display: inline-table;
+    vertical-align: middle;
+}
+#ou-header #ou-service-links .ou-search button:hover {
+    /*background-position: 0 -17px;*/
+    background-position: -147px -166px;
+}
+#ou-header ul li#ou-identity {
+    margin: 0;
+    float: none;
+}
+#ou-header ul.ou-identity
+{
+    display: none;
+}
+#ou-identity p {
+    display: inline-block;
+}
+
+#ou-header .ou-ia-nav {
+    margin-top: 0;
+}
+#ou-header .ou-ia-nav ul li {
+    display: inline-block;
+    /*position: relative;*/
+    top: .5em;
+}
+@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+    #ou-header{
+        padding: 0;
+    }
+    #ou-header #ou-header-nav #ou-service-links *
+    {
+        visibility:hidden;
+    }
+    #ou-header #ou-header-nav.ou-toggle #ou-service-links *
+    {
+        visibility: visible;
+    }
+    #ou-header
+    {
+        display: inline-table;
+        width: 100%;
+    }
+    /*#ou-header a.ou-logo
+    {
+        display: none;
+    }*/
+    /*#ou-header a.ou-logo ~ a.ou-logo
+    {
+        display: inline;
+    }*/
+    #ou-header a[class*="ou-logo"], body.scotland #ou-header a[class*="ou-logo"], body.wales #ou-header a[class*="ou-logo"]
+    {
+        background-position: 28px 82px;
+        width: 22px;
+        height: 25px;
+    }
+    #ou-header a.ou-logo:hover
+    {
+        background-position: 28px 57px;
+    }
+    #ou-header a.ou-mobile-menu-toggle {
+        margin: 15px 13px;
+        position: relative;
+    }
+    #ou-header li#ou-identity, #ou-header li#ou-identity *
+    {
+        display: none;
+    }
+    #ou-header .ou-identity
+    {
+        position: relative;
+        left: 44px;
+        color: #fff;
+        top: 10px;
+        max-width: 123px;
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    #ou-header .ou-identity p.ou-identity-name
+    {
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+    }
+    #ou-header a.ou-logo{
+        position: absolute;
+    }
+    #ou-header #ou-service-links
+    {
+        margin: 8px 0 0 0;
+        width: 100%;
+    }
+    #ou-header #ou-service-links ul
+    {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    #ou-header #ou-service-links ul li
+    {
+        width: 100%;
+    }
+    #ou-header #ou-service-links ul li ul li
+    {
+        width: 50%;
+        margin-bottom: 0;
+    }
+    #ou-header #ou-service-links ul li.ou-search input#ou-header-search
+    {
+        width: 99%;
+    }
+    #ou-header #ou-service-links ul li > ul
+    {
+        padding: 0;
+        width: auto;
+    }
+    #ou-header #ou-service-links ul li.ou-identity li
+    {
+        display: block;
+        position: relative;
+        float: none;
+        width: auto;
+    }
+    #ou-header .ou-ia-nav ul li
+    {
+        display: block;
+        top: 0;
+    }
+    #ou-header
+    {
+        display: table;
+    }
+    #ou-header #ou-service-links ul li a:hover, #ou-header .ou-ia-nav ul li a:hover
+    {
+        text-decoration: underline;
+    }
+    @media (max-width: 767px)
+    {
+        #ou-header #ou-header-nav
+        {
+            margin-left: 0;
+        }
+    }
+}
+
+
+
+/*Footer*/
+/*Footer*/
+.ou-footer a
+{
+    text-decoration: none;
+}
+.ou-footer a:hover
+{
+    text-decoration:underline;
+}
+.ou-footer h1, .ou-footer h2, .ou-footer h3, .ou-footer h4, .ou-footer h5, .ou-footer h6 {
+	color: #fff;
+	font-family: "CaratReg","Book Antiqua",Georgia,serif;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: 0.67em;
+}
+.ou-footer h3{
+	font-size: 1.25em;
+	margin-bottom: 0.5em;
+}
+.generatedcontent ul {
+	list-style-type: none;
+}
+.ou-container:before, .ou-container:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+.ou-container {
+	zoom: 1;
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+	max-width: 1180px;
+}
+.ou-footer {
+	  background: #002158;
+	  padding: 20px 0;
+}
+
+.ou-footer .ou-header {
+	zoom: 1;
+	position: relative;
+	padding: 0 0 20px 66px;
+	color: #ffffff;
+	font-size: 0.875em;
+}
+.ou-footer .ou-header:before,
+.ou-footer .ou-header:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+.ou-footer .ou-header:after {
+	clear: both;
+}
+
+.ou-footer .ou-header .ou-crest {
+	/*width: 50px;*/
+	position: absolute;
+	top: 5px;
+	left: 0em;
+}
+.ou-footer .ou-header .ou-crest
+{
+    background-image: url('/oudigital/headerandfooter/gui/sprite.png?1.0.1.33');
+    background-position: -113px 0px;
+    width: 90px;
+    height: 80px;
+}
+.ou-footer .ou-header .ou-crest img {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 89px;
+}
+.ou-footer .ou-header h3 {
+	color: #ffffff;
+	padding-bottom: 0.75em;
+}
+.ou-footer .ou-header a {
+	color: #ffffff;
+}
+
+.ou-footer.ou-header .ou-contact div {
+	padding-bottom: 8px;
+}
+.ou-footer .ou-header .ou-contact div .circle {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 3px;
+	background: #2a7cc5;
+	color: #002158;
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+
+.ou-footer p, .ou-footer .ou-small-print {
+	color: #8090ac;
+}
+
+.ou-footer-nav  ul, nav ul {
+	margin: 0;
+	padding: 0;
+}
+.ou-footer-nav ul li, nav ul li {
+	padding: 0;
+	list-style: none;
+}
+.ou-footer-nav ul li:before, nav ul li:before {
+	content: '';
+	display: none;
+}
+.ou-footer-nav ul {
+	zoom: 1;
+	margin: 0 0 25px;
+	padding: 0;
+}
+.ou-footer-nav #ou-ia-student ul
+{
+    margin-bottom: 12px;
+}
+.ou-footer-nav ul:before,
+.ou-footer-nav ul:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+.ou-footer-nav ul:after {
+	clear: both;
+}
+.ou-footer a, .ou-footer-nav ul li a {
+	display: block;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 1em;
+}
+.ou-footer-nav ul li a
+{
+    padding: 1em;
+	border-top: 1px solid #1a3869;
+}
+.ou-footer-nav #ou-ia-public ul li a
+{
+    /*padding: 1em 1em 1em 66px;*/
+}
+.ou-footer-nav ul li a:hover,
+.ou-footer-nav ul li a:focus {
+	background: #243771;
+}
+.ou-footer-nav ul li:last-child a {
+	border-bottom: 1px solid #1a3869;
+}
+
+.generatedcontent .ou-footer-nav ul li {
+	padding-left: 0;
+}
+@media (min-width: 768px) {
+	.ou-footer {
+		font-size: 0.875em;
+	}
+    .ou-footer .ou-small-print {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+    .ou-footer-nav ul {
+		border-top: 0;
+	}
+    .ou-footer-nav ul li:last-child a {
+		border-bottom: 0;
+	}
+    .ou-footer-nav ul li {
+		width: 50%;
+		float: left;
+	}
+	.ou-footer-nav ul li:nth-child(odd) a {
+		border-right: 1px dotted #1a3869;
+	}
+}
+@media (min-width: 960px) {
+	.ou-footer .ou-header {
+		padding: 0;
+	}
+    .ou-footer .ou-header .ou-crest {
+		/*width: 12%;*/
+		top: 15px;
+		left: 2.5em;
+	}
+    .ou-footer .ou-header a:hover {
+		text-decoration: none;
+		color: #ffc23d;
+	}
+    .ou-footer .ou-header .ou-contact {
+		margin-left: 15%;
+		width: 82%;
+		float: left;
+		border-bottom: 1px solid #1a3869;
+		padding-top: 8px;
+	}
+	.ou-footer .ou-header .ou-contact h3,
+	.ou-footer .ou-header .ou-contact .tel,
+	.ou-footer .ou-header .ou-contact .email {
+		float: left;
+		padding-right: 35px;
+		padding-bottom: 12px;
+	}
+	.ou-footer .ou-header.ou-contact h3 {
+		padding-bottom: 13px;
+		margin-top: 0;
+	}
+    .ou-footer .ou-small-print {
+		padding-left: 15%;
+	}
+    .ou-footer .ou-footer-nav #ou-ia-public ul, .ou-footer .ou-footer-nav #ou-ia-student {
+		margin-left: 15%;
+		border-bottom: 0;
+	}
+	#ou-site-footer .ou-row {
+		margin-left: 15%;
+	}
+    hr{
+        border:0;
+	    border-bottom: 1px solid #1a3869;
+	    margin: 1em 0 1em 0;
+    }
+    .ou-footer-nav #ou-ia-student ul li
+    {
+        width: 100%;
+    }
+	.ou-footer-nav ul li, .ou-footer-nav #ou-ia-student ul.ou-inline li {
+		width: auto;
+	}
+	.ou-footer-nav ul li a {
+		padding: 8px 15px;
+		border: 0;
+	}
+	.ou-footer-nav ul li a:nth-child(odd) {
+		border: 0;
+	}
+    .ou-footer-nav a:hover,
+	.ou-footer-nav ul li a:hover,
+	.ou-footer-nav ul li a:focus {
+		background: none;
+		color: #ffc23d;
+	}
+	.ou-footer-nav ul li:first-child a {
+		padding-left: 0;
+	}
+}
+@media (max-width: 959px)
+{
+    .ou-footer .ou-header .ou-crest{
+        background-image: url('/oudigital/headerandfooter/gui/sprite.png?1.0.1.33');
+        background-position: -111px -91px;
+        width: 51px;
+        height: 46px;
+    }
+    #ou-ia-student {
+        border-top: 1px solid #1a3869
+    }
+    #ou-ia-student .ou-grid3 > .ou-grid3 {
+        width: 100%;
+        margin-left: 0;
+    }
+    #ou-ia-student .ou-grid3 h4
+    {
+        padding: 1em;
+    }
+    #ou-ia-student .ou-grid3 .ou-grid3:first-child h4:first-child
+    {
+        margin-top: 0;
+    }
+    #ou-ia-student .ou-grid3 > p, #ou-ia-student .ou-grid3 > a
+    {
+        padding: .5em 1em;
+        margin: 0;
+    }
+    #ou-ia-student .ou-grid3 > a
+    {
+        padding: 1em;
+    }
+    #ou-ia-student .ou-grid3 br, #ou-ia-student .ou-grid3 br:after
+    {
+        content: ' ';
+        display: none;
+    }
+    #ou-ia-student .ou-grid3 ul
+    {
+        margin-bottom: 0;
+        border-bottom: 3px solid #1a3869
+    }
+    #ou-ia-student .ou-grid3 ul ul:last-child{
+        border-bottom: 0;
+    }
+   
+    #ou-ia-student .ou-grid3 ul li
+    {
+        width: 100%;
+    }
+    .ou-footer-nav #ou-ia-student ul li:nth-child(odd) a
+    {
+        border-right: 0;
+    }
+
+    #ou-ia-student .ou-grid3 .ou-grid6 ul ~ ul li:first-child a{
+        border-top: 0;
+    }
+    #ou-ia-student .ou-grid3 .ou-grid3 ul ~ h4 ~ ul li:first-child a
+    {
+        border-top: 1px solid #1a3869
+    }
+    #ou-ia-student .ou-grid3 ul.ou-inline li
+    {
+        width: 50%;
+    }
+    #ou-ia-student .ou-grid3 > .ou-grid6:last-child{
+        margin-bottom: 1em;
+    }
+}
+@media (max-width: 768px) {
+    #ou-ia-student .ou-grid3 ul.ou-inline li {
+        width: 100%;
+    }
+}
+
+/* cookie banner */
+
+.ou-cookies-interaction {
+	background: #0b55a8;
+	color: #ffffff;
+}
+.ou-cookies-interaction h3 {
+	color: #ffffff;
+}
+.ou-cookies-interaction a {
+	font-weight: 700;
+	color: #ffc23d;
+}
+
+.ou-cookies-bar button,
+.ou-cookies-bar input[type=button],
+.ou-cookies-bar input[type=submit],
+.ou-cookies-bar .ou-button,
+.ou-cookies-bar a.ou-button {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  font-family: "CaratReg", "Book Antiqua", Georgia, serif;
+  font-size: 1.25em;
+  background: #ffc23d;
+  color: #0b55a8;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 0.6em 0.8em;
+  display: inline-block;
+  margin-bottom: 0.875em;
+  border: 1px solid #ffc23d;
+}
+.ou-cookies-bar button:hover,
+.ou-cookies-bar input[type=button]:hover,
+.ou-cookies-bar input[type=submit]:hover,
+.ou-cookies-bar .ou-button:hover,
+.ou-cookies-bar a.ou-button:hover,
+.ou-cookies-bar button:focus,
+.ou-cookies-bar input[type=button]:focus,
+.ou-cookies-bar input[type=submit]:focus,
+.ou-cookies-bar .ou-button:focus,
+.ou-cookies-bar a.ou-button:focus {
+  background: #880088;
+  color: #ffc23d;
+  text-decoration: none;
+}
+.ou-cookies-bar button:focus,
+.ou-cookies-bar input[type=button]:focus,
+.ou-cookies-bar input[type=submit]:focus,
+.ou-cookies-bar .ou-button:focus,
+.ou-cookies-bar a.ou-button:focus {
+    outline: thin dotted;
+}
+.ou-cookies-bar button:active,
+.ou-cookies-bar input[type=button]:active,
+.ou-cookies-bar input[type=submit]:active,
+.ou-cookies-bar .ou-button:active,
+.ou-cookies-bar a.ou-button:active {
+  background: #470d43;
+  color: #ffc23d;
+}
+
+@media (max-width: 767px) {
+  .ou-cookies-bar p {
+    padding-right: 45px;
+  }
+  .ou-cookies-bar .ou-button {
+    font-size: 0.875em;
+  }
+}

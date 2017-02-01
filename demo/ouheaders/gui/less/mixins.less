@@ -1,0 +1,209 @@
+﻿// layout and appearance
+.boxSizing(@sizing: border-box) {
+  -moz-box-sizing: @sizing;
+  -webkit-box-sizing: @sizing;
+  box-sizing: @sizing;
+}
+.appearance(@hidden: none) {
+  -moz-appearance: @hidden;
+  -webkit-appearance: @hidden;
+  appearance: @hidden;
+}
+.visibilityHidden() {
+    visibility: hidden;
+    display: none;
+}
+.visibilityVisible() {
+    visibility: visible;
+    display: inline;
+}
+.borderRadiusNone(@border-radius: 0) {
+    -webkit-border-radius: @border-radius;
+    -moz-border-radius: @border-radius;
+    border-radius: @border-radius;
+}
+.borderRadius4(@border-radius4: 4px) {
+    -webkit-border-radius: @border-radius4;
+    -moz-border-radius: @border-radius4;
+    border-radius: @border-radius4;
+}
+//transitions
+.transitionOut(@transition: 0.2s ease-out) {
+    -webkit-transition: @transition;
+       -moz-transition: @transition;
+         -o-transition: @transition;
+            transition: @transition;
+}
+.transitionAll(@transitionAll: all 0.2s) {
+    -webkit-transition: @transitionAll;
+       -moz-transition: @transitionAll;
+         -o-transition: @transitionAll;
+            transition: @transitionAll;
+}
+.border-transition(@duration:0.15s, @ease:ease-out){
+    -webkit-transition: border-color @duration @ease;
+       -moz-transition: border-color @duration @ease;
+         -o-transition: border-color @duration @ease;
+            transition: border-color @duration @ease;
+}
+.background-transition(@duration:0.15s, @ease:ease-out){
+    -webkit-transition: background @duration @ease;
+       -moz-transition: background @duration @ease;
+         -o-transition: background @duration @ease;
+            transition: background @duration @ease;
+}
+.hide() {
+    position:absolute;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+	clip:rect(1px, 1px, 1px, 1px); /* IE 6/7 */
+    clip:inset(50%);
+    white-space:nowrap;
+}
+// Images
+
+// Buttons
+.iaNavActive() {
+    background-color:@blueLighter1;
+	color: @white;
+	text-decoration:none;
+}
+.ou-button() {
+	.borderRadius4;
+	.transitionOut;
+	font-family: @base-font-family;
+	font-size: 1.2em;
+	background: @pink;
+	color: @white;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 0.6em 0.8em;
+	display: inline-block;
+	margin: 0 0 0.875em 0;
+	border: 1px solid @pink;
+	&:hover, &:focus {
+		background: @pinkDarker2;
+		color: @white;
+		text-decoration: underline;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:active {
+		background: @pinkLighter1;
+		color: @white;
+	}
+}
+.ou-international-button() {
+    padding: .3em .8em;
+    margin-bottom: 0;
+}
+.ou-search() {
+	position: relative;
+	margin: 0 0 0 2px;
+	display: inline-table;
+	border: 1px solid @blackLighter5;
+	width: 172px;
+    .border-transition();
+    overflow: hidden;
+    &:hover {
+        border-color: rgba(0, 0, 0, 0.4);
+    }    
+	form {
+		display: table;
+		width: 100%;
+	}
+	input {
+		.borderRadiusNone();
+		.boxSizing();
+		padding: 8px 5px 8px 5px;
+		margin: 0 0 0 5px;
+		background: @white;
+		font-size: @base-font-size-legacy; //for legacy IE
+        font-size: @base-font-size;
+		font-family: Arial, sans-serif;
+		width: 150px;
+		color: @black;
+		.appearance();
+		cursor: text;
+        line-height: 1.2;
+		&.ou-header-search {
+            .background-transition();
+			margin: 0;
+			border: 0;
+			width: 100%;
+			&:focus {
+				outline: 1px solid @blueLighter7;
+			}
+		}
+		&:focus {
+			outline: 0;
+			background-color: @blueLighter7;
+			color: @black;
+		}
+		&::-webkit-input-placeholder {
+			color: @blackLighter3;
+		}
+		&:-moz-placeholder {
+			color: @blackLighter3;
+		}
+		&::-moz-placeholder {
+			color: @black; //firefox adds opacity by default
+		}
+		&:focus::-webkit-input-placeholder {
+			color: @blackLighter2;
+		}
+		&:focus:-moz-placeholder {
+			color: @blackLighter2;
+		}
+		&:focus::-moz-placeholder {
+			color: @black; //firefox adds opacity by default
+		}
+
+        //additional vendor overrides
+        &::-webkit-search-decoration {
+            display: none;
+        }
+	}
+	.ou-button-container {
+		display: table-cell;
+		padding: 6px 7px;
+		width: 36px;
+        overflow: hidden;
+		button {
+			.borderRadiusNone();
+			.boxSizing();
+			position: absolute;
+			top: 8px;
+			right: 8px;
+			background: transparent;
+			color: @blue;
+			border: 0;
+			margin: 0;
+			width: 18px;
+			height: 18px;
+			cursor: pointer;
+			padding: 0;
+            overflow: hidden;
+
+			//OUDigital overrides
+			-moz-transition: none;
+			-webkit-transition: none;
+			transition: none;
+            img {
+                position: relative;
+                top: -146px;
+                left: -178px;
+                width: 258px;   
+            }
+            &:hover img {
+				    top: -164px;
+			}
+			// required by Firefox to ensure keyboard focus
+			&:focus::-moz-focus-inner {
+				border: 1px dotted;
+			}
+		}
+	}
+}
