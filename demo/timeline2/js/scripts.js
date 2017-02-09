@@ -1,5 +1,14 @@
 jQuery(document).ready(function($){
 	
+	// DEFAULT VIEW RADIO BUTTONS
+	
+	$(function() {
+	    $('.tl-view [type="radio"]').on('change', function() {
+	        $("body").toggleClass('tl-view-list')
+	    });
+	});
+	
+	
 	// CUSTOMISE TIMELINE
 	
 	$(".hidden").hide();

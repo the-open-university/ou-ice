@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../ouheaders/gui/headerfooter.css" media="screen, projection" />
     <link rel="stylesheet" type="text/css" href="../../gui/styles.css" media="screen, projection" />
     
-    <link rel="stylesheet" type="text/css" href="gui/timeline.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="gui/archive-filters.css" media="screen, projection" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -189,15 +189,14 @@
           <div class="tl-panel__wrap">
         
                <p class="tl-panel__customise"><a href="#" class="tl-toggle-questions2">Customise</a></p>
-
-                <form class="tl-view">
-
-                    <input type="radio" id="view_standard" name="view" value="view_standard" class="tl-view__standard" checked> <label for="view_standard">Standard view</label>
-
-                    <input type="radio" id="view_list" name="view" value="view_list" class="tl-view__list"> <label for="view_list">List view</label>
- 
+            
+                <form class="tl-filters">
+                    <button class="tl-panel__button tl-panel__button--active">Show all</button>
+                    <button class="tl-panel__button">Done (5)</button>
+                    <button class="tl-panel__button">Complete ASAP (1)</button>
+                    <button class="tl-panel__button">Overdue (1)</button>
                 </form>
-
+      
             </div>
             
         </section>
