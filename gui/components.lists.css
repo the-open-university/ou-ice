@@ -165,6 +165,7 @@ ol li {
 }
 
 .ou-list--horizontal li:first-child a {margin-left:-6px;}
+.ou-list--horizontal li:first-child a.ou-selected {margin-left:0;}
 
 .ou-list--horizontal a:hover {
 	background-color:#e80074;
