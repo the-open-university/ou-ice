@@ -77,7 +77,11 @@
 	margin:0 auto;
 }
 
-.ou-sections ul {margin:0;}
+.ou-sections ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
 
 .ou-sections li {
 	display:inline-block;
@@ -190,7 +194,11 @@
     font-size: 1.2em;
 }
 
-.ou-context-nav ul {margin:0;}
+.ou-context-nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
 
 .ou-context-nav li {
 	padding:0;
