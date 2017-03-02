@@ -7,6 +7,43 @@
 --------------------------------------------------------------------------------------
 */
 
+
+/*
+-------------------------------------------
+	Defaults
+-------------------------------------------
+*/
+
+
+ul {
+	list-style-type: disc;
+	margin: 0 0 20px 0;
+	padding:0 0 0 35px;
+}
+
+ol {
+	list-style-type: decimal;
+	margin:0 0 20px 0;
+	padding:0 0 0 35px;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin:10px 0;
+	padding:0 0 0 35px;
+}
+
+ul li,
+ol li {
+	padding:2px 0;
+	margin:0;
+	line-height:150%;
+}
+
+
+
 /*
 -------------------------------------------
 	Reset
@@ -21,77 +58,25 @@
 }
 
 .ou-list ul {
-	margin:10px 0 10px 25px;
+	margin:10px 0;
+	padding:0 0 0 30px;
 }
 
 .ou-list li {
 	list-style:none;
 	list-style-type:none;
 	display:block;
-	padding-left:0;
-	margin-bottom:5px;
+	margin:0;
 	line-height:150%;
 }
-
-.ou-list li:before {content:normal;}
 
 
 /*
 -------------------------------------------
-	Unordered - standard/bullets
+	Unordered - arrows
 -------------------------------------------
 */
 
-
-ul,
-.ou-list--bullets {
-	margin:0 0 20px 25px;
-	list-style-type: none;
-	padding: 0;
-}
-
-ul ul,
-.ou-list--bullets ul,
-.ou-list--ordered ul {margin:10px 0 10px 25px;}
-
-ul li,
-.ou-list--bullets li,
-.ou-list--ordered ul li {
-	margin-bottom: 5px;
-	position: relative;
-	padding-left: 20px;
-	line-height:150%;
-}
-
-ul li:before,
-.ou-list--bullets li:before,
-.ou-list--ordered ul li:before {
-	content: "\2022";
-	color: #000;
-	background-color: transparent;
-	font-size: 25px;
-	position: absolute;
-	left: 0;
-	top: 0;
-}
-
-
-
-.ou-list--links li:before {
-	color:#549DD0;
-	background-color: transparent;
-}
-
-.ou-list--links ol li:before {
-	color:#666;
-	background-color: transparent;
-}
-
-
-
-
-
-/* unordered - arrows */
 
 .ou-list--arrows {
 	margin:0 0 20px 0;
@@ -99,9 +84,10 @@ ul li:before,
 }
 
 .ou-list--arrows li {
-	margin-bottom: 5px;
 	position: relative;
-	padding-left: 15px;
+	padding: 2px 0 2px 15px;
+	margin:0;
+	line-height:150%;
 }
 
 .ou-list--arrows li:before {
@@ -114,60 +100,15 @@ ul li:before,
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
 	position: absolute;
-	top: 4px;
+	top: 6px;
 	left: 0;
 }
 
+.ou-list--arrows a {text-decoration:none;}
+.ou-list--arrows a:hover {text-decoration:underline;}
 
 
-/*
--------------------------------------------
-	Ordered
--------------------------------------------
-*/
 
-ol,
-.ou-list--ordered {
-	margin:0 0 20px 25px;
-	padding:0;
-	counter-reset: item;
-	list-style-type:none;
-	
-}
-
-ol ol,
-ul ol,
-.ou-list--ordered ol,
-.ou-list ol {
-	margin:10px 0 10px 25px;
-	padding:0;
-	counter-reset: item;
-	list-style-type:none;
-}
-
-ol li,
-.ou-list--ordered li,
-.ou-list ol li {
-	position: relative;
-	padding-left: 25px;
-	margin-bottom: 5px;
-	line-height:150%;
-}
-
-ol li:before,
-.ou-list--ordered li:before,
-.ou-list ol li:before {
-	content: counter(item) ". ";
-	font-size:1em;
-	counter-increment: item;
-	color: #666;
-	background-color: transparent;
-	display: inline-block;
-	text-align: right;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
 
 
 
@@ -192,6 +133,7 @@ ol li:before,
 .ou-list--3-cols li {
 	display:inline-block; 
 	width:100%;
+	column-break-inside: avoid;
 }
 
 .ou-list--3-cols {

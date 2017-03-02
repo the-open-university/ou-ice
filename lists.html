@@ -70,22 +70,20 @@
 
 <h2 id="unordered-default">Unordered - default</h2>
 
-<p>The default styling is a bulleted list. </p>
-
-<div class="ou-box ou-box--note">
-  <p><strong>Note</strong>: In certain situations you may need to force bullet styling in which case you can use  <span class="ou-ice-code">ou-list--bullets</span></p></div>
+<p>The default styling for an unordered list, no class required.</p>
   
 <div class="code-example">
-  <ul>
-    <li>Ipod classic
+<ul>
+	<li>Ipod classic
         <ul>
-            <li>16GB</li>
-            <li>32GB</li>
-            <li>64GB</li>
+            <li>16GB - 3,500 songs</li>
+            <li>32GB - 7,000 songs</li>
+            <li>64GB - 14,000 songs</li>
         </ul>
     </li>
     <li>Ipod touch</li>
     <li>Ipod nano</li>
+    <li>Let's have a long item in here so we can check to see what happens with the line height when it wraps on to two lines. We need enough white space so it's comfortable to read.</li>
     <li>Ipod shuffle</li>
 </ul>
 </div> <!-- end code-example -->
@@ -103,9 +101,9 @@
 <ul class="ou-list">
     <li>Ipod classic
         <ul>
-            <li>16GB</li>
-            <li>32GB</li>
-            <li>64GB</li>
+            <li>16GB - 3,500 songs</li>
+            <li>32GB - 7,000 songs</li>
+            <li>64GB - 14,000 songs</li>
         </ul>
     </li>
     <li>Ipod touch</li>
@@ -120,18 +118,14 @@
 
 <h2 id="unordered-arrows">Unordered - arrows</h2>
 
+<p>This is an optional style for a list of links. For a standard list without links it's better to use the default (no added classes) style.</p>
+
 <div class="code-example">
 <ul class="ou-list ou-list--arrows">
-    <li>Ipod classic
-        <ul>
-            <li>16GB</li>
-            <li>32GB</li>
-            <li>64GB</li>
-        </ul>
-    </li>
-    <li>Ipod touch</li>
-    <li>Ipod nano</li>
-    <li>Ipod shuffle</li>
+    <li><a href="#">Ipod classic</a></li>
+    <li><a href="#6457">Ipod touch</a></li>
+    <li><a href="#6768">Ipod nano</a></li>
+    <li><a href="#9821">Ipod shuffle</a></li>
 </ul>
 </div> <!-- end code-example -->
 
@@ -141,14 +135,13 @@
 
 
 
-
 <h2 id="link-lists">Link lists</h2>
 
-<p>For any list type on this page, if it's a list of links, add the class <span class="ou-ice-code">ou-list--links</span> which will remove the underlines and, if the list has bullets, make them blue. Like so:</p>
+<p>Add the class <span class="ou-ice-code">ou-list--links</span> which will remove the underlines from any links.</p>
 
 
 <div class="code-example">
-<ul class="ou-list ou-list--bullets ou-list--links">
+<ul class="ou-list ou-list--links">
     <li><a href="#">Ipod classic</a></li>
     <li><a href="#">Ipod touch</a></li>
     <li><a href="#">Ipod nano</a></li>
@@ -162,11 +155,8 @@
 
 
 <h2 id="ordered">Ordered list - default</h2>
-<p>The default styling is a numbered list. </p>
-<div class="ou-box ou-box--note">
-  <p><strong>Note</strong>: In certain situations you may need to force numbered styling in which case you can use <span class="ou-ice-code">ou-list--ordered</span></p>
-</div>
 
+<p>The default styling is a numbered list (no classes required).</p>
 
 <div class="code-example">
   <ol>
@@ -192,18 +182,18 @@
 <h2 id="combined">Unordered and ordered combined</h2>
 
 <div class="code-example">
-<ul>
-    <li>Back up everything
-      <ol>
+<ol>
+    <li>Back up everything, including:
+        <ul>
             <li>Hard drive</li>
             <li>External drives</li>
             <li>Any USB devices</li>
-        </ol>
+         </ul>
     </li>
     <li>Turn off your computer</li>
     <li>Turn back on</li>
     <li>Download and install the update</li>
-</ul>
+</ol>
 </div> <!-- end code-example -->
 
 
@@ -215,15 +205,17 @@
 
 <h2 id="columns">Lists split into columns</h2>
 
-<p>Divide a list into columns automatically. Lists will go back to single column for mobile.</p>
+<p>Divide a list into columns automatically. Lists will revert to single column for mobile. You cannot combine columns with bullet points or numbers due to browser inconsistencies (you must use the <span class="ou-ice-code">ou-list</span> class to reset the list to the basic style, before adding either <span class="ou-ice-code">ou-list--2-cols</span> or <span class="ou-ice-code">ou-list--3-cols</span>).</p>
 
-<div class="ou-box ou-box--note"><p><strong>Note</strong>: some older browsers might not support this.</p></div>
+<div class="ou-box ou-box--note">
+    <p><strong>Note</strong>: some older browsers might not support this.</p>
+</div>
 
 
 <div class="code-example">
-<h3>2 cols (+ bullets)</h3>
+<h3>2 cols</h3>
 
-<ul class="ou-list ou-list--bullets ou-list--2-cols">
+<ul class="ou-list ou-list--2-cols">
     <li>Complaints</li>
     <li>Policies</li>
     <li>Friends and family</li>
@@ -234,21 +226,7 @@
     <li>Digital engagement</li>
 </ul>
 
-<h3>2 cols (ordered)</h3>
-
-<ol class="ou-list ou-list--ordered ou-list--2-cols">
-    <li>Complaints</li>
-    <li>Policies</li>
-    <li>Friends and family</li>
-    <li>Services for disabled students</li>
-    <li>Careers advisory services</li>
-    <li>How OU study works</li>
-    <li>Student charter</li>
-    <li>Digital engagement</li>
-</ol>
-
-
-<h3>3 cols (+ format reset + links)</h3>
+<h3>3 cols (+ links)</h3>
 
 <ul class="ou-list ou-list--3-cols ou-list--links">
     <li><a href="#">Complaints</a></li>
