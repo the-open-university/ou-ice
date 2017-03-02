@@ -61,8 +61,10 @@
     <li><a href="#tablet-2-col">Tablet 2 column layout</a></li>
     <li><a href="#mobile-2-col">Mobile 2 column layout</a></li>
     <li><a href="#tablet-mobile-2-col">Tablet and mobile 2 column layout</a></li>
+    <li><a href="#offset">Offset columns</a></li>
     <li><a href="#no-space">No space</a></li>
 </ol>
+
 
 
 <p class="ou-introduction">12 column grid with 2% gutters. Each row cannot exceed 12 columns.</p>
@@ -243,7 +245,49 @@ add the class <span class="ou-ice-code">ou-grid--tablet</span> to the container.
 </div>
 </div>
 
+
+
 <hr>
+
+
+
+<h2 id="offset">Offset columns</h2>
+
+<p>Move columns to the right using an offset modifier class, eg <span class="ou-ice-code">ou-grid--offset2</span>. Columns will change to full width for mobile as normal.</p>
+
+<div class="code-example">
+<div class="ou-grid">
+    <div class="ou-grid__4">4</div>
+    <div class="ou-grid__2 ou-grid--offset2">2: offset 2</div>
+    <div class="ou-grid__2 ou-grid--offset2">2: offset 2</div>
+</div>
+
+<div class="ou-grid">
+    <div class="ou-grid__6 ou-grid--offset2">6: offset 2</div>
+    <div class="ou-grid__3">3</div>
+</div>
+
+<div class="ou-grid">
+    <div class="ou-grid__6 ou-grid--offset3">6: offset 3</div>
+</div>
+
+<div class="ou-grid">
+    <div class="ou-grid__2 ou-grid--offset1">2: offset 1</div>
+    <div class="ou-grid__5 ou-grid--offset2">5: offset 2</div>
+</div>
+
+<div class="ou-grid">
+    <div class="ou-grid__6 ou-grid--offset5">6: offset 5</div>
+    <div class="ou-grid__1">1</div>
+</div>
+
+<div class="ou-grid">
+    <div class="ou-grid__6 ou-grid--offset6">6: offset 6</div>
+</div>
+</div>
+
+<hr>
+
 
 <h2 id="no-space">No space</h2>
 
