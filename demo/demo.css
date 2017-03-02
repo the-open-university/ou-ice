@@ -113,6 +113,8 @@ a.code-example-trigger {
 	background:url(img/icons/icon-code.png) top left no-repeat;
 }
 
+a.code-example-trigger:hover {opacity:0.8;}
+
 pre.prettyprint-toglable > span.pln:first-child {display:none;}
 
 @media only screen and (max-width: 1200px), screen and (max-device-width: 1200px) {

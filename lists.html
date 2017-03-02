@@ -75,7 +75,7 @@
 <div class="code-example">
 <ul>
 	<li>Ipod classic
-        <ul>
+		<ul>
             <li>16GB - 3,500 songs</li>
             <li>32GB - 7,000 songs</li>
             <li>64GB - 14,000 songs</li>
@@ -250,20 +250,35 @@
 
 <h2 id="horizontal">Horizontal</h2>
 
-<p>This example shows an unordered list, the <span class="ou-ice-code">ou-list--horizontal</span> class will also work with ordered lists. This style would typically be used as a list of links in which case be sure to add the <span class="ou-ice-code">ou-list--links</span> class.</p>
+<p>This example shows an unordered list, the <span class="ou-ice-code">ou-list--horizontal</span> class will also work with ordered lists. This style would typically be used as a list of links.</p>
 
 <div class="code-example">
-<ul class="ou-list ou-list--horizontal ou-list--links">
+<ul class="ou-list ou-list--horizontal" role="navigation">
     <li><a href="#1">Forward</a></li>
     <li><a href="#2">Tag</a></li>
     <li><a href="#3">Edit</a></li>
     <li><a href="#4">Mark as read</a></li>
 </ul>
-</div> 
-<!-- end code-example -->
+
+<hr>
+
+<p>Use <span class="ou-ice-code">strong</span> (or <span class="ou-ice-code">ou-selected</span> on the <span class="ou-ice-code">a</span>) to highlight an active link, creating a filter-type list:</p>
+
+<ol class="ou-list ou-list--horizontal" role="navigation">
+    <li><strong>Humans</strong></li>
+    <li><a href="#birds">Birds</a></li>
+    <li><a href="#fish">Fish</a></li>
+    <li><a href="#lizards">Lizards</a></li>
+</ol>
+
+</div> <!-- end code-example -->
 
 
 <hr>
+
+
+
+
 
 <h2 id="social-media">Social media</h2>
 
