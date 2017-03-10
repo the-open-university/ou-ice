@@ -54,16 +54,17 @@
     <li><a href="#tab">Tab example</a></li>
 </ol>
 
-<p>You can combine a <a href="lists.html#horizontal">horizontal list</a> and <a href="articles.html">articles</a> to create a filter/results type layout. Either use <span class="ou-ice-code">strong</span> (or <span class="ou-ice-code">ou-selected</span> on the <span class="ou-ice-code">a</span>) to highlight the active link.</p>
+<p>You can combine a filter with <a href="articles.html">articles</a> to create a filter/results type layout. Use <span class="ou-ice-code">strong</span> (or <span class="ou-ice-code">ou-selected</span> on the <span class="ou-ice-code">a</span>) to highlight the active link.</p>
 
 <div class="ou-box ou-box--note">
-	<p>Please note: the examples below are not interactive</p>
+	<p><strong>Note</strong>: the examples below are not interactive.</p>
 </div>
 
 <h2 id="az">A-Z example</h2>
 
 <div class="code-example">
-<ol class="ou-list ou-list--horizontal" role="navigation">
+<nav class="ou-nav-filter">
+<ul>
     <li><a href="#A">A</a></li>
     <li><a href="#B">B</a></li>
     <li><a href="#C">C</a></li>
@@ -90,7 +91,8 @@
     <li><a href="#Y">X</a></li>
     <li><a href="#Y">Y</a></li>
     <li><a href="#Z">Z</a></li>
-</ol>
+</ul>
+</nav>
 
 <h2>F</h2>
 
@@ -145,12 +147,14 @@
 <h2 id="tab">Tab example</h2>
 
 <div class="code-example">
-<ol class="ou-list ou-list--horizontal" role="navigation">
-    <li><strong>Humans</strong></li>
+<nav class="ou-nav-filter">
+<ul>
+    <li><a href="#humans" class="ou-selected">Humans</a></li>
     <li><a href="#birds">Birds</a></li>
     <li><a href="#fish">Fish</a></li>
     <li><a href="#lizards">Lizards</a></li>
-</ol>
+</ul>
+</nav>
 
 <h2>Humans</h2>
 

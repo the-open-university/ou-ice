@@ -150,36 +150,23 @@ ol li {
 */
 
 .ou-list--horizontal li {
-	display:table-cell;
-	margin:0 0 0 0;
+	display:inline-block;
+	margin:0 5px 0 0;
 	padding:0;
 	line-height:100%;
 }
 
 .ou-list--horizontal a {
 	text-decoration:none;
-	padding:6px 8px;
-	display:block;
 	color:#039;
 	background-color:transparent;
 }
 
-.ou-list--horizontal li:first-child a {margin-left:-6px;}
-.ou-list--horizontal li:first-child a.ou-selected {margin-left:0;}
-
 .ou-list--horizontal a:hover {
-	background-color:#e80074;
-	color:#fff;	
+	text-decoration:underline;
+	color:#000;	
+	background-color:transparent;
 }
-
-.ou-list--horizontal strong,
-.ou-list--horizontal .ou-selected {
-	display:inline-block;
-	padding:6px 8px;
-	background-color:#036;
-	color:#fff;
-}
-
 
 
 

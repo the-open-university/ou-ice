@@ -323,82 +323,51 @@ a.ou-paged__next:hover:after {color:#fff;}
 
 
 
+
 /*
 -------------------------------------------
-	A to EZ
+	Filter
 -------------------------------------------
 */
 
-.ou-atoz__filter {
-	margin-bottom:20px;
-	padding-bottom:15px;
-	border-bottom:1px solid #ddd;
+.ou-nav-filter {margin:0 0 20px 0;}
+
+.ou-nav-filter ul {
+	margin:0;
+	padding:0;
+	list-style:none;
 }
 
-.ou-atoz__filter:after {
-    content:" ";
-    display:block;
-    clear:both;
+.ou-nav-filter li {
+	display:table-cell;
+	margin:0 0 0 0;
+	padding:0;
+	line-height:100%;
 }
 
-.ou-atoz__filter li {
-	list-style: none;
-	display: block;
-	float:left;
-}
-
-.ou-atoz__filter a,
-.ou-atoz__filter strong {
-	text-decoration: none;
-	color: #039;
-	background-color: transparent;
-	padding:10px;
-	display:block;
-}
-
-.ou-atoz__filter strong,
-.ou-atoz__filter a.ou-selected,
-.ou-atoz__filter a.ou-selected:hover {
-	color: #fff;
-	background-color:#036;
-}
-
-.ou-atoz__filter a:hover {
-	text-decoration: none;
-	background-color:#e80074;
-	color:#fff;
-}
-
-.ou-atoz__results {margin-bottom:25px;}
-
-.ou-atoz__results li {padding:20px 25px;}
-
-.ou-atoz__results li:nth-child(odd) {
-	background-color: #e7eff7;
-	color: inherit;
-}
-
-.ou-atoz__results li p {
-	color:#444;
-	background-color: transparent;
-}
-
-.ou-atoz__results li p:last-child {margin-bottom:0;}
-
-.ou-atoz__results-title {
-	font-size:1.1em;
-	margin-bottom:5px;
-	font-weight:bold;
-	display:inline-block;
+.ou-nav-filter a {
 	text-decoration:none;
+	padding:6px 8px;
+	display:block;
+	color:#039;
+	background-color:transparent;
 }
 
-.ou-atoz__results-title a {text-decoration:none;}
+.ou-nav-filter li:first-child a {margin-left:-6px;}
+.ou-nav-filter li:first-child a.ou-selected {margin-left:0;}
 
-.ou-atoz__results-item {
-	display:block;
-	color:#555;	
-	background-color: transparent;
+.ou-nav-filter a:hover {
+	background-color:#eee;
+	color:#000;	
+}
+
+.ou-nav-filter strong,
+.ou-nav-filter a.ou-selected {
+	display:inline-block;
+	padding:6px 8px;
+	background-color:#036;
+	color:#fff;
+	font-weight:bold;
 }
 
 
