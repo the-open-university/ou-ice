@@ -24,21 +24,21 @@
 	
 	COLOURS
 	
-		Red                 #E3294A
+		Red                 #B5002E
 		Pink				#E80074
-		Yellow              #FFD400
-		Purple				#5F4997
+		Yellow              #F4C400
+		Purple				#4E247B
 		Dark blue           #003366
-		Blue            	#0E56A7
-		Light blue          #549DD0
+		Blue*            	#0b55a8
+		Light blue          #A6D2FF
 		Purple              #880088
 		Orange              #C5540A
-		Burgundy			#7B003F
-		Dark green			#3F644A	
-		Turquoise			#00B7B2
-		Beige				#CFC285
+		Burgundy			#630031
+		Dark green			#4A5E4A	
+		Turquoise			#00B0AC
+		Beige				#D1D1A5
 		Green*				#539d3c
-		Light green			#A2B52D
+		Light green			#A4A400
 	
 		*not in official palette but useful for web, review
 
@@ -55,28 +55,28 @@
 /* darker text */
 
 .ou-text-black {color:#000000 !important;}
-.ou-text-red {color:#E3294A !important;}
+.ou-text-red {color:#B5002E !important;}
 .ou-text-pink {color:#E80074 !important;}
 .ou-text-dark-blue {color:#003366 !important;}
 .ou-text-dark-grey {color:#333333 !important;}
-.ou-text-purple {color:#5F4997 !important;}
+.ou-text-purple {color:#4E247B !important;}
 .ou-text-orange {color:#C5540A !important;}
-.ou-text-burgundy {color:#7B003F !important;}
-.ou-text-dark-green {color:#3F644A !important;}
-.ou-text-blue {color:#0E56A7 !important;} 
+.ou-text-burgundy {color:#630031 !important;}
+.ou-text-dark-green {color:#4A5E4A !important;}
 
 /* not in official palette - review */
 .ou-text-green {color:#539d3c !important;}
+.ou-text-blue {color:#0b55a8 !important;} 
 
 /* lighter text */
 
 .ou-text-white {color:#FFFFFF !important;}
 .ou-text-grey {color:#A7A9AC !important;} 
-.ou-text-yellow {color:#FFD400 !important;} 
-.ou-text-turquoise {color:#00B7B2 !important;}
-.ou-text-light-blue {color:#549DD0 !important;} 
-.ou-text-beige {color:#CFC285 !important;} 
-.ou-text-light-green {color:#A2B52D !important;}
+.ou-text-yellow {color:#F4C400 !important;} 
+.ou-text-turquoise {color:#00B0AC !important;}
+.ou-text-light-blue {color:#A6D2FF !important;} 
+.ou-text-beige {color:#D1D1A5 !important;} 
+.ou-text-light-green {color:#A4A400 !important;}
 
 /* not in official palette - review */
 .ou-text-light-grey {color:#e7eff7 !important;}
@@ -94,16 +94,16 @@
 
 .ou-bg-black {background-color:#000000 !important;}
 .ou-bg-dark-grey {background-color:#333333 !important;}
-.ou-bg-red {background-color:#E3294A !important;}
+.ou-bg-red {background-color:#B5002E !important;}
 .ou-bg-pink {background-color:#E80074 !important;}
 .ou-bg-dark-blue {background-color:#003366 !important;}
-.ou-bg-purple {background-color:#5F4997 !important;}
+.ou-bg-purple {background-color:#4E247B !important;}
 .ou-bg-orange {background-color:#C5540A !important;}
-.ou-bg-burgundy {background-color:#7B003F !important;}
-.ou-bg-dark-green {background-color:#3F644A !important;}
-.ou-bg-blue {background-color:#0E56A7 !important;} 
+.ou-bg-burgundy {background-color:#630031 !important;}
+.ou-bg-dark-green {background-color:#4A5E4A !important;}
 
 /* not in official palette - review */
+.ou-bg-blue {background-color:#0b55a8 !important;} 
 .ou-bg-green {background-color:#539d3c !important;}
 
 
@@ -111,11 +111,11 @@
 
 .ou-bg-white {background-color:#FFFFFF !important;}
 .ou-bg-grey {background-color:#A7A9AC !important;} 
-.ou-bg-light-green {background-color:#A2B52D !important;}
-.ou-bg-turquoise {background-color:#00B7B2 !important;}
-.ou-bg-light-blue {background-color:#549DD0 !important;} 
-.ou-bg-yellow {background-color:#FFD400 !important;} 
-.ou-bg-beige {background-color:#CFC285 !important;} 
+.ou-bg-light-green {background-color:#A4A400 !important;}
+.ou-bg-turquoise {background-color:#00B0AC !important;}
+.ou-bg-light-blue {background-color:#A6D2FF !important;} 
+.ou-bg-yellow {background-color:#F4C400 !important;} 
+.ou-bg-beige {background-color:#D1D1A5 !important;} 
 
 /* not in official palette - review */
 .ou-bg-light-grey {background-color:#e7eff7 !important;}

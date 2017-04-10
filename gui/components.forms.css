@@ -58,7 +58,7 @@
 }
 
 .ou-form__required {
-	color:#E3294A;
+	color:#B5002E;
 	background-color: transparent;
 }
 
@@ -108,7 +108,7 @@
 /* validation */
 
 .ou-form__item--error label {
-	color:#E3294A;
+	color:#B5002E;
 	background-color: transparent;
 }
 
@@ -118,7 +118,7 @@
 }
 
 .ou-form__item--error input {
-	border:1px solid #E3294A;
+	border:1px solid #B5002E;
 	background-color:#fedbdb;
 	color:inherit;
 }
