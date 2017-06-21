@@ -22,10 +22,17 @@
 	line-height:120%;
 }
 
-.ou-button--primary {background-color: #e80074;}
-.ou-button--secondary {background-color:#333;}
-.ou-button--success {background-color:#539d3c;}
-.ou-button--warning {background-color:#b52a1e;}
+.ou-button--primary,
+.ou-button--primary:visited {background-color: #e80074;}
+
+.ou-button--secondary,
+.ou-button--secondary:visited {background-color:#333;}
+
+.ou-button--success,
+.ou-button--success:visited {background-color:#539d3c;}
+
+.ou-button--warning,
+.ou-button--warning:visited {background-color:#b52a1e;}
 
 .ou-button--disabled,
 button:disabled {
