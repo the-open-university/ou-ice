@@ -29,11 +29,17 @@
 
 .ou-img.ou-pull-centre {width:80%;}
 
-.ou-img__caption {
+.ou-img__caption,
+.ou-img__credit {
 	margin:5px 0 0 0;
 	color:#555;
 	background-color: transparent;
 	font-size:.9em;
+}
+
+.ou-img__credit {
+	font-style:italic;
+	color:#777;	
 }
 
 .ou-bg-green .ou-img__caption,
