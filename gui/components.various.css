@@ -20,6 +20,8 @@
 	background-color: #e7eff7;
 	color: #222;
 	position:relative;
+	max-width:1500px;
+	margin:0 auto;
 }
 
 .ou-creative img,
