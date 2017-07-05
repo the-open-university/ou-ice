@@ -49,6 +49,14 @@
 	background-color: transparent;
 }
 
+.ou-theme--burgundy .ou-sections--bar a.ou-selected,
+.ou-theme--burgundy .ou-sections--bar a.ou-selected:hover {
+	border-top:2px solid #630031;
+	border-bottom: 1px solid #fff;
+	color:#630031;
+	background-color: #fff;
+}
+
 .ou-theme--burgundy .ou-context-nav li strong, 
 .ou-theme--burgundy .ou-context-nav li a.ou-selected, 
 .ou-theme--burgundy .ou-context-nav li a.ou-selected:hover,
@@ -83,6 +91,14 @@
 	border-bottom: 2px solid #4A5E4A;
 	color:#4A5E4A;
 	background-color: transparent;
+}
+
+.ou-theme--dark-green .ou-sections--bar a.ou-selected,
+.ou-theme--dark-green .ou-sections--bar a.ou-selected:hover {
+	border-top: 2px solid #4A5E4A;
+	border-bottom: 1px solid #fff;
+	color:#4A5E4A;
+	background-color: #fff;
 }
 
 .ou-theme--dark-green .ou-context-nav li strong, 
@@ -121,6 +137,14 @@
 	background-color: transparent;
 }
 
+.ou-theme--orange .ou-sections--bar a.ou-selected,
+.ou-theme--orange .ou-sections--bar a.ou-selected:hover {
+	border-top: 2px solid #C5540A;
+	border-bottom: 1px solid #fff;
+	color:#C5540A;
+	background-color: #fff;
+}
+
 .ou-theme--orange .ou-context-nav li strong, 
 .ou-theme--orange .ou-context-nav li a.ou-selected, 
 .ou-theme--orange .ou-context-nav li a.ou-selected:hover,
@@ -157,6 +181,14 @@
 	background-color: transparent;
 }
 
+.ou-theme--purple .ou-sections--bar a.ou-selected,
+.ou-theme--purple .ou-sections--bar a.ou-selected:hover {
+	border-top: 2px solid #4E247B;
+	border-bottom: 1px solid #fff;
+	color:#4E247B;
+	background-color: #fff;
+}
+
 .ou-theme--purple .ou-context-nav li strong, 
 .ou-theme--purple .ou-context-nav li a.ou-selected, 
 .ou-theme--purple .ou-context-nav li a.ou-selected:hover,
@@ -191,6 +223,14 @@
 	border-bottom: 2px solid #0B55A8;
 	color:#0B55A8;
 	background-color: transparent;
+}
+
+.ou-theme--blue .ou-sections--bar a.ou-selected,
+.ou-theme--blue .ou-sections--bar a.ou-selected:hover {
+	border-top: 2px solid #0B55A8;
+	border-bottom: 1px solid #fff;
+	color:#0B55A8;
+	background-color: #fff;
 }
 
 .ou-theme--blue .ou-context-nav li strong, 
