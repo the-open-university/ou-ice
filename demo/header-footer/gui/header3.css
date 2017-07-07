@@ -131,6 +131,7 @@ ul li:before {content:normal;}
 	display:none;
 	z-index:100;
 	margin:0;
+	padding:0;
 }
 
 .ou-dropdown__submenu1 li {
@@ -184,6 +185,7 @@ ul li:before {content:normal;}
 	display:none;
 	z-index:100;
 	margin:0;
+	padding:0;
 }
 
 .ou-dropdown__submenu2 li {
