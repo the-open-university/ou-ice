@@ -52,7 +52,6 @@
 
 /* IE 10-11 only styles */
 
-@supports (-ms-ime-align: auto),
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 
 	.ou-theme #ou-header a.ou-logo {
@@ -81,6 +80,34 @@
 } /* end mq */
 
 
+/* Edge only styles */
+
+@supports (-ms-ime-align: auto) {
+
+	.ou-theme #ou-header a.ou-logo {
+		height:60px;
+		width:85px;
+		background-image:url(ou-logo.svg);
+		background-color:transparent;
+		-webkit-mask: none;
+		mask: none;
+	}
+	
+	/* regional logos */
+	
+	.ou-theme.scotland #ou-header a.ou-logo,
+	.ou-theme.wales #ou-header a.ou-logo,
+	.ou-theme.wales-en #ou-header a.ou-logo {
+		background-color:transparent;
+		-webkit-mask: none;
+		mask: none;
+	}
+	
+	.ou-theme.scotland #ou-header a.ou-logo {background-image:url(ou-logo-scotland.svg);}
+	.ou-theme.wales #ou-header a.ou-logo {background-image:url(ou-logo-wales.svg);}
+	.ou-theme.wales-en #ou-header a.ou-logo {background-image:url(ou-logo-wales-en.svg);}
+
+} /* end */
 
 
 
