@@ -1,0 +1,71 @@
+/*
+--------------------------------------------------------------------------------------
+
+	Theme v2 - SVG powered
+	theme_v2.css
+
+--------------------------------------------------------------------------------------
+*/
+
+
+.ou-theme #ou-header a.ou-logo img {display:none;} /* hide sprite */
+
+.ou-theme #ou-header a.ou-logo {
+	height:60px;
+	width:85px;
+	color:#fff;
+	background-color:#3C73B1; /* default shield colour */
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	-webkit-mask: url(ou-logo.svg) no-repeat 0 0;
+    mask: url(ou-logo.svg) no-repeat 0 0;
+}
+
+.ou-theme--blue #ou-header a.ou-logo {background-color: #3C73B1;}
+.ou-theme--orange #ou-header a.ou-logo {background-color: #C5540A;}
+.ou-theme--burgundy #ou-header a.ou-logo {background-color: #630031;}
+.ou-theme--dark-green #ou-header a.ou-logo {background-color: #4A5E4A;}
+.ou-theme--purple #ou-header a.ou-logo {background-color: #4E247B;}
+.ou-theme--dark-blue #ou-header a.ou-logo {background-color: #0B55A8;}
+
+/* scotland */
+
+.ou-theme.scotland #ou-header a.ou-logo {
+	height:75px;
+	-webkit-mask: url(ou-logo-scotland.svg) no-repeat 0 0;
+    mask: url(ou-logo-scotland.svg) no-repeat 0 0;
+}
+
+/* wales */
+
+.ou-theme.wales #ou-header a.ou-logo {
+	height:75px;
+	-webkit-mask: url(ou-logo-wales.svg) no-repeat 0 0;
+    mask: url(ou-logo-wales-en.svg) no-repeat 0 0;
+}
+
+.ou-theme.wales-en #ou-header a.ou-logo {
+	height:75px;
+	-webkit-mask: url(ou-logo-wales-en.svg) no-repeat 0 0;
+    mask: url(ou-logo-wales-en.svg) no-repeat 0 0;
+}
+
+
+
+@media 
+only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+
+.ou-theme #ou-header a.ou-logo,
+.ou-theme.wales #ou-header a.ou-logo,
+.ou-theme.wales-en #ou-header a.ou-logo,
+.ou-theme.scotland #ou-header a.ou-logo {
+	width: 21px;
+	height: 25px;
+	background-image: url(ou-logo-mobile.svg);
+	background-color: transparent;
+	background-position:center center;
+	-webkit-mask: none;
+    mask: none;
+}
+
+} /* end mq */
