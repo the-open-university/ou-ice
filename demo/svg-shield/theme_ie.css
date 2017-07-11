@@ -1,0 +1,34 @@
+/*
+--------------------------------------------------------------------------------------
+
+	Theme v2 - IE specific styles up to IE9
+	No masking and low res PNG logos
+	theme_ie.css
+
+--------------------------------------------------------------------------------------
+*/
+
+
+.ou-theme #ou-header a.ou-logo {
+	height:60px;
+	width:85px;
+	background-image:url(ou-logo.png);
+	background-color:transparent;
+	-webkit-mask: none;
+	mask: none;
+}
+
+/* regional logos */
+
+.ou-theme.scotland #ou-header a.ou-logo,
+.ou-theme.wales #ou-header a.ou-logo,
+.ou-theme.wales-en #ou-header a.ou-logo {
+	background-color:transparent;
+	-webkit-mask: none;
+	mask: none;
+}
+
+.ou-theme.scotland #ou-header a.ou-logo {background-image:url(ou-logo-scotland.png);}
+.ou-theme.wales #ou-header a.ou-logo {background-image:url(ou-logo-wales.png);}
+.ou-theme.wales-en #ou-header a.ou-logo {background-image:url(ou-logo-wales-en.png);}
+

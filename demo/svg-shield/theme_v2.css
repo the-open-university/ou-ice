@@ -80,7 +80,7 @@
 } /* end mq */
 
 
-/* Edge only styles */
+/* Edge only styles - same rules as above */
 
 @supports (-ms-ime-align: auto) {
 
