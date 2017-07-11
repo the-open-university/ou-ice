@@ -52,6 +52,7 @@
 
 /* IE 10-11 only styles */
 
+@supports (-ms-ime-align: auto),
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 
 	.ou-theme #ou-header a.ou-logo {
@@ -78,6 +79,8 @@
 	.ou-theme.wales-en #ou-header a.ou-logo {background-image:url(ou-logo-wales-en.svg);}
 
 } /* end mq */
+
+
 
 
 
