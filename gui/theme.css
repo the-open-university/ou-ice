@@ -8,39 +8,14 @@
 */
 
 
-/*
--------------------------------------------
-	Shield overrides
--------------------------------------------
-*/
-
-.ou-theme #ou-header a.ou-logo img {display:none;}
-
-.ou-theme #ou-header a.ou-logo {
-	display:block;
-	height:61px;
-	width:87px;
-	background-image:url(logos/ou-logo-light-blue.png);
-	background-position:top left;
-	background-repeat:no-repeat;
-}
-
-.ou-theme--dark-green #ou-header a.ou-logo {background-image:url(logos/ou-logo-dark-green.png);}
-.ou-theme--burgundy #ou-header a.ou-logo {background-image:url(logos/ou-logo-burgundy.png);}
-.ou-theme--orange #ou-header a.ou-logo {background-image:url(logos/ou-logo-orange.png);}
-.ou-theme--purple #ou-header a.ou-logo {background-image:url(logos/ou-logo-purple.png);}
-.ou-theme--blue #ou-header a.ou-logo {background-image:url(logos/ou-logo-blue.png);}
-
-
 
 /*
 -------------------------------------------
-	Theme colours
+	Burgundy
 -------------------------------------------
 */
 
 
-/* Burgundy */
 
 .ou-theme--burgundy .ou-sections a.ou-selected,
 .ou-theme--burgundy .ou-sections a.ou-selected:hover {
@@ -60,7 +35,6 @@
 .ou-theme--burgundy .ou-context-nav li strong, 
 .ou-theme--burgundy .ou-context-nav li a.ou-selected, 
 .ou-theme--burgundy .ou-context-nav li a.ou-selected:hover,
-
 .ou-theme--burgundy .ou-paged strong, 
 .ou-theme--burgundy .ou-paged a.ou-selected,
 
@@ -76,15 +50,20 @@
 .ou-theme--burgundy .ou-articles--striped .ou-articles__article:nth-child(odd),
 .ou-theme--burgundy .ou-atoz__results li:nth-child(odd),
 .ou-theme--burgundy .ou-table--striped tr:nth-child(even),
-.ou-theme--burgundy .ou-creative,
+
 .ou-theme--burgundy .ou-events__nav {
 	background-color:#F7F3F5;
 	color: #222;
 }
 
+.ou-theme--burgundy .ou-sections--bar {background-color:#E8DAE1;}
 
 
-/* Dark Green */
+/*
+-------------------------------------------
+	Dark green
+-------------------------------------------
+*/
 
 .ou-theme--dark-green .ou-sections a.ou-selected,
 .ou-theme--dark-green .ou-sections a.ou-selected:hover {
@@ -120,15 +99,21 @@
 .ou-theme--dark-green .ou-articles--striped .ou-articles__article:nth-child(odd),
 .ou-theme--dark-green .ou-atoz__results li:nth-child(odd),
 .ou-theme--dark-green .ou-table--striped tr:nth-child(even),
-.ou-theme--dark-green .ou-creative,
+
 .ou-theme--dark-green .ou-events__nav {
 	background-color:#F5F5E5;
 	color: #222;
 }
 
+.ou-theme--dark-green .ou-sections--bar {background-color:#E5E8E5;}
 
 
-/* Orange */
+
+/*
+-------------------------------------------
+	Orange
+-------------------------------------------
+*/
 
 .ou-theme--orange .ou-sections a.ou-selected,
 .ou-theme--orange .ou-sections a.ou-selected:hover {
@@ -164,15 +149,20 @@
 .ou-theme--orange .ou-articles--striped .ou-articles__article:nth-child(odd),
 .ou-theme--orange .ou-atoz__results li:nth-child(odd),
 .ou-theme--orange .ou-table--striped tr:nth-child(even),
-.ou-theme--orange .ou-creative,
 .ou-theme--orange .ou-events__nav {
 	background-color:#FDF6CD;
 	color: #222;
 }
 
+.ou-theme--orange .ou-sections--bar {background-color:#F3ECC5;}
 
 
-/* Purple */
+
+/*
+-------------------------------------------
+	Purple
+-------------------------------------------
+*/
 
 .ou-theme--purple .ou-sections a.ou-selected,
 .ou-theme--purple .ou-sections a.ou-selected:hover {
@@ -208,15 +198,20 @@
 .ou-theme--purple .ou-articles--striped .ou-articles__article:nth-child(odd),
 .ou-theme--purple .ou-atoz__results li:nth-child(odd),
 .ou-theme--purple .ou-table--striped tr:nth-child(even),
-.ou-theme--purple .ou-creative,
 .ou-theme--purple .ou-events__nav {
 	background-color:#EEE9F2;
 	color: #222;
 }
 
+.ou-theme--purple .ou-sections--bar {background-color:#E5DFEC;}
 
 
-/* Blue */
+
+/*
+-------------------------------------------
+	Blue
+-------------------------------------------
+*/
 
 .ou-theme--blue .ou-sections a.ou-selected,
 .ou-theme--blue .ou-sections a.ou-selected:hover {
@@ -252,78 +247,24 @@
 .ou-theme--blue .ou-articles--striped .ou-articles__article:nth-child(odd),
 .ou-theme--blue .ou-atoz__results li:nth-child(odd),
 .ou-theme--blue .ou-table--striped tr:nth-child(even),
-.ou-theme--blue .ou-creative,
 .ou-theme--blue .ou-events__nav {
 	background-color:#E7EFF7;
 	color: #222;
 }
+
+.ou-theme--blue .ou-sections--bar {background-color:#DDE4EC;}
+
+
 
 
 
 @media only 
     screen and (max-width: 767px), screen and (max-device-width: 767px) {
 
-/* shield */
-
-.ou-theme #ou-header a.ou-logo {
-	width: 21px !important;
-	height: 25px !important;
-	background-image: url(logos/ou-logo-mobile.png);
-	background-color: transparent;
-}
-
-.ou-theme #ou-header a.ou-logo:hover {background-position: bottom left;}
-
-
-/* themes */
-
 .ou-theme .ou-sections a.ou-selected,
 .ou-theme .ou-sections a.ou-selected:hover {border-bottom:0;}
 
 
 } /* end media query */
-
-
-
-/*
--------------------------------------------
-	Retina
--------------------------------------------
-*/
-
-
-/* tablet, desktop */
-
-@media 
-only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-only screen and (-o-min-device-pixel-ratio: 13/10) and (min-width: 768px),
-only screen and (min-resolution: 192dpi) and (min-width: 768px) {
-
-.ou-theme #ou-header a.ou-logo {background-size:87px 61px;}
-
-.ou-theme #ou-header a.ou-logo {background-image:url(logos/ou-logo-light-blue@2x.png);}
-.ou-theme--dark-green #ou-header a.ou-logo {background-image:url(logos/ou-logo-dark-green@2x.png);}
-.ou-theme--burgundy #ou-header a.ou-logo {background-image:url(logos/ou-logo-burgundy@2x.png);}
-.ou-theme--orange #ou-header a.ou-logo {background-image:url(logos/ou-logo-orange@2x.png);}
-.ou-theme--purple #ou-header a.ou-logo {background-image:url(logos/ou-logo-purple@2x.png);}
-.ou-theme--blue #ou-header a.ou-logo {background-image:url(logos/ou-logo-blue@2x.png);}
-
-}  /* end media query */
-
-
-
-/* mobile */
-
-@media 
-only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),
-only screen and (-o-min-device-pixel-ratio: 13/10) and (max-width: 767px),
-only screen and (min-resolution: 192dpi) and (max-width: 767px) {
-
-.ou-theme #ou-header a.ou-logo {
-	background-size:21px 50px;
-	background-image: url(logos/ou-logo-mobile@2x.png);
-}
-
-}  /* end media query */
 
 

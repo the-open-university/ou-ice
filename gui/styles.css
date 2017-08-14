@@ -37,6 +37,7 @@
 @import url('components.various.css');
 
 @import url('theme.css');
+@import url('theme.logo.css');
 @import url('trumps.various.css');
 
 @import url('legacy.css'); 			/* backwards compatibility */
