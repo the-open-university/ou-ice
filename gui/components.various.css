@@ -20,6 +20,10 @@
 	background-color: #e7eff7;
 	color: #222;
 	position:relative;
+}
+
+.ou-creative__wrap {
+	position:relative;
 	max-width:1500px;
 	margin:0 auto;
 }
