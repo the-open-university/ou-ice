@@ -18,6 +18,12 @@
 
 /**/
 
+.ou-blocks {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+
 
 .ou-blocks > div,
 .ou-blocks > li {
