@@ -37,6 +37,8 @@
     .ou-blocks > div, 
     .ou-blocks--3-cols > li {background-color: #eee;}
     .ou-blocks p {text-align:center; margin-bottom:0;}
+
+    @supports(display: grid) { .cssgrid-test {display: none;} }
     </style>
 
 </head>
@@ -72,6 +74,14 @@
 
 
 <div id="ou-content" class="ou-content styleguide">
+
+<!-- if no display:grid support -->
+<div class="cssgrid-test">
+    <div class="ou-box ou-box--warning">
+        <p>Your browser doesn't support css grid so these examples won't work for you!</p>
+    </div>
+</div>
+<!-- / -->
 
 <h1>Blocks</h1>
 
