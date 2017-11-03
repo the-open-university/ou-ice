@@ -13,7 +13,7 @@
 @import url('global.resets.css');
 @import url('global.box-sizing.css');
 
-@import url('overrides.css'); 
+@import url('overrides.css');
 @import url('html.css');
 
 @import url('objects.grid.css');
@@ -40,5 +40,5 @@
 @import url('theme.logo.css');
 @import url('trumps.various.css');
 
-@import url('legacy.css'); 			/* backwards compatibility */
-@import url('../demo/demo.css'); 	/* demo site only */
+@import url('legacy.css');
+@import url('../demo/demo.css'); /* demo site only */
