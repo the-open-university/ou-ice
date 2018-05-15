@@ -46,6 +46,12 @@ h2.ou-smaller {font-size: 1.4em !important;}
 h3.ou-smaller {font-size: 1.2em !important;}
 h4.ou-smaller {font-size: 1em !important;}
 
+/* make any heading the smallest ICE allows */
+.ou-heading-smallest {
+	font-size: 1em;
+	font-weight: bold;
+}
+
 
 
 /*
