@@ -9,6 +9,7 @@
 
 
 
+
 /*
 -------------------------------------------
 	Creative
@@ -240,6 +241,42 @@ span.ou-events__current {
 	color:#777;
 	background-color: transparent;
 }
+
+
+/*
+-------------------------------------------
+	Toggle
+-------------------------------------------
+*/
+
+.ou-toggle {
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 20px;
+}
+
+.ou-toggle:hover {
+	text-decoration: none;
+	color: #000;
+	background-color: transparent;
+}
+
+.ou-toggle--closed {
+	background: url(icons/icon-plus.png);
+	background: url(icons/icon-plus.svg), linear-gradient(transparent, transparent);
+	background-position:0 2px;
+	background-repeat:no-repeat;
+}
+
+.ou-toggle--open {
+	background: url(icons/icon-minus.png);
+	background: url(icons/icon-minus.svg), linear-gradient(transparent, transparent);
+	background-position:0 6px;
+	background-repeat:no-repeat;
+}
+
+
+
 
 
 @media 

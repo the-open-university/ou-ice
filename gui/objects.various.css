@@ -46,8 +46,17 @@ h2.ou-smaller {font-size: 1.4em !important;}
 h3.ou-smaller {font-size: 1.2em !important;}
 h4.ou-smaller {font-size: 1em !important;}
 
+.ou-small-print {
+	color: #666;
+	background-color: transparent;
+}
+
+.ou-small-print--tiny {font-size: .9em;}
+
+.ou-heading {}
+
 /* make any heading the smallest ICE allows */
-.ou-heading-smallest {
+.ou-heading--smallest {
 	font-size: 1em;
 	font-weight: bold;
 }

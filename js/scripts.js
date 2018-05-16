@@ -39,6 +39,16 @@
         })
 
 
+        // TOGGLE
+        $(".ou-js-hidden").hide();
+        $(".ou-js-toggle").addClass('ou-toggle--closed');
+        $(".ou-js-toggle").click(function(){
+            $(this).next(".ou-js-hidden").slideToggle();
+            $(this).toggleClass('ou-toggle--open ou-toggle--closed');
+            return false;
+        });
+
+
         // SHOW/HIDE MOBILE MENU
         $(".ou-mobile-menu-toggle").click(function(){
             $("#ou-service-links").toggleClass("visible");

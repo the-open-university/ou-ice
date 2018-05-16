@@ -115,6 +115,7 @@ ol li {
 .ou-timeline__heading {
 	font-size:1.1em;
 	font-weight: bold;
+	margin-bottom: 10px;
 }
 
 
@@ -283,42 +284,55 @@ ol li {
 -------------------------------------------
 */
 
-.ou-list--docs a {
+.ou-list--docs li {
+	padding:0 0 0 22px;
+	margin:0 0 8px 0;
 	background-position:0 2px;
 	background-repeat:no-repeat;
 	background-color:transparent;
-	color: #039;
-	padding-left:22px;	
-	text-decoration:none;
-	display:block;
 }
 
-.ou-list--docs--pdf a {background-image:url(icons/docs/icon-pdf.png);}
-.ou-list--docs--doc a {background-image:url(icons/docs/icon-doc.png);}
-.ou-list--docs--xls a {background-image:url(icons/docs/icon-xls.png);}
-.ou-list--docs--ppt a {background-image:url(icons/docs/icon-ppt.png);}
+.ou-list--docs a {
+	color: #039;
+	text-decoration:none;
+	display:inline-block;
+}
 
-.ou-list--docs a:hover {text-decoration:underline;}
-
-.ou-list--docs-detail {margin-bottom: 0;}
-
-.ou-list--docs-detail li {
-	padding-left: 24px;
-	margin-bottom: 10px;
+.ou-list--docs--pdf li,
+.ou-list__pdf {
 	background: url(icons/docs/icon-pdf.png);
 	background: url(icons/docs/icon-pdf.svg), linear-gradient(transparent, transparent);
+}
+
+/* To do - add SVG icons for other docs */
+
+.ou-list--docs--doc li,
+.ou-list__doc {background-image:url(icons/docs/icon-doc.png);}
+
+.ou-list--docs--xls li,
+.ou-list__xls {background-image:url(icons/docs/icon-xls.png);}
+
+.ou-list--docs--ppt li,
+.ou-list__ppt {background-image:url(icons/docs/icon-ppt.png);}
+
+.ou-list--docs--pdf li {
 	background-position:0 2px;
 	background-repeat:no-repeat;
 }
 
-.ou-list--docs-detail--prominent li {
+.ou-list--docs--spotlight-pdf li {
 	padding-left:55px;
 	background: url(icons/docs/icon-pdf-large.png);
 	background: url(icons/docs/icon-pdf-large.svg), linear-gradient(transparent, transparent);
-	background-repeat: no-repeat;
-	background-size:40px 48px;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	min-height: 48px;
 }
 
+.ou-list--docs a:hover {
+	text-decoration:none;
+	color: #000;
+}
 
 
 
