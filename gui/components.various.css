@@ -379,6 +379,9 @@ only screen and (max-device-width: 400px) {
 
 .ou-creative__wording {padding:15px 20px;}
 
+.ou-timeline {padding-left: 0;}
+.ou-timeline:before {left: 4px;}
+
 
 } /* end media query */
 

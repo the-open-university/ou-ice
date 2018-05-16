@@ -343,7 +343,6 @@ only screen and (min-resolution: 192dpi) {
 
 .ou-list--docs a {background-size:16px 16px;}
 
-.ou-list--docs--pdf a {background-image:url(icons/docs/icon-pdf@2x.png);}
 .ou-list--docs--doc a {background-image:url(icons/docs/icon-doc@2x.png);}
 .ou-list--docs--xls a {background-image:url(icons/docs/icon-xls@2x.png);}
 .ou-list--docs--ppt a {background-image:url(icons/docs/icon-ppt@2x.png);}
