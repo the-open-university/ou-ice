@@ -1,0 +1,17 @@
+
+# Path-based git attributes
+# https://www.kernel.org/pub/software/scm/git/docs/gitattributes.html
+
+# Ignore all test and documentation with "export-ignore".
+/.gitattributes     export-ignore
+/.gitignore         export-ignore
+/Gemfile            export-ignore
+/Gemfile.lock       export-ignore
+/gulpfile.js        export-ignore
+/*.html             export-ignore
+/robots.txt         export-ignore
+/archive            export-ignore
+/demo               export-ignore
+/example-pages      export-ignore
+/img                export-ignore
+/js                 export-ignore
