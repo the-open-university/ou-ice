@@ -8,7 +8,7 @@
 /Gemfile            export-ignore
 /Gemfile.lock       export-ignore
 /gulpfile.js        export-ignore
-/*.html             export-ignore
+/index.html         export-ignore
 /robots.txt         export-ignore
 /archive            export-ignore
 /docs               export-ignore

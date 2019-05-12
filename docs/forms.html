@@ -3,15 +3,16 @@
 <head>
 
     <meta charset="utf-8" />
-    
+
     <title>Forms - OU ICE</title>
-    
-    <link rel="stylesheet" type="text/css" href="gui/header-footer.css" media="screen, projection" />
-    <link rel="stylesheet" type="text/css" href="gui/styles.css" media="screen, projection" />
-    <link rel="stylesheet" type="text/css" href="gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" />
-    
+
+    <link rel="stylesheet" type="text/css" href="../gui/header-footer.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="../gui/styles.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="../gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="demo/demo.css" media="screen, projection" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    
+
     <link rel="apple-touch-icon" href="gui/icons/apple-touch-icon.png">
     <link rel="icon" href="gui/icons/favicon.ico">
 
@@ -31,7 +32,7 @@
 
 	<div class="ou-ice-back">
     	<div class="ou-wrapper">
-            <a href="index.html">OU ICE</a>
+            <a href="../index.html">OU ICE</a>
         </div>
     </div>
 
@@ -65,11 +66,11 @@
 
 <div class="code-example">
 <form class="ou-form">
-    
+
     <fieldset>
 
         <legend class="ou-form__legend">About you</legend>
-			
+
         <div class="ou-form__item">
             <label for="name" class="ou-form__label">Name</label>
             <input type="text" id="name" class="ou-form__text">
@@ -96,57 +97,57 @@
     <fieldset>
 
         <legend class="ou-form__legend">What sports do you like?</legend>
-        
+
         <div class="ou-form__group">
-            
+
             <div class="ou-form__item ou-form__item--compact">
                 <label for="check1" class="ou-form__label ou-form__label--simple"><input type="checkbox" id="check1" class="ou-form__checkbox"> Football</label>
             </div>
-    
+
             <div class="ou-form__item ou-form__item--compact">
                 <label for="check2" class="ou-form__label ou-form__label--simple"><input type="checkbox" id="check2" class="ou-form__checkbox"> Rugby</label>
             </div>
-    
+
             <div class="ou-form__item ou-form__item--compact">
                 <label for="check3" class="ou-form__label ou-form__label--simple"><input type="checkbox" id="check3" class="ou-form__checkbox"> Cricket</label>
             </div>
-    
+
             <div class="ou-form__item ou-form__item--compact">
                 <label for="check4" class="ou-form__label ou-form__label--simple"><input type="checkbox" id="check4" class="ou-form__checkbox"> Tennis</label>
             </div>
-            
+
         </div>
-            
+
     </fieldset>
 
 
     <fieldset>
-    
+
         <legend class="ou-form__legend">What is your favourite colour?</legend>
-            
+
         <div class="ou-form__group">
-        
+
             <div class="ou-form__item ou-form__item--compact">
                 <label for="radio1" class="ou-form__label ou-form__label--simple"><input type="radio" name="colour" id="radio1" class="ou-form__radio"> Blue</label>
             </div>
-                
+
             <div class="ou-form__item ou-form__item--compact">
                 <label for="radio2" class="ou-form__label ou-form__label--simple"><input type="radio" name="colour" id="radio2" class="ou-form__radio"> Red</label>
             </div>
-                
+
             <div class="ou-form__item ou-form__item--compact">
                 <label for="radio3" class="ou-form__label ou-form__label--simple"><input type="radio" name="colour" id="radio3" class="ou-form__radio"> Green</label>
             </div>
-                        
+
         </div>
-                
+
     </fieldset>
 
 
     <fieldset>
-    
+
         <legend class="ou-form__legend">How old are you?</legend>
-        
+
         <div class="ou-form__item">
             <select name="dropdown-age" class="ou-form__select">
                 <option>18-25</option>
@@ -154,7 +155,7 @@
                 <option>41-60</option>
             </select>
         </div>
-        
+
     </fieldset>
 
     <div class="ou-form__item">
@@ -162,7 +163,7 @@
         <input type="submit" value="Cancel" class="ou-button ou-button--secondary">
     </div>
 
-</form>  
+</form>
 </div> <!-- end code-example -->
 
 <hr>
@@ -176,7 +177,7 @@
 <form class="ou-form ou-form--grid">
 
     <fieldset>
-			
+
         <div class="ou-form__item ou-grid">
             <div class="ou-grid__2"><label for="name-inline" class="ou-form__label">Name</label></div>
             <div class="ou-grid__10"><input type="text" id="name-inline" class="ou-form__text"></div>
@@ -219,20 +220,20 @@
 <form class="ou-form">
 
     <fieldset>
-            
+
         <div class="ou-form__group ou-form__group--inline">
 
             <div class="ou-form__item">
-            
+
                 <label for="dropdown-fruit" class="ou-form__label">Fruit</label>
                 <select name="dropdown-fruit" id="dropdown-fruit" class="ou-form__select">
                     <option>Apples</option>
                     <option>Bananas</option>
                     <option>Pineapples</option>
                 </select>
-            
+
             </div>
-           
+
             <div class="ou-form__item">
 
                 <label for="dropdown-alcohol" class="ou-form__label">Alcohol</label>
@@ -242,24 +243,24 @@
                     <option>Lager</option>
                     <option>None of the above</option>
                 </select>
-            
+
             </div>
-                
+
             <div class="ou-form__item">
                 <label for="email2" class="ou-form__label">Email</label>
                 <input type="text" id="email2" class="ou-form__text">
             </div>
-            
+
             <div class="ou-form__item">
                 <label for="check-remember" class="ou-form__label ou-form__label--simple"><input type="checkbox" id="check-remember" class="ou-form__checkbox"> Remember me</label>
             </div>
-            
+
             <div class="ou-form__item">
             	<button class="ou-button ou-button--primary">Submit</button>
         	</div>
-        
+
         </div>
-        
+
     </fieldset>
 
 </form>
@@ -275,17 +276,17 @@
 <form class="ou-form">
 
 	<fieldset>
-        
+
         <div class="ou-form__item ou-form__item--error">
             <label for="passport" class="ou-form__label">Error</label>
             <input type="text" id="passport" class="ou-form__text">
         </div>
-        
+
         <div class="ou-form__item ou-form__item--success">
             <label for="username" class="ou-form__label">Success</label>
             <input type="text" id="username" class="ou-form__text">
         </div>
-        
+
 	</fieldset>
 
 </form>
@@ -299,12 +300,12 @@
 <form class="ou-form">
 
 	<fieldset>
-    
+
         <div class="ou-form__item ou-form__item--disabled">
             <label for="text-input" class="ou-form__label">Text input</label>
             <input type="text" id="text-input" class="ou-form__text" disabled>
         </div>
-                                        
+
         <div class="ou-form__item ou-form__item--disabled">
             <label for="radio-black" class="ou-form__label ou-form__label--simple"><input type="radio" name="colour" id="radio-black" class="ou-form__radio" disabled> Radio button</label>
         </div>
@@ -312,13 +313,13 @@
         <div class="ou-form__item ou-form__item--disabled">
             <label for="check-all" class="ou-form__label ou-form__label--simple"><input type="checkbox" id="check-all" class="ou-form__checkbox" disabled> Checkbox</label>
         </div>
-            
+
         <div class="ou-form__item ou-form__item--disabled">
             <select name="dropdown-age" class="ou-form__select" disabled>
                 <option>Disabled dropdown menu</option>
             </select>
         </div>
-        
+
 	</fieldset>
 
 </form>
