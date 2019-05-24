@@ -51,7 +51,7 @@ ol li {
 */
 
 .ou-list {
-	margin:0 0 20px 0; 
+	margin:0 0 20px 0;
 	padding:0;
 	list-style:none;
 	list-style-type:none;
@@ -132,7 +132,7 @@ ol li {
 
 .ou-list--2-cols li,
 .ou-list--3-cols li {
-	display:inline-block; 
+	display:inline-block;
 	width:100%;
 	column-break-inside: avoid;
 }
@@ -165,7 +165,7 @@ ol li {
 
 .ou-list--horizontal a:hover {
 	text-decoration:underline;
-	color:#000;	
+	color:#000;
 	background-color:transparent;
 }
 
@@ -216,7 +216,7 @@ ol li {
 	display:block;
 	width:32px;
 	height:32px;
-	text-indent:-5000em;	
+	text-indent:-5000em;
 }
 
 
@@ -291,8 +291,8 @@ ol li {
 
 
 
-@media 
-only screen and (max-width: 400px), 
+@media
+only screen and (max-width: 400px),
 only screen and (max-device-width: 400px) {
 
 .ou-list--2-cols,
@@ -319,10 +319,10 @@ only screen and (max-device-width: 400px) {
 
 /* all high res screens */
 
-@media 
+@media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 13/10),
-only screen and (min-resolution: 192dpi) { 
+only screen and (min-resolution: 192dpi) {
 
 
 /* social media */
@@ -341,11 +341,19 @@ only screen and (min-resolution: 192dpi) {
 
 /* docs */
 
-.ou-list--docs a {background-size:16px 16px;}
+.ou-list--docs li {
+  background-size: 16px 16px;
+}
 
-.ou-list--docs--doc a {background-image:url(icons/docs/icon-doc@2x.png);}
-.ou-list--docs--xls a {background-image:url(icons/docs/icon-xls@2x.png);}
-.ou-list--docs--ppt a {background-image:url(icons/docs/icon-ppt@2x.png);}
+.ou-list--docs--doc li,
+.ou-list__doc {background-image:url(icons/docs/icon-doc@2x.png);}
+
+.ou-list--docs--xls li,
+.ou-list__xls {background-image:url(icons/docs/icon-xls@2x.png);}
+
+.ou-list--docs--ppt li,
+.ou-list__ppt {background-image:url(icons/docs/icon-ppt@2x.png);}
+
 
 
 
