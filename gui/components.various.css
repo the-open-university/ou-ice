@@ -12,65 +12,6 @@
 
 /*
 -------------------------------------------
-	Creative
--------------------------------------------
-*/
-
-
-.ou-creative {
-	background-color: #f5f5f5;
-	color: #222;
-	position:relative;
-}
-
-.ou-creative__wrap {
-	position:relative;
-	max-width:1500px;
-	margin:0 auto;
-}
-
-.ou-creative img,
-.ou-creative img.ou-go3 {
-	margin:0 auto;
-	display:block;
-}
-
-.ou-creative__wording {
-	position:absolute;
-	display:inline-block;
-	color: #666;
-	background:#fff;
-	background: rgb(255,255,255);
-	background: rgba(255,255,255, 0.9);
-	padding:20px 25px;
-	top:35%;
-	left:8%;
-	max-width:40%;	
-}
-
-.ou-creative__wording--top {top:10%;}
-
-.ou-creative__wording--bottom {top:auto; bottom:10%;}
-
-.ou-creative__title {
-	margin:0;
-	font-size:1.8em;
-	background-color: transparent;
-	color: #000;
-}
-
-.ou-creative__description {
-	color:#666;
-	background-color: transparent;
-	font-size:1em;
-	margin:8px 0 0 0;
-}
-
-.ou-creative__description p:last-child {margin-bottom:0;}
-
-
-/*
--------------------------------------------
 	Events
 -------------------------------------------
 */
@@ -330,46 +271,6 @@ span.ou-events__current {
 
 
 @media 
-only screen and (max-width: 1180px), 
-only screen and (max-device-width: 1180px) {
-
-
-.ou-creative__wording {
-	max-width:80%;
-	left:0;
-	bottom:0;
-	top:auto;
-}
-
-
-} /* end media query */
-
-
-@media 
-only screen and (max-width: 767px), 
-only screen and (max-device-width: 767px) {
-
-
-.ou-creative__wording {
-	max-width:100%;
-	width:100%;
-	display:block;
-	position:static;
-	background-color:#fff;
-}
-
-.ou-creative__title {font-size:1.4em;}
-
-.ou-creative__wording--top {top:auto;}
-.ou-creative__wording--bottom {top:auto;}
-
-
-
-} /* end media query */
-
-
-
-@media 
 only screen and (max-width: 400px), 
 only screen and (max-device-width: 400px) {
 
@@ -377,7 +278,6 @@ only screen and (max-device-width: 400px) {
 .ou-site-ident__description {font-size:.9em;}
 
 
-.ou-creative__wording {padding:15px 20px;}
 
 .ou-timeline {padding-left: 0;}
 .ou-timeline:before {left: 4px;}
