@@ -1,6 +1,6 @@
-# Change log
+# Release notes
 
-## V5.1
+## Release V5.1 - July 07, 2019
 
 - Brand compliance - Updated font stack and typography docs to use 'font-family: Arial,Helvetica,sans-serif;'
 - Fix - Updated jquery CDN link to inlcude HTTPS//: to work locally
