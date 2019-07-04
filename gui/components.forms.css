@@ -49,7 +49,7 @@
 	display:block;
 	width:100%;
 	padding:9px 10px;
-	border:1px solid #A7A9AC;
+	border:1px solid #737373;
 }
 
 .ou-form__select {
@@ -58,7 +58,7 @@
 }
 
 .ou-form__required {
-	color:#B5002E;
+	color:#cd2041;
 	background-color: transparent;
 }
 
@@ -82,7 +82,7 @@
 .ou-form__text:focus,
 .ou-form__textarea:focus,
 .ou-form__select:focus {
-	border:1px solid #E80074;
+	border:1px solid #e21481;
 	outline:none;
 }
 
@@ -108,23 +108,23 @@
 /* validation */
 
 .ou-form__item--error label {
-	color:#B5002E;
+	color:#cd2041;
 	background-color: transparent;
 }
 
 .ou-form__item--success label {
-	color:#539d3c;
+	color:#008A00;
 	background-color: transparent;
 }
 
 .ou-form__item--error input {
-	border:1px solid #B5002E;
-	background-color:#fedbdb;
+	border:1px solid #cd2041;
+	background-color:#fdf0f2;
 	color:inherit;
 }
 
 .ou-form__item--success input {
-	border:1px solid #539d3c;
+	border:1px solid #008A00;
 	background-color:#EDF5EB;
 	color: inherit;
 }

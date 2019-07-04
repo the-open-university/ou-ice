@@ -23,7 +23,15 @@
 		$('.code-example-trigger').click(function () {
 		  $(this).parent().nextAll('pre.prettyprint-toglable').first().slideToggle('fast');
 		  return false;
-		});	
+    });	
+
+    $('.js-nav-toggle').click(function () {
+      $(this).toggleClass('is-active');
+      $('.js-nav').toggleClass('is-active');
+		  return false;
+    });	
+    
+    
 		
 
 	});

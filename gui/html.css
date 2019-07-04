@@ -17,9 +17,11 @@
 
 body {
 	font-size: 90%;
-	font-family:Arial, sans-serif;
-	color: #222;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #4d4d4d;
 	background-color: #fff;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
 }
 
 img {
@@ -29,13 +31,13 @@ img {
 }
 
 a {
-	color:#039;
+	color:#0e56a7;
 	background-color: transparent;
 	text-decoration:underline;
 }
 
 a:visited {
-	color:#9F2563;
+	color: #e21481;
 	background-color: transparent;
 }
 
@@ -57,7 +59,7 @@ a:hover {
 
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Arial, sans-serif;
+	font-family: Arial,Helvetica,sans-serif;
 	font-weight: bold;
 	font-style: normal;
 	color: #000;
@@ -96,7 +98,7 @@ p {
 
 small {
 	font-size: 90%;
-	color:#666;
+	color:#737373;
 }
 
 ins {
@@ -172,18 +174,18 @@ hr {
 }
 
 mark {
-	background-color:#FFD400;
-	color:#000;
+	background-color: #068293;
+	color: #fff;
 	padding:0 3px;
 	display:inline-block;
 }
 
 
-/*
+
 pre {
 	overflow: auto;
-	background-color:#333;
-	color:#ccc;
+	background-color:#262626;
+	color:#fff;
 	border-radius:5px;
 	padding:15px 20px;
 	margin: 0 0 20px 0;
@@ -198,7 +200,7 @@ pre {
 pre code {
 	padding: 0;
 	margin:0;
-	color: #ccc;
+	color: #fff;
 	font-size: 12px;
 	font-weight:normal;
 	line-height: 160%;
@@ -206,15 +208,15 @@ pre code {
 }
 
 pre code::selection {
-	color:#000; 
-	background:#ffc23d;
+	background:#068293;
+	color: #fff;
 }
 
 pre code::-moz-selection {
-	color:#000;
-	background:#ffc23d;
+	background:#068293;
+	color: #fff;
 }
-*/
+ 
 
 
 

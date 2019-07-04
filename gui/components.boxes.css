@@ -19,7 +19,7 @@
 
 .ou-box h2,
 .ou-box h3 {
-	font-family:Arial, sans-serif;
+	font-family: Arial,Helvetica,sans-serif;
 	font-weight:bold;
 	font-size:1.1em;
 	margin:0 0 8px 0;
@@ -34,16 +34,16 @@
 	border-color:#ccc;
 }
 
-.ou-box--success {border-color:#539d3c;}
-.ou-box--info {border-color:#0b55a8;}
+.ou-box--success {border-color:#008A00;}
+.ou-box--info {border-color:#0e56a7;}
 
 .ou-box--warning {
-	border-color:#B5002E;
-	background-color:#fedbdb;
+	border-color:#cd2041;
+	background-color:#fdf0f2;
 }
 
 .ou-box--note {
-	border-color:#F4C400;
+	border-color:#ffd400;
 	background-color:#fdf6cd;
 }
 

@@ -117,16 +117,16 @@
 
 .ou-theme--orange .ou-sections a.ou-selected,
 .ou-theme--orange .ou-sections a.ou-selected:hover {
-	border-bottom: 2px solid #C5540A;
-	color:#C5540A;
+	border-bottom: 2px solid #d34616;
+	color:#d34616;
 	background-color: transparent;
 }
 
 .ou-theme--orange .ou-sections--bar a.ou-selected,
 .ou-theme--orange .ou-sections--bar a.ou-selected:hover {
-	border-top: 2px solid #C5540A;
+	border-top: 2px solid #d34616;
 	border-bottom: 1px solid #fff;
-	color:#C5540A;
+	color:#d34616;
 	background-color: #fff;
 }
 
@@ -142,7 +142,7 @@
 .ou-theme--orange .ou-atoz__filter strong, 
 .ou-theme--orange .ou-atoz__filter a.ou-selected, 
 .ou-theme--orange .ou-atoz__filter a.ou-selected:hover {
-	background-color: #C5540A;
+	background-color: #d34616;
 	color:#fff;
 }
 
@@ -166,16 +166,16 @@
 
 .ou-theme--purple .ou-sections a.ou-selected,
 .ou-theme--purple .ou-sections a.ou-selected:hover {
-	border-bottom: 2px solid #4E247B;
-	color:#4E247B;
+	border-bottom: 2px solid #716fb3;
+	color:#716fb3;
 	background-color: transparent;
 }
 
 .ou-theme--purple .ou-sections--bar a.ou-selected,
 .ou-theme--purple .ou-sections--bar a.ou-selected:hover {
-	border-top: 2px solid #4E247B;
+	border-top: 2px solid #716fb3;
 	border-bottom: 1px solid #fff;
-	color:#4E247B;
+	color:#716fb3;
 	background-color: #fff;
 }
 
@@ -191,7 +191,7 @@
 .ou-theme--purple .ou-atoz__filter strong, 
 .ou-theme--purple .ou-atoz__filter a.ou-selected, 
 .ou-theme--purple .ou-atoz__filter a.ou-selected:hover {
-	background-color: #4E247B;
+	background-color: #716fb3;
 	color: #fff;
 }
 
@@ -215,16 +215,16 @@
 
 .ou-theme--blue .ou-sections a.ou-selected,
 .ou-theme--blue .ou-sections a.ou-selected:hover {
-	border-bottom: 2px solid #0B55A8;
-	color:#0B55A8;
+	border-bottom: 2px solid #0e56a7;
+	color:#0e56a7;
 	background-color: transparent;
 }
 
 .ou-theme--blue .ou-sections--bar a.ou-selected,
 .ou-theme--blue .ou-sections--bar a.ou-selected:hover {
-	border-top: 2px solid #0B55A8;
+	border-top: 2px solid #0e56a7;
 	border-bottom: 1px solid #fff;
-	color:#0B55A8;
+	color:#0e56a7;
 	background-color: #fff;
 }
 
@@ -240,7 +240,7 @@
 .ou-theme--blue .ou-atoz__filter strong, 
 .ou-theme--blue .ou-atoz__filter a.ou-selected, 
 .ou-theme--blue .ou-atoz__filter a.ou-selected:hover {
-	background-color: #0B55A8;
+	background-color: #0e56a7;
 	color: #fff;
 }
 
@@ -248,7 +248,7 @@
 .ou-theme--blue .ou-atoz__results li:nth-child(odd),
 .ou-theme--blue .ou-table--striped tr:nth-child(even),
 .ou-theme--blue .ou-events__nav {
-	background-color:#E7EFF7;
+	background-color:#737373;
 	color: #222;
 }
 

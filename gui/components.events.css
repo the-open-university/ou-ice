@@ -59,7 +59,7 @@ span.ou-events__current {
 
 .ou-events__prev:hover:before,
 .ou-events__next:hover:after {
-	color:#e80074;
+	color:#e21481;
 	background-color: transparent;
 }
 
@@ -83,7 +83,7 @@ span.ou-events__current {
 	font-style: normal;
     font-size: .9em;
     color: #fff;
-    background-color: #B5002E;
+    background-color: #cd2041;
     padding: 3px;
     text-align: center;
     text-transform: uppercase;

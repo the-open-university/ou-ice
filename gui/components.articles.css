@@ -89,7 +89,7 @@
 	width:100%;
 }
 
-.ou-articles--striped .ou-articles__article:nth-child(odd) {background: #e7eff7;}
+.ou-articles--striped .ou-articles__article:nth-child(odd) {background: #737373;}
 
 
 /* stacked articles (images at top) */

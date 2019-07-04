@@ -117,7 +117,7 @@ div#tabs-wrapper ul.tabs li.active a {
 	background-color: #fff;
 	color:black;
 	float: left;
-	font-family: Arial,sans-serif;
+	font-family: Arial,Helvetica,sans-serif;
 	margin: 0;
 	width: 50px;
 	position:absolute;

@@ -92,7 +92,7 @@
 	right: 0;
 	bottom: 0;
 	color: #fff;
-	background: #B5002E;
+	background: #cd2041;
 	background: rgb(181,0,46);
 	background: rgba(181,0,46, 0.8);
 	text-align: right;
@@ -100,7 +100,7 @@
 	margin: 0;
 }
 
-.ou-hero:hover .ou-hero__wording {background:#B5002E;}
+.ou-hero:hover .ou-hero__wording {background:#cd2041;}
 
 .ou-hero__title {
 	color: inherit;
@@ -124,22 +124,22 @@
 .ou-bg-black:hover .ou-hero__wording 		{background:#000000 !important;}
 
 .ou-bg-dark-grey .ou-hero__wording,
-.ou-bg-dark-grey:hover .ou-hero__wording 	{background:#333333 !important;}
+.ou-bg-dark-grey:hover .ou-hero__wording 	{background:#262626 !important;}
 
 .ou-bg-red .ou-hero__wording,
-.ou-bg-red:hover .ou-hero__wording 		{background:#B5002E !important;}
+.ou-bg-red:hover .ou-hero__wording 		{background:#cd2041 !important;}
 
 .ou-bg-pink .ou-hero__wording,
-.ou-bg-pink:hover .ou-hero__wording 		{background:#E80074 !important;}
+.ou-bg-pink:hover .ou-hero__wording 		{background:#e21481 !important;}
 
 .ou-bg-dark-blue .ou-hero__wording,
-.ou-bg-dark-blue:hover .ou-hero__wording 	{background:#003366 !important;}
+.ou-bg-dark-blue:hover .ou-hero__wording 	{background:#072b54 !important;}
 
 .ou-bg-purple .ou-hero__wording,
-.ou-bg-purple:hover .ou-hero__wording 		{background:#4E247B !important;}
+.ou-bg-purple:hover .ou-hero__wording 		{background:#716fb3 !important;}
 
 .ou-bg-orange .ou-hero__wording,
-.ou-bg-orange:hover .ou-hero__wording 		{background:#C5540A !important;}
+.ou-bg-orange:hover .ou-hero__wording 		{background:#d34616 !important;}
 
 .ou-bg-burgundy .ou-hero__wording,
 .ou-bg-burgundy:hover .ou-hero__wording 	{background:#630031 !important;}
@@ -148,10 +148,10 @@
 .ou-bg-dark-green:hover .ou-hero__wording 	{background:#4A5E4A !important;}
 
 .ou-bg-green .ou-hero__wording,
-.ou-bg-green:hover .ou-hero__wording 		{background:#539d3c !important;}
+.ou-bg-green:hover .ou-hero__wording 		{background:#008A00 !important;}
 
 .ou-bg-blue .ou-hero__wording,
-.ou-bg-blue:hover .ou-hero__wording 		{background:#0b55a8 !important;}
+.ou-bg-blue:hover .ou-hero__wording 		{background:#0e56a7 !important;}
 
 
 .ou-bg-black 		.ou-hero__wording {background: rgb(0, 0, 0) !important; 		background: rgba(0, 0, 0, 0.8) !important;}
@@ -175,25 +175,25 @@
 .ou-bg-white:hover .ou-hero__wording {background:#FFFFFF !important; color:#000;}
 
 .ou-bg-grey .ou-hero__wording,
-.ou-bg-grey:hover .ou-hero__wording {background:#A7A9AC !important; color:#000;} 
+.ou-bg-grey:hover .ou-hero__wording {background:#737373 !important; color:#000;} 
 
 .ou-bg-light-green .ou-hero__wording,
 .ou-bg-light-green:hover .ou-hero__wording {background:#A4A400 !important; color:#000;}
 
 .ou-bg-turquoise .ou-hero__wording,
-.ou-bg-turquoise:hover .ou-hero__wording {background:#00B0AC !important; color:#000;}
+.ou-bg-turquoise:hover .ou-hero__wording {background:#068293 !important; color:#000;}
 
 .ou-bg-light-blue .ou-hero__wording,
-.ou-bg-light-blue:hover .ou-hero__wording {background:#A6D2FF !important; color:#000;} 
+.ou-bg-light-blue:hover .ou-hero__wording {background:#9fbbdc !important; color:#000;} 
 
 .ou-bg-yellow .ou-hero__wording,
-.ou-bg-yellow:hover .ou-hero__wording {background:#F4C400 !important; color:#000;} 
+.ou-bg-yellow:hover .ou-hero__wording {background:#ffd400 !important; color:#000;} 
 
 .ou-bg-beige .ou-hero__wording,
-.ou-bg-beige:hover .ou-hero__wording {background:#D1D1A5 !important; color:#000;} 
+.ou-bg-beige:hover .ou-hero__wording {background:#f8f6ed !important; color:#000;} 
 
 .ou-bg-light-grey .ou-hero__wording,
-.ou-bg-light-grey:hover .ou-hero__wording {background:#e7eff7 !important; color:#000;}
+.ou-bg-light-grey:hover .ou-hero__wording {background:#737373 !important; color:#000;}
 
 
 .ou-bg-white 		.ou-hero__wording {background: rgb(255, 255, 255) !important; 	background: rgba(255, 255, 255, 0.8) !important; } 

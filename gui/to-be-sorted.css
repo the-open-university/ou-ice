@@ -133,7 +133,7 @@ ul.ou-tick-list li:before {
 	content: "\f00c";
 	font-family:FontAwesome;
 	font-size:1em;
-	color:#539d3c;
+	color:#008A00;
 	top:5px;
 	left:0;
 	position:absolute;
@@ -209,7 +209,7 @@ ul.ou-cross-list li:before {
 	text-decoration:none;
 }
 
-.ou-forum-post-links i.fa-reply {color:#539d3c;}
+.ou-forum-post-links i.fa-reply {color:#008A00;}
 .ou-forum-post-links i.fa-link {color:#666;}
 .ou-forum-post-links i.fa-flag {color:#b52a1e;}
 
@@ -267,10 +267,10 @@ ul.ou-cross-list li:before {
 .ou-accordion {
 	margin: 0 0 20px 0;
 	padding:30px;
-	background-color:#0b55a8;
+	background-color:#0e56a7;
 }
 
-.ou-accordion.light {background-color:#e7eff7;}
+.ou-accordion.light {background-color:#737373;}
 
 .ou-accordion dt {margin:0 0 15px 0;}
 
@@ -296,7 +296,7 @@ ul.ou-cross-list li:before {
 
 .ou-accordion.light dt a {
 	background-color:#fff; 
-	color:#0b55a8;
+	color:#0e56a7;
 }
 
 .ou-accordion.light dt a:hover {background-color:#a6d0ff; color:black;}
@@ -381,13 +381,13 @@ div.ou-action-block {
 	font-size:20px;
 	position: absolute;
 	content: " \f0a9";
-	color: #539d3c;
+	color: #008A00;
 	right: 20px;
 	top: 16px;
 }
 
 #ou-content div.ou-action-block ul li a:hover {
-	background-color:#539d3c;
+	background-color:#008A00;
 	color:#fff;
 }
 
@@ -429,7 +429,7 @@ div.ou-action-block {
 	font-family: 'FontAwesome';
 	position: absolute;
 	content: " \f0a9";
-	color: #539d3c;
+	color: #008A00;
 	right: 5px;
 	top: 40%;
 	font-size:20px;
@@ -456,12 +456,12 @@ div.ou-action-block {
 .ou-block-showhide2,
 .ou-block-showhide3 {margin-bottom:15px;}
 
-.ou-block-showhide2 {background:#e7eff7;}
+.ou-block-showhide2 {background:#737373;}
 
 .ou-block-showhide3 {background:#eee;}
 
 .ou-block-showhide h2 {
-	background:#0b55a8;
+	background:#0e56a7;
 	color:#fff;
 	padding:12px 15px;
 	margin:0 0 15px 0;
@@ -479,7 +479,7 @@ div.ou-action-block {
 }
 
 .ou-block-showhide3 h2 {
-	background:#0b55a8;
+	background:#0e56a7;
 	color:#fff;
 	font-size:1em;
 	font-weight:bold;

@@ -23,13 +23,13 @@
 }
 
 .ou-button--primary,
-.ou-button--primary:visited {background-color: #e80074;}
+.ou-button--primary:visited {background-color: #e21481;}
 
 .ou-button--secondary,
 .ou-button--secondary:visited {background-color:#333;}
 
 .ou-button--success,
-.ou-button--success:visited {background-color:#539d3c;}
+.ou-button--success:visited {background-color:#008A00;}
 
 .ou-button--warning,
 .ou-button--warning:visited {background-color:#b52a1e;}
@@ -64,7 +64,7 @@ button:disabled {
 
 .ou-button--more:hover {
 	background-color:#fff !important;
-	border:1px solid #e80074;
+	border:1px solid #e21481;
 	color:#000;
 }
 
