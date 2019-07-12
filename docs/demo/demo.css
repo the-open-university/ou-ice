@@ -24,9 +24,11 @@
 
 
 
+
+
 .ou-ice-header__nav {
 	width: 100vw;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #e9eaea;
     padding: 30px;
     position: fixed;
     left: -100vw;
@@ -35,6 +37,7 @@
     overflow: scroll;
     transition: 0.5s all cubic-bezier(0, 0, 0.44, 0.99);
 	background: #fff;
+	z-index: 9999999999;
 }
 
 .ou-ice-header__nav  a:visited {
@@ -50,6 +53,9 @@
 	left: 0;
 }
 
+.ou-ice-hidden-preview .code-example {
+	display: none;
+}
 
 
 @media only screen and (max-width: 1100px) {
@@ -58,7 +64,7 @@
 		display: flex;
 		justify-content: space-between;
 		padding: 15px;
-		border-bottom: 1px solid #ddd;
+		border-bottom: 1px solid #e9eaea;
 	}
 
 	.ou-ice-header__primary button {
@@ -78,6 +84,10 @@
 		display: none;
 	}
 
+	.js-nav-toggle-desktop {
+		display: none;
+	}
+
 
 	
 }
@@ -89,17 +99,45 @@
 		padding-left: 260px;
 		padding-top: 150px;
 		padding-right:0;
+		transition: all ease 0.5s;
 	}
-	
+
+	.ou-ice-full-preview {
+		margin: 45px 0;
+	}
+
+	.js-nav-toggle-desktop {
+		display: block;
+		position: fixed;
+		bottom: 0;
+		left: 260px;
+		border: solid 1px #e9eaea;
+		padding: 10px;
+		transition: all ease 0.5s;
+	}
+
+	.ou-ice-body.ou-ice-nav-hidden {
+		padding-left: 0;
+	}
+
+	.ou-ice-nav-hidden .ou-ice-header {
+		left: -260px;
+	}
+
+	.ou-ice-nav-hidden .js-nav-toggle-desktop {
+		left: 0;
+	}
+
 	.ou-ice-header {
 		width: 260px;
-		border-right: 1px solid #ddd;
+		border-right: 1px solid #e9eaea;
 		padding: 30px;
 		position:fixed;
 		left: 0;
 		top: 0;
 		height: 100vh;
 		overflow: scroll;
+		transition: all ease 0.5s;
 	}
 	
 	.ou-ice-header nav {
@@ -116,9 +154,23 @@
 		padding: 0;
 	}
 
-	.ou-ice-header__primary button {
+	.js-nav-toggle {
 		display: none;
 	}
+
+	.js-nav-toggle-desktop .close {
+		display: none;
+	}
+
+	.js-nav-toggle-desktop.is-active .close {
+		display: block;
+	}
+
+	.js-nav-toggle-desktop.is-active .open {
+		display: none;
+	}
+
+	.js-nav-toggle-desktop:focus {outline: none;}
 	
 }
 
@@ -317,3 +369,19 @@ a.code-example-trigger {
 
 } /* end media query */
 
+
+/* Previews */
+
+.code-example {
+	padding: 15px;
+	border: solid 1px #e9eaea;
+	margin: 30px 15px;
+}
+
+
+@media only screen and (min-width: 1100px) {
+	.code-example {
+		padding: 30px;
+		margin: 45px;
+	}
+}

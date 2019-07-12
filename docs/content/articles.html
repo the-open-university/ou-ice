@@ -250,17 +250,25 @@
     <li><a href="#standard">Standard</a></li>
     <li><a href="#standard-imageless-no-date">Standard, one imageless item, no date</a></li>
     <li><a href="#standard-promoted">Standard, promoted item</a></li>
+    <li><a href="#standard-more">Standard, with 'more' link</a></li>
     <li><a href="#standard-smaller">Standard, smaller</a></li>
     <li><a href="#striped">Striped</a></li>
     <li><a href="#stacked">Stacked</a></li>
     <li><a href="#list-items">List of items</a></li>
-    <li><a href="#filter1">Filter: A-Z</a></li>
-    <li><a href="#filter2">Filter: another example</a></li>
+    <li><a href="#filter1">Pattern - Articles with filter: A-Z</a></li>
+    <li><a href="#filter2">Pattern - Articles with horizontal filter</a></li>
+    <li><a href="#seeall">Pattern - Articles with see all button</a></li>
 </ol>
 
 
 <p>Use <span class="ou-ice-code">ou-articles</span>  when you need a combination of any of the following: image, title, description, date, links.</p>
-
+<div class="ou-box ou-box--info">
+<h3>Note: Alt text on images</h3>
+    <p>If the image within the article component is not a link then in this context should not include descriptive alt text.<br> Do ensure an empty tag <span class="ou-ice-code">alt=""</span> is included as an instruction for screen readers to ignore the image.
+    </p>
+    <h3>Images as links</h3>
+    <p>If the image is wrapped in a link element, then include relevant alt text which describes the link and not the image.</p>
+</div>
 
 <h2 id="standard">Standard</h2>
 
@@ -270,7 +278,7 @@
 
     <div class="ou-articles__article ">
         <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/music.jpg" alt=""></a>
+            <a href="#"><img src="../demo/img/400x200/music.jpg" alt="Title one"></a>
         </div>
 
         <div class="ou-articles__text">
@@ -280,31 +288,6 @@
     	</div>
     </div>
 
-    <div class="ou-articles__article ">
-        <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/wind.jpg" alt=""></a>
-        </div>
-
-        <div class="ou-articles__text">
-            <h2><a href="#">Title two</a></h2>
-            <p>Ahab stood before him, and was lightly unwinding some thirty or forty turns to form a preliminary hand-coil to toss overboard, when the old Manxman made bold to speak.</p>
-    		<p class="ou-articles__date">11 June, 2016</p>
-    	</div>
-    </div>
-
-    <div class="ou-articles__article ">
-        <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/cube.jpg" alt=""></a>
-        </div>
-
-        <div class="ou-articles__text">
-            <h2><a href="#">Title three</a></h2>
-            <p>The wind grew decidedly calmer, and happily the sea fell with it. All sails were now hoisted, and at noon the Tankadere was within forty-five miles of Shanghai.</p>
-    		<p class="ou-articles__date">11 June, 2016</p>
-    	</div>
-    </div>
-
-<a href="#" class="ou-button ou-button--more">See all</a>
 </div>
 </div> <!-- end code-example -->
 
@@ -314,17 +297,6 @@
 <div class="code-example">
 <div class="ou-articles">
 
-  <div class="ou-articles__article">
-        <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/group.jpg" alt=""></a>
-        </div>
-
-        <div class="ou-articles__text">
-            <h2><a href="#">Title one</a></h2>
-            <p>The Martians seem to have calculated their descent with amazing subtlety - their mathematical learning is evidently far in excess of ours.</p>
-    	</div>
-    </div>
-
     <div class="ou-articles__article">
         <div class="ou-articles__text">
             <h2><a href="#">Title two</a></h2>
@@ -332,15 +304,34 @@
     	</div>
     </div>
 
-    <div class="ou-articles__article ">
-        <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/girl.jpg" alt=""></a>
+</div>
+</div> <!-- end code-example -->
+
+<h2 id="standard-more">Standard, with 'more' link</h2>
+
+<div class="ou-box ou-box--info">
+<h3>Note: Consider meaningful link text</h3>
+    <p>Ensure text in links is descriptive i.e for a link to find out more about science courses, instead of using 'Find out more', include the subject, so, 'Find out more about science courses' </p>
+</div>
+
+
+<div class="code-example">
+<div class="ou-articles">
+
+    <div class="ou-articles__article">
+
+    	<div class="ou-articles__image">
+        	<a href="#"><img src="../demo/img/400x200/girl.jpg" alt="Subject title"></a>
         </div>
 
-        <div class="ou-articles__text">
-            <h2><a href="#">Title three</a></h2>
-            <p>The wind grew decidedly calmer, and happily the sea fell with it. All sails were now hoisted, and at noon the Tankadere was within forty-five miles of Shanghai.</p>
-    	</div>
+    	<div class="ou-articles__text">
+            <h3><a href="#">Subject title</a></h3>
+
+            <p>And thus, while the one ship went cheerily before the breeze, the other stubbornly fought against it; and so the two vessels parted; the crew of the Pequod looking with grave, lingering glances towards the receding Bachelor; but the Bachelor's men never heeding their gaze for the lively revelry...</p>
+
+            <p class="ou-articles__more"><a href="#">Find out more about subject title</a></p>
+        </div>
+
     </div>
 
 </div>
@@ -351,46 +342,27 @@
 
 <p>Make one of the articles stand out.</p>
 
+
+
 <div class="code-example">
 <div class="ou-articles">
 
     <div class="ou-articles__article ou-articles__article--promoted">
 
     	<div class="ou-articles__image">
-        	<a href="#"><img src="demo/img/400x300/elephant.jpg" alt=""></a>
+        	<a href="#"><img src="../demo/img/400x300/elephant.jpg" alt="Primary feature: Title one"></a>
         </div>
 
     	<div class="ou-articles__text">
-            <h3><a href="#">Primary feature: Title one</a></h3>
+            <h3><a href="#">Title one</a></h3>
 
             <p>And thus, while the one ship went cheerily before the breeze, the other stubbornly fought against it; and so the two vessels parted; the crew of the Pequod looking with grave, lingering glances towards the receding Bachelor; but the Bachelor's men never heeding their gaze for the lively revelry...</p>
 
-            <p class="ou-articles__more"><a href="#">Read more</a></p>
+            <p class="ou-articles__more"><a href="#">Read more about title one</a></p>
         </div>
 
     </div>
 
-    <div class="ou-articles__article ">
-        <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/lakes.jpg" alt=""></a>
-        </div>
-
-        <div class="ou-articles__text">
-            <h2><a href="#">Title two</a></h2>
-            <p>The Martians seem to have calculated their descent with amazing subtlety - their mathematical learning is evidently far in excess of ours.</p>
-    	</div>
-    </div>
-
-    <div class="ou-articles__article ">
-        <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/girl.jpg" alt=""></a>
-        </div>
-
-        <div class="ou-articles__text">
-            <h2><a href="#">Title three</a></h2>
-            <p>The Martians seem to have calculated their descent with amazing subtlety - their mathematical learning is evidently far in excess of ours.</p>
-    	</div>
-    </div>
 
 </div>
 </div> <!-- end code-example -->
@@ -399,7 +371,7 @@
 
 <h2 id="standard-smaller">Standard, smaller</h2>
 
-<p>Could be useful in sidebar or other smaller containers.</p>
+<p>Could be useful in the sidebar or other smaller containers.</p>
 
 <div class="code-example">
 <div class="ou-articles ou-articles--smaller">
@@ -407,7 +379,7 @@
     <div class="ou-articles__article">
 
     	<div class="ou-articles__image">
-        	<a href="#"><img src="demo/img/400x300/elephant.jpg" alt=""></a>
+        	<a href="#"><img src="../demo/img/400x300/elephant.jpg" alt="Title one"></a>
         </div>
 
     	<div class="ou-articles__text">
@@ -419,42 +391,6 @@
     		<p class="ou-articles__date">15 June, 2016</p>
 
         </div>
-
-    </div>
-
-    <div class="ou-articles__article ">
-
-    	<div class="ou-articles__image">
-        	<a href="#"><img src="demo/img/400x300/bug.jpg" alt=""></a>
-        </div>
-
-    	<div class="ou-articles__text">
-
-            <h3><a href="#">Title two</a></h3>
-
-            <p>The Bachelor's men never heeding their gaze for the lively revelry they were in.</p>
-
-    		<p class="ou-articles__date">11 June, 2016</p>
-
-        </div>
-
-    </div>
-
-    <div class="ou-articles__article ">
-
-    	<div class="ou-articles__image">
-        	<a href="#"><img src="demo/img/400x300/kingfisher.jpg" alt=""></a>
-        </div>
-
-    	<div class="ou-articles__text">
-
-            <h3><a href="#">Title three</a></h3>
-
-            <p>And as Ahab, leaning over the taffrail, eyed the homew</p>
-
-            <p class="ou-articles__date">10 June, 2016</p>
-
-    	</div>
 
     </div>
 
@@ -472,7 +408,7 @@
 
     <div class="ou-articles__article ">
         <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/navy.jpg" alt=""></a>
+            <a href="#"><img src="../demo/img/400x200/navy.jpg" alt="Title one"></a>
         </div>
 
         <div class="ou-articles__text">
@@ -483,7 +419,7 @@
 
     <div class="ou-articles__article ">
         <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/lakes.jpg" alt=""></a>
+            <a href="#"><img src="../demo/img/400x200/lakes.jpg" alt="Title two"></a>
         </div>
 
         <div class="ou-articles__text">
@@ -494,7 +430,7 @@
 
     <div class="ou-articles__article ">
         <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/boys.jpg" alt=""></a>
+            <a href="#"><img src="../demo/img/400x200/boys.jpg" alt="Title three"></a>
         </div>
 
         <div class="ou-articles__text">
@@ -517,7 +453,7 @@
 
     <div class="ou-articles__article ">
         <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/music.jpg" alt=""></a>
+            <a href="#"><img src="../demo/img/400x200/music.jpg" alt="Title one"></a>
         </div>
 
         <div class="ou-articles__text">
@@ -528,7 +464,7 @@
 
     <div class="ou-articles__article ">
         <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/wind.jpg" alt=""></a>
+            <a href="#"><img src="../demo/img/400x200/wind.jpg" alt="Title two"></a>
         </div>
 
         <div class="ou-articles__text">
@@ -539,7 +475,7 @@
 
     <div class="ou-articles__article ">
         <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/cube.jpg" alt=""></a>
+            <a href="#"><img src="../demo/img/400x200/cube.jpg" alt="Title three"></a>
         </div>
 
         <div class="ou-articles__text">
@@ -571,8 +507,6 @@
             <li><a href="#">Another news item</a> <span class="ou-articles__date">2 July, 2016</span></li>
         </ul>
     </div>
-
-<a href="#" class="ou-button ou-button--more">See all</a>
 </div>
 </div> <!-- end code-example -->
 
@@ -583,7 +517,7 @@
 
 
 
-<h2 id="filter1">Filter: A-Z</h2>
+<h2 id="filter1">Pattern - Articles with filter: A-Z</h2>
 
 <p>You can combine a <a href="lists.html#horizontal">horizontal list</a> with articles to create a filter/results type layout. Either use <span class="ou-ice-code">strong</span> or <span class="ou-ice-code">ou-selected</span> on the <span class="ou-ice-code">a</span> to highlight the active link.</p>
 
@@ -671,7 +605,7 @@
 
 
 
-<h2 id="filter2">Filter: another example</h2>
+<h2 id="filter2">Pattern - Articles with horizontal filter</h2>
 
 <p>You can combine a <a href="lists.html#horizontal">horizontal list</a> with articles to create a filter/results type layout. Either use <span class="ou-ice-code">strong</span> or <span class="ou-ice-code">ou-selected</span> on the <span class="ou-ice-code">a</span> to highlight the active link.</p>
 
@@ -693,7 +627,7 @@
 
     <div class="ou-articles__article ">
         <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/music.jpg" alt=""></a>
+            <a href="#"><img src="../demo/img/400x200/music.jpg" alt="Human 1"></a>
         </div>
 
         <div class="ou-articles__text">
@@ -704,7 +638,7 @@
 
     <div class="ou-articles__article ">
         <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/wind.jpg" alt=""></a>
+            <a href="#"><img src="../demo/img/400x200/wind.jpg" alt="Human 2"></a>
         </div>
 
         <div class="ou-articles__text">
@@ -715,7 +649,7 @@
 
     <div class="ou-articles__article ">
         <div class="ou-articles__image">
-            <a href="#"><img src="demo/img/400x200/cube.jpg" alt=""></a>
+            <a href="#"><img src="../demo/img/400x200/cube.jpg" alt="Human 3"></a>
         </div>
 
         <div class="ou-articles__text">
@@ -723,11 +657,55 @@
             <p>The wind grew decidedly calmer, and happily the sea fell with it. All sails were now hoisted, and at noon the Tankadere was within forty-five miles of Shanghai.</p>
     	</div>
     </div>
-
-<a href="#135" class="ou-button ou-button--more">See all humans</a>
 </div>
 </div> <!-- end code-example -->
 
+
+
+
+<h2 id="seeall">Pattern - Articles with see all button</h2>
+
+<p>If applicable You can add a 'more button' <span class="ou-ice-code">class="ou-button ou-button--more"</a></span> at the bottom of article lists to link users to see an extended lists of articles</p>
+
+<div class="code-example">
+
+<div class="ou-articles">
+
+    <div class="ou-articles__article ">
+        <div class="ou-articles__image">
+            <a href="#"><img src="../demo/img/400x200/music.jpg" alt="Subject one"></a>
+        </div>
+        <div class="ou-articles__text">
+            <h2><a href="#456">Subject one</a></h2>
+            <p>The Martians seem to have calculated their descent with amazing subtlety - their mathematical learning is evidently far in excess of ours.</p>
+    	</div>
+    </div>
+
+    <div class="ou-articles__article ">
+        <div class="ou-articles__image">
+            <a href="#"><img src="../demo/img/400x200/wind.jpg" alt="Subject two"></a>
+        </div>
+
+        <div class="ou-articles__text">
+            <h2><a href="#24">Subject two</a></h2>
+            <p>Ahab stood before him, and was lightly unwinding some thirty or forty turns to form a preliminary hand-coil to toss overboard, when the old Manxman made bold to speak.</p>
+    	</div>
+    </div>
+
+    <div class="ou-articles__article ">
+        <div class="ou-articles__image">
+            <a href="#"><img src="../demo/img/400x200/cube.jpg" alt="Subject three"></a>
+        </div>
+
+        <div class="ou-articles__text">
+            <h2><a href="#87">Subject three</a></h2>
+            <p>The wind grew decidedly calmer, and happily the sea fell with it. All sails were now hoisted, and at noon the Tankadere was within forty-five miles of Shanghai.</p>
+    	</div>
+    </div>
+
+<a href="/see-all" class="ou-button ou-button--more">See all</a>
+</div>
+</div> <!-- end code-example -->
 
 
 
