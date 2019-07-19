@@ -96,5 +96,47 @@
 
 ### Developer update notes
 
-- Article alt text - Ensure meaningful alt text that describes the link NOT the image is used whenever an image is wrapped within a tag.
+- Article alt text - Ensure meaningful alt text that describes the link NOT the image is used whenever an image is wrapped within a tag
+
+## Release V5.3 - July 19, 2019
+
+- Updated ou-top link arrow colour #ccc to #737373 to be brand compliant
+- Updated ou-top colour ou-to-top link colour #039 to #0E56A7 to be brand compliant
+- Removed back to top link code example as duplicated above
+- Updated #ou-site-footer .ou-to-top icon colours #999 to #737373 to be brand compliant
+- Increased size of footer back to top button from 24px X 24px to 44px X 44px to meet accessibility best practises.
+- Split back to top page to create two separate 'back to top link' and ' Footer back to top button' pages
+- Provided updated code examples for both component examples include relevant warnings and usage info for each.
+- Added new into the text to breadcrumbs explaining the purpose.
+- Updated breadcrumb arrow colour #ddd to #737373 to be brand compliant
+- Updated breadcrumb current item colour #777 to #737373 to be brand compliant
+- Updated breadcrumb link visited colour #039 to #0E56A7 to be brand compliant
+- Updated breadcrumb page so breadcrumb sits in own code example box
+- Added nav element wrapped around breadcrumbs
+- Added link on breadcrumb page to show region 0 in layouts
+- Breadcrumb schema information and example added to breadcrumb page
+- Adding 'aria-label="Breadcrumb"' and 'aria-current="page" to breadcrumb code example
+- Added new intro text and link to layouts page on context nav page
+- Updated .ou-context-nav background colour / text colour #036 to #0E56A7 to be brand compliant
+- Updated context nav expanded background colour #f5f5f5 to #EEF3F9 to be brand compliant
+- Updated context nav border colour #ddd to #E9EAEA to be brand compliant
+- Removed article list from filter examples
+- Added aria-current="page" to filter 'tab' example for current page your on
+- Updated ou-nav-filter link and active background colour #036 to #0E56A7 to be brand compliant
+- Reverted heading a tag underline removal so links as heading now don't display an underline
+- Updated ou-filter li display table-cell to inline and removed margin from a tag to fix mobile wrapping issue
+- Updated pagination page colour #777 to #737373  to be brand compliant
+- Updated pagination next/prev arrow colour #999 to #999 #737373 to be brand compliant
+- Updated pagination active state #036 to #0E56A7 to be brand compliant;
+- Updated pagination button border color #ccc to #E9EAEA to be brand compliant
+- Wrapped pagination UL with a nav element
+
+
+### Developer update notes
+
+- 'icon-to-top' image has changed in size, so when updating CSS of sites, the new image assets must be included.
+- Breadcrumb example has been updated to include nav element - Recommend adding nav element to breadcrumbs 
+- Breadcrumb example has been updated to include schema - Recommend adding schema to breadcrumbs 
+- Breadcrumb example has been updated to include 'aria-label="Breadcrumb"' and 'aria-current="page" - Recommend adding aria attributes to breadcrumbs
+- Pagination examples has been updated to include nav element - Recommend adding nav element to pagination
 

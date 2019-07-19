@@ -109,8 +109,12 @@
                 <h3 class="ou-smaller">Navigation</h3>
                 <ul class="ou-list ou-list--links">
                     <li>
-                        <a href="../navigation/nav-top.html">Back to top</a>
+                        <a href="../navigation/nav-top-link.html">Back to top link</a>
                     </li>
+                    <li>
+                        <a href="../navigation/nav-top-footer-button.html">Footer back to top button</a>
+                    </li>
+                    
                     <li>
                         <a href="../navigation/nav-breadcrumbs.html">Breadcrumbs</a>
                     </li>
@@ -254,19 +258,21 @@
 <div class="code-example">
 <div class="ou-paged">
     <p class="ou-paged__page">Page 1 of 20</p>
-    <ul>
-        <li><a class="ou-paged__first" href="#">First</a></li>
-        <li><a class="ou-paged__previous" href="#">Previous</a></li>
-        <li><strong>1</strong></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li>...</li>
-        <li><a href="#">20</a></li>
-        <li><a class="ou-paged__next" href="#">Next</a></li>
-        <li><a class="ou-paged__last" href="#">Last</a></li>
-    </ul>
+    <nav>
+        <ul>
+            <li><a class="ou-paged__first" href="#">First</a></li>
+            <li><a class="ou-paged__previous" href="#">Previous</a></li>
+            <li><strong>1</strong></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>...</li>
+            <li><a href="#">20</a></li>
+            <li><a class="ou-paged__next" href="#">Next</a></li>
+            <li><a class="ou-paged__last" href="#">Last</a></li>
+        </ul>
+    </nav>
 </div>
 </div> <!-- end code-example -->
 
@@ -278,10 +284,12 @@
 
 <div class="code-example">
 <div class="ou-paged ou-paged--previous-next">
-    <ul>
-        <li><a class="ou-paged__previous" href="#">Previous page</a></li>
-        <li><a class="ou-paged__next" href="#">Next page</a></li>
-    </ul>
+    <nav>
+        <ul>
+            <li><a class="ou-paged__previous" href="#">Previous page</a></li>
+            <li><a class="ou-paged__next" href="#">Next page</a></li>
+        </ul>
+    </nav>
 </div>
 </div> <!-- end code-example -->
 

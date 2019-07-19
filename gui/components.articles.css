@@ -53,6 +53,9 @@
 	line-height:150%;
 }
 
+.ou-articles__text h2 a,
+.ou-articles__text h3 a {text-decoration:none;}
+
 .ou-articles__text p {margin-bottom: 15px;}
 
 .ou-articles__text p:last-child {margin-bottom:0;}

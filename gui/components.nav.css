@@ -29,14 +29,14 @@
 	display:inline;
 	padding:0;
 	margin:0 5px 0 0;
-	color:#777;
+	color:#737373;
 	background-color: transparent;
 }
 
 .ou-ancestors li:before {content:normal;}
 
 .ou-ancestors li:after {
-	color:#ddd;
+	color: #737373;
 	background-color: transparent;
 	font-family:"Hiragino Mincho ProN";
 	font-size: 10px;
@@ -56,7 +56,7 @@
 }
 
 .ou-ancestors a:visited {
-	color:#039;
+	color:#0E56A7;
 	background-color: transparent;
 }
 
@@ -267,9 +267,9 @@
 .ou-context-nav li strong {
 	display:block;
 	padding:12px;
-	border-top:1px solid #ddd;
+	border-top:1px solid #E9EAEA;
 	text-decoration:none;
-	color:#039;
+	color:#0E56A7;
 	background-color: transparent;
 	line-height:130%;
 }
@@ -277,26 +277,26 @@
 .ou-context-nav li strong,
 .ou-context-nav li a.ou-selected,
 .ou-context-nav li a.ou-selected:hover {
-	background-color:#036;
+	background-color:#0E56A7;
 	color:#fff;
 	border-top:none;
 	font-weight:normal;
 }
 
 .ou-context-nav li a:hover  {
-	background-color:#f5f5f5;
+	background-color:#EEF3F9;
 	color:black;
 	text-decoration:none;
 }
 
 .ou-context-nav a:visited {
-	color:#039;
+	color:#0E56A7;
 	background-color: transparent;
 }
 
 
 
-.ou-context-nav li.ou-expanded {background-color:#f5f5f5;}
+.ou-context-nav li.ou-expanded {background-color: #EEF3F9;}
 
 .ou-context-nav ul ul li a,
 .ou-context-nav ul ul li strong {padding:9px 12px 8px 25px;}
@@ -323,7 +323,7 @@
 	display:inline-block;
 	margin:0;
 	padding:0;
-	color:#777;
+	color:#737373;
 	background-color: transparent;
 }
 
@@ -332,7 +332,7 @@
 
 .ou-paged a,
 .ou-paged strong {
-	color: #039;
+	color: #0E56A7;
 	background-color: transparent;
 	text-decoration: none;
 	padding: 10px;
@@ -342,18 +342,18 @@
 .ou-paged strong,
 .ou-paged a.ou-selected {
 	color:#fff;
-	background-color:#036;
+	background-color:#0E56A7;
 }
 
 .ou-paged__page {
 	text-align:center;
-	color:#777;
+	color:#737373;
 	background-color: transparent;
 }
 
 a.ou-paged__previous:before,
 a.ou-paged__next:after {
-	color:#999;
+	color: #737373;
 	background-color: transparent;
 	font-family:"Hiragino Mincho ProN";
 	font-size: 10px;
@@ -367,7 +367,7 @@ a.ou-paged__next:after {
 	margin:0 0 0 6px;
 }
 
-.ou-paged--previous-next a.ou-paged__next {border:1px solid #ccc;}
+.ou-paged--previous-next a.ou-paged__next {border:1px solid #E9EAEA;}
 
 .ou-paged a:hover {
 	background-color:#e21481;
@@ -395,7 +395,7 @@ a.ou-paged__next:hover:after {color:#fff;}
 }
 
 .ou-nav-filter li {
-	display:table-cell;
+	display: inline-block;
 	margin:0 0 0 0;
 	padding:0;
 	line-height:100%;
@@ -405,11 +405,9 @@ a.ou-paged__next:hover:after {color:#fff;}
 	text-decoration:none;
 	padding:6px 8px;
 	display:block;
-	color:#039;
+	color:#0E56A7;
 	background-color:transparent;
 }
-
-.ou-nav-filter li:first-child a {margin-left:-6px;}
 .ou-nav-filter li:first-child a.ou-selected {margin-left:0;}
 
 .ou-nav-filter a:hover {
@@ -421,7 +419,7 @@ a.ou-paged__next:hover:after {color:#fff;}
 .ou-nav-filter a.ou-selected {
 	display:inline-block;
 	padding:6px 8px;
-	background-color:#036;
+	background-color:#0E56A7;
 	color:#fff;
 	font-weight:bold;
 }
@@ -441,17 +439,17 @@ a.ou-paged__next:hover:after {color:#fff;}
 	text-decoration:none;
 	display:inline-block;
 	font-size:.9em;
-	color:#039;
+	color:#0E56A7;
 	background-color: transparent;
 }
 
 .ou-to-top:visited {
-	color:#039;
+	color:#0E56A7;
 	background-color: transparent;
 }
 
 .ou-to-top:before {
-	color:#ccc;
+	color:#737373;
 	background-color: transparent;
 	font-size: 12px;
 	content: "\25b2";
@@ -474,8 +472,8 @@ a.ou-paged__next:hover:after {color:#fff;}
 	margin:0;
 	text-indent:-5000em;
 	overflow:hidden;
-	width: 25px;
-	height:25px;
+	width: 44px;
+	height:44px;
 	background-image:url(icons/icon-to-top.png);
 	background-position:top left;
 	background-repeat:no-repeat;
@@ -608,7 +606,7 @@ only screen and (min-resolution: 192dpi) and (min-width: 768px) {
 
 #ou-site-footer .ou-to-top {
 	background-image:url(icons/icon-to-top@2x.png);
-	background-size: 25px 50px;
+	background-size: 44px 88px;
 }
 
 

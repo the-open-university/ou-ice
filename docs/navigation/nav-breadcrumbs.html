@@ -109,8 +109,12 @@
                 <h3 class="ou-smaller">Navigation</h3>
                 <ul class="ou-list ou-list--links">
                     <li>
-                        <a href="../navigation/nav-top.html">Back to top</a>
+                        <a href="../navigation/nav-top-link.html">Back to top link</a>
                     </li>
+                    <li>
+                        <a href="../navigation/nav-top-footer-button.html">Footer back to top button</a>
+                    </li>
+                    
                     <li>
                         <a href="../navigation/nav-breadcrumbs.html"  class="is-active">Breadcrumbs</a>
                     </li>
@@ -233,15 +237,7 @@
 
 <div id="ou-page">
 
-<div id="ou-region0">
 
-    <ol class="ou-ancestors">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li>Contact us</li>
-    </ol>
-
-</div> <!-- end ou-region0 -->
 
 <div id="ou-region1">
 
@@ -249,14 +245,60 @@
 
 <h1>Breadcrumbs</h1>
 
-<p>See example above and code below. This goes in region0.</p>
+<p class="ou-introduction">A breadcrumb trail consists of a list of links to the parent pages of the current page in hierarchical order. It helps users find their place within a website or web application. Breadcrumbs are often placed horizontally before a page's main content.</p>
+<p>Breadcrumbs sit within region0 within any <a href="../layout/layout-standard.html">OU ICE layout.</a></p>
 
-<pre class="prettyprint lang-html">
-<ol class="ou-ancestors">
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li>Contact us</li>
-</ol>
+<div class="ou-box ou-box--info">
+    <p><strong>Accessibility:</strong> ensure correct aria labels are applied to breadcrumb mark-up</p>
+</div>
+
+<h2>Example</h2>
+
+<div class="code-example">
+<nav aria-label="Breadcrumb">
+    <ol class="ou-ancestors">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li aria-current="page">Contact us</li>
+    </ol>
+</nav>
+
+</div>
+
+<h2>Breadcrumb Schema</h3>
+<div class="ou-box ou-box--info">
+    <p><strong>Recommendation:</strong> Breadcrumb schema can be added to the page. See <a href="https://schema.org/BreadcrumbList">schema.org</a> for more information.</p>
+</div>
+<h3>Example:</h3>
+<pre class="prettyprint lang-js">
+
+<script type="application/ld+json">
+{
+ "@context": "http://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement":
+ [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item":
+   {
+    "@id": "https://example.com/about",
+    "name": "About"
+    }
+  },
+  {
+   "@type": "ListItem",
+  "position": 2,
+  "item":
+   {
+     "@id": "https://example.com/about/contact-us",
+     "name": "Contact us"
+   }
+  }
+ ]
+}
+</script>
 </pre>
 
 
