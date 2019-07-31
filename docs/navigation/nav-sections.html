@@ -1,26 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
 
-    <meta charset="utf-8" />
+        <meta charset="utf-8"/>
 
-    <title>Nav - Sections - OU ICE</title>
+        <title>Sections - OU ICE</title>
 
-    <link rel="stylesheet" type="text/css" href="../../gui/header-footer.css" media="screen, projection" />
-    <link rel="stylesheet" type="text/css" href="../../gui/styles.css" media="screen, projection" />
-    <link rel="stylesheet" type="text/css" href="../../gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" />
-    <link rel="stylesheet" type="text/css" href="../demo/demo.css" media="screen, projection" />
+        <link rel="stylesheet" type="text/css" href="../../gui/header-footer.css" media="screen, projection"/>
+        <link rel="stylesheet" type="text/css" href="../../gui/styles.css" media="screen, projection"/>
+        <link rel="stylesheet" type="text/css" href="../../gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection"/>
+        <link rel="stylesheet" type="text/css" href="../demo/demo.css" media="screen, projection"/>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-    <link rel="apple-touch-icon" href="../../gui/icons/apple-touch-icon.png">
+        <link rel="apple-touch-icon" href="../../gui/icons/apple-touch-icon.png">
         <link rel="icon" href="../../gui/icons/favicon.ico">
 
-</head>
+    </head>
 
-<body class="ou-1-col ou-ice-body">
+    <body class="ou-1-col  ou-ice-body">
 
-     <header class="ou-ice-header">
+        <div id="ou-org">
+
+            <a class="ou-skip" href="#ou-content">
+                <i class="fa fa-arrow-circle-down"></i> Skip to content</a>
+
+            <div id="ou-site">
+
+                <header class="ou-ice-header">
                     <div class="ou-ice-header__primary">
 
                         <a href="../basics/about.html">
@@ -60,6 +67,9 @@
                                 <a href="../basics/about.html">About  OU ICE</a>
                             </li>
                             <li>
+                                <a href="../basics/release-notes.html">Release notes</a>
+                            </li>
+                            <li>
                                 <a href="../basics/getting-started.html">Getting started</a>
                             </li>
                             <li>
@@ -72,7 +82,7 @@
                                 <a href="../global/typography.html">Typography</a>
                             </li>
                             <li>
-                                <a href="../global/colour.html">Colour</a>
+                                <a href="../global/colour.html" >Colour</a>
                             </li>
                             <li>
                                 <a href="../global/favicons.html">Favicons</a>
@@ -118,9 +128,7 @@
                             <li>
                                 <a href="../navigation/nav-sections.html"  class="is-active">Sections</a>
                             </li>
-                            <li>
-                                <a href="../navigation/nav-sections-bar.html">Sections - bar</a>
-                            </li>
+                            
                             <li>
                                 <a href="../navigation/nav-site-ident.html">Site ident</a>
                             </li>
@@ -135,7 +143,7 @@
                                 <a href="../content/articles.html">Articles</a>
                             </li>
                             <li>
-                                <a href="../content/boxes.html">Boxes</a>
+                                <a href="../content/boxes.html">Boxes and Notifications</a>
                             </li>
                             <li>
                                 <a href="../content/buttons.html">Buttons</a>
@@ -222,89 +230,97 @@
 
                 </header>
 
-<div id="ou-org">
+                <div id="ou-site-body">
 
-<a class="ou-skip" href="#ou-content"><i class="fa fa-arrow-circle-down"></i> Skip to content</a>
+                    <div id="ou-page">
 
-<div id="ou-site">
+                        <div id="ou-region0"></div>
+                        <!-- end ou-region0 -->
 
-<div id="ou-site-header">
+                        <div id="ou-region1">
 
-    <div class="ou-site-ident">
-        <h2 class="ou-site-ident__title"><a href="#">The Open University Law School</a></h2>
-    </div>
+                            <div id="ou-content" class="ou-content">
 
-    <nav class="ou-sections">
-        <ul>
-            <li><a href="#" class="ou-selected">Overview</a></li>
-            <li><a href="#">People</a></li>
-            <li><a href="#">Research</a></li>
-            <li><a href="#">Teaching</a></li>
-            <li><a href="#">Collaborations</a></li>
-            <li><a href="#">News and Events</a></li>
-        </ul>
-    </nav>
+      
 
-</div> <!-- end ou-site-header -->
+                                <h1>Sections</h1>
 
-<div id="ou-site-body">
+                                <p class="ou-introduction">The sections navigation is the list of links that display horizontally in the <span class="ou-ice-code">#ou-site-header</span></p>
+                                
+                            <div class="ou-box ou-box--info">
+                                        <p>See how these sections work in the context of a page on this <a href="../demo/examples/faculty-research.html">example page</a></p>
+                                    </div>
+                                
+                             
+                                    <h2 id="standard">Standard sections</h2>
 
-<div id="ou-page">
+                                    <div class="code-example">
+                                        <nav class="ou-sections">
+                                            <ul>
+                                                <li><a href="#" class="ou-selected">Overview</a></li>
+                                                <li><a href="#">People</a></li>
+                                                <li><a href="#">Research</a></li>
+                                                <li><a href="#">Teaching</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <!-- end code-example" -->
 
-<div id="ou-region0">
+                                    <h2 id="section-with-bar">Sections in bar</h2>
+<p class="ou-introduction">Alternative version of the section links with solid background colour giving the impression of a navigation 'bar'. </p>
+                                    <div class="code-example">
+                                        <nav class="ou-sections ou-sections--bar">
+                                            <ul>
+                                                <li><a href="#" class="ou-selected" aria-label="Current Page, Overview" aria-current="true">Overview</a></li>
+                                                <li><a href="#">People</a></li>
+                                                <li><a href="#">Research</a></li>
+                                                <li><a href="#">Teaching</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <!-- end code-example" -->
 
-</div> <!-- end ou-region0 -->
+                                
 
-<div id="ou-region1">
+                            </div>
+                            <!-- end ou-content -->
+                        </div>
+                        <!-- end ou-region1 -->
 
-<div id="ou-content" class="ou-content">
+                    </div>
+                    <!-- end ou-page -->
 
-<h1>Sections</h1>
+ 
 
-<p>The sections navigation is the list of links that display horizontally in the <span class="ou-ice-code">#ou-site-header</span>. Example shown above in context. The title above the links is part of <a href="nav-site-ident.html">ou-site-ident</a>.</p>
+                    
+                   
 
-<h2>Code</h2>
+                    
 
-<pre class="prettyprint lang-html">
-<nav class="ou-sections">
-    <ul>
-        <li><a href="#" class="ou-selected">Overview</a></li>
-        <li><a href="#">People</a></li>
-        <li><a href="#">Research</a></li>
-        <li><a href="#">Teaching</a></li>
-        <li><a href="#">Collaborations</a></li>
-        <li><a href="#">News and Events</a></li>
-    </ul>
-</nav>
-</pre>
-
-
-</div> <!-- end ou-content -->
-</div> <!-- end ou-region1 -->
-
-
-
-</div> <!-- end ou-page -->
-
-</div> <!-- end ou-site-body -->
-
-
-<div id="ou-site-footer">
-<a class="ou-to-top" href="#ou-org">Back to top</a>
-</div> <!-- end ou-site-footer -->
-
-</div> <!-- end ou-site -->
+                    
 
 
-</div> <!-- end ou-org -->
+                    
 
+                </div>
+                <!-- end ou-site-body -->
 
+                <div id="ou-site-footer">
+                    <a class="ou-to-top" href="#ou-org">Back to top</a>
+                </div>
+                <!-- end ou-site-footer -->
 
-<!-- Javascripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            </div>
+            <!-- end ou-site -->
+
+        </div>
+        <!-- end ou-org -->
+
+        <!-- Javascripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="../js/scripts.js"></script>
         <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=desert" defer></script>
         <script src="../demo/demo.js"></script>
 
-</body>
+    </body>
 </html>

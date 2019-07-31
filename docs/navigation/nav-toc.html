@@ -130,9 +130,7 @@
                     <li>
                         <a href="../navigation/nav-sections.html">Sections</a>
                     </li>
-                    <li>
-                        <a href="../navigation/nav-sections-bar.html">Sections - bar</a>
-                    </li>
+                    
                     <li>
                         <a href="../navigation/nav-site-ident.html">Site ident</a>
                     </li>
@@ -147,7 +145,7 @@
                         <a href="../content/articles.html">Articles</a>
                     </li>
                     <li>
-                        <a href="../content/boxes.html">Boxes</a>
+                        <a href="../content/boxes.html">Boxes and Notifications</a>
                     </li>
                     <li>
                         <a href="../content/buttons.html">Buttons</a>
@@ -246,18 +244,24 @@
 <div id="ou-content" class="ou-content">
 
 <h1>Table of contents</h1>
-
+<p class="ou-introduction">Add a list anchor links to navigate users to relevant sections of the page.</p>
+<div class="ou-box ou-box--info">
+    <p>Ensure a corresponding ID is added to the element you wish to navgate to.</p>
+</div>
+                                
 <h2>Example</h2>
 
 <div class="code-example">
-<ol class="ou-toc">
-    <li><a href="#s1">While my guitar gently weeps</a></li>
-    <li><a href="#s2">A day in the life</a></li>
-    <li><a href="#s3">Strawberry fields forever</a></li>
-    <li><a href="#s4">Can't buy me love</a></li>
-    <li><a href="#s5">We can work it out</a></li>
-    <li><a href="#s6">Blackbird</a></li>
-</ol>
+    <nav aria-label="Sections in this article">
+        <ol class="ou-toc">
+            <li><a href="#s1">While my guitar gently weeps</a></li>
+            <li><a href="#s2">A day in the life</a></li>
+            <li><a href="#s3">Strawberry fields forever</a></li>
+            <li><a href="#s4">Can't buy me love</a></li>
+            <li><a href="#s5">We can work it out</a></li>
+            <li><a href="#s6">Blackbird</a></li>
+        </ol>
+    </nav>
 </div>
 
 <h2 id="s1">While my guitar gently weeps</h2>

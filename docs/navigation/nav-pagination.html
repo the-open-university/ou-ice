@@ -130,9 +130,7 @@
                     <li>
                         <a href="../navigation/nav-sections.html">Sections</a>
                     </li>
-                    <li>
-                        <a href="../navigation/nav-sections-bar.html">Sections - bar</a>
-                    </li>
+                    
                     <li>
                         <a href="../navigation/nav-site-ident.html">Site ident</a>
                     </li>
@@ -147,7 +145,7 @@
                         <a href="../content/articles.html">Articles</a>
                     </li>
                     <li>
-                        <a href="../content/boxes.html">Boxes</a>
+                        <a href="../content/boxes.html">Boxes and Notifications</a>
                     </li>
                     <li>
                         <a href="../content/buttons.html">Buttons</a>
@@ -247,7 +245,14 @@
 
 <h1>Pagination</h1>
 
-<p>Links to the next/previous pages or a numbered list for, for example, search results pages.</p>
+<p class="ou-introduction">Links to the next/previous pages or a numbered list for, for example, search results pages.</p>
+
+<div class="ou-box ou-box--info">
+<h3>rel=next / rel=prev</h3>
+<p>Ensure relevant rel=”next”/rel=”prev” link HTML markup is added to paginated pages</p>
+<p>Examples and more information can be found on the following <a href="https://webmasters.googleblog.com/2011/09/pagination-with-relnext-and-relprev.html">Google masters blog post.</a></p>
+</div>
+
 
 <hr>
 
@@ -258,19 +263,19 @@
 <div class="code-example">
 <div class="ou-paged">
     <p class="ou-paged__page">Page 1 of 20</p>
-    <nav>
+    <nav aria-label="Pagination Navigation">
         <ul>
-            <li><a class="ou-paged__first" href="#">First</a></li>
-            <li><a class="ou-paged__previous" href="#">Previous</a></li>
+            <li><a class="ou-paged__first" href="#" aria-label="Goto first page">First</a></li>
+            <li><a class="ou-paged__previous" href="#" aria-label="Goto previous page">Previous</a></li>
             <li><strong>1</strong></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
+            <li><a href="/page-2" aria-label="Goto Page 2">2</a></li>
+            <li><a href="/page-3" aria-label="Goto Page 3">3</a></li>
+            <li><a href="/page-4" aria-label="Goto Page 4">4</a></li>
+            <li><a href="/page-5" aria-label="Goto Page 5">5</a></li>
             <li>...</li>
             <li><a href="#">20</a></li>
-            <li><a class="ou-paged__next" href="#">Next</a></li>
-            <li><a class="ou-paged__last" href="#">Last</a></li>
+            <li><a class="ou-paged__next" href="#" aria-label="Goto next page">Next</a></li>
+            <li><a class="ou-paged__last" href="#" aria-label="Goto last page">Last</a></li>
         </ul>
     </nav>
 </div>
@@ -286,8 +291,8 @@
 <div class="ou-paged ou-paged--previous-next">
     <nav>
         <ul>
-            <li><a class="ou-paged__previous" href="#">Previous page</a></li>
-            <li><a class="ou-paged__next" href="#">Next page</a></li>
+            <li><a class="ou-paged__previous" href="#" aria-label="Goto previous page">Previous page</a></li>
+            <li><a class="ou-paged__next" href="#" aria-label="Goto next page">Next page</a></li>
         </ul>
     </nav>
 </div>

@@ -10,8 +10,8 @@
 
 .ou-box {
 	padding:15px 15px 15px 20px;
-	background-color:#eee;
-	color: #222;
+	background-color:#e9eaea;
+	color: #4D4D4D;
 	margin:0 0 20px 0;
 }
 
@@ -44,7 +44,7 @@
 
 .ou-box--note {
 	border-color:#ffd400;
-	background-color:#fdf6cd;
+	background-color:#F8F6ED;
 }
 
 

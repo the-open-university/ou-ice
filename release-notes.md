@@ -132,6 +132,7 @@
 - Wrapped pagination UL with a nav element
 
 
+
 ### Developer update notes
 
 - 'icon-to-top' image has changed in size, so when updating CSS of sites, the new image assets must be included.
@@ -140,3 +141,38 @@
 - Breadcrumb example has been updated to include 'aria-label="Breadcrumb"' and 'aria-current="page" - Recommend adding aria attributes to breadcrumbs
 - Pagination examples has been updated to include nav element - Recommend adding nav element to pagination
 
+## Release V5.4 - July XX, 2019
+
+- Added aria-label's to pagination  nav element
+- Updated sections page to have seperate preview/exampes boxes
+- Included sections with bar variaiton on same section page and deleted section with bar page and from navigation
+- Added link on section page to example page
+- Added relevant information on 'rel=next' and rel=previous' for paginated pages
+- Updated sections link, border colour #036 to #0e56a7 to be brand compliant
+- Updated sections bar variation background colour #eaeaf4 to #e9eae to be brand compliant
+- Updated sections link hover border color #777 to #737373 to be accessable and brand compliant
+- Added 'aria-label="Current Page, Overview" aria-current="true"' to current/active page link in section bars code example
+- Restructured site ident page so it includes it own previw and code example
+- Removed 'sections' on site ident from code example and included informaton regarding combine site ident with sections and link to see example.
+- Updtaed site ident description colour #777 to #737373 to be accessable and brand compliant
+- Updated Table of contents border colour #ddd to #E9EAEA to be brand compliant
+- Added intorduction copy to Table of contents component page
+- Added information regarding IDs to elements on Table of contents component page
+- Wrapped Table of contents example in nav element
+- Added aria-label on  Table of contents component
+- Updated table of contents arrow colur #ddd to #737373 to be brand compliant
+- Added note regarding depreciated colours on boxes pages
+- Removed brgonday from colour example
+- Updated side nav 'Boxes' to 'Boxes and Notifcations'
+- Added usage notes on boxes page
+- Updated boxes background colour #eee to #e9eaea to be brand compliant
+- Updated boxes colour #222 to #4D4D4D to be brand compliant
+- Updated note box border colour #ffd400 to #FFD400 to be brand compliant
+- Updated note box border colour #fdf6cd to #F8F6ED to be brand compliant
+
+
+### Developer update notes
+
+- Pagination example has been updated to include aria labels - Recomend adding these to any pagination elements
+- Sections bars example has been updated to include aria-label and aria-current attributes - Recomend adding these to any section elements with links for the current page
+- Table of content component has been updated to include wrapping nav element and aria-label - Recomend adding this to existing table of contents components

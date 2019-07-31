@@ -4,7 +4,7 @@
 
         <meta charset="utf-8"/>
 
-        <title>Boxes - OU ICE</title>
+        <title>Boxes and Notifications - OU ICE</title>
 
         <link rel="stylesheet" type="text/css" href="../../gui/header-footer.css" media="screen, projection"/>
         <link rel="stylesheet" type="text/css" href="../../gui/styles.css" media="screen, projection"/>
@@ -125,9 +125,7 @@
                             <li>
                                 <a href="../navigation/nav-sections.html">Sections</a>
                             </li>
-                            <li>
-                                <a href="../navigation/nav-sections-bar.html">Sections - bar</a>
-                            </li>
+                            
                             <li>
                                 <a href="../navigation/nav-site-ident.html">Site ident</a>
                             </li>
@@ -142,7 +140,7 @@
                                 <a href="../content/articles.html">Articles</a>
                             </li>
                             <li>
-                                <a href="../content/boxes.html"  class="is-active">Boxes</a>
+                                <a href="../content/boxes.html"  class="is-active">Boxes and Notifications</a>
                             </li>
                             <li>
                                 <a href="../content/buttons.html">Buttons</a>
@@ -240,7 +238,7 @@
 
                             <div id="ou-content" class="ou-content">
 
-                                <h1>Boxes</h1>
+                                <h1>Boxes and Notifications</h1>
 
                                 <ol class="ou-toc">
                                     <li>
@@ -266,7 +264,7 @@
                                     </li>
                                 </ol>
 
-                                <p>Here you will find all the various box styles you can use with OU ICE.</p>
+                                <p class="ou-introduction">Here you will find all the various box styles you can use with OU ICE.</p>
 
                                 <h2 id="standard">Standard</h2>
 
@@ -289,12 +287,6 @@
                                     <div class="ou-box ou-box--plain ou-bg-light-blue">
                                         <p>I have made this box light blue. The text remains black.</p>
                                     </div>
-
-                                    <h3>Dark</h3>
-
-                                    <div class="ou-box ou-box--plain ou-bg-burgundy">
-                                        <p>This one is burgundy coloured so the text changes to a more legible white.</p>
-                                    </div>
                                 </div>
                                 <!-- end code-example -->
 
@@ -303,27 +295,31 @@
                                 <pre class="prettyprint">
 /* Darker background, white text */
 .ou-bg-green
-.ou-bg-dark-green
 .ou-bg-red
 .ou-bg-blue
 .ou-bg-dark-blue
 .ou-bg-dark-grey
-.ou-bg-purple
 .ou-bg-orange
 .ou-bg-pink
-.ou-bg-burgundy
 .ou-bg-black
 
 /* Lighter background, black text */
 .ou-bg-white
-.ou-bg-yellow
 .ou-bg-light-blue
 .ou-bg-light-grey
 </pre>
+<div class="ou-box ou-box--warning">
+                                    <h4>Depreciated warning</h4>
+                                    <p>The following colours are not brand-compliant and should be replaced with a suitable on-brand alternative. The classes that need updating are as follows:</p>
+                                    <pre class="prettyprint" style="">.ou-bg-burgundy, .ou-bg-dark-green, .ou-bg-yellow, .ou-bg-purple</pre>
+                                    <small>31/07/2019 - V5 updates</small>
+                                </div>
+
 
                                 <hr>
 
                                 <h2 id="info">Info</h2>
+                                <p class="ou-introduction">Provide information to the user related to the page content.</p>
 
                                 <div class="code-example">
                                     <div class="ou-box ou-box--info">
@@ -332,7 +328,7 @@
                                 </div>
 
                                 <h2 id="note">Note</h2>
-
+                                <p class="ou-introduction">Provide information of a higher importance to the user i.e the information has a sense of urgency or requires an action.</p>
                                 <div class="code-example">
                                     <div class="ou-box ou-box--note">
                                         <p>Dorothy began to sob at this, for she felt lonely among all these strange people. Her tears seemed to grieve the kind-hearted Munchkins, for they immediately took out their handkerchiefs and began to weep also.</p>
@@ -340,7 +336,7 @@
                                 </div>
 
                                 <h2 id="success">Success</h2>
-
+<p class="ou-introduction">Provide feedback to the user that an action has been successful. i.e Your message has been successfully sent.</p>
                                 <div class="code-example">
                                     <div class="ou-box ou-box--success">
                                         <p>Hare-Lip, crushed by this metaphysical defeat, remained silent, and the old man went on. Often and often, though this narrative must not be clogged by the details, was Granser's tale interrupted while the boys squabbled among themselves.</p>
@@ -348,7 +344,7 @@
                                 </div>
 
                                 <h2 id="warning">Warning</h2>
-
+<p class="ou-introduction">Provide feedback to the user that either an error has occured or could occur if action isn't taken.</p>
                                 <div class="code-example">
                                     <div class="ou-box ou-box--warning">
                                         <p>Are you sure you want to proceed?</p>

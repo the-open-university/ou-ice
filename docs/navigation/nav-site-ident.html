@@ -118,9 +118,7 @@
                             <li>
                                 <a href="../navigation/nav-sections.html">Sections</a>
                             </li>
-                            <li>
-                                <a href="../navigation/nav-sections-bar.html">Sections - bar</a>
-                            </li>
+                            
                             <li>
                                 <a href="../navigation/nav-site-ident.html" class="is-active">Site ident</a>
                             </li>
@@ -135,7 +133,7 @@
                                 <a href="../content/articles.html">Articles</a>
                             </li>
                             <li>
-                                <a href="../content/boxes.html">Boxes</a>
+                                <a href="../content/boxes.html">Boxes and Notifications</a>
                             </li>
                             <li>
                                 <a href="../content/buttons.html">Buttons</a>
@@ -228,26 +226,7 @@
 
 <div id="ou-site">
 
-<div id="ou-site-header">
 
-
-    <div class="ou-site-ident">
-        <h2 class="ou-site-ident__title"><a href="#">OU Site Title</a></h2>
-        <p class="ou-site-ident__description">A line of text is optional here</p>
-    </div>
-
-    <nav class="ou-sections">
-        <ul>
-            <li><a href="#" class="ou-selected">Overview</a></li>
-            <li><a href="#">People</a></li>
-            <li><a href="#">Research</a></li>
-            <li><a href="#">Teaching</a></li>
-            <li><a href="#">Collaborations</a></li>
-            <li><a href="#">News and Events</a></li>
-        </ul>
-    </nav>
-
-</div> <!-- end ou-site-header -->
 
 <div id="ou-site-body">
 
@@ -263,16 +242,24 @@
 
 <h1>Site ident</h1>
 
-<p>The site ident is the title and optional description text that sit in <span class="ou-ice-code">#ou-site-header</span>. Example shown above in context. The navigation below the site ident is <a href="nav-sections.html">ou-sections</a>.</p>
+<p>The site ident is the title and <strong>optional</strong> description text that sit in <span class="ou-ice-code">#ou-site-header</span>.</p>
+   <div class="ou-box ou-box--info">
+                                       <p> This component often sits above <a href="nav-sections.html">ou-sections</a>, you can see this in the context of a page on this <a href="../demo/examples/faculty-research.html">example page</a></p>
+                                    </div>
+                                
+                             
 
-<h2>Code</h2>
 
-<pre class="prettyprint lang-html">
-<div class="ou-site-ident">
-    <h2 class="ou-site-ident__title"><a href="#">OU Site Title</a></h2>
-    <p class="ou-site-ident__description">A line of text is optional here</p>
-</div>
-</pre>
+ <h2 id="section-with-bar">Example with optional description</h2>
+
+                                    <div class="code-example">
+                                        <div class="ou-site-ident">
+        <h2 class="ou-site-ident__title"><a href="#">OU Site Title</a></h2>
+        <p class="ou-site-ident__description">A line of text is optional here</p>
+    </div>
+                                    </div>
+                                    <!-- end code-example" -->
+
 
 
 </div> <!-- end ou-content -->
