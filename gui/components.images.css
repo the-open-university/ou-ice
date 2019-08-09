@@ -32,14 +32,14 @@
 .ou-img__caption,
 .ou-img__credit {
 	margin:5px 0 0 0;
-	color:#555;
+	color:#737373;
 	background-color: transparent;
 	font-size:.9em;
 }
 
 .ou-img__credit {
 	font-style:italic;
-	color:#777;	
+	color:#737373;	
 }
 
 .ou-bg-green .ou-img__caption,
@@ -92,15 +92,14 @@
 	right: 0;
 	bottom: 0;
 	color: #fff;
-	background: #cd2041;
-	background: rgb(181,0,46);
-	background: rgba(181,0,46, 0.8);
+	background: #e21481;
+	background: rgba(226, 20, 129, 0.8);
 	text-align: right;
 	padding: 25px 20px;
 	margin: 0;
 }
 
-.ou-hero:hover .ou-hero__wording {background:#cd2041;}
+.ou-hero:hover .ou-hero__wording {background:#e21481;}
 
 .ou-hero__title {
 	color: inherit;

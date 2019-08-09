@@ -244,8 +244,8 @@
 .slick-dots li button:focus:before {opacity: 1;}
 
 .slick-dots li button:before {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 40px;
+    line-height: 40px;
 
     position: absolute;
     top: 0;
@@ -257,9 +257,7 @@
     /*content: 'â€¢';*/
 	content: "\2022";
     text-align: center;
-
-    opacity: .25;
-    color: black;
+    color: #737373;
     background-color: transparent;
 
     -webkit-font-smoothing: antialiased;
@@ -267,7 +265,6 @@
 }
 
 .slick-dots li.slick-active button:before {
-    opacity: .75;
     color: black;
 }
 

@@ -63,7 +63,7 @@
 }
 
 .ou-form__description {
-	color:#777;
+	color:#737373;
 	background-color: transparent;
 	font-size:.9em;
 	margin-bottom:5px;	
@@ -100,8 +100,8 @@
 .ou-form__checkbox:disabled,
 .ou-form__radio:disabled {
 	cursor:not-allowed;
-	background-color:#eee;
-	color: #999;
+	background-color:#E9EAEA;
+	color: #737373;
 }
 
 
@@ -121,6 +121,11 @@
 	border:1px solid #cd2041;
 	background-color:#fdf0f2;
 	color:inherit;
+}
+
+.ou-form__error-msg {
+	color: #cd2041;
+	margin-top: 5px;
 }
 
 .ou-form__item--success input {

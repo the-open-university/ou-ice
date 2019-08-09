@@ -42,7 +42,7 @@ p.ou-video__toggle {margin:15px 0 0 0;}
 
 p.ou-video__toggle a {
 	text-decoration:none;
-	color:#777;
+	color:#737373;
 	background-color: transparent;
 }
 
@@ -60,7 +60,7 @@ p.ou-video__toggle a:hover {color:#fff;}
 	margin:0;
 }
 
-.oembed-title:hover {color:#999;}
+.oembed-title:hover {color:#737373;}
 
 
 

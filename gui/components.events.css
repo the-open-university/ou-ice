@@ -9,7 +9,7 @@
 
 
 .ou-events__nav {
-	background-color:#eee;
+	background-color:#E9EAEA;
 	color: #000;
 	text-align:center;
 	margin:0 0 20px 0;
@@ -27,20 +27,20 @@ span.ou-events__current {
 	float:left;
 	text-decoration:none;
 	padding:8px 10px;
-	border-right:1px solid #ddd;
+	border-right:1px solid #737373;
 }
 
 .ou-events__next {
 	float:right;
 	border-right:0;
-	border-left:1px solid #ddd;
+	border-left:1px solid #737373;
 }
 
 .ou-events__prev:before,
 .ou-events__next:after {
 	font-family:"Hiragino Mincho ProN";
 	content: "\25c0";
-	color:#999;
+	color: #737373;
 	background-color: transparent;
 	font-size:9px;
 	display:block;
@@ -64,7 +64,7 @@ span.ou-events__current {
 }
 
 .ou-events__day {
-	border-bottom:1px solid #eee;
+	border-bottom:1px solid #E9EAEA;
 	margin:0 0 15px 0;
 	padding-bottom:15px;
 	min-height:90px;
@@ -79,7 +79,7 @@ span.ou-events__current {
     margin: 3px 10px 0 0;
 }
 
-.ou-events__date em {
+.ou-events__date em, .ou-events__month {
 	font-style: normal;
     font-size: .9em;
     color: #fff;
@@ -87,8 +87,12 @@ span.ou-events__current {
     padding: 3px;
     text-align: center;
     text-transform: uppercase;
-    display: block;
+	display: block;
+	border: none!important;
+	text-decoration: none!important;
 }
+
+
 
 .ou-events__date strong {
 	text-align: center;
@@ -97,7 +101,7 @@ span.ou-events__current {
     font-size: 25px;
     font-weight: normal;
     display: block;
-    background: #eee;
+    background: #E9EAEA;
     padding: 10px 0;
 	border-radius:0 0 4px 4px;
 }
@@ -117,14 +121,13 @@ span.ou-events__current {
 .ou-events__event-date,
 .ou-events__event-location,
 .ou-events__event-contact {
-	color:#777;
+	color:#737373;
 	background-color: transparent;
-	font-size:.9em;
 	margin:0 0 5px 0;
 	line-height:120%;
 }
 
-.ou-events__event-contact a {color:#777;}
+.ou-events__event-contact a {color:#737373;}
 
 .ou-events__event-description p:last-child {margin-bottom:0;}
 

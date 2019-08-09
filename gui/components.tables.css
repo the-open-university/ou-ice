@@ -13,7 +13,7 @@
 .ou-table td, 
 .ou-table th {
 	padding: 10px 12px;
-	border: 1px solid #ddd;
+	border: 1px solid #E9EAEA;
 }
 
 .ou-table th {font-weight:bold;}
@@ -23,10 +23,18 @@
 
 .ou-table-wrap {overflow:auto;}
 
+@media only screen and (max-width: 600px) {
+	.ou-table-wrap {
+		-webkit-box-shadow: inset -10px 0px 17px -16px rgba(0,0,0,0.75);
+		-moz-box-shadow: inset -10px 0px 17px -16px rgba(0,0,0,0.75);
+		box-shadow: inset -10px 0px 17px -16px rgba(0,0,0,0.75);
+	}
+}
+
 
 /* striped */
 
-.ou-table--striped tr:nth-child(even) {background: #eee;}
+.ou-table--striped tr:nth-child(even) {background: #E9EAEA;}
 
 
 /* plain */

@@ -259,13 +259,13 @@
 </ol>
 
 
-<p>Various options for styling quotations.</p>
+<p>Various options for styling quotations, for example:</p>
 
 
-<h2 id="orange">Red</h2>
+<h2 id="orange">Blue</h2>
 
 <div class="code-example">
-<blockquote class="ou-quote ou-bg-red">
+<blockquote class="ou-quote ou-bg-blue">
     <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying,
       along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding
       experiences of my life. Huge thanks to the OU.</p>
@@ -284,18 +284,6 @@
       experiences of my life. Huge thanks to the OU.</p>
     <a href="#" class="ou-quote__more">Read more</a>
     <cite>Jeff Bridges, Actor</cite>
-</blockquote>
-</div>
-
-<h2 id="purple">Purple</h2>
-
-<div class="code-example">
-<blockquote class="ou-quote ou-bg-purple">
-    <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying,
-      along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding
-      experiences of my life. Huge thanks to the OU.</p>
-    <a href="#" class="ou-quote__more">Read more</a>
-    <cite>George Weah, Footballer</cite>
 </blockquote>
 </div>
 
@@ -338,21 +326,24 @@ The extra class is called <span class="ou-ice-code">ou-quote--light</span>.</p>
 <pre class="prettyprint">
 /* Darker background, white text */
 .ou-bg-green
-.ou-bg-dark-green
-.ou-bg-red
 .ou-bg-blue
 .ou-bg-dark-blue
 .ou-bg-dark-grey
-.ou-bg-purple
 .ou-bg-orange
 .ou-bg-pink
-.ou-bg-burgundy
 
 /* Lighter background, black text. Requires extra class: ou-quote--light */
 .ou-bg-white
 .ou-bg-light-blue
 .ou-bg-light-grey
 </pre>
+
+<div class="ou-box ou-box--warning">
+    <h4>Depreciated warning</h4>
+    <p>The following colours are not brand-compliant and should be replaced with a suitable on-brand alternative (see above). The classes that need updating are as follows:</p>
+    <pre class="prettyprint prettyprinted" style=""><span class="pln">ou</span><span class="pun">-</span><span class="pln">bg</span><span class="pun">-</span><span class="pln">burgundy</span><span class="pun">,</span><span class="pln"> ou</span><span class="pun">-</span><span class="pln">bg</span><span class="pun">-</span><span class="pln">dark</span><span class="pun">-</span><span class="pln">green</span><span class="pun">,</span><span class="pln"> ou</span><span class="pun">-</span><span class="pln">bg</span><span class="pun">-</span><span class="pln">light</span><span class="pun">-</span><span class="pln">green</span></pre>
+    <small>08/08/2019 - V5 updates</small>
+</div>
 
 <hr>
 
@@ -361,8 +352,8 @@ The extra class is called <span class="ou-ice-code">ou-quote--light</span>.</p>
 <p>Add images to the quote using the standard class <span class="ou-ice-code">ou-pull-right</span> to float the picture right. Recommended image size: 120px x 120px (square).</p>
 
 <div class="code-example">
-<blockquote class="ou-quote ou-bg-burgundy">
-	<img src="demo/img/120x120/girl.jpg" alt="" class="ou-pull-right">
+<blockquote class="ou-quote ou-bg-blue">
+	<img src="../demo/img/120x120/girl.jpg" alt="" class="ou-pull-right">
     <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying,
       along with the usual wife, family and general life to compete with my attention, it has also been one of the most rewarding
       experiences of my life. Huge thanks to the OU.</p>
@@ -377,38 +368,40 @@ The extra class is called <span class="ou-ice-code">ou-quote--light</span>.</p>
 
 
 
-<h2 id="pull-quote-right">Pull quote - right</h2>
+<h2 id="pull-quote-right">Align right</h2>
 
 
 <div class="code-example">
-  <blockquote class="ou-quote ou-pull-right ou-bg-red">
+  <blockquote class="ou-quote ou-pull-right ou-bg-light-grey ou-quote--light ">
     <p>I love the OU... It has also been one of the most rewarding
       experiences.</p>
     <cite>OU student</cite>
 </blockquote>
-</div>
-
 <p>Champollion deciphered the wrinkled granite hieroglyphics. But there is no Champollion to decipher the Egypt of every man's and every being's face. Physiognomy, like every other human science, is but a passing fable. </p>
 
 <p>If then, Sir William Jones, who read in thirty languages, could not read the simplest peasant's face in its profounder and more subtle meanings, how may unlettered Ishmael hope to read the awful Chaldee of the Sperm Whale's brow? I but put that brow before you. Read it if you can. If the Sperm Whale be physiognomically a Sphinx, to the phrenologist his brain seems that geometrical circle which it is impossible to square. </p>
+
+
+</div>
 
 
 <hr>
 
 
 
-<h2 id="pull-quote-left">Pull quote - left</h2>
+<h2 id="pull-quote-left">Align left</h2>
 
 
 <div class="code-example">
-  <blockquote class="ou-quote ou-pull-left ou-bg-pink">
+  <blockquote class="ou-quote ou-pull-left ou-bg-pink ">
     <p>In the full-grown creature the skull will measure at least twenty feet in length.</p>
     <cite>Herman Melville</cite>
 </blockquote>
-</div>
-
 <p>Champollion deciphered the wrinkled granite hieroglyphics. But there is no Champollion to decipher the Egypt of every man's and every being's face. Physiognomy, like every other human science, is but a passing fable. </p>
 <p>If then, Sir William Jones, who read in thirty languages, could not read the simplest peasant's face in its profounder and more subtle meanings, how may unlettered Ishmael hope to read the awful Chaldee of the Sperm Whale's brow? I but put that brow before you. Read it if you can. If the Sperm Whale be physiognomically a Sphinx, to the phrenologist his brain seems that geometrical circle which it is impossible to square. </p>
+
+</div>
+
 
 
 </div> <!-- end ou-content -->

@@ -9,7 +9,7 @@
 
 
 .ou-button {
-	background-color: #888;
+	background-color: #4D4D4D;
 	color: #fff;
 	font-weight: bold;
 	text-decoration: none;
@@ -32,11 +32,11 @@
 .ou-button--success:visited {background-color:#008A00;}
 
 .ou-button--warning,
-.ou-button--warning:visited {background-color:#b52a1e;}
+.ou-button--warning:visited {background-color:#CD2041;}
 
 .ou-button--disabled,
 button:disabled {
-	background-color:#ccc; 
+	background-color:#E9EAEA;
 	color:#fff;
 	cursor:not-allowed;
 }
@@ -49,7 +49,7 @@ button:disabled {
 
 .ou-button--more {
 	background-color:#fff;
-	border:1px solid #ccc;
+	border:1px solid #737373;
 	padding:5px 10px;
 	font-size:.9em;
 	font-weight:normal;
@@ -69,7 +69,7 @@ button:disabled {
 }
 
 .ou-button--disabled:hover {
-	background-color:#ccc !important; 
+	background-color: #737373 !important; 
 	color:#fff;
 	cursor:not-allowed;
 }

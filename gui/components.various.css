@@ -73,7 +73,7 @@
     top: 10px;
     left: 20px;
     margin-left: 0;
-    border-left: 2px solid #CCE2F1;
+    border-left: 2px solid #C3D5E9;
 }
 
 .ou-timeline__group {
@@ -87,7 +87,7 @@
     width:10px;
     height:10px;
     border-radius:10px;
-    background:#87BADE;
+    background:#C3D5E9;
     display: block;
     position: absolute;
     top: 4px;

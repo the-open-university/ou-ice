@@ -174,3 +174,77 @@
 - Pagination example has been updated to include aria labels - Recommend adding these to any pagination elements
 - Sections bars example has been updated to include aria-label and aria-current attributes - Recommend adding these to any section elements with links for the current page
 - Table of contents component has been updated to include wrapping nav element and aria-label - Recommend adding this to any existing table of contents components
+
+
+## Release V5.5 - August XX, 2019
+
+- Updated carousel arrow colour #cecece to #737373 to be brand compliant
+- Updated carousel dots from using 0.25 opcaity of black to a hex value #737373 to be brand compliant
+- Updated OU hero wording colour #E21481 / rgba(181,0,46, 0.8); to #e21481 / rgba(226, 20, 129, 0.8) to be brand compliant
+- Removed non-brand compliant exampled of hero component on carousel page.
+- Added info box and link to slick.js docs on carousel page
+- Added alt text to images within carousel of images example
+- Updated carousel dots to 40px font size to improve reasability/click area size
+- Updated events nav colour #eee to #E9EAEA to be brand compliant
+- Updated events nav border left/right #ddd to #737373 to be brand compliant
+- Updated events nav left/right arrow colour #999 to #737373 to be brand compliant
+- Updated events day border colour #eee to #E9EAEA to be brand compliant
+- Updated events time, location, link details colour #777 to #737373 to be accessible and brand-compliant
+- Updated events date background colour #eee to #E9EAEA to be brand compliant
+- Updated events markup to replace em with abbr tag for dates and use time tag for dates/dates in event listing
+- Addded relevent example and info/link regarding event schema on the events page.
+- Increaesed font size of event location, date etc from 0.9em to standard body font size.
+- Updated ou-events__nav mark-up from a div to use nav.
+- Updated form descriptive text colour #77 to #737373 to be brand compliant
+- Refactored form page so each form element has its own section and code example
+- Added new 'descriptive' text example to form page
+- Updated email and tel input fields to use correct inout types i.e type="email"
+- Updated button text on form page to be more descriptive i.e 'Submit' is now 'Send information' or 'Sign-up'
+- Added 'Fields marked with an asterisk (*) are required.' copy on form page examples to explain required fields
+- Updated required asterisk span element on form page to use abbr tag for imporved accessability 
+- Fixed issue with select not having label on form page
+- Added legend to form examples with fieldsets on form page
+- Added information regarding left aligned labels under the 'form grid' example on the form page
+- Updated Inline form elements example to be a simple login with one field and button and provided usage information as to when to use the inline form field.
+- Added form error message under error invalid form field on form page
+- Added aria-invalid="true" to invalid input on form page
+- Added additional form elements to validation section on form page
+- Added information regarding disabled states on forms on form page
+- Updated form disabled background colour #eee to #E9EAEA to be brand compliant
+- Updated form disabled text colour #999 to #737373 to be brand compliant
+- Removed/updated depricated colour examples in hero and added depreciated colours warnings for non brand colours
+- Added info box regarding ensuring adding empt alt tag on decorative images within the hero component
+- Added info box to icon page regarding best practise
+- Added info box to icon page regarding using icons as links without text label
+- Added info box with link to asset bank on images page
+- Updated 'grass' image on images to use more on brand 'people' type photography
+- Improved and updated alt text on images page
+- Image caption/credit colour #777/#555 updated to #737373  to be brand compliant
+- Updated image caption exampe to use figure + figcaption elements on image page
+- Updated OU list link colour #039 to #0E56A7 to be brand compliant
+- Removed 'text-decoration: none' styling on list links
+- Added further information regarding browser support of 'Lists split into columns' on lists page
+- Removed opcaity from OU quote cite element
+- Removed non brand compliant examples from quote page and added depricated warning for old colours
+- Fixed 'pull right' and 'pull left' code examples on quote page, also updated heading to use 'align'
+- Updated table border colour #ddd to #E9EAEA to be brand compliant
+- Updated table stripe background colour #eee to #E9EAEA to be brand compliant
+- Removed non compliant colour examples of table headings
+- Added inner shadow to scrolling table on mobile
+- Updated timeline mark-up from UL to OL
+- Updated timeline border/dot colour #CCE2F1 to #C3D5E9 to be brand compliant
+- Updated video toggle colour #777 to #737373 to be brand compliant
+- Updated small print text colour #666 to #737373 to be brand compliant
+- Updated standard button colour #888 to #4D4D4D to be brand compliant
+- Updated button disabled background colour #ccc to #E9EAEA  to be brand compliant
+- Updated button warning colour #b52a1e to #CD2041 to be brand compliant
+- Updted button more border colour #ccc to #737373
+
+### Developer update notes
+
+- The events example mark-up has been updated. Not udating won't break the design but recomend updating instances of the events component with improved accessble/semantic html. See code examples and notes on of events page for details.
+- Form input examples for email and telphone numbers now include the correct type. Ensure form inputs use the correct type attribute as per code examples.
+- Form 'required' fields have been updated to use abbr tag and addional messaging explaing asterirx. Ensure forms are correclty using this approach.
+- Updated information and guidance has been provided on the form field as to when to use inline or grid form example. Recomened reviewing gudance and updating any forms that violate this best practise.
+- A new error message element for error states on form fields has been added. Recomend adding this to error states on forms where appropriate.
+- Updated image caption exampe to use figure + figcaption elements on image page. Recomend updating any image + caption components to use this more semantic mark-up.
