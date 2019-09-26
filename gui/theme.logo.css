@@ -7,81 +7,94 @@
 --------------------------------------------------------------------------------------
 */
 
-
-.ou-theme #ou-header a.ou-logo img {display:none;}
-
-.ou-theme #ou-header a.ou-logo {
-	display:block;
-	height:61px;
-	width:87px;
-	background-image:url(logos/ou-logo-light-blue.png);
-	background-position:top left;
-	background-repeat:no-repeat;
+.ou-theme #ou-header a.ou-logo img {
+  display: none;
 }
 
-.ou-theme--dark-green #ou-header a.ou-logo {background-image:url(logos/ou-logo-dark-green.png);}
-.ou-theme--burgundy #ou-header a.ou-logo {background-image:url(logos/ou-logo-burgundy.png);}
-.ou-theme--orange #ou-header a.ou-logo {background-image:url(logos/ou-logo-orange.png);}
-.ou-theme--purple #ou-header a.ou-logo {background-image:url(logos/ou-logo-purple.png);}
-.ou-theme--blue #ou-header a.ou-logo {background-image:url(logos/ou-logo-blue.png);}
-
-
-
-@media only 
-    screen and (max-width: 767px), screen and (max-device-width: 767px) {
-
-/* shield */
-
 .ou-theme #ou-header a.ou-logo {
-	width: 21px !important;
-	height: 25px !important;
-	background-image: url(logos/ou-logo-mobile.png);
-	background-color: transparent;
+  display: block;
+  height: 61px;
+  width: 87px;
+  background-image: url(logos/ou-logo-light-blue.png);
+  background-position: top left;
+  background-repeat: no-repeat;
 }
 
-.ou-theme #ou-header a.ou-logo:hover {background-position: bottom left;}
+.ou-theme--dark-green #ou-header a.ou-logo {
+  background-image: url(logos/ou-logo-dark-green.png);
+}
+.ou-theme--burgundy #ou-header a.ou-logo {
+  background-image: url(logos/ou-logo-burgundy.png);
+}
+.ou-theme--orange #ou-header a.ou-logo {
+  background-image: url(logos/ou-logo-orange.png);
+}
+.ou-theme--purple #ou-header a.ou-logo {
+  background-image: url(logos/ou-logo-purple.png);
+}
+.ou-theme--blue #ou-header a.ou-logo {
+  background-image: url(logos/ou-logo-blue.png);
+}
 
+@media only screen and (max-width: 767px),
+  screen and (max-device-width: 767px) {
+  /* shield */
 
-/* themes */
+  .ou-theme #ou-header a.ou-logo {
+    width: 21px !important;
+    height: 25px !important;
+    background-image: url(logos/ou-logo-mobile.png);
+    background-color: transparent;
+  }
 
-.ou-theme .ou-sections a.ou-selected,
-.ou-theme .ou-sections a.ou-selected:hover {border-bottom:0;}
+  .ou-theme #ou-header a.ou-logo:hover {
+    background-position: bottom left;
+  }
 
+  /* themes */
 
+  .ou-theme .ou-sections a.ou-selected,
+  .ou-theme .ou-sections a.ou-selected:hover {
+    border-bottom: 0;
+  }
 } /* end media query */
-
-
 
 /* tablet, desktop */
 
-@media 
-only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-only screen and (-o-min-device-pixel-ratio: 13/10) and (min-width: 768px),
-only screen and (min-resolution: 192dpi) and (min-width: 768px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+  only screen and (-o-min-device-pixel-ratio: 13/10) and (min-width: 768px),
+  only screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .ou-theme #ou-header a.ou-logo {
+    background-size: 87px 61px;
+  }
 
-.ou-theme #ou-header a.ou-logo {background-size:87px 61px;}
-
-.ou-theme #ou-header a.ou-logo {background-image:url(logos/ou-logo-light-blue@2x.png);}
-.ou-theme--dark-green #ou-header a.ou-logo {background-image:url(logos/ou-logo-dark-green@2x.png);}
-.ou-theme--burgundy #ou-header a.ou-logo {background-image:url(logos/ou-logo-burgundy@2x.png);}
-.ou-theme--orange #ou-header a.ou-logo {background-image:url(logos/ou-logo-orange@2x.png);}
-.ou-theme--purple #ou-header a.ou-logo {background-image:url(logos/ou-logo-purple@2x.png);}
-.ou-theme--blue #ou-header a.ou-logo {background-image:url(logos/ou-logo-blue@2x.png);}
-
-}  /* end media query */
-
-
+  .ou-theme #ou-header a.ou-logo {
+    background-image: url(logos/ou-logo-light-blue@2x.png);
+  }
+  .ou-theme--dark-green #ou-header a.ou-logo {
+    background-image: url(logos/ou-logo-dark-green@2x.png);
+  }
+  .ou-theme--burgundy #ou-header a.ou-logo {
+    background-image: url(logos/ou-logo-burgundy@2x.png);
+  }
+  .ou-theme--orange #ou-header a.ou-logo {
+    background-image: url(logos/ou-logo-orange@2x.png);
+  }
+  .ou-theme--purple #ou-header a.ou-logo {
+    background-image: url(logos/ou-logo-purple@2x.png);
+  }
+  .ou-theme--blue #ou-header a.ou-logo {
+    background-image: url(logos/ou-logo-blue@2x.png);
+  }
+} /* end media query */
 
 /* mobile */
 
-@media 
-only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),
-only screen and (-o-min-device-pixel-ratio: 13/10) and (max-width: 767px),
-only screen and (min-resolution: 192dpi) and (max-width: 767px) {
-
-.ou-theme #ou-header a.ou-logo {
-	background-size:21px 50px;
-	background-image: url(logos/ou-logo-mobile@2x.png);
-}
-
-}  /* end media query */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),
+  only screen and (-o-min-device-pixel-ratio: 13/10) and (max-width: 767px),
+  only screen and (min-resolution: 192dpi) and (max-width: 767px) {
+  .ou-theme #ou-header a.ou-logo {
+    background-size: 21px 50px;
+    background-image: url(logos/ou-logo-mobile@2x.png);
+  }
+} /* end media query */

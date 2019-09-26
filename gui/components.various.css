@@ -7,51 +7,47 @@
 --------------------------------------------------------------------------------------
 */
 
-
-
-
 /*
 -------------------------------------------
 	Site ident
 -------------------------------------------
 */
 
-
 .ou-site-ident {
-	text-align:left;
-	width:95%;
-	max-width:1180px;
-	margin:20px auto 15px auto;
+  text-align: left;
+  width: 95%;
+  max-width: 1180px;
+  margin: 20px auto 15px auto;
 }
 
 .ou-site-ident__title {
-	font-size:1.2em;
-	font-weight:normal;
-	padding:0;
-	margin:0 0 5px 0;
+  font-size: 1.2em;
+  font-weight: normal;
+  padding: 0;
+  margin: 0 0 5px 0;
 }
 
 .ou-site-ident__title a {
-	color:#000;
-	background-color: transparent;
-	text-decoration:none;
+  color: #000;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-.ou-site-ident__title a:hover {text-decoration:underline;}
+.ou-site-ident__title a:hover {
+  text-decoration: underline;
+}
 
 .ou-site-ident__title a:visited {
-	color:black;
-	background-color: transparent;
+  color: black;
+  background-color: transparent;
 }
-
 
 .ou-site-ident__description {
-	padding:0;
-	margin:0;
-	color:#737373;
-	background-color: transparent;
+  padding: 0;
+  margin: 0;
+  color: #737373;
+  background-color: transparent;
 }
-
 
 /*
 -------------------------------------------
@@ -59,49 +55,45 @@
 -------------------------------------------
 */
 
-
 .ou-timeline {
-	position: relative;
-	padding-left: 16px;
+  position: relative;
+  padding-left: 16px;
 }
 
 .ou-timeline:before {
-    content: "";
-    position: absolute;
-    display: block;
-    height: 100%;
-    top: 10px;
-    left: 20px;
-    margin-left: 0;
-    border-left: 2px solid #C3D5E9;
+  content: "";
+  position: absolute;
+  display: block;
+  height: 100%;
+  top: 10px;
+  left: 20px;
+  margin-left: 0;
+  border-left: 2px solid #c3d5e9;
 }
 
 .ou-timeline__group {
-	padding-left: 30px;
-	margin-bottom: 20px;
-	position: relative;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  position: relative;
 }
 
 .ou-timeline__group:before {
-	content: "";
-    width:10px;
-    height:10px;
-    border-radius:10px;
-    background:#C3D5E9;
-    display: block;
-    position: absolute;
-    top: 4px;
-    left: 0;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #c3d5e9;
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 0;
 }
 
 .ou-timeline__heading {
-	font-size:1.1em;
-	font-weight: bold;
-	margin-bottom: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
-
-
-
 
 /*
 -------------------------------------------
@@ -110,43 +102,46 @@
 */
 
 .ou-toggle {
-	text-decoration: none;
-	display: inline-block;
-	padding-left: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 20px;
 }
 
 .ou-toggle:hover {
-	text-decoration: none;
-	color: #000;
-	background-color: transparent;
+  text-decoration: none;
+  color: #000;
+  background-color: transparent;
 }
 
 .ou-toggle--closed {
-	background: url(icons/icon-plus.png);
-	background: url(icons/icon-plus.svg), linear-gradient(transparent, transparent);
-	background-position:0 2px;
-	background-repeat:no-repeat;
+  background: url(icons/icon-plus.png);
+  background: url(icons/icon-plus.svg),
+    linear-gradient(transparent, transparent);
+  background-position: 0 2px;
+  background-repeat: no-repeat;
 }
 
 .ou-toggle--open {
-	background: url(icons/icon-minus.png);
-	background: url(icons/icon-minus.svg), linear-gradient(transparent, transparent);
-	background-position:0 6px;
-	background-repeat:no-repeat;
+  background: url(icons/icon-minus.png);
+  background: url(icons/icon-minus.svg),
+    linear-gradient(transparent, transparent);
+  background-position: 0 6px;
+  background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 400px),
+  only screen and (max-device-width: 400px) {
+  .ou-site-ident__title {
+    font-size: 1em;
+  }
+  .ou-site-ident__description {
+    font-size: 0.9em;
+  }
 
-
-@media
-only screen and (max-width: 400px),
-only screen and (max-device-width: 400px) {
-
-  .ou-site-ident__title {font-size:1em;}
-  .ou-site-ident__description {font-size:.9em;}
-
-  .ou-timeline {padding-left: 0;}
-  .ou-timeline:before {left: 4px;}
-
-
+  .ou-timeline {
+    padding-left: 0;
+  }
+  .ou-timeline:before {
+    left: 4px;
+  }
 } /* end media query */
-

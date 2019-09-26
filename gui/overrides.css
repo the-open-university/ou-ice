@@ -7,7 +7,6 @@
 --------------------------------------------------------------------------------------
 */
 
-
 /*
 -------------------------------------------
 	headerfooter.css overrides
@@ -15,38 +14,34 @@
 */
 
 body #ou-header {
-	padding-left: 0 !important;
-	padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 body #ou-site-header {
-    max-width: none !important;
-    margin: 0 !important;
+  max-width: none !important;
+  margin: 0 !important;
 }
 
 body #ou-site-body {
-    margin-top: 25px !important;
-    margin-bottom: 45px !important;
+  margin-top: 25px !important;
+  margin-bottom: 45px !important;
 }
-
 
 /* so header/footer lists don't inherit bullets and padding/margins */
 
 #ou-header ul li:before,
-.ou-footer ul li:before {content:normal;}
+.ou-footer ul li:before {
+  content: normal;
+}
 
 .ou-footer-links ul li {
-	padding-left:0;
-	margin-bottom:0;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 ul.ou-ia-public,
 ul.ou-ia-public li {
-	margin:0;
-	padding:0;
+  margin: 0;
+  padding: 0;
 }
-
-
-
-
-

@@ -6,61 +6,133 @@
 
 /* Text */
 
-.ou-text-black {color:#000000 !important;}
+.ou-text-black {
+  color: #000000 !important;
+}
 
-.ou-text-pink {color:#e21481 !important;}
-.ou-text-dark-blue {color:#072b54 !important;}
-.ou-text-dark-grey {color:#262626 !important;}
-.ou-text-blue {color:#0e56a7 !important;} 
-.ou-text-white {color:#FFFFFF !important;}
-.ou-text-grey {color:#4d4d4d !important;} 
-.ou-text-light-grey {color:#737373 !important;}
-.ou-text-turquoise {color:#068293 !important;}
-.ou-text-light-blue {color:#eef3f9 !important;} 
+.ou-text-pink {
+  color: #e21481 !important;
+}
+.ou-text-dark-blue {
+  color: #072b54 !important;
+}
+.ou-text-dark-grey {
+  color: #262626 !important;
+}
+.ou-text-blue {
+  color: #0e56a7 !important;
+}
+.ou-text-white {
+  color: #ffffff !important;
+}
+.ou-text-grey {
+  color: #4d4d4d !important;
+}
+.ou-text-light-grey {
+  color: #737373 !important;
+}
+.ou-text-turquoise {
+  color: #068293 !important;
+}
+.ou-text-light-blue {
+  color: #eef3f9 !important;
+}
 
 /* Backgrounds */
 
-.ou-bg-black {background-color:#000000 !important;}
-.ou-bg-dark-grey {background-color:#262626 !important;}
-.ou-bg-pink {background-color:#e21481 !important;}
-.ou-bg-dark-blue {background-color:#072b54 !important;}
-.ou-bg-orange {background-color:#d34616 !important;}
-.ou-bg-blue {background-color:#0e56a7 !important;} 
-.ou-bg-white {background-color:#FFFFFF !important;}
-.ou-bg-grey {background-color:#4d4d4d !important;} 
-.ou-bg-turquoise {background-color:#068293 !important;}
-.ou-bg-light-blue {background-color:#eef3f9 !important;} 
-.ou-bg-light-grey {background-color:#E9EAEA !important;}
+.ou-bg-black {
+  background-color: #000000 !important;
+}
+.ou-bg-dark-grey {
+  background-color: #262626 !important;
+}
+.ou-bg-pink {
+  background-color: #e21481 !important;
+}
+.ou-bg-dark-blue {
+  background-color: #072b54 !important;
+}
+.ou-bg-orange {
+  background-color: #d34616 !important;
+}
+.ou-bg-blue {
+  background-color: #0e56a7 !important;
+}
+.ou-bg-white {
+  background-color: #ffffff !important;
+}
+.ou-bg-grey {
+  background-color: #4d4d4d !important;
+}
+.ou-bg-turquoise {
+  background-color: #068293 !important;
+}
+.ou-bg-light-blue {
+  background-color: #eef3f9 !important;
+}
+.ou-bg-light-grey {
+  background-color: #e9eaea !important;
+}
 
 /* UI colours */
 
-.ou-text-red {color:#cd2041 !important;}
-.ou-text-green {color:#008A00 !important;}
-.ou-bg-red {background-color:#cd2041 !important;}
-.ou-bg-green {background-color:#008A00 !important;}
+.ou-text-red {
+  color: #cd2041 !important;
+}
+.ou-text-green {
+  color: #008a00 !important;
+}
+.ou-bg-red {
+  background-color: #cd2041 !important;
+}
+.ou-bg-green {
+  background-color: #008a00 !important;
+}
 
 /* Reserved colours */
 
-.ou-text-purple {color:#716fb3 !important;} 
-.ou-text-yellow {color:#ffd400 !important;} 
-.ou-text-beige {color:#f8f6ed !important;} 
-.ou-bg-purple {background-color:#716fb3 !important;}
-.ou-bg-yellow {background-color:#ffd400 !important;} 
-.ou-bg-beige {background-color:#f8f6ed !important;} 
-
+.ou-text-purple {
+  color: #716fb3 !important;
+}
+.ou-text-yellow {
+  color: #ffd400 !important;
+}
+.ou-text-beige {
+  color: #f8f6ed !important;
+}
+.ou-bg-purple {
+  background-color: #716fb3 !important;
+}
+.ou-bg-yellow {
+  background-color: #ffd400 !important;
+}
+.ou-bg-beige {
+  background-color: #f8f6ed !important;
+}
 
 /* !! */
 /* Redundant colours */
 /* WARNING - Please remove/replace references to the below classes from html  */
 /* !! */
 
-
-.ou-text-orange {color:#d34616 !important;}
-.ou-text-burgundy {color:#630031 !important;}
-.ou-text-dark-green {color:#4A5E4A !important;}
-.ou-text-light-green {color:#A4A400 !important;}
-.ou-bg-light-green {background-color:#A4A400 !important;}
-.ou-bg-dark-green {background-color:#4A5E4A !important;}
-.ou-bg-burgundy {background-color:#630031 !important;}
-
-
+.ou-text-orange {
+  color: #d34616 !important;
+}
+.ou-text-burgundy {
+  color: #630031 !important;
+}
+.ou-text-dark-green {
+  color: #4a5e4a !important;
+}
+.ou-text-light-green {
+  color: #a4a400 !important;
+}
+.ou-bg-light-green {
+  background-color: #a4a400 !important;
+}
+.ou-bg-dark-green {
+  background-color: #4a5e4a !important;
+}
+.ou-bg-burgundy {
+  background-color: #630031 !important;
+}

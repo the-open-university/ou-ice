@@ -1,335 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
 
-    <meta charset="utf-8" />
+        <meta charset="utf-8"/>
 
-    <title>Colour accent example page - OU ICE</title>
+        <title>Colour accent example page - OU ICE</title>
 
-    <link rel="stylesheet" type="text/css" href="../../../gui/header-footer.css" media="screen, projection" />
-    <link rel="stylesheet" type="text/css" href="../../../gui/styles.css" media="screen, projection" />
-    <link rel="stylesheet" type="text/css" href="../../../gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" />
+        <link rel="stylesheet" type="text/css" href="../../../gui/header-footer.css" media="screen, projection"/>
+        <link rel="stylesheet" type="text/css" href="../../../gui/styles.css" media="screen, projection"/>
+        <link rel="stylesheet" type="text/css" href="../../../gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection"/>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-    <link rel="apple-touch-icon" href="../../../gui/icons/apple-touch-icon.png">
-    <link rel="icon" href="../../../gui/icons/favicon.png">
+        <link rel="apple-touch-icon" href="../../../gui/icons/apple-touch-icon.png">
+        <link rel="icon" href="../../../gui/icons/favicon.png">
 
-</head>
+    </head>
 
-<body class="ou-theme ou-theme--burgundy">
+    <body class="ou-theme ou-theme--burgundy">
 
-<div id="ou-org">
+        <div id="ou-org">
 
-<a class="ou-skip" href="#ou-content"><i class="fa fa-arrow-circle-down"></i> Skip to content</a>
+            <a class="ou-skip" href="#ou-content">
+                <i class="fa fa-arrow-circle-down"></i> Skip to content</a>
 
-<div id="ou-header">
+            <div id="ou-header">
 
-<div id="ou-service-links" role="navigation">
+                <div id="ou-service-links" role="navigation">
 
-<ul>
+                    <ul>
 
-<li><a href="#">Sign out</a> <span>|</span></li>
-<li><a href="https://msds.open.ac.uk/students/">StudentHome</a> <span>|</span></li>
-<li><a href="http://www.open.ac.uk/about/main/management/policies-and-statements/website-accessibility-open-university">Accessibility</a> <span>|</span></li>
+                        <li>
+                            <a href="#">Sign out</a>
+                            <span>|</span></li>
+                        <li>
+                            <a href="https://msds.open.ac.uk/students/">StudentHome</a>
+                            <span>|</span></li>
+                        <li>
+                            <a href="http://www.open.ac.uk/about/main/management/policies-and-statements/website-accessibility-open-university">Accessibility</a>
+                            <span>|</span></li>
 
-<li><a href="http://www.open.ac.uk/contact">Contact the OU</a></li>
+                        <li>
+                            <a href="http://www.open.ac.uk/contact">Contact the OU</a>
+                        </li>
 
-<li class="ou-search">
-<fieldset>
-<legend class="ou-hide">Site search</legend>
-<label for="site-search" class="ou-hide">Search the OU</label>
-<input type="search" id="site-search" placeholder="">
-<button><span class="ou-hide">Submit</span></button>
-</fieldset>
-</li>
+                        <li class="ou-search">
+                            <fieldset>
+                                <legend class="ou-hide">Site search</legend>
+                                <label for="site-search" class="ou-hide">Search the OU</label>
+                                <input type="search" id="site-search" placeholder="">
+                                <button>
+                                    <span class="ou-hide">Submit</span></button>
+                            </fieldset>
+                        </li>
 
-</ul>
+                    </ul>
 
-</div> <!-- end ou-service-links -->
+                </div>
+                <!-- end ou-service-links -->
 
-<a class="ou-logo" href="http://www.open.ac.uk/"></a>
+                <a class="ou-logo" href="http://www.open.ac.uk/"></a>
 
-<a href="#" class="ou-mobile-menu-toggle icon-down">Toggle service links</a>
+                <a href="#" class="ou-mobile-menu-toggle icon-down">Toggle service links</a>
 
-</div> <!-- end ou-header -->
+            </div>
+            <!-- end ou-header -->
 
+            <div id="ou-site">
 
-<div id="ou-site">
+                <div id="ou-site-header">
 
-<div id="ou-site-header">
+                    <!-- SAM -->
+                    <style>
 
-<!-- SAM -->
-<style>
+                        .ou-site-header__aside {
+                            max-width: 1180px;
+                            margin: 0 auto;
+                        }
+                        .ou-site-header__aside img {
+                            float: right;
+                        }
 
-	.ou-site-header__aside {max-width:1180px; margin:0 auto;}
-	.ou-site-header__aside img {float:right;}
+                        @media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+                            .ou-site-header__aside img {
+                                max-width: 200px;
+                                float: none;
+                                margin: 10px 0 0 15px;
+                            }
+                        }
+                    </style>
 
-	@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
-	.ou-site-header__aside img {max-width:200px; float:none; margin:10px 0 0 15px;}
-	}
+                    <div class="ou-site-header__aside">
+                        <img src="../img/random/business-logos.png" alt="">
+                    </div>
+                    <!-- END SAM -->
 
-</style>
+                    <div class="ou-site-ident">
+                        <h2 class="ou-site-ident__title">
+                            <a href="#">The Open University Business School</a>
+                        </h2>
+                    </div>
 
-<div class="ou-site-header__aside">
-	<img src="../img/random/business-logos.png" alt="">
-</div>
-<!-- END SAM -->
+                    <nav class="ou-sections">
+                        <ul>
+                            <li>
+                                <a href="#">Overview</a>
+                            </li>
+                            <li>
+                                <a href="#">People</a>
+                            </li>
+                            <li>
+                                <a href="#">Research</a>
+                            </li>
+                            <li>
+                                <a href="#" class="ou-selected">Study</a>
+                            </li>
+                            <li>
+                                <a href="#">Executive Education</a>
+                            </li>
+                            <li>
+                                <a href="#">Alumni</a>
+                            </li>
+                            <li>
+                                <a href="#">News</a>
+                            </li>
+                            <li>
+                                <a href="#">Events</a>
+                            </li>
+                        </ul>
+                    </nav>
 
+                </div>
+                <!-- end ou-site-header -->
 
-<div class="ou-site-ident">
-    <h2 class="ou-site-ident__title"><a href="#">The Open University Business School</a></h2>
-</div>
+                <div id="ou-site-body">
 
-<nav class="ou-sections">
-    <ul>
-        <li><a href="#">Overview</a></li>
-        <li><a href="#">People</a></li>
-        <li><a href="#">Research</a></li>
-        <li><a href="#" class="ou-selected">Study</a></li>
-        <li><a href="#">Executive Education</a></li>
-        <li><a href="#">Alumni</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Events</a></li>
-    </ul>
-</nav>
+                    <div id="ou-page">
 
-</div> <!-- end ou-site-header -->
+                        <div id="ou-region0">
+                            <ol class="ou-ancestors">
+                                <li>
+                                    <a href="#1">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#2">Study</a>
+                                </li>
+                                <li>Pedagogy</li>
+                            </ol>
+                        </div>
+                        <!-- end ou-region0 -->
 
-<div id="ou-site-body">
+                        <div id="ou-region1">
 
-<div id="ou-page">
+                            <div id="ou-content" class="ou-content">
 
-<div id="ou-region0">
-<ol class="ou-ancestors">
-	<li><a href="#1">Home</a></li>
-	<li><a href="#2">Study</a></li>
-	<li>Pedagogy</li>
-</ol>
-</div> <!-- end ou-region0 -->
+                                <h1>Pedagogy</h1>
 
+                                <p>OUBS differentiates itself though a distinctive distance learning practice-based pedagogy, underpinned by our focus on <a href="/research" rel="nofollow">practice-engaged research</a>. We expose students to a multitude of different perspectives and contexts, helping them to make connections and comparisons, and use their own organisation as a learning resource – encouraging them to apply their learning to the real workplace challenges that they face. This fusion of theory with practice:</p>
 
-<div id="ou-region1">
+                                <ul class="ou-list ou-list--bullets">
+                                    <li>brings critical and empirically based perspectives to a student’s learning</li>
+                                    <li>embeds skills and understanding in the context of their own experience</li>
+                                    <li>develops self-assurance and stimulates independent lifelong learning</li>
+                                    <li>improves performance and job satisfaction</li>
+                                    <li>boosts career development</li>
+                                    <li>brings immediate benefits to employers, and an excellent return on investment to those <a href="/node/456" rel="nofollow">sponsoring staff to study with us</a>.</li>
+                                </ul>
 
-<div id="ou-content" class="ou-content">
+                                <div class="ou-img ou-pull-left ou-bg-burgundy">
+                                    <img src="../img/400x250/crowd.jpg" alt="Football crowd">
+                                    <p class="ou-img__caption">They think it's all over!</p>
+                                </div>
 
-<h1>Pedagogy</h1>
+                                <p>It is also a highly effective professional development method, allowing busy people to test ideas and concepts, and develop new knowledge and skills in line with their organisation’s priorities. The success of this approach is clearly demonstrated by the employability of our students – OU graduates were ranked 13<sup>th</sup> for employability in a <a href="https://www.timeshighereducation.com/student/news/best-uk-universities-chosen-major-employers" rel="nofollow">THE list compiled in 2015</a>, above a number of Russell Group universities.</p>
+                                <h2>Study materials</h2>
+                                <p>OUBS modules typically attract mature students with considerable management experience, who expect module material to be engaging and relevant. Our learning materials exploit a wide variety of media, including print, web, audio-visual and face-to-face. They are inherently student centred, and are developed by an experienced multi professional team including leading academics in the field, experts in learning technologies, global employers and professional bodies.</p>
+                                <h2>Tutor support</h2>
+                                <p>Teaching is facilitated by a network of subject-specialist tutors who are also working professionals, bringing expertise and contemporary experience to contextualise learning. They guide, advise and support students throughout their studies, mark and give feedback on assignments, and provide group tuition.</p>
+                                <h2>‘Quality at scale’</h2>
+                                <p>The OUBS teaching model enables us to deliver consistent learning experiences at scale. Every student, no matter where they live, studies using robust, innovative and research-informed materials that are widely acknowledged to be of extremely high quality (in fact, OU materials are so good that two thirds of the UK’s biggest universities use them too).</p>
+                                <h2>A truly international business school</h2>
+                                <p>We have more than 36,000 undergraduate and postgraduate students distributed across 112 countries round the world, leading to internationalisation without the need for student exchanges. They are encouraged to learn from and support one another, formally in tutorial groups and through online learning activities, and informally through module websites, student study areas, forums and chat rooms. In addition, students completing postgraduate &nbsp;qualifications automatically join a powerful <a href="/alumni" rel="nofollow">international alumni network</a> that will support them in their continuing personal and professional development (currently there are more than 25,000 MBA graduates worldwide and about 65,000 diploma and certificate members).</p>
 
+                                <div class="ou-articles ou-articles--striped">
 
-<p>OUBS differentiates itself though a distinctive distance learning practice-based pedagogy, underpinned by our focus on <a href="/research" rel="nofollow">practice-engaged research</a>. We expose students to a multitude of different perspectives and contexts, helping them to make connections and comparisons, and use their own organisation as a learning resource – encouraging them to apply their learning to the real workplace challenges that they face. This fusion of theory with practice:</p>
+                                    <div class="ou-articles__article ">
+                                        <div class="ou-articles__img">
+                                            <a href="#"><img src="../img/400x200/navy.jpg" alt=""></a>
+                                        </div>
 
-<ul class="ou-list ou-list--bullets">
-    <li>brings critical and empirically based perspectives to a student’s learning</li>
-    <li>embeds skills and understanding in the context of their own experience</li>
-    <li>develops self-assurance and stimulates independent lifelong learning</li>
-    <li>improves performance and job satisfaction</li>
-    <li>boosts career development</li>
-    <li>brings immediate benefits to employers, and an excellent return on investment to those <a href="/node/456" rel="nofollow">sponsoring staff to study with us</a>.</li>
-</ul>
+                                        <div class="ou-articles__text">
+                                            <h2>
+                                                <a href="#">Title one</a>
+                                            </h2>
+                                            <p>The Martians seem to have calculated their descent with amazing subtlety - their mathematical learning is evidently far in excess of ours.</p>
+                                        </div>
+                                    </div>
 
-<div class="ou-img ou-pull-left ou-bg-burgundy">
-<img src="../img/400x250/crowd.jpg" alt="Football crowd">
-<p class="ou-img__caption">They think it's all over!</p>
-</div>
+                                    <div class="ou-articles__article ">
+                                        <div class="ou-articles__img">
+                                            <a href="#"><img src="../img/400x200/lakes.jpg" alt=""></a>
+                                        </div>
 
-<p>It is also a highly effective professional development method, allowing busy people to test ideas and concepts, and develop new knowledge and skills in line with their organisation’s priorities. The success of this approach is clearly demonstrated by the employability of our students – OU graduates were ranked 13<sup>th</sup> for employability in a <a href="https://www.timeshighereducation.com/student/news/best-uk-universities-chosen-major-employers" rel="nofollow">THE list compiled in 2015</a>, above a number of Russell Group universities.</p>
-<h2>Study materials</h2>
-<p>OUBS modules typically attract mature students with considerable management experience, who expect module material to be engaging and relevant. Our learning materials exploit a wide variety of media, including print, web, audio-visual and face-to-face. They are inherently student centred, and are developed by an experienced multi professional team including leading academics in the field, experts in learning technologies, global employers and professional bodies.</p>
-<h2>Tutor support</h2>
-<p>Teaching is facilitated by a network of subject-specialist tutors who are also working professionals, bringing expertise and contemporary experience to contextualise learning. They guide, advise and support students throughout their studies, mark and give feedback on assignments, and provide group tuition.</p>
-<h2>‘Quality at scale’</h2>
-<p>The OUBS teaching model enables us to deliver consistent learning experiences at scale. Every student, no matter where they live, studies using robust, innovative and research-informed materials that are widely acknowledged to be of extremely high quality (in fact, OU materials are so good that two thirds of the UK’s biggest universities use them too).</p>
-<h2>A truly international business school</h2>
-<p>We have more than 36,000 undergraduate and postgraduate students distributed across 112 countries round the world, leading to internationalisation without the need for student exchanges. They are encouraged to learn from and support one another, formally in tutorial groups and through online learning activities, and informally through module websites, student study areas, forums and chat rooms. In addition, students completing postgraduate &nbsp;qualifications automatically join a powerful <a href="/alumni" rel="nofollow">international alumni network</a> that will support them in their continuing personal and professional development (currently there are more than 25,000 MBA graduates worldwide and about 65,000 diploma and certificate members).</p>
+                                        <div class="ou-articles__text">
+                                            <h2>
+                                                <a href="#">Title two</a>
+                                            </h2>
+                                            <p>Ahab stood before him, and was lightly unwinding some thirty or forty turns to form a preliminary hand-coil to toss overboard, when the old Manxman made bold to speak.</p>
+                                        </div>
+                                    </div>
 
+                                    <div class="ou-articles__article ">
+                                        <div class="ou-articles__img">
+                                            <a href="#"><img src="../img/400x200/boys.jpg" alt=""></a>
+                                        </div>
 
+                                        <div class="ou-articles__text">
+                                            <h2>
+                                                <a href="#">Title three</a>
+                                            </h2>
+                                            <p>The wind grew decidedly calmer, and happily the sea fell with it. All sails were now hoisted, and at noon the Tankadere was within forty-five miles of Shanghai.</p>
+                                        </div>
+                                    </div>
 
+                                </div>
 
-<div class="ou-articles ou-articles--striped">
+                            </div>
+                            <!-- end ou-content -->
+                        </div>
+                        <!-- end ou-region1 -->
 
-    <div class="ou-articles__article ">
-        <div class="ou-articles__img">
-            <a href="#"><img src="../img/400x200/navy.jpg" alt=""></a>
+                        <div id="ou-region2">
+
+                            <div class="ou-context-nav">
+                                <h2>Study</h2>
+                                <nav>
+                                    <ul class="menu clearfix">
+                                        <li class="first leaf menu-mlid-853">
+                                            <a href="/study/informal-learning">Informal learning</a>
+                                        </li>
+                                        <li class="leaf active-trail active menu-mlid-718">
+                                            <a href="/study/pedagogy" class="active-trail active ou-selected">Pedagogy</a>
+                                        </li>
+                                        <li class="collapsed menu-mlid-727">
+                                            <a href="/study/employability">Employability</a>
+                                        </li>
+                                        <li class="leaf menu-mlid-666">
+                                            <a href="/undergraduate-qualifications">Undergraduate Qualifications</a>
+                                        </li>
+                                        <li class="leaf menu-mlid-663">
+                                            <a href="/postgraduate-qualifications">Postgraduate Qualifications</a>
+                                        </li>
+                                        <li class="last leaf menu-mlid-664">
+                                            <a href="/postgraduate-research">Postgraduate Research</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                            <h2 class="ou-smaller">News</h2>
+
+                            <div class="view view-news view-id-news view-display-id-block_latest_brief ou-articles  ou-articles--smaller view-dom-id-280b131f2608211d1895d4fa4af09c2b jquery-once-1-processed">
+
+                                <div class="view-content">
+                                    <div>
+                                        <div id="node-483" class="ou-articles__article node node-ou-news">
+                                            <span property="dc:title" content="After Bernie Sanders: how progressives can actually change America" class="rdf-meta element-hidden"></span>
+                                            <span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+
+                                            <div class="ou-articles__text">
+                                                <h3>
+                                                    <a href="/node/483">After Bernie Sanders: how progressives can actually change America</a>
+                                                </h3>
+                                                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                                    <div class="field-items">
+                                                        <div class="field-item even" property="content:encoded">
+                                                            <p>Bernie Sanders may have endorsed Hillary Clinton, but politics as usual has had its day. It's time for progressivism to move fast.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ou-articles__date">
+                                                    <span property="dc:date dc:created" content="2016-07-26T16:40:18+01:00" datatype="xsd:dateTime">26th July 2016</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- /node-->
+                                    </div>
+                                    <div>
+                                        <div id="node-418" class="ou-articles__article node node-ou-news">
+                                            <span property="dc:title" content="Exceptional student and alumni achievements honoured at OUBS Awards" class="rdf-meta element-hidden"></span>
+                                            <span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+
+                                            <div class="ou-articles__text">
+                                                <h3>
+                                                    <a href="/node/418">Exceptional student and alumni achievements honoured at OUBS Awards</a>
+                                                </h3>
+                                                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                                    <div class="field-items">
+                                                        <div class="field-item even" property="content:encoded">
+                                                            <p>The highest achieving students and alumni who have made an outstanding contribution to an organisation or society have been commended at the 13th annual OUBS awards.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ou-articles__date">
+                                                    <span property="dc:date dc:created" content="2016-07-19T16:40:16+01:00" datatype="xsd:dateTime">19th July 2016</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- /node-->
+                                    </div>
+                                </div>
+
+                                <a href="/news" class="ou-button ou-button--more">See all</a>
+
+                            </div>
+
+                            <div class="ou-box ou-box--plain ou-bg-burgundy">
+                                <img src="../../gui/icons/various/icon-prospectus.png" alt="" class="ou-pull-right">
+                                <h2>Business School Prospectus</h2>
+                                <p>Order or download our prospectuses for you or your organisation.</p>
+                                <a href="#" class="ou-button ou-button--primary mb-0">Request prospectus</a>
+                            </div>
+
+                            <div class="ou-box ou-box--note">
+                                <p>If you are a current OU student message with link here.</p>
+                            </div>
+
+                        </div>
+                        <!-- end ou-region2 -->
+
+                    </div>
+                    <!-- end ou-page -->
+
+                </div>
+                <!-- end ou-site-body -->
+
+                <div id="ou-site-footer">
+                    <a class="ou-to-top" href="#ou-org">Back to top</a>
+                </div>
+                <!-- end ou-site-footer -->
+
+            </div>
+            <!-- end ou-site -->
+
+            <div class="ou-footer" role="contentinfo">
+
+                <div class="ou-footer-container">
+
+                    <div class="ou-footer-top ou-grid">
+
+                        <div class="ou-footer-crest">
+                            <img src="../img/ou-crest.png" alt="The Open University Crest">
+                        </div>
+                        <!-- end ou-footer-crest -->
+
+                        <div class="ou-footer-contact">
+                            <h3>The Open University</h3>
+                        </div>
+                        <!-- end ou-footer-contact -->
+
+                    </div>
+                    <!-- end ou-footer-top -->
+
+                    <div class="ou-footer-links ou-grid">
+                        <ul>
+                            <li>
+                                <a href="http://www.open.ac.uk/contact">Contact the OU</a>
+                            </li>
+                            <li>
+                                <a href="http://www3.open.ac.uk/employment/">Jobs</a>
+                            </li>
+                            <li>
+                                <a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-accessibility-the-open-university">Accessibility</a>
+                            </li>
+                            <li>
+                                <a href="http://www3.open.ac.uk/near-you/wales/p6.asp">Cymraeg</a>
+                            </li>
+                            <li>
+                                <a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/conditions-use-open-university-websites">Conditions of use</a>
+                            </li>
+                            <li>
+                                <a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-privacy-the-ou">Privacy and cookies</a>
+                            </li>
+                            <li>
+                                <a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/copyright-ou-websites">Copyright</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end ou-footer-links -->
+
+                    <div class="ou-footer-small-print ou-grid">
+                        <p class="copyright">
+                            <small>© 2014. All rights reserved. The Open University is incorporated by Royal Charter (RC 000391), an exempt charity in England &amp; Wales and a charity registered in Scotland (SC 038302). The Open University is authorised and regulated by the Financial Conduct Authority. Open University Student Budget Accounts Limited (OUSBA) is a wholly owned subsidiary of The Open University, Companies House number 303735 and until 31 March 2014 was licensed by the Office of Fair Trading (OFT) under licence number 573250 and from 1 April 2014 is authorised and regulated by the Financial Conduct Authority (FCA) under interim permission number 573250.</small>
+                        </p>
+                    </div>
+                    <!-- end ou-footer-small-print -->
+
+                </div>
+                <!-- end ou-footer-container -->
+
+            </div>
+            <!-- end ou-footer -->
+
         </div>
-
-        <div class="ou-articles__text">
-            <h2><a href="#">Title one</a></h2>
-            <p>The Martians seem to have calculated their descent with amazing subtlety - their mathematical learning is evidently far in excess of ours.</p>
-    	</div>
-    </div>
-
-    <div class="ou-articles__article ">
-        <div class="ou-articles__img">
-            <a href="#"><img src="../img/400x200/lakes.jpg" alt=""></a>
-        </div>
-
-        <div class="ou-articles__text">
-            <h2><a href="#">Title two</a></h2>
-            <p>Ahab stood before him, and was lightly unwinding some thirty or forty turns to form a preliminary hand-coil to toss overboard, when the old Manxman made bold to speak.</p>
-    	</div>
-    </div>
-
-    <div class="ou-articles__article ">
-        <div class="ou-articles__img">
-            <a href="#"><img src="../img/400x200/boys.jpg" alt=""></a>
-        </div>
-
-        <div class="ou-articles__text">
-            <h2><a href="#">Title three</a></h2>
-            <p>The wind grew decidedly calmer, and happily the sea fell with it. All sails were now hoisted, and at noon the Tankadere was within forty-five miles of Shanghai.</p>
-    	</div>
-    </div>
-
-</div>
-
-
-
-
-</div> <!-- end ou-content -->
-</div> <!-- end ou-region1 -->
-
-
-
-<div id="ou-region2">
-
-<div class="ou-context-nav">
-<h2>Study</h2>
-    <nav>
-        <ul class="menu clearfix">
-            <li class="first leaf menu-mlid-853"><a href="/study/informal-learning">Informal learning</a></li>
-            <li class="leaf active-trail active menu-mlid-718"><a href="/study/pedagogy" class="active-trail active ou-selected">Pedagogy</a></li>
-            <li class="collapsed menu-mlid-727"><a href="/study/employability">Employability</a></li>
-            <li class="leaf menu-mlid-666"><a href="/undergraduate-qualifications">Undergraduate Qualifications</a></li>
-            <li class="leaf menu-mlid-663"><a href="/postgraduate-qualifications">Postgraduate Qualifications</a></li>
-            <li class="last leaf menu-mlid-664"><a href="/postgraduate-research">Postgraduate Research</a></li>
-        </ul>
-    </nav>
-</div>
-
-<h2 class="ou-smaller">News</h2>
-
-<div class="view view-news view-id-news view-display-id-block_latest_brief ou-articles  ou-articles--smaller view-dom-id-280b131f2608211d1895d4fa4af09c2b jquery-once-1-processed">
-
-
-
-      <div class="view-content">
-        <div>
-    <div id="node-483" class="ou-articles__article node node-ou-news">
-    <span property="dc:title" content="After Bernie Sanders: how progressives can actually change America" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
-
-  <div class="ou-articles__text">
-    <h3><a href="/node/483">After Bernie Sanders: how progressives can actually change America</a></h3>
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Bernie Sanders may have endorsed Hillary Clinton, but politics as usual has had its day. It's time for progressivism to move fast.</p>
-</div></div></div>    <div class="ou-articles__date">
-      <span property="dc:date dc:created" content="2016-07-26T16:40:18+01:00" datatype="xsd:dateTime">26th July 2016</span>    </div>
-  </div>
-
-</div> <!-- /node-->  </div>
-  <div>
-    <div id="node-418" class="ou-articles__article node node-ou-news">
-    <span property="dc:title" content="Exceptional student and alumni achievements honoured at OUBS Awards" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
-
-  <div class="ou-articles__text">
-    <h3><a href="/node/418">Exceptional student and alumni achievements honoured at OUBS Awards</a></h3>
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">
-      <p>The highest achieving students and alumni who have made an outstanding contribution to an organisation or society have been commended at the 13th annual OUBS awards.</p>
-</div></div></div>    <div class="ou-articles__date">
-      <span property="dc:date dc:created" content="2016-07-19T16:40:16+01:00" datatype="xsd:dateTime">19th July 2016</span>    </div>
-  </div>
-
-</div> <!-- /node-->  </div>
-      </div>
-
-
-
-
-  <a href="/news" class="ou-button ou-button--more">See all</a>
-
-
-
-</div>
-
-
-
-<div class="ou-box ou-box--plain ou-bg-burgundy">
-	<img src="../../gui/icons/various/icon-prospectus.png" alt="" class="ou-pull-right">
-    <h2>Business School Prospectus</h2>
-    <p>Order or download our prospectuses for you or your organisation.</p>
-    <a href="#" class="ou-button ou-button--primary mb-0">Request prospectus</a>
-</div>
-
-<div class="ou-box ou-box--note">
-	<p>If you are a current OU student message with link here.</p>
-</div>
-
-</div> <!-- end ou-region2 -->
-
-
-</div> <!-- end ou-page -->
-
-</div> <!-- end ou-site-body -->
-
-
-<div id="ou-site-footer">
-<a class="ou-to-top" href="#ou-org">Back to top</a>
-</div> <!-- end ou-site-footer -->
-
-</div> <!-- end ou-site -->
-
-
-
-
-<div class="ou-footer" role="contentinfo">
-
-<div class="ou-footer-container">
-
-<div class="ou-footer-top ou-grid">
-
-<div class="ou-footer-crest">
-<img src="../img/ou-crest.png" alt="The Open University Crest">
-</div> <!-- end ou-footer-crest -->
-
-<div class="ou-footer-contact">
-<h3>The Open University</h3>
-</div> <!-- end ou-footer-contact -->
-
-</div> <!-- end ou-footer-top -->
-
-<div class="ou-footer-links ou-grid">
-<ul>
-<li><a href="http://www.open.ac.uk/contact">Contact the OU</a></li>
-<li><a href="http://www3.open.ac.uk/employment/">Jobs</a></li>
-<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-accessibility-the-open-university">Accessibility</a></li>
-<li><a href="http://www3.open.ac.uk/near-you/wales/p6.asp">Cymraeg</a></li>
-<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/conditions-use-open-university-websites">Conditions of use</a></li>
-<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-privacy-the-ou">Privacy and cookies</a></li>
-<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/copyright-ou-websites">Copyright</a></li>
-</ul>
-</div> <!-- end ou-footer-links -->
-
-<div class="ou-footer-small-print ou-grid">
-<p class="copyright"><small>© 2014. All rights reserved. The Open University is incorporated by Royal Charter (RC 000391), an exempt charity in England &amp; Wales and a charity registered in Scotland (SC 038302). The Open University is authorised and regulated by the Financial Conduct Authority. Open University Student Budget Accounts Limited (OUSBA) is a wholly owned subsidiary of The Open University, Companies House number 303735 and until 31 March 2014 was licensed by the Office of Fair Trading (OFT) under licence number 573250 and from 1 April 2014 is authorised and regulated by the Financial Conduct Authority (FCA) under interim permission number 573250.</small></p>
-</div> <!-- end ou-footer-small-print -->
-
-</div> <!-- end ou-footer-container -->
-
-</div> <!-- end ou-footer -->
-
-
-
-
-
-
-
-</div> <!-- end ou-org -->
-
-
-
-<!-- Javascripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="../../js/scripts.js"></script>
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=desert" defer></script>
-<script src="../demo.js"></script>
-
-</body>
+        <!-- end ou-org -->
+
+        <!-- Javascripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="../../js/scripts.js"></script>
+        <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=desert" defer></script>
+        <script src="../demo.js"></script>
+
+    </body>
 </html>

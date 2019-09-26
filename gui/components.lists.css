@@ -7,42 +7,38 @@
 --------------------------------------------------------------------------------------
 */
 
-
 /*
 -------------------------------------------
 	Defaults
 -------------------------------------------
 */
 
-
 ul {
-	list-style-type: disc;
-	margin: 0 0 20px 0;
-	padding:0 0 0 35px;
+  list-style-type: disc;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 35px;
 }
 
 ol {
-	list-style-type: decimal;
-	margin:0 0 20px 0;
-	padding:0 0 0 35px;
+  list-style-type: decimal;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 35px;
 }
 
 ul ul,
 ol ol,
 ul ol,
 ol ul {
-	margin:10px 0;
-	padding:0 0 0 35px;
+  margin: 10px 0;
+  padding: 0 0 0 35px;
 }
 
 ul li,
 ol li {
-	padding:2px 0;
-	margin:0;
-	line-height:150%;
+  padding: 2px 0;
+  margin: 0;
+  line-height: 150%;
 }
-
-
 
 /*
 -------------------------------------------
@@ -51,26 +47,24 @@ ol li {
 */
 
 .ou-list {
-	margin:0 0 20px 0;
-	padding:0;
-	list-style:none;
-	list-style-type:none;
+  margin: 0 0 20px 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
 }
 
 .ou-list ul {
-	margin:10px 0;
-	padding:0 0 0 30px;
+  margin: 10px 0;
+  padding: 0 0 0 30px;
 }
 
 .ou-list li {
-	list-style:none;
-	list-style-type:none;
-	display:block;
-	margin:0;
-	line-height:150%;
+  list-style: none;
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  line-height: 150%;
 }
-
-
 
 /*
 -------------------------------------------
@@ -78,40 +72,38 @@ ol li {
 -------------------------------------------
 */
 
-
 .ou-list--arrows {
-	margin:0 0 20px 0;
-	padding:0;
+  margin: 0 0 20px 0;
+  padding: 0;
 }
 
 .ou-list--arrows li {
-	position: relative;
-	padding: 2px 0 2px 15px;
-	margin:0;
-	line-height:150%;
+  position: relative;
+  padding: 2px 0 2px 15px;
+  margin: 0;
+  line-height: 150%;
 }
 
 .ou-list--arrows li:before {
-	display: inline-block;
-	content: '';
-	display: block;
-	width: 0;
-	height: 0;
-	border-left: 5px solid #737373;
-	border-top: 5px solid transparent;
-	border-bottom: 5px solid transparent;
-	position: absolute;
-	top: 6px;
-	left: 0;
+  display: inline-block;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid #737373;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  position: absolute;
+  top: 6px;
+  left: 0;
 }
 
-.ou-list--arrows a {text-decoration:none;}
-.ou-list--arrows a:hover {text-decoration:underline;}
-
-
-
-
-
+.ou-list--arrows a {
+  text-decoration: none;
+}
+.ou-list--arrows a:hover {
+  text-decoration: underline;
+}
 
 /*
 -------------------------------------------
@@ -119,30 +111,28 @@ ol li {
 -------------------------------------------
 */
 
-
 .ou-list--2-cols,
 .ou-list--3-cols {
-	-moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    column-count: 2;
-    column-gap: 20px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
 }
 
 .ou-list--2-cols li,
 .ou-list--3-cols li {
-	display:inline-block;
-	width:100%;
-	column-break-inside: avoid;
+  display: inline-block;
+  width: 100%;
+  column-break-inside: avoid;
 }
 
 .ou-list--3-cols {
-	-moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
 }
-
 
 /*
 -------------------------------------------
@@ -151,25 +141,23 @@ ol li {
 */
 
 .ou-list--horizontal li {
-	display:inline-block;
-	margin:0 5px 0 0;
-	padding:0;
-	line-height:100%;
+  display: inline-block;
+  margin: 0 5px 0 0;
+  padding: 0;
+  line-height: 100%;
 }
 
 .ou-list--horizontal a {
-	text-decoration:none;
-	color:#0E56A7;
-	background-color:transparent;
+  text-decoration: none;
+  color: #0e56a7;
+  background-color: transparent;
 }
 
 .ou-list--horizontal a:hover {
-	text-decoration:underline;
-	color:#000;
-	background-color:transparent;
+  text-decoration: underline;
+  color: #000;
+  background-color: transparent;
 }
-
-
 
 /*
 -------------------------------------------
@@ -177,48 +165,68 @@ ol li {
 -------------------------------------------
 */
 
-.ou-list--social a {text-decoration:none;}
-.ou-list--social a:hover {text-decoration:underline;}
-
-.ou-list--social p {margin:0 0 5px 0;}
-
-.ou-list--social li {
-	background-position:0 1px;
-	background-repeat:no-repeat;
-	background-color:transparent;
-	color: #222;
-	padding:8px 0 8px 42px;
-	margin-bottom:4px;
-	min-height:33px;
+.ou-list--social a {
+  text-decoration: none;
+}
+.ou-list--social a:hover {
+  text-decoration: underline;
 }
 
-.ou-list__facebook {background-image:url(icons/social/icon-facebook.png);}
-.ou-list__twitter {background-image:url(icons/social/icon-twitter.png);}
-.ou-list__youtube {background-image:url(icons/social/icon-youtube.png);}
-.ou-list__linkedin {background-image:url(icons/social/icon-linkedin.png);}
-.ou-list__google {background-image:url(icons/social/icon-google.png);}
-.ou-list__skype {background-image:url(icons/social/icon-skype.png);}
-.ou-list__instagram {background-image:url(icons/social/icon-instagram.png);}
-.ou-list__blogger {background-image:url(icons/social/icon-blogger.png);}
+.ou-list--social p {
+  margin: 0 0 5px 0;
+}
 
+.ou-list--social li {
+  background-position: 0 1px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  color: #222;
+  padding: 8px 0 8px 42px;
+  margin-bottom: 4px;
+  min-height: 33px;
+}
+
+.ou-list__facebook {
+  background-image: url(icons/social/icon-facebook.png);
+}
+.ou-list__twitter {
+  background-image: url(icons/social/icon-twitter.png);
+}
+.ou-list__youtube {
+  background-image: url(icons/social/icon-youtube.png);
+}
+.ou-list__linkedin {
+  background-image: url(icons/social/icon-linkedin.png);
+}
+.ou-list__google {
+  background-image: url(icons/social/icon-google.png);
+}
+.ou-list__skype {
+  background-image: url(icons/social/icon-skype.png);
+}
+.ou-list__instagram {
+  background-image: url(icons/social/icon-instagram.png);
+}
+.ou-list__blogger {
+  background-image: url(icons/social/icon-blogger.png);
+}
 
 /* icons only */
 
 .ou-list--social--icons li {
-	padding:0;
-	display:inline-block;
-	background-color:transparent;
-	color: #222;
-	margin-right:8px;
+  padding: 0;
+  display: inline-block;
+  background-color: transparent;
+  color: #222;
+  margin-right: 8px;
 }
 
 .ou-list--social--icons a {
-	display:block;
-	width:32px;
-	height:32px;
-	text-indent:-5000em;
+  display: block;
+  width: 32px;
+  height: 32px;
+  text-indent: -5000em;
 }
-
 
 /*
 -------------------------------------------
@@ -227,56 +235,62 @@ ol li {
 */
 
 .ou-list--docs li {
-	padding:0 0 0 22px;
-	margin:0 0 8px 0;
-	background-position:0 2px;
-	background-repeat:no-repeat;
-	background-color:transparent;
+  padding: 0 0 0 22px;
+  margin: 0 0 8px 0;
+  background-position: 0 2px;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .ou-list--docs a {
-	color: #039;
-	text-decoration:none;
-	display:inline-block;
+  color: #039;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .ou-list--docs--pdf li,
 .ou-list__pdf {
-	background: url(icons/docs/icon-pdf.png);
-	background: url(icons/docs/icon-pdf.svg), linear-gradient(transparent, transparent);
+  background: url(icons/docs/icon-pdf.png);
+  background: url(icons/docs/icon-pdf.svg),
+    linear-gradient(transparent, transparent);
 }
 
 /* To do - add SVG icons for other docs */
 
 .ou-list--docs--doc li,
-.ou-list__doc {background-image:url(icons/docs/icon-doc.png);}
+.ou-list__doc {
+  background-image: url(icons/docs/icon-doc.png);
+}
 
 .ou-list--docs--xls li,
-.ou-list__xls {background-image:url(icons/docs/icon-xls.png);}
+.ou-list__xls {
+  background-image: url(icons/docs/icon-xls.png);
+}
 
 .ou-list--docs--ppt li,
-.ou-list__ppt {background-image:url(icons/docs/icon-ppt.png);}
+.ou-list__ppt {
+  background-image: url(icons/docs/icon-ppt.png);
+}
 
 .ou-list--docs--pdf li {
-	background-position:0 2px;
-	background-repeat:no-repeat;
+  background-position: 0 2px;
+  background-repeat: no-repeat;
 }
 
 .ou-list--docs--spotlight-pdf li {
-	padding-left:55px;
-	background: url(icons/docs/icon-pdf-large.png);
-	background: url(icons/docs/icon-pdf-large.svg), linear-gradient(transparent, transparent);
-	background-position:0 0;
-	background-repeat:no-repeat;
-	min-height: 48px;
+  padding-left: 55px;
+  background: url(icons/docs/icon-pdf-large.png);
+  background: url(icons/docs/icon-pdf-large.svg),
+    linear-gradient(transparent, transparent);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  min-height: 48px;
 }
 
 .ou-list--docs a:hover {
-	text-decoration:none;
-	color: #000;
+  text-decoration: none;
+  color: #000;
 }
-
-
 
 /*
 -------------------------------------------
@@ -284,31 +298,25 @@ ol li {
 -------------------------------------------
 */
 
+.ou-list--links a {
+  text-decoration: none;
+}
+.ou-list--links a:hover {
+  text-decoration: underline;
+}
 
-.ou-list--links a {text-decoration:none;}
-.ou-list--links a:hover {text-decoration:underline;}
-
-
-
-
-@media
-only screen and (max-width: 400px),
-only screen and (max-device-width: 400px) {
-
-.ou-list--2-cols,
-.ou-list--3-cols {
-	-moz-column-count: 1;
+@media only screen and (max-width: 400px),
+  only screen and (max-device-width: 400px) {
+  .ou-list--2-cols,
+  .ou-list--3-cols {
+    -moz-column-count: 1;
     -moz-column-gap: 0;
     -webkit-column-count: 1;
     -webkit-column-gap: 0;
     column-count: 1;
     column-gap: 0;
-}
-
-
+  }
 } /* end media query */
-
-
 
 /*
 -------------------------------------------
@@ -316,46 +324,60 @@ only screen and (max-device-width: 400px) {
 -------------------------------------------
 */
 
-
 /* all high res screens */
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 13/10),
-only screen and (min-resolution: 192dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 13/10),
+  only screen and (min-resolution: 192dpi) {
+  /* social media */
 
+  .ou-list--social li {
+    background-size: 32px 32px;
+  }
 
-/* social media */
+  .ou-list__facebook {
+    background-image: url(icons/social/icon-facebook@2x.png);
+  }
+  .ou-list__twitter {
+    background-image: url(icons/social/icon-twitter@2x.png);
+  }
+  .ou-list__youtube {
+    background-image: url(icons/social/icon-youtube@2x.png);
+  }
+  .ou-list__linkedin {
+    background-image: url(icons/social/icon-linkedin@2x.png);
+  }
+  .ou-list__google {
+    background-image: url(icons/social/icon-google@2x.png);
+  }
+  .ou-list__skype {
+    background-image: url(icons/social/icon-skype@2x.png);
+  }
+  .ou-list__instagram {
+    background-image: url(icons/social/icon-instagram@2x.png);
+  }
+  .ou-list__blogger {
+    background-image: url(icons/social/icon-blogger@2x.png);
+  }
 
-.ou-list--social li {background-size:32px 32px;}
+  /* docs */
 
-.ou-list__facebook {background-image:url(icons/social/icon-facebook@2x.png);}
-.ou-list__twitter {background-image:url(icons/social/icon-twitter@2x.png);}
-.ou-list__youtube {background-image:url(icons/social/icon-youtube@2x.png);}
-.ou-list__linkedin {background-image:url(icons/social/icon-linkedin@2x.png);}
-.ou-list__google {background-image:url(icons/social/icon-google@2x.png);}
-.ou-list__skype {background-image:url(icons/social/icon-skype@2x.png);}
-.ou-list__instagram {background-image:url(icons/social/icon-instagram@2x.png);}
-.ou-list__blogger {background-image:url(icons/social/icon-blogger@2x.png);}
+  .ou-list--docs li {
+    background-size: 16px 16px;
+  }
 
+  .ou-list--docs--doc li,
+  .ou-list__doc {
+    background-image: url(icons/docs/icon-doc@2x.png);
+  }
 
-/* docs */
+  .ou-list--docs--xls li,
+  .ou-list__xls {
+    background-image: url(icons/docs/icon-xls@2x.png);
+  }
 
-.ou-list--docs li {
-  background-size: 16px 16px;
-}
-
-.ou-list--docs--doc li,
-.ou-list__doc {background-image:url(icons/docs/icon-doc@2x.png);}
-
-.ou-list--docs--xls li,
-.ou-list__xls {background-image:url(icons/docs/icon-xls@2x.png);}
-
-.ou-list--docs--ppt li,
-.ou-list__ppt {background-image:url(icons/docs/icon-ppt@2x.png);}
-
-
-
-
+  .ou-list--docs--ppt li,
+  .ou-list__ppt {
+    background-image: url(icons/docs/icon-ppt@2x.png);
+  }
 } /* end media query */
-

@@ -1,286 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
 
-    <meta charset="utf-8" />
+        <meta charset="utf-8"/>
 
-    <title>People example page - OU ICE</title>
+        <title>People example page - OU ICE</title>
 
-    <link rel="stylesheet" type="text/css" href="../../../gui/header-footer.css" media="screen, projection" />
-    <link rel="stylesheet" type="text/css" href="../../../gui/styles.css" media="screen, projection" />
-    <link rel="stylesheet" type="text/css" href="../../../gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" />
+        <link rel="stylesheet" type="text/css" href="../../../gui/header-footer.css" media="screen, projection"/>
+        <link rel="stylesheet" type="text/css" href="../../../gui/styles.css" media="screen, projection"/>
+        <link rel="stylesheet" type="text/css" href="../../../gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection"/>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-    <link rel="apple-touch-icon" href="../../../gui/icons/apple-touch-icon.png">
-    <link rel="icon" href="../../../gui/icons/favicon.png">
+        <link rel="apple-touch-icon" href="../../../gui/icons/apple-touch-icon.png">
+        <link rel="icon" href="../../../gui/icons/favicon.png">
 
-</head>
+    </head>
 
-<body class="ou-theme ou-theme--burgundy">
+    <body class="ou-theme ou-theme--burgundy">
 
-<div id="ou-org">
+        <div id="ou-org">
 
-<a class="ou-skip" href="#ou-content"><i class="fa fa-arrow-circle-down"></i> Skip to content</a>
+            <a class="ou-skip" href="#ou-content">
+                <i class="fa fa-arrow-circle-down"></i> Skip to content</a>
 
-<div id="ou-header">
+            <div id="ou-header">
 
-<div id="ou-service-links" role="navigation">
+                <div id="ou-service-links" role="navigation">
 
-<ul>
+                    <ul>
 
-<li><a href="#">Sign out</a> <span>|</span></li>
-<li><a href="https://msds.open.ac.uk/students/">StudentHome</a> <span>|</span></li>
-<li><a href="http://www.open.ac.uk/about/main/management/policies-and-statements/website-accessibility-open-university">Accessibility</a> <span>|</span></li>
+                        <li>
+                            <a href="#">Sign out</a>
+                            <span>|</span></li>
+                        <li>
+                            <a href="https://msds.open.ac.uk/students/">StudentHome</a>
+                            <span>|</span></li>
+                        <li>
+                            <a href="http://www.open.ac.uk/about/main/management/policies-and-statements/website-accessibility-open-university">Accessibility</a>
+                            <span>|</span></li>
 
-<li><a href="http://www.open.ac.uk/contact">Contact the OU</a></li>
+                        <li>
+                            <a href="http://www.open.ac.uk/contact">Contact the OU</a>
+                        </li>
 
-<li class="ou-search">
-<fieldset>
-<legend class="ou-hide">Site search</legend>
-<label for="site-search" class="ou-hide">Search the OU</label>
-<input type="search" id="site-search" placeholder="">
-<button><span class="ou-hide">Submit</span></button>
-</fieldset>
-</li>
+                        <li class="ou-search">
+                            <fieldset>
+                                <legend class="ou-hide">Site search</legend>
+                                <label for="site-search" class="ou-hide">Search the OU</label>
+                                <input type="search" id="site-search" placeholder="">
+                                <button>
+                                    <span class="ou-hide">Submit</span></button>
+                            </fieldset>
+                        </li>
 
-</ul>
+                    </ul>
 
-</div> <!-- end ou-service-links -->
+                </div>
+                <!-- end ou-service-links -->
 
-<a class="ou-logo" href="http://www.open.ac.uk/"></a>
+                <a class="ou-logo" href="http://www.open.ac.uk/"></a>
 
-<a href="#" class="ou-mobile-menu-toggle icon-down">Toggle service links</a>
+                <a href="#" class="ou-mobile-menu-toggle icon-down">Toggle service links</a>
 
-</div> <!-- end ou-header -->
+            </div>
+            <!-- end ou-header -->
 
+            <div id="ou-site">
 
-<div id="ou-site">
+                <div id="ou-site-header">
 
-<div id="ou-site-header">
+                    <div class="ou-site-ident">
+                        <h2 class="ou-site-ident__title">
+                            <a href="#">The Open University Business School</a>
+                        </h2>
+                    </div>
 
-<div class="ou-site-ident">
-    <h2 class="ou-site-ident__title"><a href="#">The Open University Business School</a></h2>
-</div>
+                    <nav class="ou-sections">
+                        <ul>
+                            <li>
+                                <a href="#">Overview</a>
+                            </li>
+                            <li>
+                                <a href="#" class="ou-selected">People</a>
+                            </li>
+                            <li>
+                                <a href="#">Research</a>
+                            </li>
+                            <li>
+                                <a href="#">Study</a>
+                            </li>
+                            <li>
+                                <a href="#">Executive Education</a>
+                            </li>
+                            <li>
+                                <a href="#">Alumni</a>
+                            </li>
+                            <li>
+                                <a href="#">News</a>
+                            </li>
+                            <li>
+                                <a href="#">Events</a>
+                            </li>
+                        </ul>
+                    </nav>
 
-<nav class="ou-sections">
-    <ul>
-        <li><a href="#">Overview</a></li>
-        <li><a href="#" class="ou-selected">People</a></li>
-        <li><a href="#">Research</a></li>
-        <li><a href="#">Study</a></li>
-        <li><a href="#">Executive Education</a></li>
-        <li><a href="#">Alumni</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Events</a></li>
-    </ul>
-</nav>
+                </div>
+                <!-- end ou-site-header -->
 
-</div> <!-- end ou-site-header -->
+                <div id="ou-site-body">
 
-<div id="ou-site-body">
+                    <div id="ou-page">
 
-<div id="ou-page">
+                        <div id="ou-region0">
+                            <ol class="ou-ancestors">
+                                <li>
+                                    <a href="#1">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#2">People</a>
+                                </li>
+                                <li>Professor Kapil Dev</li>
+                            </ol>
+                        </div>
+                        <!-- end ou-region0 -->
 
-<div id="ou-region0">
-<ol class="ou-ancestors">
-	<li><a href="#1">Home</a></li>
-	<li><a href="#2">People</a></li>
-	<li>Professor Kapil Dev</li>
-</ol>
-</div> <!-- end ou-region0 -->
+                        <div id="ou-region1">
 
+                            <div id="ou-content" class="ou-content">
 
-<div id="ou-region1">
+                                <h1>Professor Kapil Dev</h1>
 
-<div id="ou-content" class="ou-content">
+                                <ol class="ou-toc">
+                                    <li>
+                                        <a href="#profile">Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="#publications">Publications</a>
+                                    </li>
+                                </ol>
 
-<h1>Professor Kapil Dev</h1>
+                                <h2 id="profile">Profile</h2>
 
-<ol class="ou-toc">
-	<li><a href="#profile">Profile</a></li>
-	<li><a href="#publications">Publications</a></li>
-</ol>
+                                <h3>Professional biography</h3>
 
-<h2 id="profile">Profile</h2>
+                                <p>Following a B.Sc. from the LSE, Kapil worked in publishing before freelancing as a small business trainer, during this time he also completed his M.Phil at the Cranfield School of Management and a Ph.D. at Imperial College. Both pieces of research focused on start-up businesses. Kapil then taught on the M.Sc. programmes at Cranfield before moving to the Open University in 1999. Kapil has undertaken consulting, training and teaching work in a range of countries including, India, Kazakhstan, Hong Kong, Singapore, Malaysia and Indonesia. He has undertaken work for Open University Validation Services in the UK, Greece and various countries in the middle east.</p>
 
-<h3>Professional biography</h3>
+                                <h3>Research interests</h3>
 
-<p>Following a B.Sc. from the LSE, Kapil worked in publishing before freelancing as a small business trainer, during this time he also completed his M.Phil at the Cranfield School of Management and a Ph.D. at Imperial College. Both pieces of research focused on start-up businesses. Kapil then taught on the M.Sc. programmes at Cranfield before moving to the Open University in 1999. Kapil has undertaken consulting, training and teaching work in a range of countries including, India, Kazakhstan, Hong Kong, Singapore, Malaysia and Indonesia. He has undertaken work for Open University Validation Services in the UK, Greece and various countries in the middle east.</p>
+                                <p>Since 2002 Kapil's research has focused on social marketing. He has carried out a series of evaluation projects related to smoking and the training of health service staff. Recent work has focused on social marketing programmes for cardiac patients and members of their social networks. His work on social networks draws on the literature in health, management and entrepreneurship. Amongst other journals his work has been published in the Journal of Marketing Management. He contributes to OpenLearn. He has successfully bid for funding from organisations such as the British Heart Foundation, QUIT (a national smoking cessation charity) and has also contributed to a research project funded by Communities and Local Government. </p>
 
-<h3>Research interests</h3>
+                                <h3>Teaching interests</h3>
 
-<p>Since 2002 Kapil's research has focused on social marketing. He has carried out a series of evaluation projects related to smoking and the training of health service staff. Recent work has focused on social marketing programmes for cardiac patients and members of their social networks. His work on social networks draws on the literature in health, management and entrepreneurship. Amongst other journals his work has been published in the Journal of Marketing Management. He contributes to OpenLearn. He has successfully bid for funding from organisations such as the British Heart Foundation, QUIT (a national smoking cessation charity) and has also contributed to a research project funded by Communities and Local Government. </p>
+                                <p>Kapil has contributed to courses ranging from the commercially successful Certificate in Accounting (B680) programme to the Certificate in Management (B629) course and the marketing and entrepreneurship electives on the current MBA programme. He co-authored the marketing material on the undergraduate module B203. He has also collaborated with the Arts faculty's production of LB160, Professional Communication Skills for Business Studies.</p>
 
-<h3>Teaching interests</h3>
+                                <p>
+                                    <a href="#ou-org" class="ou-to-top">Back to top</a>
+                                </p>
 
-<p>Kapil has contributed to courses ranging from the commercially successful Certificate in Accounting (B680) programme to the Certificate in Management (B629) course and the marketing and entrepreneurship electives on the current MBA programme. He co-authored the marketing material on the undergraduate module B203. He has also collaborated with the Arts faculty's production of LB160, Professional Communication Skills for Business Studies.</p>
+                                <hr>
 
+                                <h2 id="publications">Publications</h2>
 
-<p><a href="#ou-org" class="ou-to-top">Back to top</a></p>
+                                <h3>Journal articles</h3>
 
-<hr>
-
-
-<h2 id="publications">Publications</h2>
-
-<h3>Journal articles</h3>
-
-<dl>
-	<dt><a href="#">Exchanging value within individuals' networks: social support implications for health marketers</a> (2011-03) </dt>
-    <dd>Ali, Haider<br>
+                                <dl>
+                                    <dt>
+                                        <a href="#">Exchanging value within individuals' networks: social support implications for health marketers</a> (2011-03) </dt>
+                                    <dd>Ali, Haider<br>
     Journal of Marketing Management, 27(3&amp;4) (pp. 316-335)</dd>
 
-    <dt><a href="#">The impact of antismoking information on teenagers' attitude and intention:
+                                    <dt>
+                                        <a href="#">The impact of antismoking information on teenagers' attitude and intention:
     implications and challenges for designing antismoking school interventions</a> (2010-11)</dt>
-	<dd>Michaelidou, Nina; Dibb, Sally and Ali, Haider<br>
+                                    <dd>Michaelidou, Nina; Dibb, Sally and Ali, Haider<br>
 		Journal of Strategic Marketing, 18(6) (pp. 503-515)</dd>
 
-    <dt><a href="#">Government support for faith-based organizations: the case of a development programme for faith leaders</a> (2009-11)</dt>
-	<dd>Paton, Rob; Ali, Haider and Taylor, Lee<br>
+                                    <dt>
+                                        <a href="#">Government support for faith-based organizations: the case of a development programme for faith leaders</a> (2009-11)</dt>
+                                    <dd>Paton, Rob; Ali, Haider and Taylor, Lee<br>
 		Public Money and Management, 29(6) (pp. 363-370)</dd>
 
-</dl>
+                                </dl>
 
+                                <h3>Book chapters</h3>
 
-
-<h3>Book chapters</h3>
-
-<dl>
-	<dt><a href="#">Planning for the market (2001) </a></dt>
-    <dd>Ali, Haider<br>
+                                <dl>
+                                    <dt>
+                                        <a href="#">Planning for the market (2001) </a>
+                                    </dt>
+                                    <dd>Ali, Haider<br>
 In: Francis, G. and Bowerman, M. eds. Budgeting<br>
 ISBN : 749274573 | Publisher : Open University | Published : Buckingham, UK</dd>
 
-    <dt><a href="#">The value of trust in service sector marketing (1994)</a></dt>
-	<dd> Ali, Haider<br>
+                                    <dt>
+                                        <a href="#">The value of trust in service sector marketing (1994)</a>
+                                    </dt>
+                                    <dd> Ali, Haider<br>
 In: Armistead, Colin ed. The Future of Services Management<br>
 ISBN : 749410647 | Publisher : Kogan Page | Published : London, UK</dd>
 
-</dl>
+                                </dl>
 
+                                <h3>Conference items</h3>
 
-<h3>Conference items</h3>
-
-<dl>
-	<dt><a href="#">Planning for the market (2001) </a></dt>
-    <dd>Ali, Haider<br>
+                                <dl>
+                                    <dt>
+                                        <a href="#">Planning for the market (2001) </a>
+                                    </dt>
+                                    <dd>Ali, Haider<br>
 In: Francis, G. and Bowerman, M. eds. Budgeting<br>
 ISBN : 749274573 | Publisher : Open University | Published : Buckingham, UK</dd>
 
-    <dt><a href="#">The value of trust in service sector marketing (1994)</a></dt>
-	<dd> Ali, Haider<br>
+                                    <dt>
+                                        <a href="#">The value of trust in service sector marketing (1994)</a>
+                                    </dt>
+                                    <dd> Ali, Haider<br>
 In: Armistead, Colin ed. The Future of Services Management<br>
 ISBN : 749410647 | Publisher : Kogan Page | Published : London, UK</dd>
 
-</dl>
+                                </dl>
 
+                                <h3>Other</h3>
 
-
-<h3>Other</h3>
-
-<dl>
-	<dt><a href="#">Social Cooking Project (2008-07) </a></dt>
-    <dd>Zaidi, Qaim; Govindji, Azmina and Ali, Haider<br>
+                                <dl>
+                                    <dt>
+                                        <a href="#">Social Cooking Project (2008-07) </a>
+                                    </dt>
+                                    <dd>Zaidi, Qaim; Govindji, Azmina and Ali, Haider<br>
 		Food Standards Agency, London.</dd>
-</dl>
+                                </dl>
 
+                                <p>
+                                    <a href="#ou-org" class="ou-to-top">Back to top</a>
+                                </p>
 
-<p><a href="#ou-org" class="ou-to-top">Back to top</a></p>
+                            </div>
+                            <!-- end ou-content -->
+                        </div>
+                        <!-- end ou-region1 -->
 
+                        <div id="ou-region2">
 
+                            <p><img src="../img/random/kapil.jpg" alt="Professor KD"></p>
 
-</div> <!-- end ou-content -->
-</div> <!-- end ou-region1 -->
+                            <ul class="ou-list ou-list--links">
+                                <li>Central Academic Staff</li>
+                                <li>Lecturer in Strategic Marketing</li>
+                                <li>The Open University Business School</li>
+                                <li>Research, Staffing &amp; Central Academic</li>
+                                <li>Department for Strategy and Marketing</li>
+                                <li>
+                                    <a href="mailto:email.name@open.ac.uk">kapil.dev@open.ac.uk</a>
+                                </li>
+                            </ul>
 
+                            <ul class="ou-list ou-list--social ou-list--social--icons">
+                                <li class="ou-list__linkedin">
+                                    <a href="#">LinkedIn</a>
+                                </li>
+                                <li class="ou-list__blogger">
+                                    <a href="#">Blog</a>
+                                </li>
+                            </ul>
 
+                        </div>
+                        <!-- end ou-region2 -->
 
-<div id="ou-region2">
+                    </div>
+                    <!-- end ou-page -->
 
-    <p><img src="../img/random/kapil.jpg" alt="Professor KD"></p>
+                </div>
+                <!-- end ou-site-body -->
 
-    <ul class="ou-list ou-list--links">
-        <li>Central Academic Staff</li>
-        <li>Lecturer in Strategic Marketing</li>
-        <li>The Open University Business School</li>
-        <li>Research, Staffing &amp; Central Academic</li>
-        <li>Department for Strategy and Marketing</li>
-        <li><a href="mailto:email.name@open.ac.uk">kapil.dev@open.ac.uk</a></li>
-    </ul>
+                <div id="ou-site-footer">
+                    <a class="ou-to-top" href="#ou-org">Back to top</a>
+                </div>
+                <!-- end ou-site-footer -->
 
-    <ul class="ou-list ou-list--social ou-list--social--icons">
-        <li class="ou-list__linkedin"><a href="#">LinkedIn</a></li>
-        <li class="ou-list__blogger"><a href="#">Blog</a></li>
-    </ul>
+            </div>
+            <!-- end ou-site -->
 
-</div> <!-- end ou-region2 -->
+            <div class="ou-footer" role="contentinfo">
 
+                <div class="ou-footer-container">
 
-</div> <!-- end ou-page -->
+                    <div class="ou-footer-top ou-grid">
 
-</div> <!-- end ou-site-body -->
+                        <div class="ou-footer-crest">
+                            <img src="../img/ou-crest.png" alt="The Open University Crest">
+                        </div>
+                        <!-- end ou-footer-crest -->
 
+                        <div class="ou-footer-contact">
+                            <h3>The Open University</h3>
+                        </div>
+                        <!-- end ou-footer-contact -->
 
-<div id="ou-site-footer">
-<a class="ou-to-top" href="#ou-org">Back to top</a>
-</div> <!-- end ou-site-footer -->
+                    </div>
+                    <!-- end ou-footer-top -->
 
-</div> <!-- end ou-site -->
+                    <div class="ou-footer-links ou-grid">
+                        <ul>
+                            <li>
+                                <a href="http://www.open.ac.uk/contact">Contact the OU</a>
+                            </li>
+                            <li>
+                                <a href="http://www3.open.ac.uk/employment/">Jobs</a>
+                            </li>
+                            <li>
+                                <a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-accessibility-the-open-university">Accessibility</a>
+                            </li>
+                            <li>
+                                <a href="http://www3.open.ac.uk/near-you/wales/p6.asp">Cymraeg</a>
+                            </li>
+                            <li>
+                                <a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/conditions-use-open-university-websites">Conditions of use</a>
+                            </li>
+                            <li>
+                                <a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-privacy-the-ou">Privacy and cookies</a>
+                            </li>
+                            <li>
+                                <a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/copyright-ou-websites">Copyright</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end ou-footer-links -->
 
+                    <div class="ou-footer-small-print ou-grid">
+                        <p class="copyright">
+                            <small>© 2014. All rights reserved. The Open University is incorporated by Royal Charter (RC 000391), an exempt charity in England &amp; Wales and a charity registered in Scotland (SC 038302). The Open University is authorised and regulated by the Financial Conduct Authority. Open University Student Budget Accounts Limited (OUSBA) is a wholly owned subsidiary of The Open University, Companies House number 303735 and until 31 March 2014 was licensed by the Office of Fair Trading (OFT) under licence number 573250 and from 1 April 2014 is authorised and regulated by the Financial Conduct Authority (FCA) under interim permission number 573250.</small>
+                        </p>
+                    </div>
+                    <!-- end ou-footer-small-print -->
 
+                </div>
+                <!-- end ou-footer-container -->
 
+            </div>
+            <!-- end ou-footer -->
 
-<div class="ou-footer" role="contentinfo">
+        </div>
+        <!-- end ou-org -->
 
-<div class="ou-footer-container">
+        <!-- Javascripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="../../js/scripts.js"></script>
+        <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=desert" defer></script>
+        <script src="../demo.js"></script>
 
-<div class="ou-footer-top ou-grid">
-
-<div class="ou-footer-crest">
-<img src="../img/ou-crest.png" alt="The Open University Crest">
-</div> <!-- end ou-footer-crest -->
-
-<div class="ou-footer-contact">
-<h3>The Open University</h3>
-</div> <!-- end ou-footer-contact -->
-
-</div> <!-- end ou-footer-top -->
-
-<div class="ou-footer-links ou-grid">
-<ul>
-<li><a href="http://www.open.ac.uk/contact">Contact the OU</a></li>
-<li><a href="http://www3.open.ac.uk/employment/">Jobs</a></li>
-<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-accessibility-the-open-university">Accessibility</a></li>
-<li><a href="http://www3.open.ac.uk/near-you/wales/p6.asp">Cymraeg</a></li>
-<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/conditions-use-open-university-websites">Conditions of use</a></li>
-<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-privacy-the-ou">Privacy and cookies</a></li>
-<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/copyright-ou-websites">Copyright</a></li>
-</ul>
-</div> <!-- end ou-footer-links -->
-
-<div class="ou-footer-small-print ou-grid">
-<p class="copyright"><small>© 2014. All rights reserved. The Open University is incorporated by Royal Charter (RC 000391), an exempt charity in England &amp; Wales and a charity registered in Scotland (SC 038302). The Open University is authorised and regulated by the Financial Conduct Authority. Open University Student Budget Accounts Limited (OUSBA) is a wholly owned subsidiary of The Open University, Companies House number 303735 and until 31 March 2014 was licensed by the Office of Fair Trading (OFT) under licence number 573250 and from 1 April 2014 is authorised and regulated by the Financial Conduct Authority (FCA) under interim permission number 573250.</small></p>
-</div> <!-- end ou-footer-small-print -->
-
-</div> <!-- end ou-footer-container -->
-
-</div> <!-- end ou-footer -->
-
-
-
-
-
-
-
-</div> <!-- end ou-org -->
-
-
-
-<!-- Javascripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="../../js/scripts.js"></script>
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=desert" defer></script>
-<script src="../demo.js"></script>
-
-</body>
+    </body>
 </html>

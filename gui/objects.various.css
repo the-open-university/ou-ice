@@ -7,31 +7,26 @@
 --------------------------------------------------------------------------------------
 */
 
-
-
 /*
 -------------------------------------------
 	Pulls
 -------------------------------------------
 */
 
-
 .ou-pull-left {
-	float: left;
-	margin: 0 25px 15px 0;
+  float: left;
+  margin: 0 25px 15px 0;
 }
 
 .ou-pull-right {
-	float: right;
-	margin: 0 0 15px 25px;
+  float: right;
+  margin: 0 0 15px 25px;
 }
 
 .ou-pull-centre {
-	display: block;
-	margin: 0 auto 15px auto;
+  display: block;
+  margin: 0 auto 15px auto;
 }
-
-
 
 /*
 -------------------------------------------
@@ -39,26 +34,39 @@
 -------------------------------------------
 */
 
-.ou-introduction {font-size: 1.2em;}
-
-h1.ou-smaller {font-size: 1.8em !important; }
-h2.ou-smaller {font-size: 1.4em !important;}
-h3.ou-smaller {font-size: 1.2em !important;}
-h4.ou-smaller {font-size: 1em !important;}
-
-.ou-small-print {
-	color: #737373;
-	background-color: transparent;
+.ou-introduction {
+  font-size: 1.2em;
 }
 
-.ou-small-print--tiny {font-size: .9em;}
+h1.ou-smaller {
+  font-size: 1.8em !important;
+}
+h2.ou-smaller {
+  font-size: 1.4em !important;
+}
+h3.ou-smaller {
+  font-size: 1.2em !important;
+}
+h4.ou-smaller {
+  font-size: 1em !important;
+}
 
-.ou-heading {}
+.ou-small-print {
+  color: #737373;
+  background-color: transparent;
+}
+
+.ou-small-print--tiny {
+  font-size: 0.9em;
+}
+
+.ou-heading {
+}
 
 /* make any heading the smallest ICE allows */
 .ou-heading--smallest {
-	font-size: 1em;
-	font-weight: bold;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 /*
@@ -67,13 +75,14 @@ h4.ou-smaller {font-size: 1em !important;}
 -------------------------------------------
 */
 
-
 h1 a,
 h2 a,
 h3 a,
 h4 a,
 h5 a,
-h6 a {text-decoration:none;}
+h6 a {
+  text-decoration: none;
+}
 
 /*
 -------------------------------------------
@@ -82,53 +91,45 @@ h6 a {text-decoration:none;}
 */
 
 hr.ou-hr-small,
-#ou-region2 hr {margin:15px 0;}
+#ou-region2 hr {
+  margin: 15px 0;
+}
 
+@media only screen and (max-width: 767px),
+  only screen and (max-device-width: 767px) {
+  /* pulls */
 
-
-@media 
-only screen and (max-width: 767px), 
-only screen and (max-device-width: 767px) {
-
-/* pulls */
-
-.ou-pull-left,
-.ou-pull-right,
-.ou-pull-centre {max-width:50%;}
-
+  .ou-pull-left,
+  .ou-pull-right,
+  .ou-pull-centre {
+    max-width: 50%;
+  }
 } /* end media query */
 
+@media only screen and (max-width: 400px),
+  only screen and (max-device-width: 400px) {
+  /* pulls */
 
+  .ou-pull-left,
+  .ou-pull-right,
+  .ou-pull-centre {
+    float: none;
+    max-width: 100%;
+    margin: 0 0 20px 0;
+  }
 
-@media 
-only screen and (max-width: 400px), 
-only screen and (max-device-width: 400px) {
+  .ou-pull-left--mobile {
+    float: left;
+    margin: 0 25px 15px 0;
+  }
 
+  .ou-pull-right--mobile {
+    float: right;
+    margin: 0 0 15px 25px;
+  }
 
-/* pulls */
-
-.ou-pull-left,
-.ou-pull-right,
-.ou-pull-centre {
-	float:none;
-	max-width:100%;
-	margin:0 0 20px 0;	
-}
-
-.ou-pull-left--mobile {
-	float: left;
-	margin: 0 25px 15px 0;
-}
-
-.ou-pull-right--mobile {
-	float: right;
-	margin: 0 0 15px 25px;
-}
-
-.ou-pull-centre--mobile {
-	display: block;
-	margin: 0 auto 15px auto;
-}
-
-
+  .ou-pull-centre--mobile {
+    display: block;
+    margin: 0 auto 15px auto;
+  }
 } /* end media query */

@@ -1,466 +1,542 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
+
+        <meta charset="utf-8"/>
 
-    <meta charset="utf-8" />
+        <title>Research example page - OU ICE</title>
 
-    <title>Research example page - OU ICE</title>
+        <link rel="stylesheet" type="text/css" href="../../../gui/header-footer.css" media="screen, projection"/>
+        <link rel="stylesheet" type="text/css" href="../../../gui/styles.css" media="screen, projection"/>
+        <link rel="stylesheet" type="text/css" href="../../../gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection"/>
 
-    <link rel="stylesheet" type="text/css" href="../../../gui/header-footer.css" media="screen, projection" />
-    <link rel="stylesheet" type="text/css" href="../../../gui/styles.css" media="screen, projection" />
-    <link rel="stylesheet" type="text/css" href="../../../gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="apple-touch-icon" href="../../../gui/icons/apple-touch-icon.png">
+        <link rel="icon" href="../../../gui/icons/favicon.png">
 
-    <link rel="apple-touch-icon" href="../../../gui/icons/apple-touch-icon.png">
-    <link rel="icon" href="../../../gui/icons/favicon.png">
+    </head>
 
-</head>
+    <body class="ou-theme">
 
-<body class="ou-theme">
+        <div id="ou-org">
 
-<div id="ou-org">
+            <a class="ou-skip" href="#ou-content">
+                <i class="fa fa-arrow-circle-down"></i> Skip to content</a>
 
-<a class="ou-skip" href="#ou-content"><i class="fa fa-arrow-circle-down"></i> Skip to content</a>
+            <div id="ou-header">
 
-<div id="ou-header">
+                <div id="ou-service-links" role="navigation">
 
-<div id="ou-service-links" role="navigation">
+                    <ul>
 
-<ul>
+                        <li>
+                            <a href="#">Sign out</a>
+                            <span>|</span></li>
+                        <li>
+                            <a href="https://msds.open.ac.uk/students/">StudentHome</a>
+                            <span>|</span></li>
+                        <li>
+                            <a href="http://www.open.ac.uk/about/main/management/policies-and-statements/website-accessibility-open-university">Accessibility</a>
+                            <span>|</span></li>
 
-<li><a href="#">Sign out</a> <span>|</span></li>
-<li><a href="https://msds.open.ac.uk/students/">StudentHome</a> <span>|</span></li>
-<li><a href="http://www.open.ac.uk/about/main/management/policies-and-statements/website-accessibility-open-university">Accessibility</a> <span>|</span></li>
+                        <li>
+                            <a href="http://www.open.ac.uk/contact">Contact the OU</a>
+                        </li>
 
-<li><a href="http://www.open.ac.uk/contact">Contact the OU</a></li>
+                        <li class="ou-search">
+                            <fieldset>
+                                <legend class="ou-hide">Site search</legend>
+                                <label for="site-search" class="ou-hide">Search the OU</label>
+                                <input type="search" id="site-search" placeholder="">
+                                <button>
+                                    <span class="ou-hide">Submit</span></button>
+                            </fieldset>
+                        </li>
 
-<li class="ou-search">
-<fieldset>
-<legend class="ou-hide">Site search</legend>
-<label for="site-search" class="ou-hide">Search the OU</label>
-<input type="search" id="site-search" placeholder="">
-<button><span class="ou-hide">Submit</span></button>
-</fieldset>
-</li>
+                    </ul>
 
-</ul>
+                </div>
+                <!-- end ou-service-links -->
 
-</div> <!-- end ou-service-links -->
+                <a class="ou-logo" href="http://www.open.ac.uk/"></a>
 
-<a class="ou-logo" href="http://www.open.ac.uk/"></a>
+                <a href="#" class="ou-mobile-menu-toggle icon-down">Toggle service links</a>
 
-<a href="#" class="ou-mobile-menu-toggle icon-down">Toggle service links</a>
+            </div>
+            <!-- end ou-header -->
 
-</div> <!-- end ou-header -->
+            <div id="ou-site">
 
+                <div id="ou-site-header">
 
-<div id="ou-site">
+                    <div class="ou-site-ident">
+                        <h2 class="ou-site-ident__title">
+                            <a href="#">WELS</a>
+                        </h2>
+                    </div>
 
-<div id="ou-site-header">
+                    <nav class="ou-sections">
+                        <ul>
+                            <li>
+                                <a href="#">Overview</a>
+                            </li>
+                            <li>
+                                <a href="#">People</a>
+                            </li>
+                            <li>
+                                <a href="#" class="ou-selected">Research</a>
+                            </li>
+                            <li>
+                                <a href="#">Teaching</a>
+                            </li>
+                            <li>
+                                <a href="#">Collaborations</a>
+                            </li>
+                            <li>
+                                <a href="#">News and Events</a>
+                            </li>
+                        </ul>
+                    </nav>
 
-<div class="ou-site-ident">
-    <h2 class="ou-site-ident__title"><a href="#">WELS</a></h2>
-</div>
+                </div>
+                <!-- end ou-site-header -->
 
-<nav class="ou-sections">
-    <ul>
-        <li><a href="#">Overview</a></li>
-        <li><a href="#">People</a></li>
-        <li><a href="#" class="ou-selected">Research</a></li>
-        <li><a href="#">Teaching</a></li>
-        <li><a href="#">Collaborations</a></li>
-        <li><a href="#">News and Events</a></li>
-    </ul>
-</nav>
+                <div id="ou-site-body">
 
-</div> <!-- end ou-site-header -->
+                    <div id="ou-page">
 
-<div id="ou-site-body">
+                        <div id="ou-region0"></div>
+                        <!-- end ou-region0 -->
 
-<div id="ou-page">
+                        <div id="ou-region1">
 
-<div id="ou-region0">
-</div> <!-- end ou-region0 -->
+                            <div id="ou-content" class="ou-content">
 
+                                <div class="ou-hero ou-bg-orange">
+                                    <a href="#" class="ou-hero__link">
+                                        <img src="../img/hero/hero-swing.jpg" alt="" class="ou-hero__image">
+                                        <div class="ou-hero__wording">
+                                            <h2 class="ou-hero__title">Promoted feature here</h2>
+                                        </div>
+                                    </a>
+                                </div>
 
-<div id="ou-region1">
+                                <h1>Research</h1>
 
-<div id="ou-content" class="ou-content">
+                                <p class="ou-introduction">WELS is nationally and internationally known for its excellent research into education (including in international development contexts), childhood studies, sports, languages and applied linguistics, and health and social care. We have a strong multidisciplinary focus and a distinctive record of developing innovative methodological approaches to research.</p>
+
+                                <div class="ou-box ou-pull-right ou-box--note">
+                                    <img src="../img/random/logo-ref2014.png" alt="REF2014 logo" class="ou-pull-right">
+                                    <p>Education at the Open University is ranked 2nd in the UK in terms of research power (which takes into account the quality of the submission and the number of people submitted). </p>
+                                    <p>Our work submitted to the REF has thus been endorsed as overwhelmingly world-leading and internationally excellent, with significant and wide-reaching impact, and located in an environment that supports world-leading quality research.  These fantastic results cement our position as a world leader in education innovation.</p>
+                                </div>
 
+                                <p>Through engagement with practitioners, policy-makers, service users and the wider academy, our research activity is at the heart of our core mission: to transform lives and enable social mobility and justice by inspiring professionals to apply learning gained in an academic context. Our research underpins and informs all of our teaching and provides a springboard for public engagement and knowledge transfer. </p>
+                                <p>The faculty hosts one of the leading education research units in the UK which is also respected internationally as a centre of excellence. We undertake outward-looking collaborative research with learners and those who support them that has a beneficial impact on learning practices, policies and public debates.  </p>
+                                <p>Our research is funded by UK Research Councils (ESRC and AHRC), the European Union (Horizon 2020 and Erasmus+), the Department for International Development, the National Institute for Health Research and a wide range of trusts, charities and commercial organisations.  </p>
+                                <p>In the Research Excellence Framework (REF) 2014, approximately 70% of our research submitted to the panel of experts in Social Work and Social Policy and to the Education panel was judged to be world leading (4*) or internationally excellent (3*). Our research environment in the area of education was assessed as 100% at 4* level. </p>
 
-<div class="ou-hero ou-bg-orange">
-    <a href="#" class="ou-hero__link">
-        <img src="../img/hero/hero-swing.jpg" alt="" class="ou-hero__image">
-        <div class="ou-hero__wording">
-            <h2 class="ou-hero__title">Promoted feature here</h2>
-        </div>
-    </a>
-</div>
+                                <hr>
+
+                                <h2>Research Themes</h2>
+
+                                <div class="ou-articles ou-articles--stacked ou-blocks ou-blocks--3-cols">
+
+                                    <div class="ou-articles__article cf">
 
+                                        <div class="ou-articles__img">
+                                            <a href="#"><img src="../img/400x250/seniors.jpg" alt=""></a>
+                                        </div>
 
-<h1>Research</h1>
+                                        <div class="ou-articles__text">
+                                            <h2>
+                                                <a href="#">Ageing and later life</a>
+                                            </h2>
+                                            <p>Today personal and global ageing are intertwined. By 2050, the World Health Organisation estimates that 22% of the world’s population will be aged over 60.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="ou-articles__article cf">
+
+                                        <div class="ou-articles__img">
+                                            <a href="#"><img src="../img/400x250/mother-son.jpg" alt=""></a>
+                                        </div>
+
+                                        <div class="ou-articles__text">
+                                            <h2>
+                                                <a href="#">Children, young people, parenthood and families</a>
+                                            </h2>
+                                            <p>What do we know really about contemporary children, young people and their families? </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="ou-articles__article cf">
+
+                                        <div class="ou-articles__img">
+                                            <a href="#"><img src="../img/400x250/old.jpg" alt=""></a>
+                                        </div>
+
+                                        <div class="ou-articles__text">
+                                            <h2>
+                                                <a href="#">Death, dying and bereavement</a>
+                                            </h2>
+                                            <p>Statistics about death – death rates and the causes of death – provide a public way to measure how well a society is doing.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="ou-articles__article cf">
+
+                                        <div class="ou-articles__img">
+                                            <a href="#"><img src="../img/400x250/disability.jpg" alt=""></a>
+                                        </div>
+
+                                        <div class="ou-articles__text">
+                                            <h2>
+                                                <a href="#">Living with disability and long term conditions</a>
+                                            </h2>
+                                            <p>Our research covers a wide spectrum of people’s experiences across the life course.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="ou-articles__article cf">
+
+                                        <div class="ou-articles__img">
+                                            <a href="#"><img src="../img/400x250/microscope.jpg" alt=""></a>
+                                        </div>
+
+                                        <div class="ou-articles__text">
+                                            <h2>
+                                                <a href="#">Reproduction, sexualities and health</a>
+                                            </h2>
+                                            <p>Work in this theme ranges from research into experiences of pregnancy, childbirth and early motherhood.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="ou-articles__article cf">
+
+                                        <div class="ou-articles__img">
+                                            <a href="#"><img src="../img/400x250/girl.jpg" alt=""></a>
+                                        </div>
+
+                                        <div class="ou-articles__text">
+                                            <h2>
+                                                <a href="#">Childhood studies</a>
+                                            </h2>
+                                            <p>Positioned at the forefront of contemporary research on childhood, we have pioneered Childhood Studies as an interdisciplinary intellectual endeavour.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="ou-articles__article cf">
+
+                                        <div class="ou-articles__img">
+                                            <a href="#"><img src="../img/400x250/classroom.jpg" alt=""></a>
+                                        </div>
+
+                                        <div class="ou-articles__text">
+                                            <h2>
+                                                <a href="#">Education Futures</a>
+                                            </h2>
+                                            <p>Contemporary childhoods in a digital age pose considerable challenges for the conceptualisation of education futures.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="ou-articles__article cf">
+
+                                        <div class="ou-articles__img">
+                                            <a href="#"><img src="../img/400x250/sofa-chat.jpg" alt=""></a>
+                                        </div>
+
+                                        <div class="ou-articles__text">
+                                            <h2>
+                                                <a href="#">Language and literacies</a>
+                                            </h2>
+                                            <p>Researchers in the Language and Literacies cluster view language as a social and cultural phenomenon.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="ou-articles__article cf">
+
+                                        <div class="ou-articles__img">
+                                            <a href="#"><img src="../img/400x250/tech.jpg" alt=""></a>
+                                        </div>
+
+                                        <div class="ou-articles__text">
+                                            <h2>
+                                                <a href="#">Technology enhanced learning</a>
+                                            </h2>
+                                            <p>The OU is a pioneer and established global leader in TEL and open education. </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <!-- end ou-content -->
+                        </div>
+                        <!-- end ou-region1 -->
 
-<p class="ou-introduction">WELS is nationally and internationally known for its excellent research into education (including in international development contexts), childhood studies, sports, languages and applied linguistics, and health and social care. We have a strong multidisciplinary focus and a distinctive record of developing innovative methodological approaches to research.</p>
+                        <div id="ou-region2">
 
+                            <div class="ou-context-nav">
+                                <h2>
+                                    <a href="#">Research</a>
+                                </h2>
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Ageing and later life</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Children, young people, parenthood and families</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Death, dying and bereavement</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Living with disability and long term conditions</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Reproduction, sexualities and health</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Childhood studies</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Education Futures</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Language and literacies</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Technology enhanced learning</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
 
-<div class="ou-box ou-pull-right ou-box--note">
-	<img src="../img/random/logo-ref2014.png" alt="REF2014 logo" class="ou-pull-right">
-    <p>Education at the Open University is ranked 2nd in the UK in terms of research power (which takes into account the quality of the submission and the number of people submitted). </p>
-    <p>Our work submitted to the REF has thus been endorsed as overwhelmingly world-leading and internationally excellent, with significant and wide-reaching impact, and located in an environment that supports world-leading quality research.  These fantastic results cement our position as a world leader in education innovation.</p>
-</div>
+                            <h2 class="ou-smaller">News</h2>
 
-<p>Through engagement with practitioners, policy-makers, service users and the wider academy, our research activity is at the heart of our core mission: to transform lives and enable social mobility and justice by inspiring professionals to apply learning gained in an academic context. Our research underpins and informs all of our teaching and provides a springboard for public engagement and knowledge transfer. </p>
-<p>The faculty hosts one of the leading education research units in the UK which is also respected internationally as a centre of excellence. We undertake outward-looking collaborative research with learners and those who support them that has a beneficial impact on learning practices, policies and public debates.  </p>
-<p>Our research is funded by UK Research Councils (ESRC and AHRC), the European Union (Horizon 2020 and Erasmus+), the Department for International Development, the National Institute for Health Research and a wide range of trusts, charities and commercial organisations.  </p>
-<p>In the Research Excellence Framework (REF) 2014, approximately 70% of our research submitted to the panel of experts in Social Work and Social Policy and to the Education panel was judged to be world leading (4*) or internationally excellent (3*). Our research environment in the area of education was assessed as 100% at 4* level. </p>
+                            <div class="ou-articles ou-articles--smaller">
 
+                                <div class="ou-articles__article cf">
 
-<hr>
+                                    <div class="ou-articles__img">
+                                        <a href="#"><img src="../img/120x90/history.jpg" alt=""></a>
+                                    </div>
 
-<h2>Research Themes</h2>
+                                    <div class="ou-articles__text">
 
-<div class="ou-articles ou-articles--stacked ou-blocks ou-blocks--3-cols">
+                                        <h3>
+                                            <a href="#">News titles tend to go on to two lines</a>
+                                        </h3>
 
-    <div class="ou-articles__article cf">
+                                        <p class="ou-articles__date">15 July, 2016</p>
 
-        <div class="ou-articles__img">
-            <a href="#"><img src="../img/400x250/seniors.jpg" alt=""></a>
-        </div>
+                                    </div>
 
-        <div class="ou-articles__text">
-            <h2><a href="#">Ageing and later life</a></h2>
-            <p>Today personal and global ageing are intertwined. By 2050, the World Health Organisation estimates that 22% of the world’s population will be aged over 60.</p>
-    	</div>
-    </div>
+                                </div>
 
-    <div class="ou-articles__article cf">
+                                <div class="ou-articles__article cf">
 
-        <div class="ou-articles__img">
-            <a href="#"><img src="../img/400x250/mother-son.jpg" alt=""></a>
-        </div>
+                                    <div class="ou-articles__img">
+                                        <a href="#"><img src="../img/120x90/music.jpg" alt=""></a>
+                                    </div>
 
-        <div class="ou-articles__text">
-            <h2><a href="#">Children, young people, parenthood and families</a></h2>
-            <p>What do we know really about contemporary children, young people and their families? </p>
-    	</div>
-    </div>
+                                    <div class="ou-articles__text">
 
-    <div class="ou-articles__article cf">
+                                        <h3>
+                                            <a href="#">Report: music is good for the soul</a>
+                                        </h3>
 
-        <div class="ou-articles__img">
-            <a href="#"><img src="../img/400x250/old.jpg" alt=""></a>
-        </div>
+                                        <p class="ou-articles__date">11 July, 2016</p>
 
-        <div class="ou-articles__text">
-            <h2><a href="#">Death, dying and bereavement</a></h2>
-            <p>Statistics about death – death rates and the causes of death – provide a public way to measure how well a society is doing.</p>
-    	</div>
-    </div>
+                                    </div>
 
-    <div class="ou-articles__article cf">
+                                </div>
 
-        <div class="ou-articles__img">
-            <a href="#"><img src="../img/400x250/disability.jpg" alt=""></a>
-        </div>
+                                <div class="ou-articles__article cf">
 
-        <div class="ou-articles__text">
-            <h2><a href="#">Living with disability and long term conditions</a></h2>
-            <p>Our research covers a wide spectrum of people’s experiences across the life course.</p>
-    	</div>
-    </div>
+                                    <div class="ou-articles__img">
+                                        <a href="#"><img src="../img/120x90/politics.jpg" alt=""></a>
+                                    </div>
 
-    <div class="ou-articles__article cf">
+                                    <div class="ou-articles__text">
 
-        <div class="ou-articles__img">
-            <a href="#"><img src="../img/400x250/microscope.jpg" alt=""></a>
-        </div>
+                                        <h3>
+                                            <a href="#">Chess champion 2016 is OU student</a>
+                                        </h3>
 
-        <div class="ou-articles__text">
-            <h2><a href="#">Reproduction, sexualities and health</a></h2>
-            <p>Work in this theme ranges from research into experiences of pregnancy, childbirth and early motherhood.</p>
-    	</div>
-    </div>
+                                        <p class="ou-articles__date">10 July, 2016</p>
 
-    <div class="ou-articles__article cf">
+                                    </div>
 
-        <div class="ou-articles__img">
-            <a href="#"><img src="../img/400x250/girl.jpg" alt=""></a>
-        </div>
+                                </div>
 
-        <div class="ou-articles__text">
-            <h2><a href="#">Childhood studies</a></h2>
-            <p>Positioned at the forefront of contemporary research on childhood, we have pioneered Childhood Studies as an interdisciplinary intellectual endeavour.</p>
-    	</div>
-    </div>
+                            </div>
 
+                            <h2 class="ou-smaller">Events</h2>
 
-    <div class="ou-articles__article cf">
+                            <div class="ou-events">
 
-        <div class="ou-articles__img">
-            <a href="#"><img src="../img/400x250/classroom.jpg" alt=""></a>
-        </div>
+                                <div class="ou-events__nav cf">
 
-        <div class="ou-articles__text">
-            <h2><a href="#">Education Futures</a></h2>
-            <p>Contemporary childhoods in a digital age pose considerable challenges for the conceptualisation of education futures.</p>
-    	</div>
-    </div>
+                                    <a class="ou-events__prev" href="#">Jun</a>
+                                    <span class="ou-events__current">July 2016</span>
+                                    <a class="ou-events__next" href="#">Aug</a>
 
-    <div class="ou-articles__article cf">
+                                </div>
 
-        <div class="ou-articles__img">
-            <a href="#"><img src="../img/400x250/sofa-chat.jpg" alt=""></a>
-        </div>
+                                <div class="ou-events__day">
 
-        <div class="ou-articles__text">
-            <h2><a href="#">Language and literacies</a></h2>
-            <p>Researchers in the Language and Literacies cluster view language as a social and cultural phenomenon.</p>
-    	</div>
-    </div>
+                                    <div class="ou-events__date">
+                                        <em>Jun</em>
+                                        <strong>2</strong>
+                                    </div>
 
-    <div class="ou-articles__article cf">
+                                    <div class="ou-events__event">
+                                        <h3 class="ou-events__event-title">
+                                            <a href="#">Science team meet up</a>
+                                        </h3>
+                                        <p class="ou-events__event-time">16:00 - 18:00</p>
+                                        <p class="ou-events__event-desc">One line of information</p>
+                                    </div>
 
-        <div class="ou-articles__img">
-            <a href="#"><img src="../img/400x250/tech.jpg" alt=""></a>
-        </div>
+                                </div>
 
-        <div class="ou-articles__text">
-            <h2><a href="#">Technology enhanced learning</a></h2>
-            <p>The OU is a pioneer and established global leader in TEL and open education. </p>
-    	</div>
-    </div>
+                                <div class="ou-events__day">
 
+                                    <div class="ou-events__date">
+                                        <em>Jun</em>
+                                        <strong>5</strong>
+                                    </div>
 
-</div>
+                                    <div class="ou-events__event">
+                                        <h3 class="ou-events__event-title">
+                                            <a href="#">Residential school</a>
+                                        </h3>
+                                        <p class="ou-events__event-time">11:00 - 13:00</p>
+                                        <p class="ou-events__event-desc">One line of information</p>
+                                    </div>
 
-</div> <!-- end ou-content -->
-</div> <!-- end ou-region1 -->
+                                </div>
 
+                                <div class="ou-events__day">
 
+                                    <div class="ou-events__date">
+                                        <em>Jun</em>
+                                        <strong>12</strong>
+                                    </div>
 
-<div id="ou-region2">
+                                    <div class="ou-events__event">
+                                        <h3 class="ou-events__event-title">
+                                            <a href="#">Workshop: A European Dimension to BREXIT</a>
+                                        </h3>
+                                        <p class="ou-events__event-time">09:00 - 12:00</p>
+                                        <p class="ou-events__event-desc">One line of information</p>
+                                    </div>
 
-<div class="ou-context-nav">
-<h2><a href="#">Research</a></h2>
-    <nav>
-        <ul>
-            <li><a href="#">Ageing and later life</a></li>
-            <li><a href="#">Children, young people, parenthood and families</a></li>
-            <li><a href="#">Death, dying and bereavement</a></li>
-            <li><a href="#">Living with disability and long term conditions</a></li>
-            <li><a href="#">Reproduction, sexualities and health</a></li>
-            <li><a href="#">Childhood studies</a></li>
-            <li><a href="#">Education Futures</a></li>
-            <li><a href="#">Language and literacies</a></li>
-            <li><a href="#">Technology enhanced learning</a></li>
-        </ul>
-    </nav>
-</div>
+                                </div>
 
-<h2 class="ou-smaller">News</h2>
+                            </div>
 
-
-<div class="ou-articles ou-articles--smaller">
-
-    <div class="ou-articles__article cf">
-
-    	<div class="ou-articles__img">
-        	<a href="#"><img src="../img/120x90/history.jpg" alt=""></a>
-        </div>
-
-    	<div class="ou-articles__text">
-
-            <h3><a href="#">News titles tend to go on to two lines</a></h3>
-
-    		<p class="ou-articles__date">15 July, 2016</p>
-
-        </div>
-
-    </div>
-
-    <div class="ou-articles__article cf">
-
-    	<div class="ou-articles__img">
-        	<a href="#"><img src="../img/120x90/music.jpg" alt=""></a>
-        </div>
-
-    	<div class="ou-articles__text">
-
-            <h3><a href="#">Report: music is good for the soul</a></h3>
-
-    		<p class="ou-articles__date">11 July, 2016</p>
-
-        </div>
-
-    </div>
-
-    <div class="ou-articles__article cf">
-
-    	<div class="ou-articles__img">
-        	<a href="#"><img src="../img/120x90/politics.jpg" alt=""></a>
-        </div>
-
-    	<div class="ou-articles__text">
-
-            <h3><a href="#">Chess champion 2016 is OU student</a></h3>
-
-            <p class="ou-articles__date">10 July, 2016</p>
-
-    	</div>
-
-    </div>
-
-</div>
-
-
-<h2 class="ou-smaller">Events</h2>
-
-<div class="ou-events">
-
-	<div class="ou-events__nav cf">
-
-    	<a class="ou-events__prev" href="#">Jun</a>
-        <span class="ou-events__current">July 2016</span>
-        <a class="ou-events__next" href="#">Aug</a>
-
-    </div>
-
-	<div class="ou-events__day">
-
-        <div class="ou-events__date">
-            <em>Jun</em>
-            <strong>2</strong>
-        </div>
-
-        <div class="ou-events__event">
-            <h3 class="ou-events__event-title"><a href="#">Science team meet up</a></h3>
-            <p class="ou-events__event-time">16:00 - 18:00</p>
-            <p class="ou-events__event-desc">One line of information</p>
-        </div>
-
-    </div>
-
-	<div class="ou-events__day">
-
-        <div class="ou-events__date">
-            <em>Jun</em>
-            <strong>5</strong>
-        </div>
-
-        <div class="ou-events__event">
-            <h3 class="ou-events__event-title"><a href="#">Residential school</a></h3>
-            <p class="ou-events__event-time">11:00 - 13:00</p>
-            <p class="ou-events__event-desc">One line of information</p>
-        </div>
-
-    </div>
-
-	<div class="ou-events__day">
-
-        <div class="ou-events__date">
-            <em>Jun</em>
-            <strong>12</strong>
-        </div>
-
-        <div class="ou-events__event">
-            <h3 class="ou-events__event-title"><a href="#">Workshop: A European Dimension to BREXIT</a></h3>
-            <p class="ou-events__event-time">09:00 - 12:00</p>
-            <p class="ou-events__event-desc">One line of information</p>
-        </div>
-
-    </div>
-
-</div>
-
-
-
-
-<blockquote class="ou-quote ou-bg-orange">
-    <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying,
+                            <blockquote class="ou-quote ou-bg-orange">
+                                <p>While it has been extremely challenging at times, having completed 3 tours of Afghanistan during my time studying,
       along with the usual wife, family and general life to compete with my attention.</p>
-    <a href="#" class="ou-quote__more">Read more</a>
-    <cite>Jenny, OU student</cite>
-</blockquote>
+                                <a href="#" class="ou-quote__more">Read more</a>
+                                <cite>Jenny, OU student</cite>
+                            </blockquote>
 
+                            <blockquote class="ou-quote ou-quote--light ou-bg-light-grey">
+                                <p>Seeing as this quote sits right next to another, coloured one, I've made it lighter so they don't clash.</p>
+                                <a href="#" class="ou-quote__more">Read more</a>
+                                <cite>S Turvey, Designer</cite>
+                            </blockquote>
 
+                        </div>
+                        <!-- end ou-region2 -->
 
-<blockquote class="ou-quote ou-quote--light ou-bg-light-grey">
-    <p>Seeing as this quote sits right next to another, coloured one, I've made it lighter so they don't clash.</p>
-    <a href="#" class="ou-quote__more">Read more</a>
-    <cite>S Turvey, Designer</cite>
-</blockquote>
+                    </div>
+                    <!-- end ou-page -->
 
+                </div>
+                <!-- end ou-site-body -->
 
+                <div id="ou-site-footer">
+                    <a class="ou-to-top" href="#ou-org">Back to top</a>
+                </div>
+                <!-- end ou-site-footer -->
 
-</div> <!-- end ou-region2 -->
+            </div>
+            <!-- end ou-site -->
 
+            <div class="ou-footer" role="contentinfo">
 
-</div> <!-- end ou-page -->
+                <div class="ou-footer-container">
 
-</div> <!-- end ou-site-body -->
+                    <div class="ou-footer-top ou-grid">
 
+                        <div class="ou-footer-crest">
+                            <img src="../img/ou-crest.png" alt="The Open University Crest">
+                        </div>
+                        <!-- end ou-footer-crest -->
 
-<div id="ou-site-footer">
-<a class="ou-to-top" href="#ou-org">Back to top</a>
-</div> <!-- end ou-site-footer -->
+                        <div class="ou-footer-contact">
+                            <h3>The Open University</h3>
+                        </div>
+                        <!-- end ou-footer-contact -->
 
-</div> <!-- end ou-site -->
+                    </div>
+                    <!-- end ou-footer-top -->
 
+                    <div class="ou-footer-links ou-grid">
+                        <ul>
+                            <li>
+                                <a href="http://www.open.ac.uk/contact">Contact the OU</a>
+                            </li>
+                            <li>
+                                <a href="http://www3.open.ac.uk/employment/">Jobs</a>
+                            </li>
+                            <li>
+                                <a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-accessibility-the-open-university">Accessibility</a>
+                            </li>
+                            <li>
+                                <a href="http://www3.open.ac.uk/near-you/wales/p6.asp">Cymraeg</a>
+                            </li>
+                            <li>
+                                <a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/conditions-use-open-university-websites">Conditions of use</a>
+                            </li>
+                            <li>
+                                <a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-privacy-the-ou">Privacy and cookies</a>
+                            </li>
+                            <li>
+                                <a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/copyright-ou-websites">Copyright</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end ou-footer-links -->
 
+                    <div class="ou-footer-small-print ou-grid">
+                        <p class="copyright">
+                            <small>© 2014. All rights reserved. The Open University is incorporated by Royal Charter (RC 000391), an exempt charity in England &amp; Wales and a charity registered in Scotland (SC 038302). The Open University is authorised and regulated by the Financial Conduct Authority. Open University Student Budget Accounts Limited (OUSBA) is a wholly owned subsidiary of The Open University, Companies House number 303735 and until 31 March 2014 was licensed by the Office of Fair Trading (OFT) under licence number 573250 and from 1 April 2014 is authorised and regulated by the Financial Conduct Authority (FCA) under interim permission number 573250.</small>
+                        </p>
+                    </div>
+                    <!-- end ou-footer-small-print -->
 
+                </div>
+                <!-- end ou-footer-container -->
 
-<div class="ou-footer" role="contentinfo">
+            </div>
+            <!-- end ou-footer -->
 
-<div class="ou-footer-container">
+        </div>
+        <!-- end ou-org -->
 
-<div class="ou-footer-top ou-grid">
+        <!-- Javascripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="../../js/scripts.js"></script>
+        <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=desert" defer></script>
+        <script src="../demo.js"></script>
 
-<div class="ou-footer-crest">
-<img src="../img/ou-crest.png" alt="The Open University Crest">
-</div> <!-- end ou-footer-crest -->
-
-<div class="ou-footer-contact">
-<h3>The Open University</h3>
-</div> <!-- end ou-footer-contact -->
-
-</div> <!-- end ou-footer-top -->
-
-<div class="ou-footer-links ou-grid">
-<ul>
-<li><a href="http://www.open.ac.uk/contact">Contact the OU</a></li>
-<li><a href="http://www3.open.ac.uk/employment/">Jobs</a></li>
-<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-accessibility-the-open-university">Accessibility</a></li>
-<li><a href="http://www3.open.ac.uk/near-you/wales/p6.asp">Cymraeg</a></li>
-<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/conditions-use-open-university-websites">Conditions of use</a></li>
-<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/website-privacy-the-ou">Privacy and cookies</a></li>
-<li><a href="http://www.open.ac.uk/about/main/admin-and-governance/policies-and-statements/copyright-ou-websites">Copyright</a></li>
-</ul>
-</div> <!-- end ou-footer-links -->
-
-<div class="ou-footer-small-print ou-grid">
-<p class="copyright"><small>© 2014. All rights reserved. The Open University is incorporated by Royal Charter (RC 000391), an exempt charity in England &amp; Wales and a charity registered in Scotland (SC 038302). The Open University is authorised and regulated by the Financial Conduct Authority. Open University Student Budget Accounts Limited (OUSBA) is a wholly owned subsidiary of The Open University, Companies House number 303735 and until 31 March 2014 was licensed by the Office of Fair Trading (OFT) under licence number 573250 and from 1 April 2014 is authorised and regulated by the Financial Conduct Authority (FCA) under interim permission number 573250.</small></p>
-</div> <!-- end ou-footer-small-print -->
-
-</div> <!-- end ou-footer-container -->
-
-</div> <!-- end ou-footer -->
-
-
-
-
-
-
-
-</div> <!-- end ou-org -->
-
-
-
-<!-- Javascripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="../../js/scripts.js"></script>
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&skin=desert" defer></script>
-<script src="../demo.js"></script>
-
-</body>
+    </body>
 </html>

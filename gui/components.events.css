@@ -7,128 +7,142 @@
 --------------------------------------------------------------------------------------
 */
 
-
 .ou-events__nav {
-	background-color:#E9EAEA;
-	color: #000;
-	text-align:center;
-	margin:0 0 20px 0;
+  background-color: #e9eaea;
+  color: #000;
+  text-align: center;
+  margin: 0 0 20px 0;
 }
 
 span.ou-events__current {
-	display:inline-block;
-	padding:8px 0;
-	font-weight:bold;
+  display: inline-block;
+  padding: 8px 0;
+  font-weight: bold;
 }
 
 .ou-events__prev,
 .ou-events__next {
-	display:inline-block;
-	float:left;
-	text-decoration:none;
-	padding:8px 10px;
-	border-right:1px solid #737373;
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  padding: 8px 10px;
+  border-right: 1px solid #737373;
 }
 
 .ou-events__next {
-	float:right;
-	border-right:0;
-	border-left:1px solid #737373;
+  float: right;
+  border-right: 0;
+  border-left: 1px solid #737373;
 }
 
 .ou-events__prev:before,
 .ou-events__next:after {
-	font-family:"Hiragino Mincho ProN";
-	content: "\25c0";
-	color: #737373;
-	background-color: transparent;
-	font-size:9px;
-	display:block;
-	float:left;
-	margin:2px 4px 0 0;
+  font-family: "Hiragino Mincho ProN";
+  content: "\25c0";
+  color: #737373;
+  background-color: transparent;
+  font-size: 9px;
+  display: block;
+  float: left;
+  margin: 2px 4px 0 0;
 }
 
 .ou-events__next:after {
-	content: "\25b6 ";
-	float:right;
-	margin:2px 0 0 4px;
+  content: "\25b6 ";
+  float: right;
+  margin: 2px 0 0 4px;
 }
 
 .ou-events__prev:hover,
-.ou-events__next:hover {text-decoration:none;}
+.ou-events__next:hover {
+  text-decoration: none;
+}
 
 .ou-events__prev:hover:before,
 .ou-events__next:hover:after {
-	color:#e21481;
-	background-color: transparent;
+  color: #e21481;
+  background-color: transparent;
 }
 
 .ou-events__day {
-	border-bottom:1px solid #E9EAEA;
-	margin:0 0 15px 0;
-	padding-bottom:15px;
-	min-height:90px;
+  border-bottom: 1px solid #e9eaea;
+  margin: 0 0 15px 0;
+  padding-bottom: 15px;
+  min-height: 90px;
 }
 
-.ou-events__day:last-child {border-bottom:0;}
+.ou-events__day:last-child {
+  border-bottom: 0;
+}
 
 .ou-events__date {
-	width: 55px;
-    height: auto;
-    float: left;
-    margin: 3px 10px 0 0;
+  width: 55px;
+  height: auto;
+  float: left;
+  margin: 3px 10px 0 0;
 }
 
-.ou-events__date em, .ou-events__month {
-	font-style: normal;
-    font-size: .9em;
-    color: #fff;
-    background-color: #cd2041;
-    padding: 3px;
-    text-align: center;
-    text-transform: uppercase;
-	display: block;
-	border: none!important;
-	text-decoration: none!important;
+.ou-events__date em,
+.ou-events__month {
+  font-style: normal;
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #cd2041;
+  padding: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  border: none !important;
+  text-decoration: none !important;
 }
-
-
 
 .ou-events__date strong {
-	text-align: center;
-    color: #000;
-    background-color: transparent;
-    font-size: 25px;
-    font-weight: normal;
-    display: block;
-    background: #E9EAEA;
-    padding: 10px 0;
-	border-radius:0 0 4px 4px;
+  text-align: center;
+  color: #000;
+  background-color: transparent;
+  font-size: 25px;
+  font-weight: normal;
+  display: block;
+  background: #e9eaea;
+  padding: 10px 0;
+  border-radius: 0 0 4px 4px;
 }
 
-.ou-events__date--multi strong {font-size:16px;}
+.ou-events__date--multi strong {
+  font-size: 16px;
+}
 
-.ou-events__event {margin-left:75px;}
+.ou-events__event {
+  margin-left: 75px;
+}
 
 .ou-events__event-title {
-	font-size:1.1em;
-	margin:0 0 6px 0;
+  font-size: 1.1em;
+  margin: 0 0 6px 0;
 }
 
-.ou-events__event-title a {text-decoration:none;}
+.ou-events__event-title a {
+  text-decoration: none;
+}
 
 .ou-events__event-time,
 .ou-events__event-date,
 .ou-events__event-location,
 .ou-events__event-contact {
-	color:#737373;
-	background-color: transparent;
-	margin:0 0 5px 0;
-	line-height:120%;
+  color: #737373;
+  background-color: transparent;
+  margin: 0 0 5px 0;
+  line-height: 120%;
 }
 
-.ou-events__event-contact a {color:#737373;}
+.ou-events__event-contact a {
+  color: #737373;
+}
 
-.ou-events__event-description p:last-child {margin-bottom:0;}
+.ou-events__event-description p:last-child {
+  margin-bottom: 0;
+}
 
-.ou-events--single .ou-events__event-description {margin-top:20px;}
+.ou-events--single .ou-events__event-description {
+  margin-top: 20px;
+}

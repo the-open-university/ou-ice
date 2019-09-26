@@ -7,42 +7,58 @@
 --------------------------------------------------------------------------------------
 */
 
-
 .ou-icon {
-	background-position:0 0;
-	background-repeat:no-repeat;
-	padding-left:20px;	
-	text-decoration:none;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  text-decoration: none;
 }
 
-.ou-icon--pdf {background-image:url(icons/docs/icon-pdf.png);}
-.ou-icon--doc {background-image:url(icons/docs/icon-doc.png);}
-.ou-icon--xls {background-image:url(icons/docs/icon-xls.png);}
-.ou-icon--ppt {background-image:url(icons/docs/icon-ppt.png);}
-.ou-icon--rss {background-image:url(icons/icon-rss.png);}
-.ou-icon--print {background-image:url(icons/icon-print.png);}
-.ou-icon--info {background-image:url(icons/icon-info.png);}
-.ou-icon--help {background-image:url(icons/icon-help.png);}
-.ou-icon--warning {background-image:url(icons/icon-warning.png);}
-.ou-icon--download {background-image:url(icons/icon-download.png);}
-
+.ou-icon--pdf {
+  background-image: url(icons/docs/icon-pdf.png);
+}
+.ou-icon--doc {
+  background-image: url(icons/docs/icon-doc.png);
+}
+.ou-icon--xls {
+  background-image: url(icons/docs/icon-xls.png);
+}
+.ou-icon--ppt {
+  background-image: url(icons/docs/icon-ppt.png);
+}
+.ou-icon--rss {
+  background-image: url(icons/icon-rss.png);
+}
+.ou-icon--print {
+  background-image: url(icons/icon-print.png);
+}
+.ou-icon--info {
+  background-image: url(icons/icon-info.png);
+}
+.ou-icon--help {
+  background-image: url(icons/icon-help.png);
+}
+.ou-icon--warning {
+  background-image: url(icons/icon-warning.png);
+}
+.ou-icon--download {
+  background-image: url(icons/icon-download.png);
+}
 
 .ou-external {
-	background-image:url(icons/icon-external.png);
-	background-position:center right;
-	background-repeat:no-repeat;
-	padding-right:18px;	
+  background-image: url(icons/icon-external.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  padding-right: 18px;
 }
 
 .ou-icon--icon-only {
-	padding-left:0;
-	text-indent:-5000em;
-	width:16px;
-	height:16px;
-	display:block;
+  padding-left: 0;
+  text-indent: -5000em;
+  width: 16px;
+  height: 16px;
+  display: block;
 }
-
-
 
 /*
 -------------------------------------------
@@ -50,30 +66,48 @@
 -------------------------------------------
 */
 
-
 /* all high res screens */
 
-@media 
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 13/10),
-only screen and (min-resolution: 192dpi) { 
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 13/10),
+  only screen and (min-resolution: 192dpi) {
+  .ou-icon,
+  .ou-external {
+    background-size: 16px 16px;
+  }
 
+  .ou-icon--pdf {
+    background-image: url(icons/docs/icon-pdf@2x.png);
+  }
+  .ou-icon--doc {
+    background-image: url(icons/docs/icon-doc@2x.png);
+  }
+  .ou-icon--xls {
+    background-image: url(icons/docs/icon-xls@2x.png);
+  }
+  .ou-icon--ppt {
+    background-image: url(icons/docs/icon-ppt@2x.png);
+  }
+  .ou-icon--rss {
+    background-image: url(icons/icon-rss@2x.png);
+  }
+  .ou-icon--print {
+    background-image: url(icons/icon-print@2x.png);
+  }
+  .ou-icon--info {
+    background-image: url(icons/icon-info@2x.png);
+  }
+  .ou-icon--help {
+    background-image: url(icons/icon-help@2x.png);
+  }
+  .ou-icon--warning {
+    background-image: url(icons/icon-warning@2x.png);
+  }
+  .ou-icon--download {
+    background-image: url(icons/icon-download@2x.png);
+  }
 
-.ou-icon,
-.ou-external {background-size:16px 16px;}
-
-.ou-icon--pdf {background-image:url(icons/docs/icon-pdf@2x.png);}
-.ou-icon--doc {background-image:url(icons/docs/icon-doc@2x.png);}
-.ou-icon--xls {background-image:url(icons/docs/icon-xls@2x.png);}
-.ou-icon--ppt {background-image:url(icons/docs/icon-ppt@2x.png);}
-.ou-icon--rss {background-image:url(icons/icon-rss@2x.png);}
-.ou-icon--print {background-image:url(icons/icon-print@2x.png);}
-.ou-icon--info {background-image:url(icons/icon-info@2x.png);}
-.ou-icon--help {background-image:url(icons/icon-help@2x.png);}
-.ou-icon--warning {background-image:url(icons/icon-warning@2x.png);}
-.ou-icon--download {background-image:url(icons/icon-download@2x.png);}
-
-.ou-external {background-image:url(icons/icon-external@2x.png);}
-
-
+  .ou-external {
+    background-image: url(icons/icon-external@2x.png);
+  }
 } /* end media query */

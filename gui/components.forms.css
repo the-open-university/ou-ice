@@ -7,91 +7,104 @@
 --------------------------------------------------------------------------------------
 */
 
-.ou-form {margin-bottom:20px;}
+.ou-form {
+  margin-bottom: 20px;
+}
 
 .ou-form__item,
-.ou-form__group {margin-bottom:20px;}
+.ou-form__group {
+  margin-bottom: 20px;
+}
 
-.ou-form__group .ou-form__item:last-child {margin-bottom:0;}
+.ou-form__group .ou-form__item:last-child {
+  margin-bottom: 0;
+}
 
-.ou-form__item--compact {margin-bottom:10px;}
+.ou-form__item--compact {
+  margin-bottom: 10px;
+}
 
 .ou-form__legend {
-	font-weight:bold;
-	font-size:1.1em;
-	margin-bottom:20px;
-	color:#000;
-	background-color: transparent;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  color: #000;
+  background-color: transparent;
 }
 
 .ou-form__label {
-	font-weight:bold;
-	display:block;
-	margin-bottom:5px;
-	color:#000;
-	background-color: transparent;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #000;
+  background-color: transparent;
 }
 
-.ou-form__label--simple {font-weight:normal;}
+.ou-form__label--simple {
+  font-weight: normal;
+}
 
 .ou-form__label--inline {
-	font-weight:normal;
-	display:inline-block;
-	margin-bottom:0;
+  font-weight: normal;
+  display: inline-block;
+  margin-bottom: 0;
 }
 
 .ou-form__checkbox,
-.ou-form__radio {margin-right:5px;}
+.ou-form__radio {
+  margin-right: 5px;
+}
 
 .ou-form__text,
 .ou-form__textarea,
 .ou-form__select {
-	display:block;
-	width:100%;
-	padding:9px 10px;
-	border:1px solid #737373;
+  display: block;
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid #737373;
 }
 
 .ou-form__select {
-	height:2.5em;
-	border-radius:0;
+  height: 2.5em;
+  border-radius: 0;
 }
 
 .ou-form__required {
-	color:#cd2041;
-	background-color: transparent;
+  color: #cd2041;
+  background-color: transparent;
 }
 
 .ou-form__description {
-	color:#737373;
-	background-color: transparent;
-	font-size:.9em;
-	margin-bottom:5px;	
+  color: #737373;
+  background-color: transparent;
+  font-size: 0.9em;
+  margin-bottom: 5px;
 }
-
 
 /* grid form */
 
-.ou-form--grid label {margin-top:10px;}
+.ou-form--grid label {
+  margin-top: 10px;
+}
 
-.ou-form__item.ou-grid > div {margin-bottom:0;}
-
+.ou-form__item.ou-grid > div {
+  margin-bottom: 0;
+}
 
 /* focus */
 
 .ou-form__text:focus,
 .ou-form__textarea:focus,
 .ou-form__select:focus {
-	border:1px solid #e21481;
-	outline:none;
+  border: 1px solid #e21481;
+  outline: none;
 }
-
 
 /* disabled */
 
 .ou-form__item--disabled label {
-	color:#999;
-	background-color: transparent;
+  color: #999;
+  background-color: transparent;
 }
 
 .ou-form__text:disabled,
@@ -99,54 +112,55 @@
 .ou-form__select:disabled,
 .ou-form__checkbox:disabled,
 .ou-form__radio:disabled {
-	cursor:not-allowed;
-	background-color:#E9EAEA;
-	color: #737373;
+  cursor: not-allowed;
+  background-color: #e9eaea;
+  color: #737373;
 }
-
 
 /* validation */
 
 .ou-form__item--error label {
-	color:#cd2041;
-	background-color: transparent;
+  color: #cd2041;
+  background-color: transparent;
 }
 
 .ou-form__item--success label {
-	color:#008A00;
-	background-color: transparent;
+  color: #008a00;
+  background-color: transparent;
 }
 
 .ou-form__item--error input {
-	border:1px solid #cd2041;
-	background-color:#fdf0f2;
-	color:inherit;
+  border: 1px solid #cd2041;
+  background-color: #fdf0f2;
+  color: inherit;
 }
 
 .ou-form__error-msg {
-	color: #cd2041;
-	margin-top: 5px;
+  color: #cd2041;
+  margin-top: 5px;
 }
 
 .ou-form__item--success input {
-	border:1px solid #008A00;
-	background-color:#EDF5EB;
-	color: inherit;
+  border: 1px solid #008a00;
+  background-color: #edf5eb;
+  color: inherit;
 }
-
 
 /* inline elements */
 
 .ou-form__group--inline .ou-form__item {
-	display:inline-block;
-	width:auto;
-	vertical-align:bottom;
-	margin-right:5px;
-	margin-bottom:0;
+  display: inline-block;
+  width: auto;
+  vertical-align: bottom;
+  margin-right: 5px;
+  margin-bottom: 0;
 }
 
-.ou-form__group--inline .ou-button {margin-bottom:0;}
+.ou-form__group--inline .ou-button {
+  margin-bottom: 0;
+}
 
-.ou-form__group--inline .ou-form__checkbox, 
-.ou-form__group--inline .ou-form__radio {margin-bottom:5px;}
-
+.ou-form__group--inline .ou-form__checkbox,
+.ou-form__group--inline .ou-form__radio {
+  margin-bottom: 5px;
+}

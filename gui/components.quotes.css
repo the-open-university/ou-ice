@@ -7,62 +7,62 @@
 --------------------------------------------------------------------------------------
 */
 
-
-
 .ou-quote {
-	padding:30px 30px 35px 90px;
-	margin-bottom:20px;
-	background:url(icons/icon-quotemarks.png) 25px 32px no-repeat #333;
-	color:#fff;
-	position:relative;
+  padding: 30px 30px 35px 90px;
+  margin-bottom: 20px;
+  background: url(icons/icon-quotemarks.png) 25px 32px no-repeat #333;
+  color: #fff;
+  position: relative;
 }
 
 #ou-region2 .ou-quote {
-	padding:20px 15px 35px 55px;
-	background:url(icons/icon-quotemarks.png) 20px 25px no-repeat;
-	background-size:25px 21px;
+  padding: 20px 15px 35px 55px;
+  background: url(icons/icon-quotemarks.png) 20px 25px no-repeat;
+  background-size: 25px 21px;
 }
 
-.ou-quote a {color:#fff;}
+.ou-quote a {
+  color: #fff;
+}
 
 .ou-quote__more {
-	position:absolute;
-	bottom:0;
-	right:0;
-	display:inline-block;
-	padding:9px 12px;
-	color: #fff;
-	background-color: rgb(0, 0, 0);
-	background-color: rgba(0, 0, 0, 0.4); 	
-	text-decoration:none;
-	font-size:.9em;
-	line-height:100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  padding: 9px 12px;
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  font-size: 0.9em;
+  line-height: 100%;
 }
 
 .ou-quote__more:hover {
-	color:#fff;
-	background-color:#000;
-	text-decoration:none;
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
 }
 
-.ou-quote p {font-size:1.2em;}
+.ou-quote p {
+  font-size: 1.2em;
+}
 
 .ou-quote cite {
-	color:#fff;
-	background-color: transparent;
-	font-style:normal;
-	font-size:1em;
-	line-height:140%;
+  color: #fff;
+  background-color: transparent;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 140%;
 }
 
 .ou-quote--light,
 .ou-quote--light cite,
 .ou-quote--light cite a {
-	color:#000;
-	background-color: transparent;
+  color: #000;
+  background-color: transparent;
 }
-
-
 
 /*
 -------------------------------------------
@@ -72,51 +72,44 @@
 
 .ou-quote.ou-pull-left,
 .ou-quote.ou-pull-right {
-	width:40%;
-	float:right;
-	margin:0 0 20px 20px;
-	padding:20px 15px 35px 55px;
-	background:url(icons/icon-quotemarks.png) 20px 25px no-repeat;
-	background-size:25px 21px;
+  width: 40%;
+  float: right;
+  margin: 0 0 20px 20px;
+  padding: 20px 15px 35px 55px;
+  background: url(icons/icon-quotemarks.png) 20px 25px no-repeat;
+  background-size: 25px 21px;
 }
 
 .ou-quote.ou-pull-right img,
-.ou-quote.ou-pull-right img {max-width:100px;}
+.ou-quote.ou-pull-right img {
+  max-width: 100px;
+}
 
 .ou-quote.ou-pull-left {
-	width:40%;
-	float:left;
-	margin:0 20px 20px 0;
+  width: 40%;
+  float: left;
+  margin: 0 20px 20px 0;
 }
 
+@media only screen and (max-width: 400px),
+  only screen and (max-device-width: 400px) {
+  .ou-quote {
+    padding: 20px 15px 35px 55px;
+    background: url(icons/icon-quotemarks.png) 20px 25px no-repeat #333;
+    background-size: 25px 21px;
+  }
 
+  .ou-quote img {
+    max-width: 120px;
+  }
 
-
-
-@media 
-only screen and (max-width: 400px), 
-only screen and (max-device-width: 400px) {
-
-
-.ou-quote {
-	padding:20px 15px 35px 55px;
-	background:url(icons/icon-quotemarks.png) 20px 25px no-repeat #333;
-	background-size:25px 21px;
-}
-
-.ou-quote img {max-width:120px;}
-
-.ou-quote.ou-pull-left,
-.ou-quote.ou-pull-right {
-	width:100%;
-	float:none;
-	margin:0 0 20px 0;
-}
-
-
+  .ou-quote.ou-pull-left,
+  .ou-quote.ou-pull-right {
+    width: 100%;
+    float: none;
+    margin: 0 0 20px 0;
+  }
 } /* end media query */
-
-
 
 /*
 -------------------------------------------
@@ -124,29 +117,23 @@ only screen and (max-device-width: 400px) {
 -------------------------------------------
 */
 
-
 /* tablet, desktop */
 
-@media 
-only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-only screen and (-o-min-device-pixel-ratio: 13/10) and (min-width: 768px),
-only screen and (min-resolution: 192dpi) and (min-width: 768px) {
-
-.ou-quote {
-	background-image:url(icons/icon-quotemarks@2x.png);
-	background-size:50px 42px;
-}
-
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+  only screen and (-o-min-device-pixel-ratio: 13/10) and (min-width: 768px),
+  only screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .ou-quote {
+    background-image: url(icons/icon-quotemarks@2x.png);
+    background-size: 50px 42px;
+  }
 } /* end media query */
-
 
 /* mobile */
 
-@media 
-only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),
-only screen and (-o-min-device-pixel-ratio: 13/10) and (max-width: 767px),
-only screen and (min-resolution: 192dpi) and (max-width: 767px) {
-
-.ou-quote {background-size:25px 21px;}
-
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),
+  only screen and (-o-min-device-pixel-ratio: 13/10) and (max-width: 767px),
+  only screen and (min-resolution: 192dpi) and (max-width: 767px) {
+  .ou-quote {
+    background-size: 25px 21px;
+  }
 } /* end media query */
