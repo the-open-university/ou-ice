@@ -57,6 +57,10 @@
   line-height: 140%;
 }
 
+.ou-quote--light {
+  background: url(icons/icon-quotemarks-light-bg.png) 25px 32px no-repeat #333;
+}
+
 .ou-quote--light,
 .ou-quote--light cite,
 .ou-quote--light cite a {
@@ -126,6 +130,12 @@
     background-image: url(icons/icon-quotemarks@2x.png);
     background-size: 50px 42px;
   }
+
+  .ou-quote--light {
+    background: url(icons/icon-quotemarks-light-bg.png) 25px 32px no-repeat #333;
+  }
+
+
 } /* end media query */
 
 /* mobile */

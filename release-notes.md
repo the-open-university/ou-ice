@@ -248,3 +248,12 @@
 - Updated information and guidance has been provided on the form field as to when to use inline or grid form example. Recommended reviewing guidance and updating any forms that violate this best practice.
 - A new error message element for error states on form fields has been added. Recommend adding this to error states on forms where appropriate.
 - Updated image caption example to use figure + figcaption elements on the image page. Recommend updating any image + caption components to use this more semantic mark-up.
+
+## Release V5.6 - November 28, 2019
+
+- Improved code example alignmnet
+- Updated hero colour examples / warnings
+- Typo fixes
+- Updated quote icon colour
+- Updated href exmples to be unqiue
+- Updated disbaled button state colour

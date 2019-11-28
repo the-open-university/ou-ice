@@ -247,7 +247,7 @@
 
 .ou-bg-light-blue .ou-hero__wording,
 .ou-bg-light-blue:hover .ou-hero__wording {
-  background: #eef3f9 !important;
+  background: rgb(166, 210, 255) !important;
   color: #000;
 }
 
@@ -265,7 +265,7 @@
 
 .ou-bg-light-grey .ou-hero__wording,
 .ou-bg-light-grey:hover .ou-hero__wording {
-  background: #737373 !important;
+  background: rgb(231, 239, 247) !important;
   color: #000;
 }
 
