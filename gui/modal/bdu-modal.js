@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
     const loadCSS = callback => {
         const style = document.createElement('style');
         style.innerHTML = `
-    .fe-bdu-modal {
   .fe-bdu-modal .modal__overlay {
     position: fixed;
     top: 0;
@@ -65,12 +64,12 @@ document.addEventListener('DOMContentLoaded', function(event) {
     background: transparent;
     color: #0e56a7;
     border: 0;
-    font-family: Arial Regular;
     font-size: 14px;
     line-height: 22px;
     position: absolute;
     top: 20px;
-    right: 20px; }
+    right: 20px;
+    cursor: pointer; }
     .fe-bdu-modal .modal__close-inner {
       display: -ms-flexbox;
       display: flex;
@@ -84,7 +83,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
     color: #0e56a7;
     font-size: 18px !important;
     line-height: 24px !important;
-    margin: 17px 0 26px 0 !important; }
+    margin: 17px 0 26px 0 !important;
+    font-weight: normal !important; }
   .fe-bdu-modal .modal__content {
     padding: 0; }
   .fe-bdu-modal .modal__btn {
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
     display: inline-block;
     margin-bottom: 0.875em;
     border: 1px solid #0e56a7;
-    padding: 0.715em 0.8em;
+    padding: 12px 22px;
     line-height: normal;
     margin-bottom: 15px;
     font-size: 16px;
@@ -109,7 +109,12 @@ document.addEventListener('DOMContentLoaded', function(event) {
     color: #0e56a7;
     text-decoration: underline;
     font-size: 14px;
-    line-height: 22px; }
+    line-height: 22px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;}
   @media only screen and (min-width: 768px) {
     .fe-bdu-modal .modal__heading {
       font-size: 24px !important;
@@ -166,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
     animation: mmslideOut 0.3s cubic-bezier(0, 0, 0.2, 1); }
   .fe-bdu-modal .micromodal-slide .modal__container,
   .fe-bdu-modal .micromodal-slide .modal__overlay {
-    will-change: transform; }
+    will-change: transform;
     `;
         document.head.appendChild(style);
 
@@ -192,7 +197,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
             You are about to be taken to our student website where you can access information about course content and learning with The Open University.
           </h2>
           <a href="#" class="modal__btn js-modal-btn-continue" aria-label="Close and continue to the next page">Continue to student website</a>
-          <a href="#" class="modal__btn-link js-modal-btn-back" aria-label="Close and back to Business & Apprenticeships" data-micromodal-close>Back to Business & Apprenticeships</a>
+          <button type="button" class="modal__btn-link" aria-label="Close and back to Business & Apprenticeships" data-micromodal-close>Back to Business & Apprenticeships</button>
         </main>
       </div>
     </div>
