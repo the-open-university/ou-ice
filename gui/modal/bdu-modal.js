@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
             script.onload = () => {
                 if (callback) callback();
                 if (window.MicroModal) {
-                    console.log('micormodal loaded');
+                    //console.log('micormodal loaded');
                     window.MicroModal.init({
                         disableScroll: true,
                     });
@@ -213,10 +213,10 @@ document.addEventListener('DOMContentLoaded', function(event) {
         for (var i = 0; i < linkModalEls.length; i++) {
             linkModalEls[i].addEventListener('click', function(e) {
                 const modalContinueEl = document.querySelector('.js-modal-btn-continue');
-                console.log(modalContinueEl);
+                //console.log(modalContinueEl);
 
                 e.preventDefault();
-                console.log(this.getAttribute('href'));
+                //console.log(this.getAttribute('href'));
                 MicroModal.show('modal-bdu');
 
                 modalContinueEl.href = this.getAttribute('href');
