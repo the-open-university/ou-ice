@@ -4,7 +4,7 @@
 
 In the the cms editor add this script once on the page you want to use the modal:
 
-`<script src="https://cdn.jsdelivr.net/gh/the-open-university/ouice/gui/modal/bdu-modal.js"></script>`
+`<script src="https://cdn.jsdelivr.net/gh/the-open-university/ouice@latest/gui/modal/bdu-modal.js"></script>`
 
 ### How to fire the modal on any links?
 
