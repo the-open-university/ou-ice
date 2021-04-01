@@ -196,8 +196,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
           <h2 class="modal__heading">
             You are about to be taken to our student website where you can access information about course content and learning with The Open University.
           </h2>
-          <a href="#" class="modal__btn js-modal-btn-continue" aria-label="Close and continue to the next page">Continue to student website</a>
-          <button type="button" class="modal__btn-link" aria-label="Close and back to Business & Apprenticeships" data-micromodal-close>Back to Business & Apprenticeships</button>
+          <a href="#" class="modal__btn js-modal-btn-continue" aria-label="Close and continue to student website">Continue to student website</a>
+          <button type="button" class="modal__btn-link" aria-label="Close and go back to business & apprenticeships" data-micromodal-close>Back to Business & Apprenticeships</button>
         </main>
       </div>
     </div>
